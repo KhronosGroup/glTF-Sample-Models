@@ -82,9 +82,11 @@
       "uri": "data:application/octet-stream;base64,AAAAvwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAvwAAAD8AAAC/AAAAPwAAAD8AAAC/AAAAPwAAAD8AAAA/AAAAvwAAAD8AAAA/AAAAPwAAAL8AAAA/AAAAvwAAAL8AAAA/AAAAPwAAAD8AAAC/AAAAPwAAAD8AAAA/AAAAPwAAAL8AAAC/AAAAPwAAAL8AAAA/AAAAvwAAAD8AAAC/AAAAPwAAAD8AAAC/AAAAvwAAAL8AAAC/AAAAPwAAAL8AAAC/AAAAvwAAAD8AAAA/AAAAvwAAAD8AAAC/AAAAvwAAAL8AAAA/AAAAvwAAAL8AAAC/AAAAvwAAAL8AAAA/AAAAvwAAAL8AAAC/AAAAPwAAAL8AAAA/AAAAPwAAAL8AAAC/AAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAABAAIAAwACAAEABAAFAAYABwAGAAUACAAJAAoACwAKAAkADAANAA4ADwAOAA0AEAARABIAEwASABEAFAAVABYAFwAWABUA"
     }
   },
+  "extensionsUsed": [
+    "KHR_materials_common"
+  ],
   "materials": {
     "Effect-Red": {
-      "name": "Red",
       "extensions": {
         "KHR_materials_common": {
           "doubleSided": false,
@@ -105,7 +107,8 @@
             ]
           }
         }
-      }
+      },
+      "name": "Red"
     }
   },
   "meshes": {
@@ -159,28 +162,13 @@
     }
   },
   "skins": {},
-  "extensionsUsed": [
-    "KHR_materials_common"
-  ],
   "cameras": {},
   "images": {},
   "samplers": {},
   "textures": {},
   "extensions": {
     "KHR_materials_common": {
-      "lights": {
-        "defaultAmbient": {
-          "ambient": {
-            "color": [
-              1,
-              1,
-              1
-            ]
-          },
-          "name": "defaultAmbient",
-          "type": "ambient"
-        }
-      }
+      "lights": {}
     }
   }
 }
