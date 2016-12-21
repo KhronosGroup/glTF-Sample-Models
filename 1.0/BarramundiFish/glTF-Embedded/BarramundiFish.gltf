@@ -329,7 +329,7 @@
                 ],
                 "shininess": 20,
                 "specular": "texture_m0mtl_barramundi_fish-specular-image",
-                "transparency": 0
+                "transparency": 1.0
             }
         }
     },

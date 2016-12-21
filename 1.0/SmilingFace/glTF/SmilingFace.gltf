@@ -99,23 +99,23 @@
     },
     "bufferViews": {
         "bufferView_41": {
-            "buffer": "\\Users\\saurabh\\Desktop\\models\\SmilingFace\\SmilingFace",
+            "buffer": "SmilingFace",
             "byteLength": 29184,
             "byteOffset": 0,
             "target": 34963
         },
         "bufferView_42": {
-            "buffer": "\\Users\\saurabh\\Desktop\\models\\SmilingFace\\SmilingFace",
+            "buffer": "SmilingFace",
             "byteLength": 130128,
             "byteOffset": 29184,
             "target": 34962
         }
     },
     "buffers": {
-        "\\Users\\saurabh\\Desktop\\models\\SmilingFace\\SmilingFace": {
+        "SmilingFace": {
             "byteLength": 159312,
             "type": "arraybuffer",
-            "uri": "\\Users\\saurabh\\Desktop\\models\\SmilingFace\\SmilingFace.bin"
+            "uri": "SmilingFace.bin"
         }
     },
     "images": {
@@ -148,7 +148,7 @@
                 ],
                 "shininess": 20,
                 "specular": "texture_m0smiling_face_DF-specular-image",
-                "transparency": 0
+                "transparency": 1.0
             }
         }
     },
@@ -186,8 +186,8 @@
                 "a_position",
                 "a_texcoord0"
             ],
-            "fragmentShader": "\\Users\\saurabh\\Desktop\\models\\SmilingFace\\SmilingFace0FS",
-            "vertexShader": "\\Users\\saurabh\\Desktop\\models\\SmilingFace\\SmilingFace0VS"
+            "fragmentShader": "SmilingFace0FS",
+            "vertexShader": "SmilingFace0VS"
         }
     },
     "samplers": {
@@ -207,13 +207,13 @@
         }
     },
     "shaders": {
-        "\\Users\\saurabh\\Desktop\\models\\SmilingFace\\SmilingFace0FS": {
+        "SmilingFace0FS": {
             "type": 35632,
-            "uri": "\\Users\\saurabh\\Desktop\\models\\SmilingFace\\SmilingFace0FS.glsl"
+            "uri": "SmilingFace0FS.glsl"
         },
-        "\\Users\\saurabh\\Desktop\\models\\SmilingFace\\SmilingFace0VS": {
+        "SmilingFace0VS": {
             "type": 35633,
-            "uri": "\\Users\\saurabh\\Desktop\\models\\SmilingFace\\SmilingFace0VS.glsl"
+            "uri": "SmilingFace0VS.glsl"
         }
     },
     "skins": {},

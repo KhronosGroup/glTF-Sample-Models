@@ -128,7 +128,7 @@
         ],
         "shininess": 20,
         "specular": "texture_m0Avocado_M-specular-image",
-        "transparency": 0
+        "transparency": 1.0
       }
     }
   },

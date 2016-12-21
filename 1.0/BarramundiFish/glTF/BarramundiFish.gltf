@@ -299,7 +299,7 @@
     "images": {
         "m0mtl_barramundi_fish-ambient-image": {
             "name": "m0mtl_barramundi_fish-ambient-image",
-            "uri": "BarramundiFish_texture_0002.tga"
+            "uri": "BarramundiFish_texture_0002.jpg"
         },
         "m0mtl_barramundi_fish-diffuse-image": {
             "name": "m0mtl_barramundi_fish-diffuse-image",
@@ -329,7 +329,7 @@
                 ],
                 "shininess": 20,
                 "specular": "texture_m0mtl_barramundi_fish-specular-image",
-                "transparency": 0
+                "transparency": 1.0
             }
         }
     },
