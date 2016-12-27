@@ -69,7 +69,7 @@
   },
   "animations": {},
   "asset": {
-    "generator": "collada2gltf@bf2782288b99d9d4e819b92772b343810d29933d",
+    "generator": "collada2gltf@f8f6279915175e9d2cc525531660ac439c114fac",
     "premultipliedAlpha": true,
     "profile": {
       "api": "WebGL",
@@ -127,8 +127,7 @@
           1
         ],
         "shininess": 20,
-        "specular": "texture_m0smiling_face_DF-specular-image",
-        "transparency": 1
+        "specular": "texture_m0smiling_face_DF-specular-image"
       }
     }
   },
@@ -205,7 +204,7 @@
   "shaders": {
     "SmilingFace0FS": {
       "type": 35632,
-      "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0Ow0KdmFyeWluZyB2ZWMzIHZfbm9ybWFsOw0KdW5pZm9ybSB2ZWM0IHVfYW1iaWVudDsNCnZhcnlpbmcgdmVjMiB2X3RleGNvb3JkMDsNCnVuaWZvcm0gc2FtcGxlcjJEIHVfZGlmZnVzZTsNCnVuaWZvcm0gdmVjNCB1X2VtaXNzaW9uOw0KdW5pZm9ybSBzYW1wbGVyMkQgdV9zcGVjdWxhcjsNCnVuaWZvcm0gZmxvYXQgdV9zaGluaW5lc3M7DQp1bmlmb3JtIGZsb2F0IHVfdHJhbnNwYXJlbmN5Ow0Kdm9pZCBtYWluKHZvaWQpIHsNCnZlYzMgbm9ybWFsID0gbm9ybWFsaXplKHZfbm9ybWFsKTsNCnZlYzQgY29sb3IgPSB2ZWM0KDAuLCAwLiwgMC4sIDAuKTsNCnZlYzQgZGlmZnVzZSA9IHZlYzQoMC4sIDAuLCAwLiwgMS4pOw0KdmVjNCBlbWlzc2lvbjsNCnZlYzQgYW1iaWVudDsNCnZlYzQgc3BlY3VsYXI7DQphbWJpZW50ID0gdV9hbWJpZW50Ow0KZGlmZnVzZSA9IHRleHR1cmUyRCh1X2RpZmZ1c2UsIHZfdGV4Y29vcmQwKTsNCmVtaXNzaW9uID0gdV9lbWlzc2lvbjsNCnNwZWN1bGFyID0gdGV4dHVyZTJEKHVfc3BlY3VsYXIsIHZfdGV4Y29vcmQwKTsNCmRpZmZ1c2UueHl6ICo9IG1heChkb3Qobm9ybWFsLHZlYzMoMC4sMC4sMS4pKSwgMC4pOw0KY29sb3IueHl6ICs9IGRpZmZ1c2UueHl6Ow0KY29sb3IueHl6ICs9IGVtaXNzaW9uLnh5ejsNCmNvbG9yID0gdmVjNChjb2xvci5yZ2IgKiBkaWZmdXNlLmEsIGRpZmZ1c2UuYSAqIHVfdHJhbnNwYXJlbmN5KTsNCmdsX0ZyYWdDb2xvciA9IGNvbG9yOw0KfQ0K"
+      "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0Ow0KdmFyeWluZyB2ZWMzIHZfbm9ybWFsOw0KdW5pZm9ybSB2ZWM0IHVfYW1iaWVudDsNCnZhcnlpbmcgdmVjMiB2X3RleGNvb3JkMDsNCnVuaWZvcm0gc2FtcGxlcjJEIHVfZGlmZnVzZTsNCnVuaWZvcm0gdmVjNCB1X2VtaXNzaW9uOw0KdW5pZm9ybSBzYW1wbGVyMkQgdV9zcGVjdWxhcjsNCnVuaWZvcm0gZmxvYXQgdV9zaGluaW5lc3M7DQp2b2lkIG1haW4odm9pZCkgew0KdmVjMyBub3JtYWwgPSBub3JtYWxpemUodl9ub3JtYWwpOw0KdmVjNCBjb2xvciA9IHZlYzQoMC4sIDAuLCAwLiwgMC4pOw0KdmVjNCBkaWZmdXNlID0gdmVjNCgwLiwgMC4sIDAuLCAxLik7DQp2ZWM0IGVtaXNzaW9uOw0KdmVjNCBhbWJpZW50Ow0KdmVjNCBzcGVjdWxhcjsNCmFtYmllbnQgPSB1X2FtYmllbnQ7DQpkaWZmdXNlID0gdGV4dHVyZTJEKHVfZGlmZnVzZSwgdl90ZXhjb29yZDApOw0KZW1pc3Npb24gPSB1X2VtaXNzaW9uOw0Kc3BlY3VsYXIgPSB0ZXh0dXJlMkQodV9zcGVjdWxhciwgdl90ZXhjb29yZDApOw0KZGlmZnVzZS54eXogKj0gbWF4KGRvdChub3JtYWwsdmVjMygwLiwwLiwxLikpLCAwLik7DQpjb2xvci54eXogKz0gZGlmZnVzZS54eXo7DQpjb2xvci54eXogKz0gZW1pc3Npb24ueHl6Ow0KY29sb3IgPSB2ZWM0KGNvbG9yLnJnYiAqIGRpZmZ1c2UuYSwgZGlmZnVzZS5hKTsNCmdsX0ZyYWdDb2xvciA9IGNvbG9yOw0KfQ0K"
     },
     "SmilingFace0VS": {
       "type": 35633,
@@ -259,32 +258,14 @@
         "texcoord0": {
           "semantic": "TEXCOORD_0",
           "type": 35664
-        },
-        "transparency": {
-          "type": 5126
         }
       },
       "program": "program_0",
       "states": {
         "enable": [
           2929,
-          3042
+          2884
         ],
-        "functions": {
-          "blendEquationSeparate": [
-            32774,
-            32774
-          ],
-          "blendFuncSeparate": [
-            1,
-            771,
-            1,
-            771
-          ],
-          "depthMask": [
-            false
-          ]
-        },
         "disable": []
       },
       "uniforms": {
@@ -295,8 +276,7 @@
         "u_normalMatrix": "normalMatrix",
         "u_projectionMatrix": "projectionMatrix",
         "u_shininess": "shininess",
-        "u_specular": "specular",
-        "u_transparency": "transparency"
+        "u_specular": "specular"
       }
     }
   },

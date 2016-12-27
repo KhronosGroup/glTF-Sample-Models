@@ -72,7 +72,7 @@
               <float sid="shininess">20</float>
             </shininess>
             <transparency>
-              <float sid="transparency">0</float>
+              <float sid="transparency">1.0</float>
             </transparency>
             <bump>
               <texture texture="m0Avocado_M-normal-sampler" texcoord="CHANNEL0" />

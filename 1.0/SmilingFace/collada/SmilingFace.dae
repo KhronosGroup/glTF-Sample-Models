@@ -59,7 +59,7 @@
               <float sid="shininess">20</float>
             </shininess>
             <transparency>
-              <float sid="transparency">0</float>
+              <float sid="transparency">1.0</float>
             </transparency>
           </phong>
         </technique>

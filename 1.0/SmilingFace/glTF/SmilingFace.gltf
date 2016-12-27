@@ -73,10 +73,10 @@
             "componentType": 5126,
             "count": 2711,
             "max": [
-                1.94289e-38,
-                1.87345e-38,
-                1.1204e-38,
-                1.1204e-38
+                2.28269e-38,
+                2.22143e-38,
+                2.21324e-38,
+                2.21324e-38
             ],
             "min": [
                 0,
@@ -89,7 +89,7 @@
     },
     "animations": {},
     "asset": {
-        "generator": "collada2gltf@bf2782288b99d9d4e819b92772b343810d29933d",
+        "generator": "collada2gltf@f8f6279915175e9d2cc525531660ac439c114fac",
         "premultipliedAlpha": true,
         "profile": {
             "api": "WebGL",
@@ -147,8 +147,7 @@
                     1
                 ],
                 "shininess": 20,
-                "specular": "texture_m0smiling_face_DF-specular-image",
-                "transparency": 1.0
+                "specular": "texture_m0smiling_face_DF-specular-image"
             }
         }
     },
@@ -263,32 +262,14 @@
                 "texcoord0": {
                     "semantic": "TEXCOORD_0",
                     "type": 35664
-                },
-                "transparency": {
-                    "type": 5126
                 }
             },
             "program": "program_0",
             "states": {
                 "enable": [
                     2929,
-                    3042
-                ],
-                "functions": {
-                    "blendEquationSeparate": [
-                        32774,
-                        32774
-                    ],
-                    "blendFuncSeparate": [
-                        1,
-                        771,
-                        1,
-                        771
-                    ],
-                    "depthMask": [
-                        false
-                    ]
-                }
+                    2884
+                ]
             },
             "uniforms": {
                 "u_ambient": "ambient",
@@ -298,8 +279,7 @@
                 "u_normalMatrix": "normalMatrix",
                 "u_projectionMatrix": "projectionMatrix",
                 "u_shininess": "shininess",
-                "u_specular": "specular",
-                "u_transparency": "transparency"
+                "u_specular": "specular"
             }
         }
     },

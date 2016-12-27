@@ -85,7 +85,7 @@
               <float sid="shininess">20</float>
             </shininess>
             <transparency>
-              <float sid="transparency">0</float>
+              <float sid="transparency">1.0</float>
             </transparency>
             <bump>
               <texture texture="m0mtl_barramundi_fish-normal-sampler" texcoord="CHANNEL0" />

@@ -267,7 +267,7 @@
   },
   "animations": {},
   "asset": {
-    "generator": "collada2gltf@bf2782288b99d9d4e819b92772b343810d29933d",
+    "generator": "collada2gltf@f8f6279915175e9d2cc525531660ac439c114fac",
     "premultipliedAlpha": true,
     "profile": {
       "api": "WebGL",
@@ -324,8 +324,7 @@
           1
         ],
         "shininess": 20,
-        "specular": "texture_m0mtl_barramundi_fish-specular-image",
-        "transparency": 1
+        "specular": "texture_m0mtl_barramundi_fish-specular-image"
       }
     }
   },
@@ -432,7 +431,7 @@
   "shaders": {
     "BarramundiFish0FS": {
       "type": 35632,
-      "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0Ow0KdmFyeWluZyB2ZWMzIHZfbm9ybWFsOw0KdmFyeWluZyB2ZWMyIHZfdGV4Y29vcmQwOw0KdW5pZm9ybSBzYW1wbGVyMkQgdV9hbWJpZW50Ow0KdW5pZm9ybSBzYW1wbGVyMkQgdV9kaWZmdXNlOw0KdW5pZm9ybSB2ZWM0IHVfZW1pc3Npb247DQp1bmlmb3JtIHNhbXBsZXIyRCB1X3NwZWN1bGFyOw0KdW5pZm9ybSBmbG9hdCB1X3NoaW5pbmVzczsNCnVuaWZvcm0gZmxvYXQgdV90cmFuc3BhcmVuY3k7DQp2b2lkIG1haW4odm9pZCkgew0KdmVjMyBub3JtYWwgPSBub3JtYWxpemUodl9ub3JtYWwpOw0KdmVjNCBjb2xvciA9IHZlYzQoMC4sIDAuLCAwLiwgMC4pOw0KdmVjNCBkaWZmdXNlID0gdmVjNCgwLiwgMC4sIDAuLCAxLik7DQp2ZWM0IGVtaXNzaW9uOw0KdmVjNCBhbWJpZW50Ow0KdmVjNCBzcGVjdWxhcjsNCmFtYmllbnQgPSB0ZXh0dXJlMkQodV9hbWJpZW50LCB2X3RleGNvb3JkMCk7DQpkaWZmdXNlID0gdGV4dHVyZTJEKHVfZGlmZnVzZSwgdl90ZXhjb29yZDApOw0KZW1pc3Npb24gPSB1X2VtaXNzaW9uOw0Kc3BlY3VsYXIgPSB0ZXh0dXJlMkQodV9zcGVjdWxhciwgdl90ZXhjb29yZDApOw0KZGlmZnVzZS54eXogKj0gbWF4KGRvdChub3JtYWwsdmVjMygwLiwwLiwxLikpLCAwLik7DQpjb2xvci54eXogKz0gZGlmZnVzZS54eXo7DQpjb2xvci54eXogKz0gZW1pc3Npb24ueHl6Ow0KY29sb3IgPSB2ZWM0KGNvbG9yLnJnYiAqIGRpZmZ1c2UuYSwgZGlmZnVzZS5hICogdV90cmFuc3BhcmVuY3kpOw0KZ2xfRnJhZ0NvbG9yID0gY29sb3I7DQp9DQo="
+      "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0Ow0KdmFyeWluZyB2ZWMzIHZfbm9ybWFsOw0KdmFyeWluZyB2ZWMyIHZfdGV4Y29vcmQwOw0KdW5pZm9ybSBzYW1wbGVyMkQgdV9hbWJpZW50Ow0KdW5pZm9ybSBzYW1wbGVyMkQgdV9kaWZmdXNlOw0KdW5pZm9ybSB2ZWM0IHVfZW1pc3Npb247DQp1bmlmb3JtIHNhbXBsZXIyRCB1X3NwZWN1bGFyOw0KdW5pZm9ybSBmbG9hdCB1X3NoaW5pbmVzczsNCnZvaWQgbWFpbih2b2lkKSB7DQp2ZWMzIG5vcm1hbCA9IG5vcm1hbGl6ZSh2X25vcm1hbCk7DQp2ZWM0IGNvbG9yID0gdmVjNCgwLiwgMC4sIDAuLCAwLik7DQp2ZWM0IGRpZmZ1c2UgPSB2ZWM0KDAuLCAwLiwgMC4sIDEuKTsNCnZlYzQgZW1pc3Npb247DQp2ZWM0IGFtYmllbnQ7DQp2ZWM0IHNwZWN1bGFyOw0KYW1iaWVudCA9IHRleHR1cmUyRCh1X2FtYmllbnQsIHZfdGV4Y29vcmQwKTsNCmRpZmZ1c2UgPSB0ZXh0dXJlMkQodV9kaWZmdXNlLCB2X3RleGNvb3JkMCk7DQplbWlzc2lvbiA9IHVfZW1pc3Npb247DQpzcGVjdWxhciA9IHRleHR1cmUyRCh1X3NwZWN1bGFyLCB2X3RleGNvb3JkMCk7DQpkaWZmdXNlLnh5eiAqPSBtYXgoZG90KG5vcm1hbCx2ZWMzKDAuLDAuLDEuKSksIDAuKTsNCmNvbG9yLnh5eiArPSBkaWZmdXNlLnh5ejsNCmNvbG9yLnh5eiArPSBlbWlzc2lvbi54eXo7DQpjb2xvciA9IHZlYzQoY29sb3IucmdiICogZGlmZnVzZS5hLCBkaWZmdXNlLmEpOw0KZ2xfRnJhZ0NvbG9yID0gY29sb3I7DQp9DQo="
     },
     "BarramundiFish0VS": {
       "type": 35633,
@@ -486,32 +485,14 @@
         "texcoord0": {
           "semantic": "TEXCOORD_0",
           "type": 35664
-        },
-        "transparency": {
-          "type": 5126
         }
       },
       "program": "program_0",
       "states": {
         "enable": [
           2929,
-          3042
+          2884
         ],
-        "functions": {
-          "blendEquationSeparate": [
-            32774,
-            32774
-          ],
-          "blendFuncSeparate": [
-            1,
-            771,
-            1,
-            771
-          ],
-          "depthMask": [
-            false
-          ]
-        },
         "disable": []
       },
       "uniforms": {
@@ -522,8 +503,7 @@
         "u_normalMatrix": "normalMatrix",
         "u_projectionMatrix": "projectionMatrix",
         "u_shininess": "shininess",
-        "u_specular": "specular",
-        "u_transparency": "transparency"
+        "u_specular": "specular"
       }
     }
   },
