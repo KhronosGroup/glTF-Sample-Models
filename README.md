@@ -17,9 +17,13 @@ See the `README.md` in each model's directory for usage restrictions.
 
 Sample models help the glTF ecosystem, if you are able to contribute a model, see the [contributing section](#contributing-sample-models) below.
 
-## Flightradar24 Models
+## Other glTF Sample Models
 
-For addition glTF models, see Flightradar24's [GitHub repo](https://github.com/kalmykov/fr24-3d-models) of aircrafts.
+For addition glTF models, see:
+
+* Cesium's [demo models](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Apps/SampleData/models) and [unit test models](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Specs/Data/Models).
+* Flightradar24's [GitHub repo](https://github.com/kalmykov/fr24-3d-models) of aircrafts.
+* Sketchfab's [glTF samples](https://sketchfab.com/features/gltf).
 
 ## Contributing Sample Models
 
