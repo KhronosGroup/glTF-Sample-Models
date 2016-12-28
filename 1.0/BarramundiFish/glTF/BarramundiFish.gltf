@@ -1,0 +1,765 @@
+{
+    "accessors": {
+        "accessor_122": {
+            "bufferView": "bufferView_130",
+            "byteOffset": 44268,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 750,
+            "max": [
+                374
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_124": {
+            "bufferView": "bufferView_131",
+            "byteOffset": 407200,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 750,
+            "max": [
+                7.27421,
+                28.6285,
+                31.6528
+            ],
+            "min": [
+                -6.92326,
+                -0.166827,
+                -32.2417
+            ],
+            "type": "VEC3"
+        },
+        "accessor_126": {
+            "bufferView": "bufferView_131",
+            "byteOffset": 416200,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 750,
+            "max": [
+                0.998718,
+                0.967696,
+                0.888498
+            ],
+            "min": [
+                -0.999555,
+                -0.996096,
+                -0.999925
+            ],
+            "type": "VEC3"
+        },
+        "accessor_128": {
+            "bufferView": "bufferView_131",
+            "byteOffset": 425200,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 750,
+            "max": [
+                0.974328,
+                0.990452
+            ],
+            "min": [
+                0.0376798,
+                0.0130032
+            ],
+            "type": "VEC2"
+        },
+        "accessor_26": {
+            "bufferView": "bufferView_130",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 11592,
+            "max": [
+                1100
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_28": {
+            "bufferView": "bufferView_131",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 2195,
+            "max": [
+                7.38416,
+                28.6628,
+                31.7738
+            ],
+            "min": [
+                -6.9062,
+                -0.0878453,
+                -32.5373
+            ],
+            "type": "VEC3"
+        },
+        "accessor_30": {
+            "bufferView": "bufferView_131",
+            "byteOffset": 26340,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 2195,
+            "max": [
+                0.99977,
+                0.999578,
+                0.998725
+            ],
+            "min": [
+                -0.99977,
+                -0.998968,
+                -0.999925
+            ],
+            "type": "VEC3"
+        },
+        "accessor_32": {
+            "bufferView": "bufferView_131",
+            "byteOffset": 52680,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 2195,
+            "max": [
+                0.974328,
+                0.992523
+            ],
+            "min": [
+                0.031941,
+                0.0107443
+            ],
+            "type": "VEC2"
+        },
+        "accessor_58": {
+            "bufferView": "bufferView_130",
+            "byteOffset": 23184,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 7530,
+            "max": [
+                3759
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_60": {
+            "bufferView": "bufferView_131",
+            "byteOffset": 70240,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 7519,
+            "max": [
+                7.38416,
+                28.6628,
+                31.7738
+            ],
+            "min": [
+                -6.9062,
+                -0.0878453,
+                -32.5373
+            ],
+            "type": "VEC3"
+        },
+        "accessor_62": {
+            "bufferView": "bufferView_131",
+            "byteOffset": 160468,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 7519,
+            "max": [
+                0.999749,
+                0.999578,
+                0.998725
+            ],
+            "min": [
+                -0.999748,
+                -0.998968,
+                -0.999925
+            ],
+            "type": "VEC3"
+        },
+        "accessor_64": {
+            "bufferView": "bufferView_131",
+            "byteOffset": 250696,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 7519,
+            "max": [
+                0.974328,
+                0.991917
+            ],
+            "min": [
+                0.031941,
+                0.0107443
+            ],
+            "type": "VEC2"
+        },
+        "accessor_90": {
+            "bufferView": "bufferView_130",
+            "byteOffset": 38244,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 3012,
+            "max": [
+                1504
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_92": {
+            "bufferView": "bufferView_131",
+            "byteOffset": 310848,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 3011,
+            "max": [
+                7.41276,
+                28.6126,
+                31.8281
+            ],
+            "min": [
+                -6.84472,
+                -0.159691,
+                -32.5373
+            ],
+            "type": "VEC3"
+        },
+        "accessor_94": {
+            "bufferView": "bufferView_131",
+            "byteOffset": 346980,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 3011,
+            "max": [
+                0.999999,
+                0.998004,
+                0.993198
+            ],
+            "min": [
+                -0.999999,
+                -0.998933,
+                -0.999925
+            ],
+            "type": "VEC3"
+        },
+        "accessor_96": {
+            "bufferView": "bufferView_131",
+            "byteOffset": 383112,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 3011,
+            "max": [
+                0.974328,
+                0.990452
+            ],
+            "min": [
+                0.031941,
+                0.0130032
+            ],
+            "type": "VEC2"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@f8f6279915175e9d2cc525531660ac439c114fac",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": "1.0.1"
+    },
+    "bufferViews": {
+        "bufferView_130": {
+            "buffer": "BarramundiFish",
+            "byteLength": 45768,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_131": {
+            "buffer": "BarramundiFish",
+            "byteLength": 431200,
+            "byteOffset": 45768,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "BarramundiFish": {
+            "byteLength": 476968,
+            "type": "arraybuffer",
+            "uri": "BarramundiFish.bin"
+        }
+    },
+    "images": {
+        "m0mtl_barramundi_fish-ambient-image": {
+            "name": "m0mtl_barramundi_fish-ambient-image",
+            "uri": "BarramundiFish_texture_0002.jpg"
+        },
+        "m0mtl_barramundi_fish-diffuse-image": {
+            "name": "m0mtl_barramundi_fish-diffuse-image",
+            "uri": "BarramundiFish_texture_0001.jpg"
+        },
+        "m0mtl_barramundi_fish-normal-image": {
+            "name": "m0mtl_barramundi_fish-normal-image",
+            "uri": "BarramundiFish_texture_0004.jpg"
+        },
+        "m0mtl_barramundi_fish-specular-image": {
+            "name": "m0mtl_barramundi_fish-specular-image",
+            "uri": "BarramundiFish_texture_0003.jpg"
+        }
+    },
+    "materials": {
+        "m0mtl_barramundi_fish-fx": {
+            "name": "m0mtl_barramundi_fish",
+            "technique": "technique0",
+            "values": {
+                "ambient": "texture_m0mtl_barramundi_fish-ambient-image",
+                "diffuse": "texture_m0mtl_barramundi_fish-diffuse-image",
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 20,
+                "specular": "texture_m0mtl_barramundi_fish-specular-image"
+            }
+        }
+    },
+    "meshes": {
+        "meshId0": {
+            "name": "meshId0_name",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_30",
+                        "POSITION": "accessor_28",
+                        "TEXCOORD_0": "accessor_32"
+                    },
+                    "indices": "accessor_26",
+                    "material": "m0mtl_barramundi_fish-fx",
+                    "mode": 4
+                }
+            ]
+        },
+        "meshId1": {
+            "name": "meshId1_name",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_62",
+                        "POSITION": "accessor_60",
+                        "TEXCOORD_0": "accessor_64"
+                    },
+                    "indices": "accessor_58",
+                    "material": "m0mtl_barramundi_fish-fx",
+                    "mode": 4
+                }
+            ]
+        },
+        "meshId2": {
+            "name": "meshId2_name",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_94",
+                        "POSITION": "accessor_92",
+                        "TEXCOORD_0": "accessor_96"
+                    },
+                    "indices": "accessor_90",
+                    "material": "m0mtl_barramundi_fish-fx",
+                    "mode": 4
+                }
+            ]
+        },
+        "meshId3": {
+            "name": "meshId3_name",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_126",
+                        "POSITION": "accessor_124",
+                        "TEXCOORD_0": "accessor_128"
+                    },
+                    "indices": "accessor_122",
+                    "material": "m0mtl_barramundi_fish-fx",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "barramundi_fish_Hero": {
+            "children": [],
+            "meshes": [
+                "meshId0"
+            ],
+            "name": "barramundi_fish_Hero"
+        },
+        "barramundi_fish_Hero_$AssimpFbx$_RotationPivot": {
+            "children": [
+                "barramundi_fish_Hero_$AssimpFbx$_RotationPivotInverse"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.238983,
+                14.2875,
+                -0.381729,
+                1
+            ],
+            "name": "barramundi_fish_Hero_$AssimpFbx$_RotationPivot"
+        },
+        "barramundi_fish_Hero_$AssimpFbx$_RotationPivotInverse": {
+            "children": [
+                "barramundi_fish_Hero_$AssimpFbx$_ScalingPivot"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.238983,
+                -14.2875,
+                0.381729,
+                1
+            ],
+            "name": "barramundi_fish_Hero_$AssimpFbx$_RotationPivotInverse"
+        },
+        "barramundi_fish_Hero_$AssimpFbx$_ScalingPivot": {
+            "children": [
+                "barramundi_fish_Hero_$AssimpFbx$_ScalingPivotInverse"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.238983,
+                14.2875,
+                -0.381729,
+                1
+            ],
+            "name": "barramundi_fish_Hero_$AssimpFbx$_ScalingPivot"
+        },
+        "barramundi_fish_Hero_$AssimpFbx$_ScalingPivotInverse": {
+            "children": [
+                "barramundi_fish_Hero"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.238983,
+                -14.2875,
+                0.381729,
+                1
+            ],
+            "name": "barramundi_fish_Hero_$AssimpFbx$_ScalingPivotInverse"
+        },
+        "barramundi_fish_LOD01": {
+            "children": [],
+            "meshes": [
+                "meshId1"
+            ],
+            "name": "barramundi_fish_LOD01"
+        },
+        "barramundi_fish_LOD02": {
+            "children": [],
+            "meshes": [
+                "meshId2"
+            ],
+            "name": "barramundi_fish_LOD02"
+        },
+        "barramundi_fish_LOD03": {
+            "children": [],
+            "meshes": [
+                "meshId3"
+            ],
+            "name": "barramundi_fish_LOD03"
+        },
+        "barramundi_fish_LODs": {
+            "children": [
+                "barramundi_fish_Hero_$AssimpFbx$_RotationPivot",
+                "barramundi_fish_LOD01",
+                "barramundi_fish_LOD02",
+                "barramundi_fish_LOD03"
+            ],
+            "name": "barramundi_fish_LODs"
+        },
+        "barramundi_fish_LODs_$AssimpFbx$_RotationPivot": {
+            "children": [
+                "barramundi_fish_LODs_$AssimpFbx$_RotationPivotInverse"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.238983,
+                14.2875,
+                -0.381729,
+                1
+            ],
+            "name": "barramundi_fish_LODs_$AssimpFbx$_RotationPivot"
+        },
+        "barramundi_fish_LODs_$AssimpFbx$_RotationPivotInverse": {
+            "children": [
+                "barramundi_fish_LODs_$AssimpFbx$_ScalingPivot"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.238983,
+                -14.2875,
+                0.381729,
+                1
+            ],
+            "name": "barramundi_fish_LODs_$AssimpFbx$_RotationPivotInverse"
+        },
+        "barramundi_fish_LODs_$AssimpFbx$_ScalingPivot": {
+            "children": [
+                "barramundi_fish_LODs_$AssimpFbx$_ScalingPivotInverse"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.238983,
+                14.2875,
+                -0.381729,
+                1
+            ],
+            "name": "barramundi_fish_LODs_$AssimpFbx$_ScalingPivot"
+        },
+        "barramundi_fish_LODs_$AssimpFbx$_ScalingPivotInverse": {
+            "children": [
+                "barramundi_fish_LODs"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.238983,
+                -14.2875,
+                0.381729,
+                1
+            ],
+            "name": "barramundi_fish_LODs_$AssimpFbx$_ScalingPivotInverse"
+        },
+        "barramundi_fish_grp": {
+            "children": [
+                "barramundi_fish_LODs_$AssimpFbx$_RotationPivot"
+            ],
+            "name": "barramundi_fish_grp"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": "BarramundiFish0FS",
+            "vertexShader": "BarramundiFish0VS"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "barramundi_fish_grp"
+            ]
+        }
+    },
+    "shaders": {
+        "BarramundiFish0FS": {
+            "type": 35632,
+            "uri": "BarramundiFish0FS.glsl"
+        },
+        "BarramundiFish0VS": {
+            "type": 35633,
+            "uri": "BarramundiFish0VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position",
+                "a_texcoord0": "texcoord0"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35678
+                },
+                "diffuse": {
+                    "type": 35678
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35678
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    },
+    "textures": {
+        "texture_m0mtl_barramundi_fish-ambient-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0mtl_barramundi_fish-ambient-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m0mtl_barramundi_fish-diffuse-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0mtl_barramundi_fish-diffuse-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m0mtl_barramundi_fish-specular-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0mtl_barramundi_fish-specular-image",
+            "target": 3553,
+            "type": 5121
+        }
+    }
+}

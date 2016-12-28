@@ -1,0 +1,304 @@
+{
+    "accessors": {
+        "accessor_31": {
+            "bufferView": "bufferView_41",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 14592,
+            "max": [
+                1359
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_33": {
+            "bufferView": "bufferView_42",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 2711,
+            "max": [
+                0.810679,
+                0.818764,
+                0.758337
+            ],
+            "min": [
+                -0.810679,
+                -0.818764,
+                -0.863278
+            ],
+            "type": "VEC3"
+        },
+        "accessor_35": {
+            "bufferView": "bufferView_42",
+            "byteOffset": 32532,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 2711,
+            "max": [
+                0.999916,
+                0.999961,
+                0.999551
+            ],
+            "min": [
+                -0.999916,
+                -0.997923,
+                -0.999823
+            ],
+            "type": "VEC3"
+        },
+        "accessor_37": {
+            "bufferView": "bufferView_42",
+            "byteOffset": 108440,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 2711,
+            "max": [
+                0.991734,
+                0.987968
+            ],
+            "min": [
+                0.0116992,
+                0.00601143
+            ],
+            "type": "VEC2"
+        },
+        "accessor_39": {
+            "bufferView": "bufferView_42",
+            "byteOffset": 65064,
+            "byteStride": 16,
+            "componentType": 5126,
+            "count": 2711,
+            "max": [
+                2.28269e-38,
+                2.22143e-38,
+                2.21324e-38,
+                2.21324e-38
+            ],
+            "min": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "type": "VEC4"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@f8f6279915175e9d2cc525531660ac439c114fac",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": "1.0.1"
+    },
+    "bufferViews": {
+        "bufferView_41": {
+            "buffer": "SmilingFace",
+            "byteLength": 29184,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_42": {
+            "buffer": "SmilingFace",
+            "byteLength": 130128,
+            "byteOffset": 29184,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "SmilingFace": {
+            "byteLength": 159312,
+            "type": "arraybuffer",
+            "uri": "SmilingFace.bin"
+        }
+    },
+    "images": {
+        "m0smiling_face_DF-diffuse-image": {
+            "name": "m0smiling_face_DF-diffuse-image",
+            "uri": "SmilingFace_texture_0001.jpg"
+        },
+        "m0smiling_face_DF-specular-image": {
+            "name": "m0smiling_face_DF-specular-image",
+            "uri": "SmilingFace_texture_0002.jpg"
+        }
+    },
+    "materials": {
+        "m0smiling_face_DF-fx": {
+            "name": "m0smiling_face_DF",
+            "technique": "technique0",
+            "values": {
+                "ambient": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "diffuse": "texture_m0smiling_face_DF-diffuse-image",
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 20,
+                "specular": "texture_m0smiling_face_DF-specular-image"
+            }
+        }
+    },
+    "meshes": {
+        "meshId0": {
+            "name": "meshId0_name",
+            "primitives": [
+                {
+                    "attributes": {
+                        "COLOR_0": "accessor_39",
+                        "NORMAL": "accessor_35",
+                        "POSITION": "accessor_33",
+                        "TEXCOORD_0": "accessor_37"
+                    },
+                    "indices": "accessor_31",
+                    "material": "m0smiling_face_DF-fx",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "polySurface168": {
+            "children": [],
+            "meshes": [
+                "meshId0"
+            ],
+            "name": "polySurface168"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": "SmilingFace0FS",
+            "vertexShader": "SmilingFace0VS"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "polySurface168"
+            ]
+        }
+    },
+    "shaders": {
+        "SmilingFace0FS": {
+            "type": 35632,
+            "uri": "SmilingFace0FS.glsl"
+        },
+        "SmilingFace0VS": {
+            "type": 35633,
+            "uri": "SmilingFace0VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position",
+                "a_texcoord0": "texcoord0"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35666
+                },
+                "diffuse": {
+                    "type": 35678
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35678
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    },
+    "textures": {
+        "texture_m0smiling_face_DF-diffuse-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0smiling_face_DF-diffuse-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m0smiling_face_DF-specular-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0smiling_face_DF-specular-image",
+            "target": 3553,
+            "type": 5121
+        }
+    }
+}

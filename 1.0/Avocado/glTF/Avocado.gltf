@@ -1,0 +1,287 @@
+{
+    "accessors": {
+        "accessor_26": {
+            "bufferView": "bufferView_34",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 2046,
+            "max": [
+                223
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_28": {
+            "bufferView": "bufferView_35",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 409,
+            "max": [
+                2.12809,
+                6.28481,
+                1.3809
+            ],
+            "min": [
+                -2.12809,
+                -0.00477386,
+                -1.3809
+            ],
+            "type": "VEC3"
+        },
+        "accessor_30": {
+            "bufferView": "bufferView_35",
+            "byteOffset": 4908,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 409,
+            "max": [
+                0.995177,
+                0.974969,
+                0.998855
+            ],
+            "min": [
+                -0.995967,
+                -0.999567,
+                -0.998634
+            ],
+            "type": "VEC3"
+        },
+        "accessor_32": {
+            "bufferView": "bufferView_35",
+            "byteOffset": 9816,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 409,
+            "max": [
+                0.982498,
+                0.995372
+            ],
+            "min": [
+                0.0067802,
+                0.0029819
+            ],
+            "type": "VEC2"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@f8f6279915175e9d2cc525531660ac439c114fac",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": "1.0.1"
+    },
+    "bufferViews": {
+        "bufferView_34": {
+            "buffer": "Avocado",
+            "byteLength": 4092,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_35": {
+            "buffer": "Avocado",
+            "byteLength": 13088,
+            "byteOffset": 4092,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "Avocado": {
+            "byteLength": 17180,
+            "type": "arraybuffer",
+            "uri": "Avocado.bin"
+        }
+    },
+    "images": {
+        "m0Avocado_M-diffuse-image": {
+            "name": "m0Avocado_M-diffuse-image",
+            "uri": "Avocado_texture_0001.jpg"
+        },
+        "m0Avocado_M-normal-image": {
+            "name": "m0Avocado_M-normal-image",
+            "uri": "Avocado_texture_0003.jpg"
+        },
+        "m0Avocado_M-specular-image": {
+            "name": "m0Avocado_M-specular-image",
+            "uri": "Avocado_texture_0002.jpg"
+        }
+    },
+    "materials": {
+        "m0Avocado_M-fx": {
+            "name": "m0Avocado_M",
+            "technique": "technique0",
+            "values": {
+                "ambient": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "diffuse": "texture_m0Avocado_M-diffuse-image",
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 20,
+                "specular": "texture_m0Avocado_M-specular-image"
+            }
+        }
+    },
+    "meshes": {
+        "meshId0": {
+            "name": "meshId0_name",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_30",
+                        "POSITION": "accessor_28",
+                        "TEXCOORD_0": "accessor_32"
+                    },
+                    "indices": "accessor_26",
+                    "material": "m0Avocado_M-fx",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "Avocado": {
+            "children": [],
+            "meshes": [
+                "meshId0"
+            ],
+            "name": "Avocado"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": "Avocado0FS",
+            "vertexShader": "Avocado0VS"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "Avocado"
+            ]
+        }
+    },
+    "shaders": {
+        "Avocado0FS": {
+            "type": 35632,
+            "uri": "Avocado0FS.glsl"
+        },
+        "Avocado0VS": {
+            "type": 35633,
+            "uri": "Avocado0VS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position",
+                "a_texcoord0": "texcoord0"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35666
+                },
+                "diffuse": {
+                    "type": 35678
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35678
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    },
+    "textures": {
+        "texture_m0Avocado_M-diffuse-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0Avocado_M-diffuse-image",
+            "target": 3553,
+            "type": 5121
+        },
+        "texture_m0Avocado_M-specular-image": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "m0Avocado_M-specular-image",
+            "target": 3553,
+            "type": 5121
+        }
+    }
+}
