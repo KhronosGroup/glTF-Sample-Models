@@ -1,0 +1,51 @@
+{
+  "scenes" : {
+    "scene0" : {
+      "nodes" : [ "node0" ]
+    }
+  },
+  "nodes" : {
+    "node0" : {
+      "meshes" : [ "mesh0" ]
+    }
+  },
+  
+  "meshes" : {
+    "mesh0" : {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : "positionsAccessor"
+        }
+      } ]
+    }
+  },
+
+  "buffers" : {
+    "buffer0" : {
+      "uri" : "triangle0.bin",
+      "byteLength" : 36
+    }
+  },
+  "bufferViews" : {
+    "positionsBufferView" : {
+      "buffer" : "buffer0",
+      "byteOffset" : 0,
+      "byteLength" : 36,
+      "target" : 34962
+    }
+  },
+  "accessors" : {
+    "positionsAccessor" : {
+      "bufferView" : "positionsBufferView",
+      "byteOffset" : 0,
+      "componentType" : 5126,
+      "count" : 3,
+      "type" : "VEC3",
+      "max" : [ 1.0, 1.0, 0.0 ],
+      "min" : [ 0.0, 0.0, 0.0 ]
+    }
+  },
+  "asset" : {
+    "version" : "1.1"
+  }
+}
