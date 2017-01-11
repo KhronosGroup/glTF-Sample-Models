@@ -37,8 +37,7 @@
       "primitives" : [ {
         "attributes" : {
           "POSITION" : "positionsAccessor",
-          "NORMAL" : "normalsAccessor",
-          "TEXCOORD_0" : "texCoordsAccessor"
+          "NORMAL" : "normalsAccessor"
         },
         "indices" : "indicesAccessor",
         "material" : "opaqueMaterial"
@@ -48,8 +47,7 @@
       "primitives" : [ {
         "attributes" : {
           "POSITION" : "positionsAccessor",
-          "NORMAL" : "normalsAccessor",
-          "TEXCOORD_0" : "texCoordsAccessor"
+          "NORMAL" : "normalsAccessor"
         },
         "indices" : "indicesAccessor",
         "material" : "semiOpaqueMaterial0"
@@ -59,8 +57,7 @@
       "primitives" : [ {
         "attributes" : {
           "POSITION" : "positionsAccessor",
-          "NORMAL" : "normalsAccessor",
-          "TEXCOORD_0" : "texCoordsAccessor"
+          "NORMAL" : "normalsAccessor"
         },
         "indices" : "indicesAccessor",
         "material" : "semiOpaqueMaterial25"
@@ -70,8 +67,7 @@
       "primitives" : [ {
         "attributes" : {
           "POSITION" : "positionsAccessor",
-          "NORMAL" : "normalsAccessor",
-          "TEXCOORD_0" : "texCoordsAccessor"
+          "NORMAL" : "normalsAccessor"
         },
         "indices" : "indicesAccessor",
         "material" : "semiOpaqueMaterial50"
@@ -81,8 +77,7 @@
       "primitives" : [ {
         "attributes" : {
           "POSITION" : "positionsAccessor",
-          "NORMAL" : "normalsAccessor",
-          "TEXCOORD_0" : "texCoordsAccessor"
+          "NORMAL" : "normalsAccessor"
         },
         "indices" : "indicesAccessor",
         "material" : "semiOpaqueMaterial75"
@@ -92,8 +87,7 @@
       "primitives" : [ {
         "attributes" : {
           "POSITION" : "positionsAccessor",
-          "NORMAL" : "normalsAccessor",
-          "TEXCOORD_0" : "texCoordsAccessor"
+          "NORMAL" : "normalsAccessor"
         },
         "indices" : "indicesAccessor",
         "material" : "semiOpaqueMaterial100"
@@ -300,22 +294,22 @@
   },
 
   "buffers" : {
-    "buffer0" : {
-      "uri" : "data:application/octet-stream;base64,AAABAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/",
-      "byteLength" : 108
+    "geometryBuffer" : {
+      "uri" : "data:application/octet-stream;base64,AAABAAIAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8=",
+      "byteLength" : 80
     }
   },
   "bufferViews" : {
     "indicesBufferView" : {
-      "buffer" : "buffer0",
+      "buffer" : "geometryBuffer",
       "byteOffset" : 0,
       "byteLength" : 6,
       "target" : 34963
     },
     "attributesBufferView" : {
-      "buffer" : "buffer0",
-      "byteOffset" : 12,
-      "byteLength" : 96,
+      "buffer" : "geometryBuffer",
+      "byteOffset" : 8,
+      "byteLength" : 72,
       "target" : 34962
     }
   },
@@ -346,15 +340,6 @@
       "type" : "VEC3",
       "max" : [ 0.0, 0.0, 1.0 ],
       "min" : [ 0.0, 0.0, 1.0 ]
-    },
-    "texCoordsAccessor" : {
-      "bufferView" : "attributesBufferView",
-      "byteOffset" : 72,
-      "componentType" : 5126,
-      "count" : 3,
-      "type" : "VEC2",
-      "max" : [ 1.0, 1.0 ],
-      "min" : [ 0.0, 0.0 ]
     }
   },
   "asset" : {

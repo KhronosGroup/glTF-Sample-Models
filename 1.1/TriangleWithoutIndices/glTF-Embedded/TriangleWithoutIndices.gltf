@@ -21,14 +21,14 @@
   },
 
   "buffers" : {
-    "buffer0" : {
+    "geometryBuffer" : {
       "uri" : "data:application/octet-stream;base64,AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAA",
       "byteLength" : 36
     }
   },
   "bufferViews" : {
-    "positionsBufferView" : {
-      "buffer" : "buffer0",
+    "attributesBufferView" : {
+      "buffer" : "geometryBuffer",
       "byteOffset" : 0,
       "byteLength" : 36,
       "target" : 34962
@@ -36,7 +36,7 @@
   },
   "accessors" : {
     "positionsAccessor" : {
-      "bufferView" : "positionsBufferView",
+      "bufferView" : "attributesBufferView",
       "byteOffset" : 0,
       "componentType" : 5126,
       "count" : 3,

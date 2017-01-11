@@ -25,7 +25,7 @@
     "animation0" : {
       "samplers" : {
         "rotationSampler" : {
-          "input" : "timeAccessor",
+          "input" : "TIMEAccessor",
           "interpolation" : "LINEAR",
           "output" : "rotationAccessor"
         }
@@ -41,32 +41,32 @@
   },
 
   "buffers" : {
-    "buffer0" : {
-      "uri" : "data:application/octet-stream;base64,AAABAAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAA",
-      "byteLength" : 48
+    "geometryBuffer" : {
+      "uri" : "data:application/octet-stream;base64,AAABAAIAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAA=",
+      "byteLength" : 44
     },
-    "buffer1" : {
-      "uri" : "data:application/octet-stream;base64,AAAAAAAAgD4AAAA/AABAPwAAgD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAD0/TQ/9P00PwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAPT9ND/0/TS/AAAAAAAAAAAAAAAAAACAPw==",
-      "byteLength" : 112
+    "animationBuffer" : {
+      "uri" : "data:application/octet-stream;base64,AAAAAAAAgD4AAAA/AABAPwAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAD0/TQ/9P00PwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAPT9ND/0/TS/AAAAAAAAAAAAAAAAAACAPw==",
+      "byteLength" : 100
     }
   },
   "bufferViews" : {
     "indicesBufferView" : {
-      "buffer" : "buffer0",
+      "buffer" : "geometryBuffer",
       "byteOffset" : 0,
       "byteLength" : 6,
       "target" : 34963
     },
-    "positionsBufferView" : {
-      "buffer" : "buffer0",
-      "byteOffset" : 12,
+    "attributesBufferView" : {
+      "buffer" : "geometryBuffer",
+      "byteOffset" : 8,
       "byteLength" : 36,
       "target" : 34962
     },
-    "animationsBufferView" : {
-      "buffer" : "buffer1",
+    "animationBufferView" : {
+      "buffer" : "animationBuffer",
       "byteOffset" : 0,
-      "byteLength" : 112
+      "byteLength" : 100
     }
   },
   "accessors" : {
@@ -80,7 +80,7 @@
       "min" : [ 0 ]
     },
     "positionsAccessor" : {
-      "bufferView" : "positionsBufferView",
+      "bufferView" : "attributesBufferView",
       "byteOffset" : 0,
       "componentType" : 5126,
       "count" : 3,
@@ -88,8 +88,8 @@
       "max" : [ 1.0, 1.0, 0.0 ],
       "min" : [ 0.0, 0.0, 0.0 ]
     },
-    "timeAccessor" : {
-      "bufferView" : "animationsBufferView",
+    "TIMEAccessor" : {
+      "bufferView" : "animationBufferView",
       "byteOffset" : 0,
       "componentType" : 5126,
       "count" : 5,
@@ -98,8 +98,8 @@
       "min" : [ 0.0 ]
     },
     "rotationAccessor" : {
-      "bufferView" : "animationsBufferView",
-      "byteOffset" : 32,
+      "bufferView" : "animationBufferView",
+      "byteOffset" : 20,
       "componentType" : 5126,
       "count" : 5,
       "type" : "VEC4",

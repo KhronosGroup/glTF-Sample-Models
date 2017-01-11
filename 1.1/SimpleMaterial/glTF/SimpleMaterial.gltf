@@ -81,21 +81,21 @@
   },
   
   "buffers" : {
-    "buffer0" : {
-      "uri" : "triangle0.bin",
-      "byteLength" : 48
+    "geometryBuffer" : {
+      "uri" : "simpleTriangle.bin",
+      "byteLength" : 44
     }
   },
   "bufferViews" : {
     "indicesBufferView" : {
-      "buffer" : "buffer0",
+      "buffer" : "geometryBuffer",
       "byteOffset" : 0,
       "byteLength" : 6,
       "target" : 34963
     },
     "positionsBufferView" : {
-      "buffer" : "buffer0",
-      "byteOffset" : 12,
+      "buffer" : "geometryBuffer",
+      "byteOffset" : 8,
       "byteLength" : 36,
       "target" : 34962
     }
