@@ -1,0 +1,348 @@
+{
+  "scene" : "scene0",
+  "scenes" : {
+    "scene0" : {
+      "nodes" : [ "node0", "node1", "node2", "node3", "node4", "node5" ]
+    }
+  },
+  "nodes" : {
+    "node0" : {
+      "translation" : [ -0.5, -0.5, -1.0 ],
+      "meshes" : [ "meshWithOpaqueMaterial" ]
+    },
+    "node1" : {
+      "translation" : [ -0.5, -0.1, -0.99 ],
+      "meshes" : [ "meshWithSemiOpaqueMaterial0" ]
+    },
+    "node2" : {
+      "translation" : [ -0.4, -0.2, -0.98 ],
+      "meshes" : [ "meshWithSemiOpaqueMaterial25" ]
+    },
+    "node3" : {
+      "translation" : [ -0.3, -0.3, -0.97 ],
+      "meshes" : [ "meshWithSemiOpaqueMaterial50" ]
+    },
+    "node4" : {
+      "translation" : [ -0.2, -0.4, -0.96 ],
+      "meshes" : [ "meshWithSemiOpaqueMaterial75" ]
+    },
+    "node5" : {
+      "translation" : [ -0.1, -0.5, -0.95 ],
+      "meshes" : [ "meshWithSemiOpaqueMaterial100" ]
+    }
+  },
+  
+  "meshes" : {
+    "meshWithOpaqueMaterial" : {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : "positionsAccessor",
+          "NORMAL" : "normalsAccessor"
+        },
+        "indices" : "indicesAccessor",
+        "material" : "opaqueMaterial"
+      } ]
+    },
+    "meshWithSemiOpaqueMaterial0" : {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : "positionsAccessor",
+          "NORMAL" : "normalsAccessor"
+        },
+        "indices" : "indicesAccessor",
+        "material" : "semiOpaqueMaterial0"
+      } ]
+    },
+    "meshWithSemiOpaqueMaterial25" : {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : "positionsAccessor",
+          "NORMAL" : "normalsAccessor"
+        },
+        "indices" : "indicesAccessor",
+        "material" : "semiOpaqueMaterial25"
+      } ]
+    },
+    "meshWithSemiOpaqueMaterial50" : {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : "positionsAccessor",
+          "NORMAL" : "normalsAccessor"
+        },
+        "indices" : "indicesAccessor",
+        "material" : "semiOpaqueMaterial50"
+      } ]
+    },
+    "meshWithSemiOpaqueMaterial75" : {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : "positionsAccessor",
+          "NORMAL" : "normalsAccessor"
+        },
+        "indices" : "indicesAccessor",
+        "material" : "semiOpaqueMaterial75"
+      } ]
+    },
+    "meshWithSemiOpaqueMaterial100" : {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : "positionsAccessor",
+          "NORMAL" : "normalsAccessor"
+        },
+        "indices" : "indicesAccessor",
+        "material" : "semiOpaqueMaterial100"
+      } ]
+    }
+  },
+
+  "materials" : {
+    "opaqueMaterial" : {
+      "technique" : "opaqueTechnique",
+      "values": {
+        "diffuseParameter": [ 1.0, 0.0, 0.0, 1.0 ]
+      }
+    },
+    "semiOpaqueMaterial0" : {
+      "technique" : "semiOpaqueTechnique",
+      "values": {
+        "opacityParameter" : [ 0.0 ],
+        "diffuseParameter": [ 0.0, 0.0, 1.0, 1.0 ]
+      }
+    },
+    "semiOpaqueMaterial25" : {
+      "technique" : "semiOpaqueTechnique",
+      "values": {
+        "opacityParameter" : [ 0.25 ],
+        "diffuseParameter": [ 0.0, 0.0, 1.0, 1.0 ]
+      }
+    },
+    "semiOpaqueMaterial50" : {
+      "technique" : "semiOpaqueTechnique",
+      "values": {
+        "opacityParameter" : [ 0.50 ],
+        "diffuseParameter": [ 0.0, 0.0, 1.0, 1.0 ]
+      }
+    },
+    "semiOpaqueMaterial75" : {
+      "technique" : "semiOpaqueTechnique",
+      "values": {
+        "opacityParameter" : [ 0.75 ],
+        "diffuseParameter": [ 0.0, 0.0, 1.0, 1.0 ]
+      }
+    },
+    "semiOpaqueMaterial100" : {
+      "technique" : "semiOpaqueTechnique",
+      "values": {
+        "opacityParameter" : [ 1.0 ],
+        "diffuseParameter": [ 0.0, 0.0, 1.0, 1.0 ]
+      }
+    }
+  },
+  "techniques": {
+  
+    "opaqueTechnique": {
+      "program": "opacityProgram",
+      "attributes": {
+        "a_position": "positionParameter",
+        "a_normal": "normalParameter"
+      },
+      "uniforms": {
+        "u_modelViewMatrix": "modelViewMatrixParameter",
+        "u_normalMatrix": "normalMatrixParameter",
+        "u_projectionMatrix": "projectionMatrixParameter",
+        "u_ambient": "ambientParameter",
+        "u_diffuse": "diffuseParameter",
+        "u_specular": "specularParameter",
+        "u_shininess": "shininessParameter",
+        "u_opacity": "opacityParameter"
+      },
+      "parameters": {
+        "positionParameter" : {
+          "type": 35665,
+          "semantic": "POSITION"
+        },
+        "normalParameter" : {
+          "type": 35665,
+          "semantic": "NORMAL"
+        },
+        "modelViewMatrixParameter": {
+          "type": 35676,
+          "semantic": "MODELVIEW"
+        },
+        "normalMatrixParameter": {
+          "type": 35675,
+          "semantic": "MODELVIEWINVERSETRANSPOSE"
+        },
+        "projectionMatrixParameter": {
+          "type": 35676,
+          "semantic": "PROJECTION"
+        },
+        "ambientParameter": {
+          "type": 35666,
+          "value": [ 0.1, 0.1, 0.1, 1.0 ]
+        },
+        "diffuseParameter": {
+          "type": 35666,
+          "value": [ 1.0, 1.0, 1.0, 1.0 ]
+        },
+        "specularParameter": {
+          "type": 35666,
+          "value": [ 1.0, 1.0, 1.0, 1.0 ]
+        },
+        "shininessParameter": {
+          "type": 5126,
+          "value": [ 100.0 ]
+        },
+        "opacityParameter": {
+          "type": 5126,
+          "value": [ 1.0 ]
+        }
+      },
+      "states": {
+        "enable": [ 2929 ]
+      }
+    },
+    
+    "semiOpaqueTechnique": {
+      "program": "opacityProgram",
+      "attributes": {
+        "a_position": "positionParameter",
+        "a_normal": "normalParameter"
+      },
+      "uniforms": {
+        "u_modelViewMatrix": "modelViewMatrixParameter",
+        "u_normalMatrix": "normalMatrixParameter",
+        "u_projectionMatrix": "projectionMatrixParameter",
+        "u_ambient": "ambientParameter",
+        "u_diffuse": "diffuseParameter",
+        "u_specular": "specularParameter",
+        "u_shininess": "shininessParameter",
+        "u_opacity": "opacityParameter"
+      },
+      "parameters": {
+        "positionParameter" : {
+          "type": 35665,
+          "semantic": "POSITION"
+        },
+        "normalParameter" : {
+          "type": 35665,
+          "semantic": "NORMAL"
+        },
+        "modelViewMatrixParameter": {
+          "type": 35676,
+          "semantic": "MODELVIEW"
+        },
+        "normalMatrixParameter": {
+          "type": 35675,
+          "semantic": "MODELVIEWINVERSETRANSPOSE"
+        },
+        "projectionMatrixParameter": {
+          "type": 35676,
+          "semantic": "PROJECTION"
+        },
+        "ambientParameter": {
+          "type": 35666,
+          "value": [ 0.1, 0.1, 0.1, 1.0 ]
+        },
+        "diffuseParameter": {
+          "type": 35666,
+          "value": [ 1.0, 1.0, 1.0, 1.0 ]
+        },
+        "specularParameter": {
+          "type": 35666,
+          "value": [ 1.0, 1.0, 1.0, 1.0 ]
+        },
+        "shininessParameter": {
+          "type": 5126,
+          "value": [ 100.0 ]
+        },
+        "opacityParameter": {
+          "type": 5126,
+          "value": [ 0.5 ]
+        }
+      },
+      "states": {
+        "enable": [ 2929, 3042 ],
+        "functions": {
+          "blendEquationSeparate": [ 32774, 32774 ],
+          "blendFuncSeparate": [ 770, 771, 770, 771],
+          "depthMask": [false]
+        }
+      }
+    }
+    
+  },
+  "programs": {
+    "opacityProgram": {
+      "vertexShader": "opacityVertexShader",
+      "fragmentShader": "opacityFragmentShader",
+      "attributes": [
+        "a_position",
+        "a_normal"
+      ]
+    }
+  },
+  "shaders": {
+    "opacityVertexShader": {
+      "type": 35633,
+      "uri": "opacity.vert"
+    },
+    "opacityFragmentShader": {
+      "type": 35632,
+      "uri": "opacity.frag"
+    }
+  },
+
+  "buffers" : {
+    "geometryBuffer" : {
+      "uri" : "data:application/octet-stream;base64,AAABAAIAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8=",
+      "byteLength" : 80
+    }
+  },
+  "bufferViews" : {
+    "indicesBufferView" : {
+      "buffer" : "geometryBuffer",
+      "byteOffset" : 0,
+      "byteLength" : 6,
+      "target" : 34963
+    },
+    "attributesBufferView" : {
+      "buffer" : "geometryBuffer",
+      "byteOffset" : 8,
+      "byteLength" : 72,
+      "target" : 34962
+    }
+  },
+  "accessors" : {
+    "indicesAccessor" : {
+      "bufferView" : "indicesBufferView",
+      "byteOffset" : 0,
+      "componentType" : 5123,
+      "count" : 3,
+      "type" : "SCALAR",
+      "max" : [ 2 ],
+      "min" : [ 0 ]
+    },
+    "positionsAccessor" : {
+      "bufferView" : "attributesBufferView",
+      "byteOffset" : 0,
+      "componentType" : 5126,
+      "count" : 3,
+      "type" : "VEC3",
+      "max" : [ 1.0, 1.0, 0.0 ],
+      "min" : [ 0.0, 0.0, 0.0 ]
+    },
+    "normalsAccessor" : {
+      "bufferView" : "attributesBufferView",
+      "byteOffset" : 36,
+      "componentType" : 5126,
+      "count" : 3,
+      "type" : "VEC3",
+      "max" : [ 0.0, 0.0, 1.0 ],
+      "min" : [ 0.0, 0.0, 1.0 ]
+    }
+  },
+  "asset" : {
+    "version" : "1.1"
+  }
+}

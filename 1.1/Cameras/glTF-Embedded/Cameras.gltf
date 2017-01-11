@@ -1,0 +1,97 @@
+{
+  "scenes" : {
+    "scene0" : {
+      "nodes" : [ "meshNode", "perspectiveCameraNode", "orthographicCameraNode" ]
+    }
+  },
+  "nodes" : {
+    "meshNode" : {
+      "rotation" : [ -0.383, 0.0, 0.0, 0.924 ],
+      "meshes" : [ "mesh0" ]
+    },
+    "perspectiveCameraNode" : {
+      "translation" : [ 0.5, 0.5, 3.0 ],
+      "camera" : "exampleCameraPerspective"
+    },
+    "orthographicCameraNode" : {
+      "translation" : [ 0.5, 0.5, 3.0 ],
+      "camera" : "exampleCameraOrthographic"
+    }
+  },
+  
+  "cameras" : {
+    "exampleCameraPerspective": {
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 1.0,
+        "yfov": 0.7,
+        "zfar": 100,
+        "znear": 0.01
+      }
+    },
+    "exampleCameraOrthographic": {
+      "type": "orthographic",
+      "orthographic": {
+        "xmag": 1.0,
+        "ymag": 1.0,
+        "zfar": 100,
+        "znear": 0.01
+      }
+    }
+  },
+  
+  "meshes" : {
+    "mesh0" : {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : "positionsAccessor"
+        },
+        "indices" : "indicesAccessor"
+      } ]
+    }
+  },
+
+  "buffers" : {
+    "geometryBuffer" : {
+      "uri" : "data:application/octet-stream;base64,AAABAAIAAQADAAIAAAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAACAPwAAgD8AAAAA",
+      "byteLength" : 60
+    }
+  },
+  "bufferViews" : {
+    "indicesBufferView" : {
+      "buffer" : "geometryBuffer",
+      "byteOffset" : 0,
+      "byteLength" : 12,
+      "target" : 34963
+    },
+    "attributesBufferView" : {
+      "buffer" : "geometryBuffer",
+      "byteOffset" : 12,
+      "byteLength" : 48,
+      "target" : 34962
+    }
+  },
+  "accessors" : {
+    "indicesAccessor" : {
+      "bufferView" : "indicesBufferView",
+      "byteOffset" : 0,
+      "componentType" : 5123,
+      "count" : 6,
+      "type" : "SCALAR",
+      "max" : [ 3 ],
+      "min" : [ 0 ]
+    },
+    "positionsAccessor" : {
+      "bufferView" : "attributesBufferView",
+      "byteOffset" : 0,
+      "componentType" : 5126,
+      "count" : 4,
+      "type" : "VEC3",
+      "max" : [ 1.0, 1.0, 0.0 ],
+      "min" : [ 0.0, 0.0, 0.0 ]
+    }
+  },
+  "asset" : {
+    "version" : "1.1"
+  }
+}

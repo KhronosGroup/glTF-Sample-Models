@@ -1,0 +1,171 @@
+{
+  "scenes" : {
+    "scene0" : {
+      "nodes" : [ "node0", "node1" ]
+    }
+  },
+  "nodes" : {
+    "node0" : {
+      "meshes" : [ "mesh0" ]
+    },
+    "node1" : {
+      "translation" : [ 1.0, 0.0, 0.0 ],
+      "rotation" : [ -0.383, 0.0, 0.0, 0.924 ],
+      "meshes" : [ "mesh0" ]
+    }
+  },
+  
+  "meshes" : {
+    "mesh0" : {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : "positionsAccessor",
+          "NORMAL" : "normalsAccessor"
+        },
+        "indices" : "indicesAccessor",
+        "material" : "advancedMaterial"
+      } ]
+    }
+  },
+
+  "materials" : {
+    "advancedMaterial" : {
+      "technique" : "advancedTechnique"
+    }
+  },
+  "techniques": {
+    "advancedTechnique": {
+      "program": "advancedProgram",
+      "attributes": {
+        "a_position": "positionParameter",
+        "a_normal": "normalParameter"
+      },
+      "uniforms": {
+        "u_modelViewMatrix": "modelViewMatrixParameter",
+        "u_normalMatrix": "normalMatrixParameter",
+        "u_projectionMatrix": "projectionMatrixParameter",
+        "u_ambient": "ambientParameter",
+        "u_diffuse": "diffuseParameter",
+        "u_specular": "specularParameter",
+        "u_shininess": "shininessParameter"
+      },
+      "parameters": {
+        "positionParameter" : {
+          "type": 35665,
+          "semantic": "POSITION"
+        },
+        "normalParameter" : {
+          "type": 35665,
+          "semantic": "NORMAL"
+        },
+        "modelViewMatrixParameter": {
+          "type": 35676,
+          "semantic": "MODELVIEW"
+        },
+        "normalMatrixParameter": {
+          "type": 35675,
+          "semantic": "MODELVIEWINVERSETRANSPOSE"
+        },
+        "projectionMatrixParameter": {
+          "type": 35676,
+          "semantic": "PROJECTION"
+        },
+        "ambientParameter": {
+          "type": 35666,
+          "value": [ 0.1, 0.1, 0.1, 1.0 ]
+        },
+        "diffuseParameter": {
+          "type": 35666,
+          "value": [ 0.9, 0.5, 0.1, 1.0 ]
+        },
+        "specularParameter": {
+          "type": 35666,
+          "value": [ 1.0, 1.0, 1.0, 1.0 ]
+        },
+        "shininessParameter": {
+          "type": 5126,
+          "value": [ 40.0 ]
+        }
+      },
+      "states": {
+        "enable": [
+          2929,
+          2884
+        ]
+      }
+    }
+  },
+  "programs": {
+    "advancedProgram": {
+      "vertexShader": "advancedVertexShader",
+      "fragmentShader": "advancedFragmentShader",
+      "attributes": [
+        "a_position",
+        "a_normal"
+      ]
+    }
+  },
+  "shaders": {
+    "advancedVertexShader": {
+      "type": 35633,
+      "uri": "advanced.vert"
+    },
+    "advancedFragmentShader": {
+      "type": 35632,
+      "uri": "advanced.frag"
+    }
+  },
+
+  "buffers" : {
+    "geometryBuffer" : {
+      "uri" : "data:application/octet-stream;base64,AAABAAIAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8=",
+      "byteLength" : 80
+    }
+  },
+  "bufferViews" : {
+    "indicesBufferView" : {
+      "buffer" : "geometryBuffer",
+      "byteOffset" : 0,
+      "byteLength" : 6,
+      "target" : 34963
+    },
+    "attributesBufferView" : {
+      "buffer" : "geometryBuffer",
+      "byteOffset" : 8,
+      "byteLength" : 72,
+      "target" : 34962
+    }
+  },
+  "accessors" : {
+    "indicesAccessor" : {
+      "bufferView" : "indicesBufferView",
+      "byteOffset" : 0,
+      "componentType" : 5123,
+      "count" : 3,
+      "type" : "SCALAR",
+      "max" : [ 2 ],
+      "min" : [ 0 ]
+    },
+    "positionsAccessor" : {
+      "bufferView" : "attributesBufferView",
+      "byteOffset" : 0,
+      "componentType" : 5126,
+      "count" : 3,
+      "type" : "VEC3",
+      "max" : [ 1.0, 1.0, 0.0 ],
+      "min" : [ 0.0, 0.0, 0.0 ]
+    },
+    "normalsAccessor" : {
+      "bufferView" : "attributesBufferView",
+      "byteOffset" : 36,
+      "componentType" : 5126,
+      "count" : 3,
+      "type" : "VEC3",
+      "max" : [ 0.0, 0.0, 1.0 ],
+      "min" : [ 0.0, 0.0, 1.0 ]
+    }
+  },
+  "asset" : {
+    "version" : "1.1"
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "scenes" : {
+    "scene0" : {
+      "nodes" : [ "node0" ]
+    }
+  },
+  "nodes" : {
+    "node0" : {
+      "meshes" : [ "mesh0" ]
+    }
+  },
+  
+  "meshes" : {
+    "mesh0" : {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : "positionsAccessor",
+          "NORMAL" : "normalsAccessor",
+          "TEXCOORD_0" : "texCoordsAccessor"
+        },
+        "indices" : "indicesAccessor",
+        "material" : "textureMaterial"
+      } ]
+    }
+  },
+
+  "materials" : {
+    "textureMaterial" : {
+      "technique" : "textureTechnique"
+    }
+  },
+  "techniques": {
+    "textureTechnique": {
+      "program": "textureProgram",
+      "attributes": {
+        "a_position": "positionParameter",
+        "a_normal": "normalParameter",
+        "a_texcoord0": "texcoord0Parameter"
+      },
+      "uniforms": {
+        "u_modelViewMatrix": "modelViewMatrixParameter",
+        "u_normalMatrix": "normalMatrixParameter",
+        "u_projectionMatrix": "projectionMatrixParameter",
+        "u_ambient": "ambientParameter",
+        "u_diffuse": "diffuseParameter",
+        "u_specular": "specularParameter",
+        "u_shininess": "shininessParameter"
+      },
+      "parameters": {
+        "positionParameter" : {
+          "type": 35665,
+          "semantic": "POSITION"
+        },
+        "normalParameter" : {
+          "type": 35665,
+          "semantic": "NORMAL"
+        },
+        "texcoord0Parameter" : {
+          "type": 35664,
+          "semantic": "TEXCOORD_0"
+        },
+        "modelViewMatrixParameter": {
+          "type": 35676,
+          "semantic": "MODELVIEW"
+        },
+        "normalMatrixParameter": {
+          "type": 35675,
+          "semantic": "MODELVIEWINVERSETRANSPOSE"
+        },
+        "projectionMatrixParameter": {
+          "type": 35676,
+          "semantic": "PROJECTION"
+        },
+        "ambientParameter": {
+          "type": 35666,
+          "value": [ 0.1, 0.1, 0.1, 1.0 ]
+        },
+        "diffuseParameter": {
+          "type": 35678,
+          "value": [ "exampleTexture" ]
+        },
+        "specularParameter": {
+          "type": 35666,
+          "value": [ 1.0, 1.0, 1.0, 1.0 ]
+        },
+        "shininessParameter": {
+          "type": 5126,
+          "value": [ 40.0 ]
+        }
+      },
+      "states": {
+        "enable": [
+          2929
+        ]
+      }
+    }
+  },
+  "programs": {
+    "textureProgram": {
+      "vertexShader": "textureVertexShader",
+      "fragmentShader": "textureFragmentShader",
+      "attributes": [
+        "a_position",
+        "a_normal",
+        "a_texcoord0"
+      ]
+    }
+  },
+  "shaders": {
+    "textureVertexShader": {
+      "type": 35633,
+      "uri": "texture.vert"
+    },
+    "textureFragmentShader": {
+      "type": 35632,
+      "uri": "texture.frag"
+    }
+  },
+  
+  
+  "textures": {
+    "exampleTexture": {
+      "target": 3553,
+      "internalFormat": 6408,
+      "format": 6408,
+      "type": 5121,
+      "source": "exampleImage",
+      "sampler": "exampleSampler"
+    }
+  },
+  "images": {
+    "exampleImage": {
+      "uri": "testTexture.png"
+    }
+  },
+  "samplers": {
+    "exampleSampler": {
+       "magFilter": 9729,
+       "minFilter": 9987,
+       "wrapS": 33648,
+       "wrapT": 33648
+     }
+  },
+  
+
+  "buffers" : {
+    "geometryBuffer" : {
+      "uri" : "square.bin",
+      "byteLength" : 140
+    }
+  },
+  "bufferViews" : {
+    "indicesBufferView" : {
+      "buffer" : "geometryBuffer",
+      "byteOffset" : 0,
+      "byteLength" : 12,
+      "target" : 34963
+    },
+    "attributesBufferView" : {
+      "buffer" : "geometryBuffer",
+      "byteOffset" : 12,
+      "byteLength" : 128,
+      "target" : 34962
+    }
+  },
+  "accessors" : {
+    "indicesAccessor" : {
+      "bufferView" : "indicesBufferView",
+      "byteOffset" : 0,
+      "componentType" : 5123,
+      "count" : 6,
+      "type" : "SCALAR",
+      "max" : [ 3 ],
+      "min" : [ 0 ]
+    },
+    "positionsAccessor" : {
+      "bufferView" : "attributesBufferView",
+      "byteOffset" : 0,
+      "componentType" : 5126,
+      "count" : 4,
+      "type" : "VEC3",
+      "max" : [ 1.0, 1.0, 0.0 ],
+      "min" : [ 0.0, 0.0, 0.0 ]
+    },
+    "normalsAccessor" : {
+      "bufferView" : "attributesBufferView",
+      "byteOffset" : 48,
+      "componentType" : 5126,
+      "count" : 4,
+      "type" : "VEC3",
+      "max" : [ 0.0, 0.0, 1.0 ],
+      "min" : [ 0.0, 0.0, 1.0 ]
+    },
+    "texCoordsAccessor" : {
+      "bufferView" : "attributesBufferView",
+      "byteOffset" : 96,
+      "componentType" : 5126,
+      "count" : 4,
+      "type" : "VEC2",
+      "max" : [ 1.0, 1.0 ],
+      "min" : [ 0.0, 0.0 ]
+    }
+  },
+  
+  "asset" : {
+    "version" : "1.1"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "scenes" : {
+    "scene0" : {
+      "nodes" : [ "node0" ]
+    }
+  },
+  "nodes" : {
+    "node0" : {
+      "meshes" : [ "mesh0" ],
+      "rotation" : [ 0.0, 0.0, 0.0, 1.0 ]
+    }
+  },
+  "meshes" : {
+    "mesh0" : {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : "positionsAccessor"
+        },
+        "indices" : "indicesAccessor"
+      } ]
+    }
+  },
+
+  "animations" : {
+    "animation0" : {
+      "samplers" : {
+        "rotationSampler" : {
+          "input" : "TIMEAccessor",
+          "interpolation" : "LINEAR",
+          "output" : "rotationAccessor"
+        }
+      },
+      "channels" : [ {
+        "sampler" : "rotationSampler",
+        "target" : {
+          "id" : "node0",
+          "path" : "rotation"
+        }
+      } ]
+    }
+  },
+
+  "buffers" : {
+    "geometryBuffer" : {
+      "uri" : "data:application/octet-stream;base64,AAABAAIAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAA=",
+      "byteLength" : 44
+    },
+    "animationBuffer" : {
+      "uri" : "data:application/octet-stream;base64,AAAAAAAAgD4AAAA/AABAPwAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAD0/TQ/9P00PwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAPT9ND/0/TS/AAAAAAAAAAAAAAAAAACAPw==",
+      "byteLength" : 100
+    }
+  },
+  "bufferViews" : {
+    "indicesBufferView" : {
+      "buffer" : "geometryBuffer",
+      "byteOffset" : 0,
+      "byteLength" : 6,
+      "target" : 34963
+    },
+    "attributesBufferView" : {
+      "buffer" : "geometryBuffer",
+      "byteOffset" : 8,
+      "byteLength" : 36,
+      "target" : 34962
+    },
+    "animationBufferView" : {
+      "buffer" : "animationBuffer",
+      "byteOffset" : 0,
+      "byteLength" : 100
+    }
+  },
+  "accessors" : {
+    "indicesAccessor" : {
+      "bufferView" : "indicesBufferView",
+      "byteOffset" : 0,
+      "componentType" : 5123,
+      "count" : 3,
+      "type" : "SCALAR",
+      "max" : [ 2 ],
+      "min" : [ 0 ]
+    },
+    "positionsAccessor" : {
+      "bufferView" : "attributesBufferView",
+      "byteOffset" : 0,
+      "componentType" : 5126,
+      "count" : 3,
+      "type" : "VEC3",
+      "max" : [ 1.0, 1.0, 0.0 ],
+      "min" : [ 0.0, 0.0, 0.0 ]
+    },
+    "TIMEAccessor" : {
+      "bufferView" : "animationBufferView",
+      "byteOffset" : 0,
+      "componentType" : 5126,
+      "count" : 5,
+      "type" : "SCALAR",
+      "max" : [ 1.0 ],
+      "min" : [ 0.0 ]
+    },
+    "rotationAccessor" : {
+      "bufferView" : "animationBufferView",
+      "byteOffset" : 20,
+      "componentType" : 5126,
+      "count" : 5,
+      "type" : "VEC4",
+      "max" : [ 0.0, 0.0, 1.0, 1.0 ],
+      "min" : [ 0.0, 0.0, 0.0, -0.707 ]
+    }
+  },
+  
+  "asset" : {
+    "version" : "1.1"
+  }
+  
+}
