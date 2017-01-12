@@ -1,0 +1,443 @@
+{
+  "accessors": {
+    "accessor_29": {
+      "bufferView": "bufferView_2",
+      "byteOffset": 0,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 384,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        223
+      ]
+    },
+    "accessor_31": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 0,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 224,
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "type": "VEC3"
+    },
+    "accessor_33": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 2688,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 224,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    "accessor_56": {
+      "bufferView": "bufferView_2",
+      "byteOffset": 768,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 132,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        95
+      ]
+    },
+    "accessor_58": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 5376,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0.33504000306129456,
+        0.5,
+        0.33504000306129456
+      ],
+      "min": [
+        -0.33504000306129456,
+        -0.5,
+        -0.33504000306129456
+      ],
+      "type": "VEC3"
+    },
+    "accessor_60": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 6528,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    "animAccessor_0": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2,
+      "type": "SCALAR",
+      "byteStride": 0,
+      "min": [
+        1.25
+      ],
+      "max": [
+        2.5
+      ]
+    },
+    "animAccessor_1": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 8,
+      "componentType": 5126,
+      "count": 2,
+      "type": "VEC4",
+      "byteStride": 0,
+      "min": [
+        -1,
+        0,
+        0,
+        -4.4896593387466766e-11
+      ],
+      "max": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "animAccessor_2": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 4,
+      "type": "SCALAR",
+      "byteStride": 0,
+      "min": [
+        0
+      ],
+      "max": [
+        3.708329916000366
+      ]
+    },
+    "animAccessor_3": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 56,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3",
+      "byteStride": 0,
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "max": [
+        0,
+        2.5199999809265137,
+        0
+      ]
+    }
+  },
+  "animations": {
+    "animation_0": {
+      "channels": [
+        {
+          "sampler": "animation_0_rotation_sampler",
+          "target": {
+            "id": "Geometry-mesh020Node",
+            "path": "rotation"
+          }
+        }
+      ],
+      "parameters": {
+        "TIME": "animAccessor_0",
+        "rotation": "animAccessor_1"
+      },
+      "samplers": {
+        "animation_0_rotation_sampler": {
+          "input": "TIME",
+          "interpolation": "LINEAR",
+          "output": "rotation"
+        }
+      }
+    },
+    "animation_1": {
+      "channels": [
+        {
+          "sampler": "animation_1_translation_sampler",
+          "target": {
+            "id": "Geometry-mesh020Node",
+            "path": "translation"
+          }
+        }
+      ],
+      "parameters": {
+        "TIME": "animAccessor_2",
+        "translation": "animAccessor_3"
+      },
+      "samplers": {
+        "animation_1_translation_sampler": {
+          "input": "TIME",
+          "interpolation": "LINEAR",
+          "output": "translation"
+        }
+      }
+    }
+  },
+  "asset": {
+    "generator": "collada2gltf@774bd4fe67703fbf60f9c02f3ba79632f246e9b6",
+    "premultipliedAlpha": true,
+    "profile": {
+      "api": "WebGL",
+      "version": "1.0.2"
+    },
+    "version": "1.0"
+  },
+  "bufferViews": {
+    "bufferView_0": {
+      "buffer": "BoxAnimated",
+      "byteLength": 7680,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    "bufferView_1": {
+      "buffer": "BoxAnimated",
+      "byteLength": 104,
+      "byteOffset": 7680
+    },
+    "bufferView_2": {
+      "buffer": "BoxAnimated",
+      "byteLength": 1032,
+      "byteOffset": 7784,
+      "target": 34963
+    }
+  },
+  "buffers": {
+    "BoxAnimated": {
+      "type": "arraybuffer",
+      "byteLength": 8816,
+      "uri": "BoxAnimated.bin"
+    }
+  },
+  "materials": {
+    "Effect-inner": {
+      "name": "inner",
+      "extensions": {
+        "KHR_materials_common": {
+          "doubleSided": false,
+          "technique": "PHONG",
+          "values": {
+            "diffuse": [
+              0.800000011920929,
+              0.4159420132637024,
+              0.7952920198440552,
+              1
+            ],
+            "shininess": 256,
+            "specular": [
+              0.20000000298023224,
+              0.20000000298023224,
+              0.20000000298023224,
+              1
+            ]
+          }
+        }
+      }
+    },
+    "Effect-outer": {
+      "name": "outer",
+      "extensions": {
+        "KHR_materials_common": {
+          "doubleSided": false,
+          "technique": "PHONG",
+          "values": {
+            "diffuse": [
+              0.3016040027141571,
+              0.5335419774055481,
+              0.800000011920929,
+              1
+            ],
+            "shininess": 256,
+            "specular": [
+              0.20000000298023224,
+              0.20000000298023224,
+              0.20000000298023224,
+              1
+            ]
+          }
+        }
+      }
+    }
+  },
+  "meshes": {
+    "Geometry-mesh019": {
+      "name": "outer_box",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": "accessor_33",
+            "POSITION": "accessor_31"
+          },
+          "indices": "accessor_29",
+          "material": "Effect-outer",
+          "mode": 4
+        }
+      ]
+    },
+    "Geometry-mesh020": {
+      "name": "inner_box",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": "accessor_60",
+            "POSITION": "accessor_58"
+          },
+          "indices": "accessor_56",
+          "material": "Effect-inner",
+          "mode": 4
+        }
+      ]
+    }
+  },
+  "nodes": {
+    "Geometry-mesh020Node": {
+      "children": [],
+      "meshes": [
+        "Geometry-mesh020"
+      ],
+      "name": "inner_box",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "Light-sunLight011Node": {
+      "children": [],
+      "matrix": [
+        0.7071067690849304,
+        0,
+        0.7071067690849304,
+        0,
+        0.3535533845424652,
+        0.8660253882408142,
+        -0.3535533845424652,
+        0,
+        -0.6123724579811096,
+        0.5,
+        0.6123724579811096,
+        0,
+        -2,
+        2,
+        2,
+        1
+      ],
+      "name": "Directional_Light",
+      "extensions": {
+        "KHR_materials_common": {
+          "light": "light1"
+        }
+      }
+    },
+    "rootNode": {
+      "children": [
+        "Geometry-mesh020Node",
+        "Light-sunLight011Node"
+      ],
+      "meshes": [
+        "Geometry-mesh019"
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "scene": "defaultScene",
+  "scenes": {
+    "defaultScene": {
+      "nodes": [
+        "rootNode"
+      ]
+    }
+  },
+  "skins": {},
+  "extensionsUsed": [
+    "KHR_materials_common"
+  ],
+  "cameras": {},
+  "images": {},
+  "samplers": {},
+  "textures": {},
+  "extensions": {
+    "KHR_materials_common": {
+      "lights": {
+        "light1": {
+          "name": "light1",
+          "type": "directional",
+          "directional": {
+            "color": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      }
+    }
+  }
+}
