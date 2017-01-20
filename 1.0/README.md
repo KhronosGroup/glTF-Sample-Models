@@ -21,5 +21,5 @@
 | [Walking Lady](WalkingLady)                   | ![](WalkingLady/screenshot/screenshot.gif)       | Animations. Skins. |
 | [Cesium Man](CesiumMan)                       | ![](CesiumMan/screenshot/screenshot.gif)         | Textured. Animations. Skins. |
 | [Monster](Monster)                            | ![](Monster/screenshot/screenshot.gif)           | Textured. Animations. Skins. |
-| [BrainStem](BrainStem)                        | ![](BrainStem/screenshot/screenshot.gif)        | Animations. Skins. |
+| [BrainStem](BrainStem)                        | ![](BrainStem/screenshot/screenshot.gif)         | Animations. Skins. |
 | [Virtual City](VC)                            | ![](VC/screenshot/screenshot.gif)                | Textured. Animations. Skins. |
