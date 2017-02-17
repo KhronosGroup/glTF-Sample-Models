@@ -5,7 +5,7 @@
 # glTF Sample Models
 
 - [glTF 1.0](1.0)
-- [glTF 1.1](1.1)
+- [glTF 2.0](2.0)
 
 Sample models are provided in as many of the following formats as possible:
 * glTF (.gltf) with separate resources: .bin (geometry, animation, skins), .glsl (shaders), and image files
