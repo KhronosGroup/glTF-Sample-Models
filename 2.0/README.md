@@ -1,5 +1,6 @@
-# glTF 1.1 Sample Models
+# glTF 2.0 Sample Models
 
+**Note:** These models are not yet updated to glTF 2.0!
 
 ## Simple models for testing individual features
 
