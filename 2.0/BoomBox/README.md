@@ -1,4 +1,4 @@
-# Boombox 
+# Boom Box
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.jpg)
