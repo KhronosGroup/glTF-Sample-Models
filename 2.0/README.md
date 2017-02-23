@@ -16,3 +16,11 @@
 | [Simple Texture](SimpleTexture)                        | ![](SimpleTexture/screenshot/screenshot.png)                    | A sample with a `material` that uses a single `texture` |
 | [Cameras](Cameras)                                     | ![](Cameras/screenshot/screenshot.png)                          | A sample with two different `camera` objects |
 | [Simple Skin](SimpleSkin)                              | ![](SimpleSkin/screenshot/screenshot.gif)                       | A sample with a `skin`, showing very basic vertex skinning. **Note: Parts of the skinning definitions still have to be finalized for glTF 1.1!** |
+
+## PBR models
+
+| Model                 | Screenshot                                | Normal Map         | Occlusion Map      | Emissive Map       |
+|-----------------------|:-----------------------------------------:|:------------------:|:------------------:|:------------------:|
+| [Boom Box](BoomBox)   | ![](BoomBox/screenshot/screenshot.jpg)    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [Corset](Corset)      | ![](Corset/screenshot/screenshot.jpg)     | :white_check_mark: | :white_check_mark: |                    |
+| [Lantern](Lantern)    | ![](Lantern/screenshot/screenshot.jpg)    | :white_check_mark: | :white_check_mark: | :white_check_mark: |

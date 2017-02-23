@@ -1,7 +1,7 @@
-# Boombox 
+# Boom Box
 ## Screenshot
 
-![screenshot](screenshot/screenshot.png)
+![screenshot](screenshot/screenshot.jpg)
 
 
 ## License Information
