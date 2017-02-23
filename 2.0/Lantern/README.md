@@ -1,7 +1,7 @@
 # Lantern 
 ## Screenshot
 
-![screenshot](screenshot/screenshot.png)
+![screenshot](screenshot/screenshot.jpg)
 
 
 ## License Information
