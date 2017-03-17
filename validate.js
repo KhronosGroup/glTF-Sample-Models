@@ -45,9 +45,7 @@ fs.readdir(schemaPath)
     v.addSchema(mapping['/glTF.schema.json'], '/glTF.schema.json');
     while(v.unresolvedRefs.length > 0){
         let ref = v.unresolvedRefs.shift();
-        console.log('adding', ref);
         v.addSchema(mapping[ref], ref);
-        //console.log('remaining', v.unresolvedRefs);
     }
 
     // load the file to test
@@ -59,7 +57,10 @@ fs.readdir(schemaPath)
 .catch(err)
 // validate it
 .then(json => {
-    let result = v.validate(json, v.schemas['/glTF.schema.json'], {nestedErrors: true});
-    console.log('Validation passed');
+    let result = v.validate(json, v.schemas['/glTF.schema.json'], {nestedErrors: true, throwErrors: false});
+    if(result.errors.length === 0)
+        console.log('Validation passed');
+    else
+        console.log(result.errors);
 })
 .catch(err);
