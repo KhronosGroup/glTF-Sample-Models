@@ -1,77 +1,77 @@
 {
-  "scenes" : {
-    "scene0" : {
-      "nodes" : [ "node0" ]
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
     }
-  },
-  "nodes" : {
-    "node0" : {
-      "meshes" : [ "mesh0" ],
+  ],
+  "nodes" : [
+    {
+      "mesh" : 0,
       "rotation" : [ 0.0, 0.0, 0.0, 1.0 ]
     }
-  },
-  "meshes" : {
-    "mesh0" : {
+  ],
+  "meshes" : [
+    {
       "primitives" : [ {
         "attributes" : {
-          "POSITION" : "positionsAccessor"
+          "POSITION" : 1
         },
-        "indices" : "indicesAccessor"
+        "indices" : 0
       } ]
     }
-  },
-  
-  "animations": {
-    "animation0": {
-      "samplers" : {
-        "rotationSampler" : {
-          "input" : "TIMEAccessor",
+  ],
+
+  "animations": [
+    {
+      "samplers" : [
+        {
+          "input" : 2,
           "interpolation" : "LINEAR",
-          "output" : "rotationAccessor"
+          "output" : 3
         }
-      },
+      ],
       "channels" : [ {
-        "sampler" : "rotationSampler",
+        "sampler" : 0,
         "target" : {
-          "id" : "node0",
+          "node" : 0,
           "path" : "rotation"
         }
       } ]
     }
-  },
+  ],
 
-  "buffers" : {
-    "geometryBuffer" : {
+  "buffers" : [
+    {
       "uri" : "simpleTriangle.bin",
       "byteLength" : 44
     },
-    "animationBuffer" : {
+    {
       "uri" : "animation.bin",
       "byteLength" : 100
     }
-  },
-  "bufferViews" : {
-    "indicesBufferView" : {
-      "buffer" : "geometryBuffer",
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
       "byteOffset" : 0,
       "byteLength" : 6,
       "target" : 34963
     },
-    "attributesBufferView" : {
-      "buffer" : "geometryBuffer",
+    {
+      "buffer" : 0,
       "byteOffset" : 8,
       "byteLength" : 36,
       "target" : 34962
     },
-    "animationBufferView" : {
-      "buffer" : "animationBuffer",
+    {
+      "buffer" : 1,
       "byteOffset" : 0,
       "byteLength" : 100
     }
-  },
-  "accessors" : {
-    "indicesAccessor" : {
-      "bufferView" : "indicesBufferView",
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
       "byteOffset" : 0,
       "componentType" : 5123,
       "count" : 3,
@@ -79,8 +79,8 @@
       "max" : [ 2 ],
       "min" : [ 0 ]
     },
-    "positionsAccessor" : {
-      "bufferView" : "attributesBufferView",
+    {
+      "bufferView" : 1,
       "byteOffset" : 0,
       "componentType" : 5126,
       "count" : 3,
@@ -88,8 +88,8 @@
       "max" : [ 1.0, 1.0, 0.0 ],
       "min" : [ 0.0, 0.0, 0.0 ]
     },
-    "TIMEAccessor" : {
-      "bufferView" : "animationBufferView",
+    {
+      "bufferView" : 2,
       "byteOffset" : 0,
       "componentType" : 5126,
       "count" : 5,
@@ -97,8 +97,8 @@
       "max" : [ 1.0 ],
       "min" : [ 0.0 ]
     },
-    "rotationAccessor" : {
-      "bufferView" : "animationBufferView",
+    {
+      "bufferView" : 2,
       "byteOffset" : 20,
       "componentType" : 5126,
       "count" : 5,
@@ -106,10 +106,10 @@
       "max" : [ 0.0, 0.0, 1.0, 1.0 ],
       "min" : [ 0.0, 0.0, 0.0, -0.707 ]
     }
-  },
-  
+  ],
+
   "asset" : {
-    "version" : "1.1"
+    "version" : "2.0"
   }
-  
+
 }

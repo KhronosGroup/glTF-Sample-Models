@@ -1,0 +1,23 @@
+{
+  "name": "gltf-sample-models",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r <img src=\"https://raw.githubusercontent.com/KhronosGroup/glTF/master/specification/figures/gltf.png\">\r </p>",
+  "main": "validate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhronosGroup/glTF-Sample-Models.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhronosGroup/glTF-Sample-Models/issues"
+  },
+  "homepage": "https://github.com/KhronosGroup/glTF-Sample-Models#readme",
+  "dependencies": {
+    "jsonschema": "^1.1.1",
+    "mz": "^2.6.0"
+  }
+}
