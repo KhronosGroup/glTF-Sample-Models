@@ -1,7 +1,7 @@
 # Animated Cube
 ## Screenshot
 
-![screenshot](screenshot/screenshot.jpg)
+![screenshot](screenshot/screenshot.gif)
 
 
 ## License Information
