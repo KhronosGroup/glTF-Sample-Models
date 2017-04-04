@@ -1,1 +1,1 @@
-# COLLADA Models used as the base for generating some of the glTF sample models
+COLLADA Models used as the base for generating some of the glTF sample models
