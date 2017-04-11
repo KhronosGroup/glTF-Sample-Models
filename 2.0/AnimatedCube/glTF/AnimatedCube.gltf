@@ -216,7 +216,7 @@
                "attributes" : {
                   "NORMAL" : 4,
                   "POSITION" : 3,
-                  "TANGENT4" : 5,
+                  "TANGENT" : 5,
                   "TEXCOORD_0" : 6
                },
                "indices" : 2,
