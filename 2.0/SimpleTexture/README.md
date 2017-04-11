@@ -1,8 +1,15 @@
-# SimpleOpacity
+# SimpleTexture
 
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.png)
+
+
+Note that the texture image also shows the *texture coordinates*:
+
+- The *upper left* point of the texture image has the texture coordinates `(0,0)` 
+- The *lower right* point of the texture image has the texture coordinates `(1,1)` 
+
 
 ## License Information
 

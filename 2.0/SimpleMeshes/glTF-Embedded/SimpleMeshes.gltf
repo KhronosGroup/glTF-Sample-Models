@@ -1,54 +1,54 @@
 {
-  "scenes" : {
-    "scene0" : {
-      "nodes" : [ "node0", "node1" ]
+  "scenes" : [
+    {
+      "nodes" : [ 0, 1]
     }
-  },
-  "nodes" : {
-    "node0" : {
-      "meshes" : [ "mesh0" ]
+  ],
+  "nodes" : [
+    {
+      "mesh" : 0
     },
-    "node1" : {
-      "meshes" : [ "mesh0" ],
+    {
+      "mesh" : 0,
       "translation" : [ 1.0, 0.0, 0.0 ]
     }
-  },
-
-  "meshes" : {
-    "mesh0" : {
+  ],
+  
+  "meshes" : [
+    {
       "primitives" : [ {
         "attributes" : {
-          "POSITION" : "positionsAccessor",
-          "NORMAL" : "normalsAccessor"
+          "POSITION" : 1,
+          "NORMAL" : 2
         },
-        "indices" : "indicesAccessor"
+        "indices" : 0
       } ]
     }
-  },
+  ],
 
-  "buffers" : {
-    "geometryBuffer" : {
+  "buffers" : [
+    {
       "uri" : "data:application/octet-stream;base64,AAABAAIAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8=",
       "byteLength" : 80
     }
-  },
-  "bufferViews" : {
-    "indicesBufferView" : {
-      "buffer" : "geometryBuffer",
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
       "byteOffset" : 0,
       "byteLength" : 6,
       "target" : 34963
     },
-    "attributesBufferView" : {
-      "buffer" : "geometryBuffer",
+    {
+      "buffer" : 0,
       "byteOffset" : 8,
       "byteLength" : 72,
       "target" : 34962
     }
-  },
-  "accessors" : {
-    "indicesAccessor" : {
-      "bufferView" : "indicesBufferView",
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
       "byteOffset" : 0,
       "componentType" : 5123,
       "count" : 3,
@@ -56,8 +56,8 @@
       "max" : [ 2 ],
       "min" : [ 0 ]
     },
-    "positionsAccessor" : {
-      "bufferView" : "attributesBufferView",
+    {
+      "bufferView" : 1,
       "byteOffset" : 0,
       "componentType" : 5126,
       "count" : 3,
@@ -65,8 +65,8 @@
       "max" : [ 1.0, 1.0, 0.0 ],
       "min" : [ 0.0, 0.0, 0.0 ]
     },
-    "normalsAccessor" : {
-      "bufferView" : "attributesBufferView",
+    {
+      "bufferView" : 1,
       "byteOffset" : 36,
       "componentType" : 5126,
       "count" : 3,
@@ -74,9 +74,10 @@
       "max" : [ 0.0, 0.0, 1.0 ],
       "min" : [ 0.0, 0.0, 1.0 ]
     }
-  },
+  ],
   
   "asset" : {
-    "version" : "1.1"
+    "version" : "2.0"
   }
 }
+

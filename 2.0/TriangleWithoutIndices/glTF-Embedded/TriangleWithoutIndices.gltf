@@ -1,42 +1,43 @@
 {
-  "scenes" : {
-    "scene0" : {
-      "nodes" : [ "node0" ]
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
     }
-  },
-  "nodes" : {
-    "node0" : {
-      "meshes" : [ "mesh0" ]
+  ],
+  
+  "nodes" : [
+    {
+      "mesh" : 0
     }
-  },
+  ],
 
-  "meshes" : {
-    "mesh0" : {
+  "meshes" : [
+    {
       "primitives" : [ {
         "attributes" : {
-          "POSITION" : "positionsAccessor"
+          "POSITION" : 0
         }
       } ]
     }
-  },
+  ],
 
-  "buffers" : {
-    "geometryBuffer" : {
+  "buffers" : [
+    {
       "uri" : "data:application/octet-stream;base64,AAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAA",
       "byteLength" : 36
     }
-  },
-  "bufferViews" : {
-    "attributesBufferView" : {
-      "buffer" : "geometryBuffer",
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
       "byteOffset" : 0,
       "byteLength" : 36,
       "target" : 34962
     }
-  },
-  "accessors" : {
-    "positionsAccessor" : {
-      "bufferView" : "attributesBufferView",
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
       "byteOffset" : 0,
       "componentType" : 5126,
       "count" : 3,
@@ -44,9 +45,9 @@
       "max" : [ 1.0, 1.0, 0.0 ],
       "min" : [ 0.0, 0.0, 0.0 ]
     }
-  },
+  ],
   
   "asset" : {
-    "version" : "1.1"
+    "version" : "2.0"
   }
 }
