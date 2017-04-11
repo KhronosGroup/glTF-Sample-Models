@@ -22,3 +22,12 @@
 | [Boom Box](BoomBox)   | ![](BoomBox/screenshot/screenshot.jpg)    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Corset](Corset)      | ![](Corset/screenshot/screenshot.jpg)     | :white_check_mark: | :white_check_mark: |                    |
 | [Lantern](Lantern)    | ![](Lantern/screenshot/screenshot.jpg)    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+
+## Further PBR models
+
+| Model                                                  | Screenshot                                                      | Description|
+|--------------------------------------------------------|-----------------------------------------------------------------|------------|
+| [Two Sided Plane](TwoSidedPlane)                       | ![](TwoSidedPlane/screenshot/screenshot.jpg)                    | A plane having the two sided material parameter enabled.       |
+| [Cube](Cube)                                           | ![](Cube/screenshot/screenshot.jpg)                             | A cube with non-smoothed faces.                                |
+| [Animated Cube](AnimatedCube)                          | ![](AnimatedCube/screenshot/screenshot.gif)                     | Same as previous cube having a linear rotation animation.      |
+| [Suzanne](Suzanne)                                     | ![](Suzanne/screenshot/screenshot.jpg)                          | Suzanne from Blender with smoothed faces.                      |
