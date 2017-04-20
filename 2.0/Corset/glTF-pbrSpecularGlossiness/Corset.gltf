@@ -37,6 +37,25 @@
       "byteOffset": 0,
       "componentType": 5126,
       "count": 11505,
+      "type": "VEC4",
+      "max": [
+        0.9997274,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 11505,
       "type": "VEC3",
       "max": [
         0.019474864,
@@ -50,7 +69,7 @@
       ]
     },
     {
-      "bufferView": 3,
+      "bufferView": 4,
       "byteOffset": 0,
       "componentType": 5123,
       "count": 54972,
@@ -71,32 +90,33 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 92040,
-      "target": 34962
+      "byteLength": 92040
     },
     {
       "buffer": 0,
       "byteOffset": 92040,
-      "byteLength": 138060,
-      "target": 34962
+      "byteLength": 138060
     },
     {
       "buffer": 0,
       "byteOffset": 230100,
-      "byteLength": 138060,
-      "target": 34962
+      "byteLength": 184080
     },
     {
       "buffer": 0,
-      "byteOffset": 368160,
-      "byteLength": 109944,
-      "target": 34963
+      "byteOffset": 414180,
+      "byteLength": 138060
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 552240,
+      "byteLength": 109944
     }
   ],
   "buffers": [
     {
       "uri": "Corset.bin",
-      "byteLength": 478104
+      "byteLength": 662184
     }
   ],
   "extensionsUsed": [
@@ -107,7 +127,7 @@
       "uri": "Corset_baseColor.png"
     },
     {
-      "uri": "Corset_metallicRoughness.png"
+      "uri": "Corset_roughnessMetallic.png"
     },
     {
       "uri": "Corset_normal.png"
@@ -129,9 +149,10 @@
           "attributes": {
             "TEXCOORD_0": 0,
             "NORMAL": 1,
-            "POSITION": 2
+            "TANGENT": 2,
+            "POSITION": 3
           },
-          "indices": 3,
+          "indices": 4,
           "material": 0,
           "mode": 4
         }
@@ -185,9 +206,6 @@
       "name": "Corset"
     }
   ],
-  "samplers": [
-    {}
-  ],
   "scene": 0,
   "scenes": [
     {
@@ -198,27 +216,21 @@
   ],
   "textures": [
     {
-      "sampler": 0,
       "source": 0
     },
     {
-      "sampler": 0,
       "source": 1
     },
     {
-      "sampler": 0,
       "source": 2
     },
     {
-      "sampler": 0,
       "source": 3
     },
     {
-      "sampler": 0,
       "source": 4
     },
     {
-      "sampler": 0,
       "source": 5
     }
   ]
