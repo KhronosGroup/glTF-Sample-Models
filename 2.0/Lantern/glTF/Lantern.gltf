@@ -37,6 +37,25 @@
       "byteOffset": 0,
       "componentType": 5126,
       "count": 926,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.9999658,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.962171,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 926,
       "type": "VEC3",
       "max": [
         7.74559927,
@@ -50,7 +69,7 @@
       ]
     },
     {
-      "bufferView": 3,
+      "bufferView": 4,
       "byteOffset": 0,
       "componentType": 5123,
       "count": 2616,
@@ -63,7 +82,7 @@
       ]
     },
     {
-      "bufferView": 4,
+      "bufferView": 5,
       "byteOffset": 0,
       "componentType": 5126,
       "count": 756,
@@ -78,7 +97,7 @@
       ]
     },
     {
-      "bufferView": 5,
+      "bufferView": 6,
       "byteOffset": 0,
       "componentType": 5126,
       "count": 756,
@@ -95,7 +114,26 @@
       ]
     },
     {
-      "bufferView": 6,
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 756,
+      "type": "VEC4",
+      "max": [
+        0.9997526,
+        1.0,
+        0.999752462,
+        1.0
+      ],
+      "min": [
+        -0.9995128,
+        -1.0,
+        -0.999752462,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 8,
       "byteOffset": 0,
       "componentType": 5126,
       "count": 756,
@@ -112,7 +150,7 @@
       ]
     },
     {
-      "bufferView": 7,
+      "bufferView": 9,
       "byteOffset": 0,
       "componentType": 5123,
       "count": 3744,
@@ -125,7 +163,7 @@
       ]
     },
     {
-      "bufferView": 8,
+      "bufferView": 10,
       "byteOffset": 0,
       "componentType": 5126,
       "count": 2463,
@@ -140,7 +178,7 @@
       ]
     },
     {
-      "bufferView": 9,
+      "bufferView": 11,
       "byteOffset": 0,
       "componentType": 5126,
       "count": 2463,
@@ -157,7 +195,26 @@
       ]
     },
     {
-      "bufferView": 10,
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2463,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 13,
       "byteOffset": 0,
       "componentType": 5126,
       "count": 2463,
@@ -174,7 +231,7 @@
       ]
     },
     {
-      "bufferView": 11,
+      "bufferView": 14,
       "byteOffset": 0,
       "componentType": 5123,
       "count": 9822,
@@ -195,80 +252,83 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 7408,
-      "target": 34962
+      "byteLength": 7408
     },
     {
       "buffer": 0,
       "byteOffset": 7408,
-      "byteLength": 11112,
-      "target": 34962
+      "byteLength": 11112
     },
     {
       "buffer": 0,
       "byteOffset": 18520,
-      "byteLength": 11112,
-      "target": 34962
+      "byteLength": 14816
     },
     {
       "buffer": 0,
-      "byteOffset": 29632,
-      "byteLength": 5232,
-      "target": 34963
+      "byteOffset": 33336,
+      "byteLength": 11112
     },
     {
       "buffer": 0,
-      "byteOffset": 34864,
-      "byteLength": 6048,
-      "target": 34962
+      "byteOffset": 44448,
+      "byteLength": 5232
     },
     {
       "buffer": 0,
-      "byteOffset": 40912,
-      "byteLength": 9072,
-      "target": 34962
+      "byteOffset": 49680,
+      "byteLength": 6048
     },
     {
       "buffer": 0,
-      "byteOffset": 49984,
-      "byteLength": 9072,
-      "target": 34962
+      "byteOffset": 55728,
+      "byteLength": 9072
     },
     {
       "buffer": 0,
-      "byteOffset": 59056,
-      "byteLength": 7488,
-      "target": 34963
+      "byteOffset": 64800,
+      "byteLength": 12096
     },
     {
       "buffer": 0,
-      "byteOffset": 66544,
-      "byteLength": 19704,
-      "target": 34962
+      "byteOffset": 76896,
+      "byteLength": 9072
     },
     {
       "buffer": 0,
-      "byteOffset": 86248,
-      "byteLength": 29556,
-      "target": 34962
+      "byteOffset": 85968,
+      "byteLength": 7488
     },
     {
       "buffer": 0,
-      "byteOffset": 115804,
-      "byteLength": 29556,
-      "target": 34962
+      "byteOffset": 93456,
+      "byteLength": 19704
     },
     {
       "buffer": 0,
-      "byteOffset": 145360,
-      "byteLength": 19644,
-      "target": 34963
+      "byteOffset": 113160,
+      "byteLength": 29556
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 142716,
+      "byteLength": 39408
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 182124,
+      "byteLength": 29556
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 211680,
+      "byteLength": 19644
     }
   ],
   "buffers": [
     {
       "uri": "Lantern.bin",
-      "byteLength": 165004
+      "byteLength": 231324
     }
   ],
   "images": [
@@ -276,7 +336,7 @@
       "uri": "Lantern_baseColor.png"
     },
     {
-      "uri": "Lantern_metallicRoughness.png"
+      "uri": "Lantern_roughnessMetallic.png"
     },
     {
       "uri": "Lantern_normal.png"
@@ -292,9 +352,10 @@
           "attributes": {
             "TEXCOORD_0": 0,
             "NORMAL": 1,
-            "POSITION": 2
+            "TANGENT": 2,
+            "POSITION": 3
           },
-          "indices": 3,
+          "indices": 4,
           "material": 0,
           "mode": 4
         }
@@ -305,11 +366,12 @@
       "primitives": [
         {
           "attributes": {
-            "TEXCOORD_0": 4,
-            "NORMAL": 5,
-            "POSITION": 6
+            "TEXCOORD_0": 5,
+            "NORMAL": 6,
+            "TANGENT": 7,
+            "POSITION": 8
           },
-          "indices": 7,
+          "indices": 9,
           "material": 0,
           "mode": 4
         }
@@ -320,11 +382,12 @@
       "primitives": [
         {
           "attributes": {
-            "TEXCOORD_0": 8,
-            "NORMAL": 9,
-            "POSITION": 10
+            "TEXCOORD_0": 10,
+            "NORMAL": 11,
+            "TANGENT": 12,
+            "POSITION": 13
           },
-          "indices": 11,
+          "indices": 14,
           "material": 0,
           "mode": 4
         }
@@ -412,9 +475,6 @@
       "name": "Lantern"
     }
   ],
-  "samplers": [
-    {}
-  ],
   "scene": 0,
   "scenes": [
     {
@@ -425,19 +485,15 @@
   ],
   "textures": [
     {
-      "sampler": 0,
       "source": 0
     },
     {
-      "sampler": 0,
       "source": 1
     },
     {
-      "sampler": 0,
       "source": 2
     },
     {
-      "sampler": 0,
       "source": 3
     }
   ]
