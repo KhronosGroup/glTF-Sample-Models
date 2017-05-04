@@ -2,7 +2,6 @@
   "accessors": [
     {
       "bufferView": 0,
-      "byteOffset": 0,
       "componentType": 5126,
       "count": 11505,
       "type": "VEC2",
@@ -17,7 +16,6 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 0,
       "componentType": 5126,
       "count": 11505,
       "type": "VEC3",
@@ -34,7 +32,6 @@
     },
     {
       "bufferView": 2,
-      "byteOffset": 0,
       "componentType": 5126,
       "count": 11505,
       "type": "VEC4",
@@ -53,7 +50,6 @@
     },
     {
       "bufferView": 3,
-      "byteOffset": 0,
       "componentType": 5126,
       "count": 11505,
       "type": "VEC3",
@@ -70,7 +66,6 @@
     },
     {
       "bufferView": 4,
-      "byteOffset": 0,
       "componentType": 5123,
       "count": 54972,
       "type": "SCALAR",
@@ -89,7 +84,6 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteOffset": 0,
       "byteLength": 92040
     },
     {
@@ -153,8 +147,7 @@
             "POSITION": 3
           },
           "indices": 4,
-          "material": 0,
-          "mode": 4
+          "material": 0
         }
       ],
       "name": "pCube49"
@@ -191,7 +184,6 @@
   ],
   "nodes": [
     {
-      "children": [],
       "mesh": 0,
       "scale": [
         25.0,
