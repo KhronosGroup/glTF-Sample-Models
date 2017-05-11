@@ -1,0 +1,297 @@
+{
+    "asset": {
+        "generator": "COLLADA2GLTF",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ],
+            "name": "meshId0_name"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 2046,
+            "max": [
+                405.0
+            ],
+            "min": [
+                0.0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 406,
+            "max": [
+                0.9951770901679992,
+                0.9749685525894164,
+                0.9988547563552856
+            ],
+            "min": [
+                -0.9959668517112732,
+                -0.9995665550231934,
+                -0.998633861541748
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 4872,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 406,
+            "max": [
+                2.128091096878052,
+                6.284806251525879,
+                1.3809000253677369
+            ],
+            "min": [
+                -2.128091096878052,
+                -0.004773855209350586,
+                -1.3809001445770264
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 9744,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 406,
+            "max": [
+                0.982497811317444,
+                0.9953720569610596
+            ],
+            "min": [
+                0.006780204363167286,
+                0.002981901168823242
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "materials": [
+        {
+            "values": {
+                "ambient": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuse": [
+                    0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "specular": [
+                    1
+                ],
+                "shininess": [
+                    20.0
+                ],
+                "transparency": [
+                    1.0
+                ]
+            },
+            "technique": 0
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        }
+    ],
+    "images": [
+        {
+            "uri": "Avocado_texture_0001.jpg"
+        },
+        {
+            "uri": "Avocado_texture_0002.jpg"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9986,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "techniques": [
+        {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position",
+                "a_texcoord0": "texcoord0"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35666
+                },
+                "diffuse": {
+                    "type": 35678
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35678
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35665
+                },
+                "transparency": {
+                    "type": 5126
+                }
+            },
+            "program": 0,
+            "states": {
+                "enable": [
+                    2884,
+                    2929
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular",
+                "u_transparency": "transparency"
+            }
+        }
+    ],
+    "programs": [
+        {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": 1,
+            "vertexShader": 0
+        }
+    ],
+    "shaders": [
+        {
+            "type": 35633,
+            "uri": "Avocado0.vert"
+        },
+        {
+            "type": 35632,
+            "uri": "Avocado1.frag"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 12992,
+            "byteLength": 4092,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 12992,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 17084,
+            "uri": "Avocado0.bin"
+        }
+    ],
+    "extensionsRequired": [
+        "KHR_technique_webgl"
+    ],
+    "extensionsUsed": [
+        "KHR_technique_webgl"
+    ]
+}
