@@ -82,7 +82,6 @@
          "type" : "VEC2"
       }
    ],
-   "animations" : [],
    "asset" : {
       "generator" : "VKTS glTF 2.0 exporter",
       "version" : "2.0"
