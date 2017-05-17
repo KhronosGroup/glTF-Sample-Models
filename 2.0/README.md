@@ -24,8 +24,6 @@
 | [Box](Box)                                    | ![](Box/screenshot/screenshot.png)               | One mesh and one material. Start with this. |
 | [Box Textured](BoxTextured)                   | ![](BoxTextured/screenshot/screenshot.png)       | Box with one texture. Start with this to test textures. |
 | [Duck](Duck)                                  | ![](Duck/screenshot/screenshot.png)              | The COLLADA duck. One texture. |
-| [Avocado](Avocado)                            | ![](Avocado/screenshot/screenshot.png)           | An avocado with multiple textures. |
-| [Barramundi Fish](BarramundiFish)             | ![](BarramundiFish/screenshot/screenshot.png)    | A barramundi fish with multiple textures. |
 | [Smiling Face](SmilingFace)                   | ![](SmilingFace/screenshot/screenshot.png)       | A smiling face with multiple textures. |
 | [2 Cylinder Engine](2CylinderEngine)          | ![](2CylinderEngine/screenshot/screenshot.png)   | Small CAD data set, including hierarchy. |
 | [Reciprocating Saw](ReciprocatingSaw)         | ![](ReciprocatingSaw/screenshot/screenshot.png)  | Small CAD data set, including hierarchy. |
@@ -43,11 +41,13 @@
 
 ## PBR models
 
-| Model                 | Screenshot                                | Normal Map         | Occlusion Map      | Emissive Map       |
-|-----------------------|:-----------------------------------------:|:------------------:|:------------------:|:------------------:|
-| [Boom Box](BoomBox)   | ![](BoomBox/screenshot/screenshot.jpg)    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [Corset](Corset)      | ![](Corset/screenshot/screenshot.jpg)     | :white_check_mark: | :white_check_mark: |                    |
-| [Lantern](Lantern)    | ![](Lantern/screenshot/screenshot.jpg)    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Model                             | Screenshot                                       | Normal Map         | Occlusion Map      | Emissive Map       |
+|-----------------------------------|:------------------------------------------------:|:------------------:|:------------------:|:------------------:|
+| [Avocado](Avocado)                | ![](Avocado/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: |                    |
+| [Barramundi Fish](BarramundiFish) | ![](BarramundiFish/screenshot/screenshot.jpg)    | :white_check_mark: | :white_check_mark: |                    |
+| [Boom Box](BoomBox)               | ![](BoomBox/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [Corset](Corset)                  | ![](Corset/screenshot/screenshot.jpg)            | :white_check_mark: | :white_check_mark: |                    |
+| [Lantern](Lantern)                | ![](Lantern/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 ## Further PBR models
 
