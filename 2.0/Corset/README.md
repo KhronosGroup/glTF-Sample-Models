@@ -6,4 +6,6 @@
 
 ## License Information
 
-Donated by Microsoft for glTF testing.
+Donated by Microsoft for glTF testing
+
+Created by [Kayl Myers](https://www.linkedin.com/in/kaylmyers)

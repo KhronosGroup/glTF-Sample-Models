@@ -1,10 +1,8 @@
-# Avocado 
+# Avocado
 ## Screenshot
 
-![screenshot](screenshot/screenshot.png)
-
-Example: [Avocado](https://www.remix3d.com/details/G009SX0N0MHT) 
+![screenshot](screenshot/screenshot.jpg)
 
 ## License Information
 
-Donated by Microsoft for glTF testing.
+Donated by Microsoft for glTF testing

@@ -1,8 +1,8 @@
 # Barramundi Fish
 ## Screenshot
 
-![screenshot](screenshot/screenshot.png)
+![screenshot](screenshot/screenshot.jpg)
 
 ## License Information
 
-Donated by Microsoft for glTF testing.
+Donated by Microsoft for glTF testing
