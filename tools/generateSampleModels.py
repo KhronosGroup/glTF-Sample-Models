@@ -10,8 +10,6 @@ if len(sys.argv) > 1:
 
 scriptDirectory = os.path.dirname(os.path.realpath(sys.argv[0]))
 
-print(scriptDirectory)
-
 collada2gltf = None
 for f in glob.glob(os.path.join(scriptDirectory, '*[cC][oO][lL][lL][aA][dD][aA]2[gG][lL][tT][fF]*')):
     collada2gltf = f
