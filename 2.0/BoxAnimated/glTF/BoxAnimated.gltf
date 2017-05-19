@@ -60,106 +60,31 @@
             "children": [
                 3
             ],
-            "translation": [
-                0.0,
-                0.0,
-                0.0
-            ],
             "rotation": [
                 -0.0,
                 -0.0,
                 -0.0,
                 -1.0
-            ],
-            "scale": [
-                1.0,
-                1.0,
-                1.0
             ]
         },
         {
             "children": [
                 4
-            ],
-            "matrix": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0
             ]
         },
         {
             "mesh": 0,
-            "translation": [
-                0.0,
-                0.0,
-                0.0
-            ],
             "rotation": [
                 -0.0,
                 -0.0,
                 -0.0,
                 -1.0
-            ],
-            "scale": [
-                1.0,
-                1.0,
-                1.0
             ]
         },
         {
-            "mesh": 1,
-            "matrix": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ]
+            "mesh": 1
         },
-        {
-            "matrix": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ]
-        }
+        {}
     ],
     "meshes": [
         {
@@ -232,22 +157,20 @@
     "accessors": [
         {
             "bufferView": 0,
-            "byteOffset": 1152,
-            "byteStride": 0,
+            "byteOffset": 0,
             "componentType": 5123,
             "count": 186,
             "max": [
-                95.0
+                95
             ],
             "min": [
-                0.0
+                0
             ],
             "type": "SCALAR"
         },
         {
             "bufferView": 1,
-            "byteOffset": 5376,
-            "byteStride": 0,
+            "byteOffset": 0,
             "componentType": 5126,
             "count": 96,
             "max": [
@@ -264,8 +187,7 @@
         },
         {
             "bufferView": 1,
-            "byteOffset": 6528,
-            "byteStride": 0,
+            "byteOffset": 1152,
             "componentType": 5126,
             "count": 96,
             "max": [
@@ -282,22 +204,20 @@
         },
         {
             "bufferView": 0,
-            "byteOffset": 0,
-            "byteStride": 0,
+            "byteOffset": 372,
             "componentType": 5123,
             "count": 576,
             "max": [
-                223.0
+                223
             ],
             "min": [
-                0.0
+                0
             ],
             "type": "SCALAR"
         },
         {
             "bufferView": 1,
-            "byteOffset": 0,
-            "byteStride": 0,
+            "byteOffset": 4992,
             "componentType": 5126,
             "count": 224,
             "max": [
@@ -314,8 +234,7 @@
         },
         {
             "bufferView": 1,
-            "byteOffset": 2688,
-            "byteStride": 0,
+            "byteOffset": 2304,
             "componentType": 5126,
             "count": 224,
             "max": [
@@ -333,7 +252,6 @@
         {
             "bufferView": 2,
             "byteOffset": 0,
-            "byteStride": 0,
             "componentType": 5126,
             "count": 2,
             "max": [
@@ -345,9 +263,8 @@
             "type": "SCALAR"
         },
         {
-            "bufferView": 2,
-            "byteOffset": 8,
-            "byteStride": 0,
+            "bufferView": 3,
+            "byteOffset": 0,
             "componentType": 5126,
             "count": 2,
             "max": [
@@ -366,8 +283,7 @@
         },
         {
             "bufferView": 2,
-            "byteOffset": 40,
-            "byteStride": 0,
+            "byteOffset": 8,
             "componentType": 5126,
             "count": 4,
             "max": [
@@ -379,9 +295,8 @@
             "type": "SCALAR"
         },
         {
-            "bufferView": 2,
-            "byteOffset": 56,
-            "byteStride": 0,
+            "bufferView": 4,
+            "byteOffset": 0,
             "componentType": 5126,
             "count": 4,
             "max": [
@@ -422,20 +337,31 @@
     "bufferViews": [
         {
             "buffer": 0,
-            "byteOffset": 7680,
+            "byteOffset": 7784,
             "byteLength": 1524,
             "target": 34963
         },
         {
             "buffer": 0,
-            "byteOffset": 0,
+            "byteOffset": 80,
             "byteLength": 7680,
+            "byteStride": 12,
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 9204,
-            "byteLength": 104
+            "byteOffset": 7760,
+            "byteLength": 24
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 32
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 32,
+            "byteLength": 48
         }
     ],
     "buffers": [
