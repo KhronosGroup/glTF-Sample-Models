@@ -1,4 +1,4 @@
-#!/user/bin/env python
+#!/usr/bin/env python
 import glob
 from subprocess import call
 import sys
