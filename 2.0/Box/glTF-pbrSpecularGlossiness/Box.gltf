@@ -36,25 +36,7 @@
             ]
         },
         {
-            "mesh": 0,
-            "matrix": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ]
+            "mesh": 0
         }
     ],
     "meshes": [
@@ -77,21 +59,19 @@
         {
             "bufferView": 0,
             "byteOffset": 0,
-            "byteStride": 0,
             "componentType": 5123,
             "count": 36,
             "max": [
-                23.0
+                23
             ],
             "min": [
-                0.0
+                0
             ],
             "type": "SCALAR"
         },
         {
             "bufferView": 1,
             "byteOffset": 0,
-            "byteStride": 0,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -109,7 +89,6 @@
         {
             "bufferView": 1,
             "byteOffset": 288,
-            "byteStride": 0,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -148,13 +127,14 @@
             "buffer": 0,
             "byteOffset": 0,
             "byteLength": 576,
+            "byteStride": 12,
             "target": 34962
         }
     ],
     "buffers": [
         {
             "byteLength": 648,
-            "uri": "Box0.bin"
+            "uri": "data:application/octet-stream;base64,AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAvwAAAL8AAAA/AAAAPwAAAL8AAAA/AAAAvwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAL8AAAA/AAAAvwAAAL8AAAA/AAAAPwAAAL8AAAC/AAAAvwAAAL8AAAC/AAAAPwAAAD8AAAA/AAAAPwAAAL8AAAA/AAAAPwAAAD8AAAC/AAAAPwAAAL8AAAC/AAAAvwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAvwAAAD8AAAC/AAAAPwAAAD8AAAC/AAAAvwAAAL8AAAA/AAAAvwAAAD8AAAA/AAAAvwAAAL8AAAC/AAAAvwAAAD8AAAC/AAAAvwAAAL8AAAC/AAAAvwAAAD8AAAC/AAAAPwAAAL8AAAC/AAAAPwAAAD8AAAC/AAABAAIAAwACAAEABAAFAAYABwAGAAUACAAJAAoACwAKAAkADAANAA4ADwAOAA0AEAARABIAEwASABEAFAAVABYAFwAWABUA"
         }
     ],
     "extensionsRequired": [
