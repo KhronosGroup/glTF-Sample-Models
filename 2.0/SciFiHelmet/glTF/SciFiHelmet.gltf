@@ -177,7 +177,6 @@
    ],
    "nodes" : [
       {
-         "children" : [],
          "name" : "Camera",
          "rotation" : [
             0.483536,
@@ -192,7 +191,6 @@
          ]
       },
       {
-         "children" : [],
          "mesh" : 0,
          "name" : "SciFiHelmet"
       }

@@ -228,7 +228,6 @@
    ],
    "nodes" : [
       {
-         "children" : [],
          "mesh" : 0,
          "name" : "AnimatedCube",
          "rotation" : [
