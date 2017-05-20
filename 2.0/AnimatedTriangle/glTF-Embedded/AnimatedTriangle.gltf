@@ -35,7 +35,7 @@
       "channels" : [ {
         "sampler" : 0,
         "target" : {
-          "id" : 0,
+          "node" : 0,
           "path" : "rotation"
         }
       } ]
