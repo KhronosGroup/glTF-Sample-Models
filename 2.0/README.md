@@ -43,6 +43,8 @@
 | [Boom Box](BoomBox)               | ![](BoomBox/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Corset](Corset)                  | ![](Corset/screenshot/screenshot.jpg)            | :white_check_mark: | :white_check_mark: |                    |
 | [Lantern](Lantern)                | ![](Lantern/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [MetalRoughSpheres](MetalRoughSpheres)  | ![](MetalRoughSpheres/screenshot/screenshot.png)   |                    |                    |                    |
+| [NormalTangentTest](NormalTangentTest)  | ![](NormalTangentTest/screenshot/screenshot.png)   | :white_check_mark: |                    |                    |
 
 ## Further PBR models
 
