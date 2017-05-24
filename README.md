@@ -4,6 +4,8 @@
 
 # glTF Sample Models
 
+[![Build Status](https://travis-ci.org/KhronosGroup/glTF-Sample-Models.svg?branch=master)](https://travis-ci.org/KhronosGroup/glTF-Sample-Models)
+
 - [glTF 1.0](1.0)
 - [glTF 2.0](2.0)
 
