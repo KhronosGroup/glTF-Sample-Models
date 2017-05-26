@@ -23,7 +23,7 @@ sourceModelsDirectory = os.path.join(scriptDirectory, '../sourceModels')
 variantFlags = {
     '' : ['-s'],
     '-Embedded' : [],
-    '-Binary' : ['-b', '-s'],
+    '-Binary' : ['-b'],
     '-MaterialsCommon' : ['-m', '-s'],
     '-pbrSpecularGlossiness' : ['--specularGlossiness', '-s'],
     '-techniqueWebGL' : ['-g', '-s']
