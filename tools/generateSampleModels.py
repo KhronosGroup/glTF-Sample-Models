@@ -23,10 +23,10 @@ sourceModelsDirectory = os.path.join(scriptDirectory, '../sourceModels')
 variantFlags = {
     '' : ['-s'],
     '-Embedded' : [],
-    '-Binary' : ['-b'],
-    '-MaterialsCommon' : ['-m'],
-    '-pbrSpecularGlossiness' : ['--specularGlossiness'],
-    '-techniqueWebGL' : ['-g']
+    '-Binary' : ['-b', '-s'],
+    '-MaterialsCommon' : ['-m', '-s'],
+    '-pbrSpecularGlossiness' : ['--specularGlossiness', '-s'],
+    '-techniqueWebGL' : ['-g', '-s']
 }
 
 for model in os.listdir(sourceModelsDirectory):
