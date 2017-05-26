@@ -318,7 +318,7 @@
         },
         {
             "bufferView": 6,
-            "byteOffset": 48,
+            "byteOffset": 0,
             "componentType": 5126,
             "count": 3,
             "max": [
@@ -337,7 +337,7 @@
         },
         {
             "bufferView": 5,
-            "byteOffset": 36,
+            "byteOffset": 0,
             "componentType": 5126,
             "count": 3,
             "max": [
@@ -367,7 +367,7 @@
         },
         {
             "bufferView": 5,
-            "byteOffset": 72,
+            "byteOffset": 36,
             "componentType": 5126,
             "count": 3,
             "max": [
@@ -384,7 +384,7 @@
         },
         {
             "bufferView": 6,
-            "byteOffset": 0,
+            "byteOffset": 48,
             "componentType": 5126,
             "count": 3,
             "max": [
@@ -403,7 +403,7 @@
         },
         {
             "bufferView": 5,
-            "byteOffset": 0,
+            "byteOffset": 72,
             "componentType": 5126,
             "count": 3,
             "max": [
@@ -470,13 +470,15 @@
                     0.6399999856948853,
                     0.21094390749931336,
                     1.0
-                ]
+                ],
+                "metallicFactor": 0.0
             },
             "emissiveFactor": [
                 0.0,
                 0.0,
                 0.0
-            ]
+            ],
+            "name": "Material_001-effect"
         }
     ],
     "bufferViews": [

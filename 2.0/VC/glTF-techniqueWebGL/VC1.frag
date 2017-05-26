@@ -9,7 +9,6 @@ uniform vec3 u_light0Color;
 uniform vec3 u_light0Attenuation;
 uniform vec3 u_light1Color;
 uniform vec3 u_light1Attenuation;
-uniform vec3 u_light2Color;
 varying vec3 v_position;
 varying vec3 v_normal;
 varying vec2 v_texcoord0;
@@ -25,9 +24,6 @@ void main(void) {
     vec3 ambient = texture2D(u_ambient, v_texcoord0).rgb;
     vec3 viewDir = -normalize(v_position);
     vec3 ambientLight = vec3(0.0, 0.0, 0.0);
-    {
-        ambientLight += u_light2Color;
-    }
     {
     vec3 VP = v_light0Position - v_position;
     vec3 l = normalize(VP);
@@ -48,6 +44,7 @@ void main(void) {
     float specularIntensity = max(0., pow(max(dot(normal, h), 0.), u_shininess)) * attenuation;
     specularLight += u_light1Color * specularIntensity;
     }
+    ambientLight += vec3(0.2, 0.2, 0.2);
     vec3 color = vec3(0.0, 0.0, 0.0);
     color += diffuse.rgb * diffuseLight;
     color += specular * specularLight;
