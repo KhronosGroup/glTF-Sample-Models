@@ -9,6 +9,7 @@ This script automates the generation of the glTF model variants. For each COLLAD
 * glTF (default, separate buffer and shaders)
 * glTF-pbrSpecularGlossiness (uses KHR_materials_pbrSpecularGlossiness extension)
 * glTF-Embedded (embedded buffers and shaders)
+* glTF-Binary (embedded as a binary blob)
 * glTF-MaterialsCommon (uses KHR_materials_common extension)
 * glTF-techniqueWebGL (use KHR_technique_webgl extension with shaders)
 
