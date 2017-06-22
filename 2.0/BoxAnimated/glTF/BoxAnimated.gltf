@@ -173,7 +173,7 @@
         },
         {
             "bufferView": 1,
-            "byteOffset": 4992,
+            "byteOffset": 2304,
             "componentType": 5126,
             "count": 224,
             "max": [
@@ -190,7 +190,7 @@
         },
         {
             "bufferView": 1,
-            "byteOffset": 2304,
+            "byteOffset": 4992,
             "componentType": 5126,
             "count": 224,
             "max": [
