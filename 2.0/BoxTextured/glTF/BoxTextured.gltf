@@ -14,7 +14,6 @@
     "nodes": [
         {
             "children": [
-                2,
                 1
             ],
             "matrix": [
@@ -36,7 +35,6 @@
                 1.0
             ]
         },
-        {},
         {
             "mesh": 0
         }
@@ -74,7 +72,7 @@
         },
         {
             "bufferView": 1,
-            "byteOffset": 288,
+            "byteOffset": 0,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -91,7 +89,7 @@
         },
         {
             "bufferView": 1,
-            "byteOffset": 0,
+            "byteOffset": 288,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -127,8 +125,10 @@
             "pbrMetallicRoughness": {
                 "baseColorTexture": {
                     "index": 0
-                }
-            }
+                },
+                "metallicFactor": 0.0
+            },
+            "name": "Texture"
         }
     ],
     "textures": [

@@ -8,7 +8,6 @@ uniform vec3 u_light0Color;
 uniform vec3 u_light0Attenuation;
 uniform vec3 u_light1Color;
 uniform vec3 u_light1Attenuation;
-uniform vec3 u_light2Color;
 varying vec3 v_position;
 varying vec3 v_normal;
 varying vec3 v_light0Position;
@@ -22,9 +21,6 @@ void main(void) {
     vec3 ambient = u_ambient.rgb;
     vec3 viewDir = -normalize(v_position);
     vec3 ambientLight = vec3(0.0, 0.0, 0.0);
-    {
-        ambientLight += u_light2Color;
-    }
     {
     vec3 VP = v_light0Position - v_position;
     vec3 l = normalize(VP);
@@ -45,6 +41,7 @@ void main(void) {
     float specularIntensity = max(0., pow(max(dot(reflectDir, viewDir), 0.), u_shininess)) * attenuation;
     specularLight += u_light1Color * specularIntensity;
     }
+    ambientLight += vec3(0.2, 0.2, 0.2);
     vec3 color = vec3(0.0, 0.0, 0.0);
     color += diffuse.rgb * diffuseLight;
     color += specular * specularLight;

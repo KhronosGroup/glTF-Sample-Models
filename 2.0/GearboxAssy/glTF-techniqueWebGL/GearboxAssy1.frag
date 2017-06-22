@@ -7,11 +7,10 @@ uniform float u_shininess;
 uniform float u_transparency;
 uniform vec3 u_light0Color;
 uniform vec3 u_light1Color;
-uniform vec3 u_light2Color;
 varying vec3 v_position;
 varying vec3 v_normal;
+varying vec3 v_light0Direction;
 varying vec3 v_light1Direction;
-varying vec3 v_light2Direction;
 void main(void) {
     vec3 normal = normalize(v_normal);
     vec4 diffuse = u_diffuse;
@@ -23,7 +22,12 @@ void main(void) {
     vec3 viewDir = -normalize(v_position);
     vec3 ambientLight = vec3(0.0, 0.0, 0.0);
     {
-        ambientLight += u_light0Color;
+    vec3 l = normalize(v_light0Direction);
+    float attenuation = 1.0;
+    diffuseLight += u_light0Color * max(dot(normal, l), 0.) * attenuation;
+    vec3 reflectDir = reflect(-l, normal);
+    float specularIntensity = max(0., pow(max(dot(reflectDir, viewDir), 0.), u_shininess)) * attenuation;
+    specularLight += u_light0Color * specularIntensity;
     }
     {
     vec3 l = normalize(v_light1Direction);
@@ -33,14 +37,7 @@ void main(void) {
     float specularIntensity = max(0., pow(max(dot(reflectDir, viewDir), 0.), u_shininess)) * attenuation;
     specularLight += u_light1Color * specularIntensity;
     }
-    {
-    vec3 l = normalize(v_light2Direction);
-    float attenuation = 1.0;
-    diffuseLight += u_light2Color * max(dot(normal, l), 0.) * attenuation;
-    vec3 reflectDir = reflect(-l, normal);
-    float specularIntensity = max(0., pow(max(dot(reflectDir, viewDir), 0.), u_shininess)) * attenuation;
-    specularLight += u_light2Color * specularIntensity;
-    }
+    ambientLight += vec3(0.2, 0.2, 0.2);
     vec3 color = vec3(0.0, 0.0, 0.0);
     color += diffuse.rgb * diffuseLight;
     color += specular * specularLight;
