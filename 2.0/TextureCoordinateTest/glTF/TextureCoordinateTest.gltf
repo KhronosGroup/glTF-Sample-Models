@@ -1,0 +1,585 @@
+{
+    "asset": {
+        "copyright": "Copyright 2017 Analytical Graphics, Inc., CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/ - Mesh and textures by Ed Mackey.",
+        "generator": "COLLADA2GLTF with hand-edits",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "children": [
+                5,
+                4,
+                3,
+                2,
+                1
+            ],
+            "name": "RootNode"
+        },
+        {
+            "mesh": 0,
+            "name": "BackPlaneNode"
+        },
+        {
+            "mesh": 1,
+            "name": "BottomRightNode"
+        },
+        {
+            "mesh": 2,
+            "name": "BottomLeftNode"
+        },
+        {
+            "mesh": 3,
+            "name": "TopRightNode"
+        },
+        {
+            "mesh": 4,
+            "name": "TopLeftNode"
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ],
+            "name": "BackPlaneMesh"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 3,
+                    "mode": 4,
+                    "material": 1
+                }
+            ],
+            "name": "BottomRightMesh"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 8,
+                        "POSITION": 9,
+                        "TEXCOORD_0": 10
+                    },
+                    "indices": 7,
+                    "mode": 4,
+                    "material": 2
+                }
+            ],
+            "name": "BottomLeftMesh"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 12,
+                        "POSITION": 13,
+                        "TEXCOORD_0": 14
+                    },
+                    "indices": 11,
+                    "mode": 4,
+                    "material": 3
+                }
+            ],
+            "name": "TopRightMesh"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 17,
+                        "TEXCOORD_0": 18
+                    },
+                    "indices": 15,
+                    "mode": 4,
+                    "material": 4
+                }
+            ],
+            "name": "TopLeftMesh"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 48,
+            "componentType": 5123,
+            "count": 6,
+            "max": [
+                3
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR",
+            "name": "BackPlane_indices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 384,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "type": "VEC3",
+            "name": "BackPlane_NORMAL"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 432,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                1.0,
+                1.0,
+                0.05259101837873459
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                0.05259101837873459
+            ],
+            "type": "VEC3",
+            "name": "BackPlane_POSITION"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 24,
+            "componentType": 5123,
+            "count": 6,
+            "max": [
+                3
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR",
+            "name": "BottomRight_indices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 288,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                1.7806999608183108e-7,
+                2.098569922281968e-7,
+                -1.0
+            ],
+            "min": [
+                1.7806999608183108e-7,
+                2.098569922281968e-7,
+                -1.0
+            ],
+            "type": "VEC3",
+            "name": "BottomRight_NORMAL"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 336,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                -0.2000001072883606,
+                -0.19999980926513676,
+                0.0
+            ],
+            "min": [
+                -1.200000047683716,
+                -1.200000047683716,
+                -4.3491399992490189e-7
+            ],
+            "type": "VEC3",
+            "name": "BottomRight_POSITION"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 96,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                0.9999999403953552,
+                1.0
+            ],
+            "min": [
+                0.6000000834465027,
+                0.5999999046325684
+            ],
+            "type": "VEC2",
+            "name": "BottomRight_TEXCOORD_0"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 36,
+            "componentType": 5123,
+            "count": 6,
+            "max": [
+                3
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR",
+            "name": "BottomLeft_indices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                0.0,
+                3.879270025208825e-7,
+                -1.0
+            ],
+            "min": [
+                0.0,
+                3.879270025208825e-7,
+                -1.0
+            ],
+            "type": "VEC3",
+            "name": "BottomLeft_NORMAL"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 48,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                1.200000047683716,
+                -0.20000000298023225,
+                0.0
+            ],
+            "min": [
+                0.19999980926513676,
+                -1.200000047683716,
+                -4.3491399992490189e-7
+            ],
+            "type": "VEC3",
+            "name": "BottomLeft_POSITION"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                0.4000000953674317,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.6000000834465027
+            ],
+            "type": "VEC2",
+            "name": "BottomLeft_TEXCOORD_0"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 12,
+            "componentType": 5123,
+            "count": 6,
+            "max": [
+                3
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR",
+            "name": "TopRight_indices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 192,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                0.0,
+                0.0,
+                -1.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                -1.0
+            ],
+            "type": "VEC3",
+            "name": "TopRight_NORMAL"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 240,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                -0.19999989867210389,
+                1.200000047683716,
+                0.0
+            ],
+            "min": [
+                -1.200000047683716,
+                0.20000000298023225,
+                0.0
+            ],
+            "type": "VEC3",
+            "name": "TopRight_POSITION"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 64,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                1.0,
+                0.3999999761581421
+            ],
+            "min": [
+                0.6000000238418579,
+                0.0
+            ],
+            "type": "VEC2",
+            "name": "TopRight_TEXCOORD_0"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 6,
+            "max": [
+                3
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR",
+            "name": "TopLeft_indices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 96,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                -1.7806999608183108e-7,
+                2.098569922281968e-7,
+                -1.0
+            ],
+            "min": [
+                -1.7806999608183108e-7,
+                2.098569922281968e-7,
+                -1.0
+            ],
+            "type": "VEC3",
+            "name": "TopLeft_NORMAL"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 144,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                1.200000047683716,
+                1.200000047683716,
+                2.468119930654211e-7
+            ],
+            "min": [
+                0.20000000298023225,
+                0.19999989867210389,
+                -1.411149952446067e-7
+            ],
+            "type": "VEC3",
+            "name": "TopLeft_POSITION"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 32,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                0.3999999165534973,
+                0.3999999761581421
+            ],
+            "min": [
+                0.0,
+                0.0
+            ],
+            "type": "VEC2",
+            "name": "TopLeft_TEXCOORD_0"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                ]
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "doubleSided": true,
+            "name": "BackPlaneMaterial"
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "baseColorFactor": [
+                    0,
+                    1,
+                    0,
+                    1
+                ]
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "doubleSided": true,
+            "name": "BottomRightMaterial"
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "baseColorFactor": [
+                    0,
+                    0.2,
+                    1,
+                    1
+                ]
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "doubleSided": true,
+            "name": "BottomLeftMaterial"
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "baseColorFactor": [
+                    1,
+                    0.1,
+                    0,
+                    1
+                ]
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "doubleSided": true,
+            "name": "TopRightMaterial"
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "baseColorFactor": [
+                    1,
+                    1,
+                    0,
+                    1
+                ]
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "doubleSided": true,
+            "name": "TopLeftMaterial"
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "images": [
+        {
+            "uri": "TextureCoordinateTemplate.png"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9986,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 608,
+            "byteLength": 60,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 480,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 480,
+            "byteLength": 128,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 668,
+            "uri": "TextureCoordinateTest0.bin"
+        }
+    ]
+}
