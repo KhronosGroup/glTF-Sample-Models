@@ -1,0 +1,368 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0, 
+            "componentType" : 5121, 
+            "count" : 420, 
+            "max" : [
+                119
+            ], 
+            "min" : [
+                0
+            ], 
+            "type" : "SCALAR"
+        }, 
+        {
+            "bufferView" : 1, 
+            "componentType" : 5126, 
+            "count" : 120, 
+            "max" : [
+                2.5, 
+                0.5, 
+                2.5
+            ], 
+            "min" : [
+                -2.5, 
+                -0.5, 
+                -2.5
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 2, 
+            "componentType" : 5126, 
+            "count" : 120, 
+            "max" : [
+                1.0, 
+                1.0, 
+                1.0
+            ], 
+            "min" : [
+                -1.0, 
+                -1.0, 
+                -1.0
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 3, 
+            "componentType" : 5126, 
+            "count" : 120, 
+            "max" : [
+                1.0, 
+                1.0, 
+                1.0, 
+                1.0
+            ], 
+            "min" : [
+                -0.0, 
+                -0.0, 
+                -1.0, 
+                1.0
+            ], 
+            "type" : "VEC4"
+        }, 
+        {
+            "bufferView" : 4, 
+            "componentType" : 5126, 
+            "count" : 120, 
+            "max" : [
+                0.9471389651298523, 
+                0.9980080632958561
+            ], 
+            "min" : [
+                0.001890405430458486, 
+                0.0019919276237487793
+            ], 
+            "type" : "VEC2"
+        }
+    ], 
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter", 
+        "version" : "2.0"
+    }, 
+    "bufferViews" : [
+        {
+            "buffer" : 0, 
+            "byteLength" : 420, 
+            "byteOffset" : 0, 
+            "target" : 34963
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 1440, 
+            "byteOffset" : 420, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 1440, 
+            "byteOffset" : 1860, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 1920, 
+            "byteOffset" : 3300, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 960, 
+            "byteOffset" : 5220, 
+            "target" : 34962
+        }
+    ], 
+    "buffers" : [
+        {
+            "byteLength" : 6180, 
+            "uri" : "CameraTest.bin"
+        }
+    ], 
+    "cameras" : [
+        {
+            "name" : "camera1_cam", 
+            "orthographic" : {
+                "xmag" : 3.0, 
+                "ymag" : 3.0, 
+                "zfar" : 100.0, 
+                "znear" : 0.0010000000474974513
+            }, 
+            "type" : "orthographic"
+        }, 
+        {
+            "name" : "camera2_cam", 
+            "perspective" : {
+                "aspectRatio" : 1.0, 
+                "yfov" : 0.6606064438819885, 
+                "zfar" : 100.0, 
+                "znear" : 0.0010000000474974513
+            }, 
+            "type" : "perspective"
+        }
+    ], 
+    "extensions" : {
+        "KHR_lights" : {
+            "lights" : [
+                {
+                    "color" : [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ], 
+                    "name" : "lamp1_light", 
+                    "quadraticAttenuation" : 0.03333333333333333, 
+                    "type" : "point"
+                }, 
+                {
+                    "color" : [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ], 
+                    "name" : "lamp2_light", 
+                    "quadraticAttenuation" : 0.03333333333333333, 
+                    "type" : "point"
+                }, 
+                {
+                    "color" : [
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "name" : "Ambient_Scene", 
+                    "type" : "ambient"
+                }
+            ]
+        }
+    }, 
+    "extensionsRequired" : [
+        "KHR_lights"
+    ], 
+    "extensionsUsed" : [
+        "KHR_lights"
+    ], 
+    "images" : [
+        {
+            "uri" : "camera_test.png"
+        }
+    ], 
+    "materials" : [
+        {
+            "name" : "material1", 
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                }, 
+                "metallicFactor" : 0.0
+            }
+        }
+    ], 
+    "meshes" : [
+        {
+            "name" : "cube1_mesh", 
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2, 
+                        "POSITION" : 1, 
+                        "TANGENT" : 3, 
+                        "TEXCOORD_0" : 4
+                    }, 
+                    "indices" : 0, 
+                    "material" : 0
+                }
+            ]
+        }
+    ], 
+    "nodes" : [
+        {
+            "camera" : 0, 
+            "name" : "Correction_camera1", 
+            "rotation" : [
+                -0.7071067690849304, 
+                -0.0, 
+                0.0, 
+                0.7071067690849304
+            ]
+        }, 
+        {
+            "children" : [
+                0
+            ], 
+            "name" : "camera1", 
+            "translation" : [
+                0.0, 
+                4.800000190734863, 
+                -0.0
+            ]
+        }, 
+        {
+            "camera" : 1, 
+            "name" : "Correction_camera2", 
+            "rotation" : [
+                -0.7071067690849304, 
+                -0.0, 
+                0.0, 
+                0.7071067690849304
+            ]
+        }, 
+        {
+            "children" : [
+                2
+            ], 
+            "name" : "camera2", 
+            "rotation" : [
+                0.0, 
+                0.0, 
+                -1.0, 
+                -4.371138828673793e-08
+            ], 
+            "translation" : [
+                0.0, 
+                -4.800000190734863, 
+                -0.0
+            ]
+        }, 
+        {
+            "mesh" : 0, 
+            "name" : "cube1"
+        }, 
+        {
+            "mesh" : 0, 
+            "name" : "cube1.001"
+        }, 
+        {
+            "mesh" : 0, 
+            "name" : "cube1.002"
+        }, 
+        {
+            "extensions" : {
+                "KHR_lights" : {
+                    "light" : 0
+                }
+            }, 
+            "name" : "Correction_lamp1", 
+            "rotation" : [
+                -0.7071067690849304, 
+                -0.0, 
+                0.0, 
+                0.7071067690849304
+            ]
+        }, 
+        {
+            "children" : [
+                7
+            ], 
+            "name" : "lamp1", 
+            "translation" : [
+                0.0, 
+                -10.0, 
+                -0.0
+            ]
+        }, 
+        {
+            "extensions" : {
+                "KHR_lights" : {
+                    "light" : 1
+                }
+            }, 
+            "name" : "Correction_lamp2", 
+            "rotation" : [
+                -0.7071067690849304, 
+                -0.0, 
+                0.0, 
+                0.7071067690849304
+            ]
+        }, 
+        {
+            "children" : [
+                9
+            ], 
+            "name" : "lamp2", 
+            "rotation" : [
+                0.16907575726509094, 
+                0.7558802962303162, 
+                -0.27217137813568115, 
+                0.570947527885437
+            ], 
+            "scale" : [
+                1.0, 
+                1.0, 
+                0.9999999403953552
+            ], 
+            "translation" : [
+                0.0, 
+                10.0, 
+                -0.0
+            ]
+        }
+    ], 
+    "samplers" : [
+        {}
+    ], 
+    "scene" : 0, 
+    "scenes" : [
+        {
+            "extensions" : {
+                "KHR_lights" : {
+                    "light" : 2
+                }
+            }, 
+            "name" : "Scene", 
+            "nodes" : [
+                10, 
+                4, 
+                3, 
+                1, 
+                8
+            ]
+        }
+    ], 
+    "textures" : [
+        {
+            "sampler" : 0, 
+            "source" : 0
+        }
+    ]
+}
