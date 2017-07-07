@@ -1,4 +1,9 @@
 # Avocado
+
+## Details
+
+Contains a textured box and two cameras. Cameras are `orthographic` and `perspective` respectively, configured to view green areas on either side of the box.
+
 ## Screenshot
 
 | Orthographic | Perspective |
