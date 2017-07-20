@@ -1,4 +1,4 @@
-# Avocado
+# Camera Test
 
 ## Details
 

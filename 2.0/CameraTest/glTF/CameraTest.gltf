@@ -55,8 +55,8 @@
                 1.0
             ], 
             "min" : [
-                -0.0, 
-                -0.0, 
+                0.0, 
+                0.0, 
                 -1.0, 
                 1.0
             ], 
@@ -134,53 +134,12 @@
             "name" : "camera2_cam", 
             "perspective" : {
                 "aspectRatio" : 1.0, 
-                "yfov" : 0.6606064438819885, 
+                "yfov" : 0.6606064438819884, 
                 "zfar" : 100.0, 
                 "znear" : 0.0010000000474974513
             }, 
             "type" : "perspective"
         }
-    ], 
-    "extensions" : {
-        "KHR_lights" : {
-            "lights" : [
-                {
-                    "color" : [
-                        1.0, 
-                        1.0, 
-                        1.0
-                    ], 
-                    "name" : "lamp1_light", 
-                    "quadraticAttenuation" : 0.03333333333333333, 
-                    "type" : "point"
-                }, 
-                {
-                    "color" : [
-                        1.0, 
-                        1.0, 
-                        1.0
-                    ], 
-                    "name" : "lamp2_light", 
-                    "quadraticAttenuation" : 0.03333333333333333, 
-                    "type" : "point"
-                }, 
-                {
-                    "color" : [
-                        0.0, 
-                        0.0, 
-                        0.0
-                    ], 
-                    "name" : "Ambient_Scene", 
-                    "type" : "ambient"
-                }
-            ]
-        }
-    }, 
-    "extensionsRequired" : [
-        "KHR_lights"
-    ], 
-    "extensionsUsed" : [
-        "KHR_lights"
     ], 
     "images" : [
         {
@@ -269,31 +228,6 @@
             "name" : "cube1"
         }, 
         {
-            "mesh" : 0, 
-            "name" : "cube1.001"
-        }, 
-        {
-            "mesh" : 0, 
-            "name" : "cube1.002"
-        }, 
-        {
-            "extensions" : {
-                "KHR_lights" : {
-                    "light" : 0
-                }
-            }, 
-            "name" : "Correction_lamp1", 
-            "rotation" : [
-                -0.7071067690849304, 
-                -0.0, 
-                0.0, 
-                0.7071067690849304
-            ]
-        }, 
-        {
-            "children" : [
-                7
-            ], 
             "name" : "lamp1", 
             "translation" : [
                 0.0, 
@@ -302,23 +236,6 @@
             ]
         }, 
         {
-            "extensions" : {
-                "KHR_lights" : {
-                    "light" : 1
-                }
-            }, 
-            "name" : "Correction_lamp2", 
-            "rotation" : [
-                -0.7071067690849304, 
-                -0.0, 
-                0.0, 
-                0.7071067690849304
-            ]
-        }, 
-        {
-            "children" : [
-                9
-            ], 
             "name" : "lamp2", 
             "rotation" : [
                 0.16907575726509094, 
@@ -344,18 +261,13 @@
     "scene" : 0, 
     "scenes" : [
         {
-            "extensions" : {
-                "KHR_lights" : {
-                    "light" : 2
-                }
-            }, 
             "name" : "Scene", 
             "nodes" : [
-                10, 
+                6, 
                 4, 
                 3, 
                 1, 
-                8
+                5
             ]
         }
     ], 
