@@ -1,0 +1,403 @@
+[
+  {
+    "name": "2CylinderEngine", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "AnimatedCube", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF"
+    ]
+  }, 
+  {
+    "name": "AnimatedMorphCube", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary"
+    ]
+  }, 
+  {
+    "name": "AnimatedMorphSphere", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary"
+    ]
+  }, 
+  {
+    "name": "AnimatedTriangle", 
+    "screenshot": "screenshot/animation.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Embedded"
+    ]
+  }, 
+  {
+    "name": "Avocado", 
+    "screenshot": "screenshot/screenshot.jpg", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-pbrSpecularGlossiness"
+    ]
+  }, 
+  {
+    "name": "BarramundiFish", 
+    "screenshot": "screenshot/screenshot.jpg", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-pbrSpecularGlossiness"
+    ]
+  }, 
+  {
+    "name": "BoomBox", 
+    "screenshot": "screenshot/screenshot.jpg", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-pbrSpecularGlossiness"
+    ]
+  }, 
+  {
+    "name": "Box", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "BoxAnimated", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "BoxInterleaved", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "BoxTextured", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "BrainStem", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "Buggy", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "Cameras", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Embedded"
+    ]
+  }, 
+  {
+    "name": "CesiumMan", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "CesiumMilkTruck", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "Corset", 
+    "screenshot": "screenshot/screenshot.jpg", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-pbrSpecularGlossiness"
+    ]
+  }, 
+  {
+    "name": "Cube", 
+    "screenshot": "screenshot/screenshot.jpg", 
+    "variants": [
+      "glTF"
+    ]
+  }, 
+  {
+    "name": "DamagedHelmet", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Embedded"
+    ]
+  }, 
+  {
+    "name": "Duck", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "GearboxAssy", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "Lantern", 
+    "screenshot": "screenshot/screenshot.jpg", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-pbrSpecularGlossiness"
+    ]
+  }, 
+  {
+    "name": "MetalRoughSpheres", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Embedded"
+    ]
+  }, 
+  {
+    "name": "Monster", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "NormalTangentTest", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Embedded"
+    ]
+  }, 
+  {
+    "name": "ReciprocatingSaw", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "RiggedFigure", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "RiggedSimple", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "SciFiHelmet", 
+    "screenshot": "screenshot/screenshot.jpg", 
+    "variants": [
+      "glTF"
+    ]
+  }, 
+  {
+    "name": "SimpleMeshes", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Embedded"
+    ]
+  }, 
+  {
+    "name": "SmilingFace", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "Suzanne", 
+    "screenshot": "screenshot/screenshot.jpg", 
+    "variants": [
+      "glTF"
+    ]
+  }, 
+  {
+    "name": "TextureCoordinateTest", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Embedded"
+    ]
+  }, 
+  {
+    "name": "TextureSettingsTest", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Embedded"
+    ]
+  }, 
+  {
+    "name": "Triangle", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Embedded"
+    ]
+  }, 
+  {
+    "name": "TriangleWithoutIndices", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Embedded"
+    ]
+  }, 
+  {
+    "name": "TwoSidedPlane", 
+    "screenshot": "screenshot/screenshot.jpg", 
+    "variants": [
+      "glTF"
+    ]
+  }, 
+  {
+    "name": "VC", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "WalkingLady", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon", 
+      "glTF-pbrSpecularGlossiness", 
+      "glTF-techniqueWebGL"
+    ]
+  }, 
+  {
+    "name": "WaterBottle", 
+    "screenshot": "screenshot/screenshot.jpg", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-pbrSpecularGlossiness"
+    ]
+  }
+]

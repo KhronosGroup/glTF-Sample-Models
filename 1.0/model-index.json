@@ -1,0 +1,209 @@
+[
+  {
+    "name": "2CylinderEngine", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "Avocado", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded"
+    ]
+  }, 
+  {
+    "name": "BarramundiFish", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded"
+    ]
+  }, 
+  {
+    "name": "Box", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "BoxAnimated", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "BoxSemantics", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "BoxTextured", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "BoxWithoutIndices", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "BrainStem", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "Buggy", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "CesiumMan", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "CesiumMilkTruck", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "Duck", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "GearboxAssy", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "Monster", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "ReciprocatingSaw", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "RiggedFigure", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "RiggedSimple", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "SmilingFace", 
+    "screenshot": "screenshot/screenshot.png", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded"
+    ]
+  }, 
+  {
+    "name": "VC", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }, 
+  {
+    "name": "WalkingLady", 
+    "screenshot": "screenshot/screenshot.gif", 
+    "variants": [
+      "glTF", 
+      "glTF-Binary", 
+      "glTF-Embedded", 
+      "glTF-MaterialsCommon"
+    ]
+  }
+]
