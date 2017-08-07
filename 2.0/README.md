@@ -36,15 +36,16 @@
 
 ## PBR models
 
-| Model                             | Screenshot                                       | Normal Map         | Occlusion Map      | Emissive Map       |
-|-----------------------------------|:------------------------------------------------:|:------------------:|:------------------:|:------------------:|
-| [Avocado](Avocado)                | ![](Avocado/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: |                    |
-| [Barramundi Fish](BarramundiFish) | ![](BarramundiFish/screenshot/screenshot.jpg)    | :white_check_mark: | :white_check_mark: |                    |
-| [Boom Box](BoomBox)               | ![](BoomBox/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [Corset](Corset)                  | ![](Corset/screenshot/screenshot.jpg)            | :white_check_mark: | :white_check_mark: |                    |
-| [Lantern](Lantern)                | ![](Lantern/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [MetalRoughSpheres](MetalRoughSpheres)  | ![](MetalRoughSpheres/screenshot/screenshot.png)   |                    |                    |                    |
-| [NormalTangentTest](NormalTangentTest)  | ![](NormalTangentTest/screenshot/screenshot.png)   | :white_check_mark: |                    |                    |
+| Model                                         | Screenshot                                       | Normal Map         | Occlusion Map      | Emissive Map       |
+|-----------------------------------------------|:------------------------------------------------:|:------------------:|:------------------:|:------------------:|
+| [Avocado](Avocado)                            | ![](Avocado/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: |                    |
+| [Barramundi Fish](BarramundiFish)             | ![](BarramundiFish/screenshot/screenshot.jpg)    | :white_check_mark: | :white_check_mark: |                    |
+| [Boom Box](BoomBox)                           | ![](BoomBox/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [Corset](Corset)                              | ![](Corset/screenshot/screenshot.jpg)            | :white_check_mark: | :white_check_mark: |                    |
+| [Lantern](Lantern)                            | ![](Lantern/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [WaterBottle](WaterBottle)                    | ![](WaterBottle/screenshot/screenshot.jpg)       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [MetalRoughSpheres](MetalRoughSpheres)        | ![](MetalRoughSpheres/screenshot/screenshot.png) |                    |                    |                    |
+| [NormalTangentTest](NormalTangentTest)        | ![](NormalTangentTest/screenshot/screenshot.png) | :white_check_mark: |                    |                    |
 
 ## Further PBR models
 
