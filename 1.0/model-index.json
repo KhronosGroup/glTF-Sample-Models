@@ -2,208 +2,208 @@
   {
     "name": "2CylinderEngine", 
     "screenshot": "screenshot/screenshot.png", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "2CylinderEngine.gltf", 
+      "glTF-Binary": "2CylinderEngine.glb", 
+      "glTF-Embedded": "2CylinderEngine.gltf", 
+      "glTF-MaterialsCommon": "2CylinderEngine.gltf"
+    }
   }, 
   {
     "name": "Avocado", 
     "screenshot": "screenshot/screenshot.png", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded"
-    ]
+    "variants": {
+      "glTF": "Avocado.gltf", 
+      "glTF-Binary": "Avocado.glb", 
+      "glTF-Embedded": "Avocado.gltf"
+    }
   }, 
   {
     "name": "BarramundiFish", 
     "screenshot": "screenshot/screenshot.png", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded"
-    ]
+    "variants": {
+      "glTF": "BarramundiFish.gltf", 
+      "glTF-Binary": "BarramundiFish.glb", 
+      "glTF-Embedded": "BarramundiFish.gltf"
+    }
   }, 
   {
     "name": "Box", 
     "screenshot": "screenshot/screenshot.png", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "Box.gltf", 
+      "glTF-Binary": "Box.glb", 
+      "glTF-Embedded": "Box.gltf", 
+      "glTF-MaterialsCommon": "Box.gltf"
+    }
   }, 
   {
     "name": "BoxAnimated", 
     "screenshot": "screenshot/screenshot.gif", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "BoxAnimated.gltf", 
+      "glTF-Binary": "BoxAnimated.glb", 
+      "glTF-Embedded": "BoxAnimated.gltf", 
+      "glTF-MaterialsCommon": "BoxAnimated.gltf"
+    }
   }, 
   {
     "name": "BoxSemantics", 
     "screenshot": "screenshot/screenshot.png", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "BoxSemantics.gltf", 
+      "glTF-Binary": "BoxSemantics.glb", 
+      "glTF-Embedded": "BoxSemantics.gltf", 
+      "glTF-MaterialsCommon": "BoxSemantics.gltf"
+    }
   }, 
   {
     "name": "BoxTextured", 
     "screenshot": "screenshot/screenshot.png", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "BoxTextured.gltf", 
+      "glTF-Binary": "BoxTextured.glb", 
+      "glTF-Embedded": "BoxTextured.gltf", 
+      "glTF-MaterialsCommon": "BoxTextured.gltf"
+    }
   }, 
   {
     "name": "BoxWithoutIndices", 
     "screenshot": "screenshot/screenshot.png", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "BoxWithoutIndices.gltf", 
+      "glTF-Binary": "BoxWithoutIndices.glb", 
+      "glTF-Embedded": "BoxWithoutIndices.gltf", 
+      "glTF-MaterialsCommon": "BoxWithoutIndices.gltf"
+    }
   }, 
   {
     "name": "BrainStem", 
     "screenshot": "screenshot/screenshot.gif", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "BrainStem.gltf", 
+      "glTF-Binary": "BrainStem.glb", 
+      "glTF-Embedded": "BrainStem.gltf", 
+      "glTF-MaterialsCommon": "BrainStem.gltf"
+    }
   }, 
   {
     "name": "Buggy", 
     "screenshot": "screenshot/screenshot.png", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "Buggy.gltf", 
+      "glTF-Binary": "Buggy.glb", 
+      "glTF-Embedded": "buggy.gltf", 
+      "glTF-MaterialsCommon": "Buggy.gltf"
+    }
   }, 
   {
     "name": "CesiumMan", 
     "screenshot": "screenshot/screenshot.gif", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "CesiumMan.gltf", 
+      "glTF-Binary": "CesiumMan.glb", 
+      "glTF-Embedded": "CesiumMan.gltf", 
+      "glTF-MaterialsCommon": "CesiumMan.gltf"
+    }
   }, 
   {
     "name": "CesiumMilkTruck", 
     "screenshot": "screenshot/screenshot.gif", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "CesiumMilkTruck.gltf", 
+      "glTF-Binary": "CesiumMilkTruck.glb", 
+      "glTF-Embedded": "CesiumMilkTruck.gltf", 
+      "glTF-MaterialsCommon": "CesiumMilkTruck.gltf"
+    }
   }, 
   {
     "name": "Duck", 
     "screenshot": "screenshot/screenshot.png", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "Duck.gltf", 
+      "glTF-Binary": "Duck.glb", 
+      "glTF-Embedded": "Duck.gltf", 
+      "glTF-MaterialsCommon": "Duck.gltf"
+    }
   }, 
   {
     "name": "GearboxAssy", 
     "screenshot": "screenshot/screenshot.png", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "GearboxAssy.gltf", 
+      "glTF-Binary": "GearboxAssy.glb", 
+      "glTF-Embedded": "GearboxAssy.gltf", 
+      "glTF-MaterialsCommon": "GearboxAssy.gltf"
+    }
   }, 
   {
     "name": "Monster", 
     "screenshot": "screenshot/screenshot.gif", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "Monster.gltf", 
+      "glTF-Binary": "Monster.glb", 
+      "glTF-Embedded": "Monster.gltf", 
+      "glTF-MaterialsCommon": "Monster.gltf"
+    }
   }, 
   {
     "name": "ReciprocatingSaw", 
     "screenshot": "screenshot/screenshot.png", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "ReciprocatingSaw.gltf", 
+      "glTF-Binary": "ReciprocatingSaw.glb", 
+      "glTF-Embedded": "ReciprocatingSaw.gltf", 
+      "glTF-MaterialsCommon": "ReciprocatingSaw.gltf"
+    }
   }, 
   {
     "name": "RiggedFigure", 
     "screenshot": "screenshot/screenshot.gif", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "RiggedFigure.gltf", 
+      "glTF-Binary": "RiggedFigure.glb", 
+      "glTF-Embedded": "RiggedFigure.gltf", 
+      "glTF-MaterialsCommon": "RiggedFigure.gltf"
+    }
   }, 
   {
     "name": "RiggedSimple", 
     "screenshot": "screenshot/screenshot.gif", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "RiggedSimple.gltf", 
+      "glTF-Binary": "RiggedSimple.glb", 
+      "glTF-Embedded": "RiggedSimple.gltf", 
+      "glTF-MaterialsCommon": "RiggedSimple.gltf"
+    }
   }, 
   {
     "name": "SmilingFace", 
     "screenshot": "screenshot/screenshot.png", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded"
-    ]
+    "variants": {
+      "glTF": "SmilingFace.gltf", 
+      "glTF-Binary": "SmilingFace.glb", 
+      "glTF-Embedded": "SmilingFace.gltf"
+    }
   }, 
   {
     "name": "VC", 
     "screenshot": "screenshot/screenshot.gif", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "VC.gltf", 
+      "glTF-Binary": "VC.glb", 
+      "glTF-Embedded": "VC.gltf", 
+      "glTF-MaterialsCommon": "VC.gltf"
+    }
   }, 
   {
     "name": "WalkingLady", 
     "screenshot": "screenshot/screenshot.gif", 
-    "variants": [
-      "glTF", 
-      "glTF-Binary", 
-      "glTF-Embedded", 
-      "glTF-MaterialsCommon"
-    ]
+    "variants": {
+      "glTF": "WalkingLady.gltf", 
+      "glTF-Binary": "WalkingLady.glb", 
+      "glTF-Embedded": "WalkingLady.gltf", 
+      "glTF-MaterialsCommon": "WalkingLady.gltf"
+    }
   }
 ]
