@@ -119,7 +119,6 @@
                         "KHR_draco_mesh_compression": {
                             "bufferView": 1,
                             "attributes": {
-                                "TEXCOORD_0": 2,
                                 "NORMAL": 0,
                                 "POSITION": 1
                             }
@@ -138,7 +137,6 @@
                         "KHR_draco_mesh_compression": {
                             "bufferView": 2,
                             "attributes": {
-                                "TEXCOORD_0": 2,
                                 "NORMAL": 0,
                                 "POSITION": 1
                             }
@@ -214,7 +212,6 @@
     ],
     "accessors": [
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 5232,
             "max": [
@@ -226,7 +223,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1856,
             "max": [
@@ -242,7 +238,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1856,
             "max": [
@@ -258,7 +253,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1856,
             "max": [
@@ -272,7 +266,6 @@
             "type": "VEC2"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 168,
             "max": [
@@ -284,7 +277,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 72,
             "max": [
@@ -300,7 +292,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 72,
             "max": [
@@ -316,7 +307,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 864,
             "max": [
@@ -328,7 +318,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 464,
             "max": [
@@ -344,7 +333,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 464,
             "max": [
@@ -360,7 +348,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2304,
             "max": [
@@ -372,7 +359,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 586,
             "max": [
@@ -388,7 +374,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 586,
             "max": [
@@ -404,7 +389,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 586,
             "max": [
@@ -558,16 +542,16 @@
         {
             "buffer": 0,
             "byteOffset": 10851,
-            "byteLength": 574
+            "byteLength": 406
         },
         {
             "buffer": 0,
-            "byteOffset": 11425,
-            "byteLength": 2404
+            "byteOffset": 11257,
+            "byteLength": 1783
         },
         {
             "buffer": 0,
-            "byteOffset": 13829,
+            "byteOffset": 13040,
             "byteLength": 2985
         },
         {
@@ -583,7 +567,7 @@
     ],
     "buffers": [
         {
-            "byteLength": 16814,
+            "byteLength": 16025,
             "uri": "CesiumMilkTruck0.bin"
         }
     ],

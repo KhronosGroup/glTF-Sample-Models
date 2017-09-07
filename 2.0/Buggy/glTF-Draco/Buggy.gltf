@@ -7652,7 +7652,6 @@
     ],
     "accessors": [
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 14028,
             "max": [
@@ -7664,7 +7663,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3454,
             "max": [
@@ -7680,7 +7678,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3454,
             "max": [
@@ -7696,7 +7693,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 5985,
             "max": [
@@ -7708,7 +7704,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1408,
             "max": [
@@ -7724,7 +7719,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1408,
             "max": [
@@ -7740,7 +7734,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 14268,
             "max": [
@@ -7752,7 +7745,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2980,
             "max": [
@@ -7768,7 +7760,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2980,
             "max": [
@@ -7784,7 +7775,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 14028,
             "max": [
@@ -7796,7 +7786,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3454,
             "max": [
@@ -7812,7 +7801,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3454,
             "max": [
@@ -7828,7 +7816,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 14268,
             "max": [
@@ -7840,7 +7827,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2980,
             "max": [
@@ -7856,7 +7842,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2980,
             "max": [
@@ -7872,7 +7857,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 8202,
             "max": [
@@ -7884,7 +7868,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2280,
             "max": [
@@ -7900,7 +7883,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2280,
             "max": [
@@ -7916,7 +7898,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7974,
             "max": [
@@ -7928,7 +7909,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2618,
             "max": [
@@ -7944,7 +7924,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2618,
             "max": [
@@ -7960,7 +7939,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 4149,
             "max": [
@@ -7972,7 +7950,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1184,
             "max": [
@@ -7988,7 +7965,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1184,
             "max": [
@@ -8004,7 +7980,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 8202,
             "max": [
@@ -8016,7 +7991,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2280,
             "max": [
@@ -8032,7 +8006,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2280,
             "max": [
@@ -8048,7 +8021,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7974,
             "max": [
@@ -8060,7 +8032,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2618,
             "max": [
@@ -8076,7 +8047,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2618,
             "max": [
@@ -8092,7 +8062,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 4149,
             "max": [
@@ -8104,7 +8073,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1184,
             "max": [
@@ -8120,7 +8088,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1184,
             "max": [
@@ -8136,7 +8103,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 30,
             "max": [
@@ -8148,7 +8114,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 20,
             "max": [
@@ -8164,7 +8129,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 20,
             "max": [
@@ -8180,7 +8144,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 9612,
             "max": [
@@ -8192,7 +8155,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2103,
             "max": [
@@ -8208,7 +8170,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2103,
             "max": [
@@ -8224,7 +8185,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 12,
             "max": [
@@ -8236,7 +8196,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 8,
             "max": [
@@ -8252,7 +8211,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 8,
             "max": [
@@ -8268,7 +8226,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6123,
             "max": [
@@ -8280,7 +8237,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2068,
             "max": [
@@ -8296,7 +8252,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2068,
             "max": [
@@ -8312,7 +8267,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1062,
             "max": [
@@ -8324,7 +8278,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 364,
             "max": [
@@ -8340,7 +8293,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 364,
             "max": [
@@ -8356,7 +8308,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7758,
             "max": [
@@ -8368,7 +8319,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2652,
             "max": [
@@ -8384,7 +8334,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2652,
             "max": [
@@ -8400,7 +8349,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1062,
             "max": [
@@ -8412,7 +8360,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 364,
             "max": [
@@ -8428,7 +8375,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 364,
             "max": [
@@ -8444,7 +8390,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7758,
             "max": [
@@ -8456,7 +8401,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2652,
             "max": [
@@ -8472,7 +8416,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2652,
             "max": [
@@ -8488,7 +8431,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6,
             "max": [
@@ -8500,7 +8442,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4,
             "max": [
@@ -8516,7 +8457,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4,
             "max": [
@@ -8532,7 +8472,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 8196,
             "max": [
@@ -8544,7 +8483,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1769,
             "max": [
@@ -8560,7 +8498,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1769,
             "max": [
@@ -8576,7 +8513,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 10092,
             "max": [
@@ -8588,7 +8524,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1805,
             "max": [
@@ -8604,7 +8539,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1805,
             "max": [
@@ -8620,7 +8554,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 11625,
             "max": [
@@ -8632,7 +8565,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2341,
             "max": [
@@ -8648,7 +8580,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2341,
             "max": [
@@ -8664,7 +8595,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 204,
             "max": [
@@ -8676,7 +8606,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 72,
             "max": [
@@ -8692,7 +8621,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 72,
             "max": [
@@ -8708,7 +8636,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 14178,
             "max": [
@@ -8720,7 +8647,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2775,
             "max": [
@@ -8736,7 +8662,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2775,
             "max": [
@@ -8752,7 +8677,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1938,
             "max": [
@@ -8764,7 +8688,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 541,
             "max": [
@@ -8780,7 +8703,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 541,
             "max": [
@@ -8796,7 +8718,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1641,
             "max": [
@@ -8808,7 +8729,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 468,
             "max": [
@@ -8824,7 +8744,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 468,
             "max": [
@@ -8840,7 +8759,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 5919,
             "max": [
@@ -8852,7 +8770,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1209,
             "max": [
@@ -8868,7 +8785,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1209,
             "max": [
@@ -8884,7 +8800,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1851,
             "max": [
@@ -8896,7 +8811,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 360,
             "max": [
@@ -8912,7 +8826,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 360,
             "max": [
@@ -8928,7 +8841,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 8514,
             "max": [
@@ -8940,7 +8852,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1691,
             "max": [
@@ -8956,7 +8867,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1691,
             "max": [
@@ -8972,7 +8882,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 840,
             "max": [
@@ -8984,7 +8893,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 280,
             "max": [
@@ -9000,7 +8908,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 280,
             "max": [
@@ -9016,7 +8923,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7266,
             "max": [
@@ -9028,7 +8934,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1359,
             "max": [
@@ -9044,7 +8949,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1359,
             "max": [
@@ -9060,7 +8964,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 840,
             "max": [
@@ -9072,7 +8975,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 280,
             "max": [
@@ -9088,7 +8990,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 280,
             "max": [
@@ -9104,7 +9005,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7266,
             "max": [
@@ -9116,7 +9016,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1359,
             "max": [
@@ -9132,7 +9031,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1359,
             "max": [
@@ -9148,7 +9046,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 5919,
             "max": [
@@ -9160,7 +9057,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1209,
             "max": [
@@ -9176,7 +9072,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1209,
             "max": [
@@ -9192,7 +9087,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7272,
             "max": [
@@ -9204,7 +9098,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2074,
             "max": [
@@ -9220,7 +9113,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2074,
             "max": [
@@ -9236,7 +9128,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 3969,
             "max": [
@@ -9248,7 +9139,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 933,
             "max": [
@@ -9264,7 +9154,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 933,
             "max": [
@@ -9280,7 +9169,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 15531,
             "max": [
@@ -9292,7 +9180,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2845,
             "max": [
@@ -9308,7 +9195,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2845,
             "max": [
@@ -9324,7 +9210,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1641,
             "max": [
@@ -9336,7 +9221,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 468,
             "max": [
@@ -9352,7 +9236,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 468,
             "max": [
@@ -9368,7 +9251,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 8514,
             "max": [
@@ -9380,7 +9262,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1691,
             "max": [
@@ -9396,7 +9277,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1691,
             "max": [
@@ -9412,7 +9292,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1851,
             "max": [
@@ -9424,7 +9303,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 360,
             "max": [
@@ -9440,7 +9318,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 360,
             "max": [
@@ -9456,7 +9333,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 11466,
             "max": [
@@ -9468,7 +9344,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2527,
             "max": [
@@ -9484,7 +9359,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2527,
             "max": [
@@ -9500,7 +9374,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 888,
             "max": [
@@ -9512,7 +9385,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 232,
             "max": [
@@ -9528,7 +9400,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 232,
             "max": [
@@ -9544,7 +9415,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6117,
             "max": [
@@ -9556,7 +9426,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1262,
             "max": [
@@ -9572,7 +9441,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1262,
             "max": [
@@ -9588,7 +9456,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 22779,
             "max": [
@@ -9600,7 +9467,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 5595,
             "max": [
@@ -9616,7 +9482,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 5595,
             "max": [
@@ -9632,7 +9497,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 20268,
             "max": [
@@ -9644,7 +9508,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 5740,
             "max": [
@@ -9660,7 +9523,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 5740,
             "max": [
@@ -9676,7 +9538,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 888,
             "max": [
@@ -9688,7 +9549,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 232,
             "max": [
@@ -9704,7 +9564,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 232,
             "max": [
@@ -9720,7 +9579,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6090,
             "max": [
@@ -9732,7 +9590,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1261,
             "max": [
@@ -9748,7 +9605,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1261,
             "max": [
@@ -9764,7 +9620,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6555,
             "max": [
@@ -9776,7 +9631,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1968,
             "max": [
@@ -9792,7 +9646,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1968,
             "max": [
@@ -9808,7 +9661,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6555,
             "max": [
@@ -9820,7 +9672,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1968,
             "max": [
@@ -9836,7 +9687,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1968,
             "max": [
@@ -9852,7 +9702,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 24480,
             "max": [
@@ -9864,7 +9713,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 5924,
             "max": [
@@ -9880,7 +9728,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 5924,
             "max": [
@@ -9896,7 +9743,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 630,
             "max": [
@@ -9908,7 +9754,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 220,
             "max": [
@@ -9924,7 +9769,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 220,
             "max": [
@@ -9940,7 +9784,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 4203,
             "max": [
@@ -9952,7 +9795,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1432,
             "max": [
@@ -9968,7 +9810,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1432,
             "max": [
@@ -9984,7 +9825,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1788,
             "max": [
@@ -9996,7 +9836,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 716,
             "max": [
@@ -10012,7 +9851,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 716,
             "max": [
@@ -10028,7 +9866,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 3180,
             "max": [
@@ -10040,7 +9877,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1176,
             "max": [
@@ -10056,7 +9892,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1176,
             "max": [
@@ -10072,7 +9907,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 630,
             "max": [
@@ -10084,7 +9918,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 220,
             "max": [
@@ -10100,7 +9933,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 220,
             "max": [
@@ -10116,7 +9948,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 4203,
             "max": [
@@ -10128,7 +9959,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1432,
             "max": [
@@ -10144,7 +9974,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1432,
             "max": [
@@ -10160,7 +9989,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1788,
             "max": [
@@ -10172,7 +10000,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 716,
             "max": [
@@ -10188,7 +10015,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 716,
             "max": [
@@ -10204,7 +10030,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 3180,
             "max": [
@@ -10216,7 +10041,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1176,
             "max": [
@@ -10232,7 +10056,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1176,
             "max": [
@@ -10248,7 +10071,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1290,
             "max": [
@@ -10260,7 +10082,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 444,
             "max": [
@@ -10276,7 +10097,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 444,
             "max": [
@@ -10292,7 +10112,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 738,
             "max": [
@@ -10304,7 +10123,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 262,
             "max": [
@@ -10320,7 +10138,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 262,
             "max": [
@@ -10336,7 +10153,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1290,
             "max": [
@@ -10348,7 +10164,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 444,
             "max": [
@@ -10364,7 +10179,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 444,
             "max": [
@@ -10380,7 +10194,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 738,
             "max": [
@@ -10392,7 +10205,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 262,
             "max": [
@@ -10408,7 +10220,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 262,
             "max": [
@@ -10424,7 +10235,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7854,
             "max": [
@@ -10436,7 +10246,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1826,
             "max": [
@@ -10452,7 +10261,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1826,
             "max": [
@@ -10468,7 +10276,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 15003,
             "max": [
@@ -10480,7 +10287,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3378,
             "max": [
@@ -10496,7 +10302,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3378,
             "max": [
@@ -10512,7 +10317,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 888,
             "max": [
@@ -10524,7 +10328,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 232,
             "max": [
@@ -10540,7 +10343,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 232,
             "max": [
@@ -10556,7 +10358,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6090,
             "max": [
@@ -10568,7 +10369,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1261,
             "max": [
@@ -10584,7 +10384,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1261,
             "max": [
@@ -10600,7 +10399,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1608,
             "max": [
@@ -10612,7 +10410,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 352,
             "max": [
@@ -10628,7 +10425,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 352,
             "max": [
@@ -10644,7 +10440,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6186,
             "max": [
@@ -10656,7 +10451,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1270,
             "max": [
@@ -10672,7 +10466,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1270,
             "max": [
@@ -10688,7 +10481,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1608,
             "max": [
@@ -10700,7 +10492,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 352,
             "max": [
@@ -10716,7 +10507,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 352,
             "max": [
@@ -10732,7 +10522,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6186,
             "max": [
@@ -10744,7 +10533,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1270,
             "max": [
@@ -10760,7 +10548,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1270,
             "max": [
@@ -10776,7 +10563,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 888,
             "max": [
@@ -10788,7 +10574,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 232,
             "max": [
@@ -10804,7 +10589,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 232,
             "max": [
@@ -10820,7 +10604,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6048,
             "max": [
@@ -10832,7 +10615,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1256,
             "max": [
@@ -10848,7 +10630,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1256,
             "max": [
@@ -10864,7 +10645,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7929,
             "max": [
@@ -10876,7 +10656,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2312,
             "max": [
@@ -10892,7 +10671,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2312,
             "max": [
@@ -10908,7 +10686,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1188,
             "max": [
@@ -10920,7 +10697,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 416,
             "max": [
@@ -10936,7 +10712,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 416,
             "max": [
@@ -10952,7 +10727,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 3642,
             "max": [
@@ -10964,7 +10738,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1238,
             "max": [
@@ -10980,7 +10753,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1238,
             "max": [
@@ -10996,7 +10768,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2913,
             "max": [
@@ -11008,7 +10779,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 840,
             "max": [
@@ -11024,7 +10794,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 840,
             "max": [
@@ -11040,7 +10809,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7389,
             "max": [
@@ -11052,7 +10820,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2065,
             "max": [
@@ -11068,7 +10835,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2065,
             "max": [
@@ -11084,7 +10850,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 30,
             "max": [
@@ -11096,7 +10861,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 20,
             "max": [
@@ -11112,7 +10876,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 20,
             "max": [
@@ -11128,7 +10891,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2514,
             "max": [
@@ -11140,7 +10902,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 876,
             "max": [
@@ -11156,7 +10917,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 876,
             "max": [
@@ -11172,7 +10932,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 30,
             "max": [
@@ -11184,7 +10943,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 20,
             "max": [
@@ -11200,7 +10958,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 20,
             "max": [
@@ -11216,7 +10973,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2514,
             "max": [
@@ -11228,7 +10984,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 876,
             "max": [
@@ -11244,7 +10999,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 876,
             "max": [
@@ -11260,7 +11014,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2160,
             "max": [
@@ -11272,7 +11025,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 624,
             "max": [
@@ -11288,7 +11040,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 624,
             "max": [
@@ -11304,7 +11055,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 318,
             "max": [
@@ -11316,7 +11066,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 108,
             "max": [
@@ -11332,7 +11081,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 108,
             "max": [
@@ -11348,7 +11096,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1254,
             "max": [
@@ -11360,7 +11107,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 436,
             "max": [
@@ -11376,7 +11122,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 436,
             "max": [
@@ -11392,7 +11137,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 318,
             "max": [
@@ -11404,7 +11148,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 108,
             "max": [
@@ -11420,7 +11163,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 108,
             "max": [
@@ -11436,7 +11178,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1254,
             "max": [
@@ -11448,7 +11189,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 436,
             "max": [
@@ -11464,7 +11204,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 436,
             "max": [
@@ -11480,7 +11219,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 20262,
             "max": [
@@ -11492,7 +11230,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3643,
             "max": [
@@ -11508,7 +11245,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3643,
             "max": [
@@ -11524,7 +11260,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 12960,
             "max": [
@@ -11536,7 +11271,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2993,
             "max": [
@@ -11552,7 +11286,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2993,
             "max": [
@@ -11568,7 +11301,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 11754,
             "max": [
@@ -11580,7 +11312,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3258,
             "max": [
@@ -11596,7 +11327,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3258,
             "max": [
@@ -11612,7 +11342,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2037,
             "max": [
@@ -11624,7 +11353,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 602,
             "max": [
@@ -11640,7 +11368,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 602,
             "max": [
@@ -11656,7 +11383,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 144,
             "max": [
@@ -11668,7 +11394,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 48,
             "max": [
@@ -11684,7 +11409,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 48,
             "max": [
@@ -11700,7 +11424,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 13476,
             "max": [
@@ -11712,7 +11435,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4484,
             "max": [
@@ -11728,7 +11450,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4484,
             "max": [
@@ -11744,7 +11465,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 144,
             "max": [
@@ -11756,7 +11476,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 48,
             "max": [
@@ -11772,7 +11491,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 48,
             "max": [
@@ -11788,7 +11506,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 13476,
             "max": [
@@ -11800,7 +11517,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4484,
             "max": [
@@ -11816,7 +11532,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4484,
             "max": [
@@ -11832,7 +11547,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7962,
             "max": [
@@ -11844,7 +11558,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2352,
             "max": [
@@ -11860,7 +11573,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2352,
             "max": [
@@ -11876,7 +11588,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6576,
             "max": [
@@ -11888,7 +11599,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1936,
             "max": [
@@ -11904,7 +11614,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1936,
             "max": [
@@ -11920,7 +11629,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 4335,
             "max": [
@@ -11932,7 +11640,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1248,
             "max": [
@@ -11948,7 +11655,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1248,
             "max": [
@@ -11964,7 +11670,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 5979,
             "max": [
@@ -11976,7 +11681,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1800,
             "max": [
@@ -11992,7 +11696,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1800,
             "max": [
@@ -12008,7 +11711,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 13176,
             "max": [
@@ -12020,7 +11722,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4412,
             "max": [
@@ -12036,7 +11737,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4412,
             "max": [
@@ -12052,7 +11752,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6,
             "max": [
@@ -12064,7 +11763,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4,
             "max": [
@@ -12080,7 +11778,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4,
             "max": [
@@ -12096,7 +11793,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 13176,
             "max": [
@@ -12108,7 +11804,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4412,
             "max": [
@@ -12124,7 +11819,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4412,
             "max": [
@@ -12140,7 +11834,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6,
             "max": [
@@ -12152,7 +11845,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4,
             "max": [
@@ -12168,7 +11860,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 4,
             "max": [
@@ -12184,7 +11875,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 4473,
             "max": [
@@ -12196,7 +11886,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1344,
             "max": [
@@ -12212,7 +11901,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1344,
             "max": [
@@ -12228,7 +11916,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 11355,
             "max": [
@@ -12240,7 +11927,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3088,
             "max": [
@@ -12256,7 +11942,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3088,
             "max": [
@@ -12272,7 +11957,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 3777,
             "max": [
@@ -12284,7 +11968,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1120,
             "max": [
@@ -12300,7 +11983,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1120,
             "max": [
@@ -12316,7 +11998,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2925,
             "max": [
@@ -12328,7 +12009,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 848,
             "max": [
@@ -12344,7 +12024,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 848,
             "max": [
@@ -12360,7 +12039,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 5373,
             "max": [
@@ -12372,7 +12050,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1466,
             "max": [
@@ -12388,7 +12065,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1466,
             "max": [
@@ -12404,7 +12080,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 48,
             "max": [
@@ -12416,7 +12091,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 32,
             "max": [
@@ -12432,7 +12106,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 32,
             "max": [
@@ -12448,7 +12121,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 26292,
             "max": [
@@ -12460,7 +12132,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 8799,
             "max": [
@@ -12476,7 +12147,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 8799,
             "max": [
@@ -12492,7 +12162,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 18,
             "max": [
@@ -12504,7 +12173,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 12,
             "max": [
@@ -12520,7 +12188,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 12,
             "max": [
@@ -12536,7 +12203,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 48,
             "max": [
@@ -12548,7 +12214,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 32,
             "max": [
@@ -12564,7 +12229,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 32,
             "max": [
@@ -12580,7 +12244,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 26292,
             "max": [
@@ -12592,7 +12255,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 8799,
             "max": [
@@ -12608,7 +12270,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 8799,
             "max": [
@@ -12624,7 +12285,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 18,
             "max": [
@@ -12636,7 +12296,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 12,
             "max": [
@@ -12652,7 +12311,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 12,
             "max": [
@@ -12668,7 +12326,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 24,
             "max": [
@@ -12680,7 +12337,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 16,
             "max": [
@@ -12696,7 +12352,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 16,
             "max": [
@@ -12712,7 +12367,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 20256,
             "max": [
@@ -12724,7 +12378,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 6758,
             "max": [
@@ -12740,7 +12393,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 6758,
             "max": [
@@ -12756,7 +12408,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 18,
             "max": [
@@ -12768,7 +12419,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 12,
             "max": [
@@ -12784,7 +12434,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 12,
             "max": [
@@ -12800,7 +12449,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 24,
             "max": [
@@ -12812,7 +12460,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 16,
             "max": [
@@ -12828,7 +12475,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 16,
             "max": [
@@ -12844,7 +12490,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 20256,
             "max": [
@@ -12856,7 +12501,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 6758,
             "max": [
@@ -12872,7 +12516,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 6758,
             "max": [
@@ -12888,7 +12531,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 18,
             "max": [
@@ -12900,7 +12542,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 12,
             "max": [
@@ -12916,7 +12557,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 12,
             "max": [
@@ -12932,7 +12572,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2220,
             "max": [
@@ -12944,7 +12583,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 660,
             "max": [
@@ -12960,7 +12598,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 660,
             "max": [
@@ -12976,7 +12613,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1050,
             "max": [
@@ -12988,7 +12624,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 328,
             "max": [
@@ -13004,7 +12639,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 328,
             "max": [
@@ -13020,7 +12654,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 6576,
             "max": [
@@ -13032,7 +12665,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1936,
             "max": [
@@ -13048,7 +12680,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1936,
             "max": [
@@ -13064,7 +12695,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 4473,
             "max": [
@@ -13076,7 +12706,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1344,
             "max": [
@@ -13092,7 +12721,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1344,
             "max": [
@@ -13108,7 +12736,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 15003,
             "max": [
@@ -13120,7 +12747,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3378,
             "max": [
@@ -13136,7 +12762,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3378,
             "max": [
@@ -13152,7 +12777,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7929,
             "max": [
@@ -13164,7 +12788,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2312,
             "max": [
@@ -13180,7 +12803,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2312,
             "max": [
@@ -13196,7 +12818,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 4335,
             "max": [
@@ -13208,7 +12829,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1248,
             "max": [
@@ -13224,7 +12844,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1248,
             "max": [
@@ -13240,7 +12859,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 5373,
             "max": [
@@ -13252,7 +12870,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1466,
             "max": [
@@ -13268,7 +12885,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1466,
             "max": [
@@ -13284,7 +12900,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2160,
             "max": [
@@ -13296,7 +12911,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 624,
             "max": [
@@ -13312,7 +12926,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 624,
             "max": [
@@ -13328,7 +12941,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 1050,
             "max": [
@@ -13340,7 +12952,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 328,
             "max": [
@@ -13356,7 +12967,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 328,
             "max": [
@@ -13372,7 +12982,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 11355,
             "max": [
@@ -13384,7 +12993,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3088,
             "max": [
@@ -13400,7 +13008,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3088,
             "max": [
@@ -13416,7 +13023,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2925,
             "max": [
@@ -13428,7 +13034,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 848,
             "max": [
@@ -13444,7 +13049,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 848,
             "max": [
@@ -13460,7 +13064,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 3777,
             "max": [
@@ -13472,7 +13075,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1120,
             "max": [
@@ -13488,7 +13090,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1120,
             "max": [
@@ -13504,7 +13105,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 5979,
             "max": [
@@ -13516,7 +13116,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1800,
             "max": [
@@ -13532,7 +13131,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1800,
             "max": [
@@ -13548,7 +13146,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2037,
             "max": [
@@ -13560,7 +13157,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 602,
             "max": [
@@ -13576,7 +13172,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 602,
             "max": [
@@ -13592,7 +13187,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2913,
             "max": [
@@ -13604,7 +13198,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 840,
             "max": [
@@ -13620,7 +13213,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 840,
             "max": [
@@ -13636,7 +13228,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7389,
             "max": [
@@ -13648,7 +13239,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2065,
             "max": [
@@ -13664,7 +13254,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2065,
             "max": [
@@ -13680,7 +13269,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7962,
             "max": [
@@ -13692,7 +13280,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2352,
             "max": [
@@ -13708,7 +13295,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2352,
             "max": [
@@ -13724,7 +13310,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 20262,
             "max": [
@@ -13736,7 +13321,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3643,
             "max": [
@@ -13752,7 +13336,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3643,
             "max": [
@@ -13768,7 +13351,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 12960,
             "max": [
@@ -13780,7 +13362,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2993,
             "max": [
@@ -13796,7 +13377,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2993,
             "max": [
@@ -13812,7 +13392,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 5985,
             "max": [
@@ -13824,7 +13403,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1408,
             "max": [
@@ -13840,7 +13418,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1408,
             "max": [
@@ -13856,7 +13433,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2481,
             "max": [
@@ -13868,7 +13444,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 565,
             "max": [
@@ -13884,7 +13459,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 565,
             "max": [
@@ -13900,7 +13474,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 8694,
             "max": [
@@ -13912,7 +13485,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2430,
             "max": [
@@ -13928,7 +13500,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2430,
             "max": [
@@ -13944,7 +13515,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 11754,
             "max": [
@@ -13956,7 +13526,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3258,
             "max": [
@@ -13972,7 +13541,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3258,
             "max": [
@@ -13988,7 +13556,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 11466,
             "max": [
@@ -14000,7 +13567,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2527,
             "max": [
@@ -14016,7 +13582,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 2527,
             "max": [
@@ -14032,7 +13597,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 22779,
             "max": [
@@ -14044,7 +13608,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 5595,
             "max": [
@@ -14060,7 +13623,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 5595,
             "max": [
@@ -14076,7 +13638,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 7854,
             "max": [
@@ -14088,7 +13649,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1826,
             "max": [
@@ -14104,7 +13664,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 1826,
             "max": [
@@ -14120,7 +13679,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2220,
             "max": [
@@ -14132,7 +13690,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 660,
             "max": [
@@ -14148,7 +13705,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 660,
             "max": [

@@ -57,7 +57,6 @@
                         "KHR_draco_mesh_compression": {
                             "bufferView": 0,
                             "attributes": {
-                                "TEXCOORD_0": 2,
                                 "NORMAL": 0,
                                 "POSITION": 1
                             }
@@ -81,7 +80,6 @@
                         "KHR_draco_mesh_compression": {
                             "bufferView": 1,
                             "attributes": {
-                                "TEXCOORD_0": 2,
                                 "NORMAL": 0,
                                 "POSITION": 1
                             }
@@ -132,7 +130,6 @@
     ],
     "accessors": [
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 186,
             "max": [
@@ -144,7 +141,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 96,
             "max": [
@@ -160,7 +156,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 96,
             "max": [
@@ -176,7 +171,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 576,
             "max": [
@@ -188,7 +182,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 224,
             "max": [
@@ -204,7 +197,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 224,
             "max": [
@@ -312,12 +304,12 @@
         {
             "buffer": 0,
             "byteOffset": 104,
-            "byteLength": 573
+            "byteLength": 411
         },
         {
             "buffer": 0,
-            "byteOffset": 677,
-            "byteLength": 1642
+            "byteOffset": 515,
+            "byteLength": 1122
         },
         {
             "buffer": 0,
@@ -337,7 +329,7 @@
     ],
     "buffers": [
         {
-            "byteLength": 2319,
+            "byteLength": 1637,
             "uri": "BoxAnimated0.bin"
         }
     ],

@@ -2138,7 +2138,6 @@
     ],
     "accessors": [
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 2652,
             "max": [
@@ -2150,7 +2149,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 780,
             "max": [
@@ -2168,7 +2166,6 @@
             "type": "VEC4"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 780,
             "max": [
@@ -2184,7 +2181,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 780,
             "max": [
@@ -2200,7 +2196,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 780,
             "max": [
@@ -2214,7 +2209,6 @@
             "type": "VEC2"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 780,
             "max": [
@@ -4426,7 +4420,7 @@
         {
             "buffer": 0,
             "byteOffset": 144256,
-            "byteLength": 18664
+            "byteLength": 6664
         },
         {
             "buffer": 0,
@@ -4451,7 +4445,7 @@
     ],
     "buffers": [
         {
-            "byteLength": 162920,
+            "byteLength": 150920,
             "uri": "Monster0.bin"
         }
     ],

@@ -54,7 +54,6 @@
                         "KHR_draco_mesh_compression": {
                             "bufferView": 0,
                             "attributes": {
-                                "TEXCOORD_0": 2,
                                 "NORMAL": 0,
                                 "POSITION": 1
                             }
@@ -67,7 +66,6 @@
     ],
     "accessors": [
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 36,
             "max": [
@@ -79,7 +77,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -95,7 +92,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 24,
             "max": [
@@ -129,12 +125,12 @@
         {
             "buffer": 0,
             "byteOffset": 0,
-            "byteLength": 243
+            "byteLength": 160
         }
     ],
     "buffers": [
         {
-            "byteLength": 243,
+            "byteLength": 160,
             "uri": "Box0.bin"
         }
     ],

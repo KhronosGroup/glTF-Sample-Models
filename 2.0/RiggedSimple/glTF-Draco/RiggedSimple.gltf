@@ -213,7 +213,6 @@
     ],
     "accessors": [
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 564,
             "max": [
@@ -225,7 +224,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 96,
             "max": [
@@ -243,7 +241,6 @@
             "type": "VEC4"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 96,
             "max": [
@@ -259,7 +256,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 96,
             "max": [
@@ -275,7 +271,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 96,
             "max": [
@@ -491,7 +486,7 @@
         {
             "buffer": 0,
             "byteOffset": 392,
-            "byteLength": 2239
+            "byteLength": 772
         },
         {
             "buffer": 0,
@@ -516,7 +511,7 @@
     ],
     "buffers": [
         {
-            "byteLength": 2631,
+            "byteLength": 1164,
             "uri": "RiggedSimple0.bin"
         }
     ],

@@ -438,7 +438,6 @@
                             "attributes": {
                                 "WEIGHTS_0": 4,
                                 "JOINTS_0": 3,
-                                "TEXCOORD_0": 2,
                                 "NORMAL": 0,
                                 "POSITION": 1
                             }
@@ -1279,7 +1278,6 @@
     ],
     "accessors": [
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 768,
             "max": [
@@ -1291,7 +1289,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 370,
             "max": [
@@ -1309,7 +1306,6 @@
             "type": "VEC4"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 370,
             "max": [
@@ -1325,7 +1321,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 370,
             "max": [
@@ -1341,7 +1336,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 370,
             "max": [
@@ -2679,7 +2673,7 @@
         {
             "buffer": 0,
             "byteOffset": 2888,
-            "byteLength": 9128
+            "byteLength": 2830
         },
         {
             "buffer": 0,
@@ -2704,7 +2698,7 @@
     ],
     "buffers": [
         {
-            "byteLength": 12016,
+            "byteLength": 5718,
             "uri": "RiggedFigure0.bin"
         }
     ],

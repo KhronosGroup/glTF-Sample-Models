@@ -1280,7 +1280,6 @@
     ],
     "accessors": [
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 14016,
             "max": [
@@ -1292,7 +1291,6 @@
             "type": "SCALAR"
         },
         {
-            "byteOffset": 0,
             "componentType": 5123,
             "count": 3273,
             "max": [
@@ -1310,7 +1308,6 @@
             "type": "VEC4"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3273,
             "max": [
@@ -1326,7 +1323,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3273,
             "max": [
@@ -1342,7 +1338,6 @@
             "type": "VEC3"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3273,
             "max": [
@@ -1356,7 +1351,6 @@
             "type": "VEC2"
         },
         {
-            "byteOffset": 0,
             "componentType": 5126,
             "count": 3273,
             "max": [
@@ -2710,7 +2704,7 @@
         {
             "buffer": 0,
             "byteOffset": 42180,
-            "byteLength": 73413
+            "byteLength": 17535
         },
         {
             "buffer": 0,
@@ -2735,7 +2729,7 @@
     ],
     "buffers": [
         {
-            "byteLength": 115593,
+            "byteLength": 59715,
             "uri": "CesiumMan0.bin"
         }
     ],
