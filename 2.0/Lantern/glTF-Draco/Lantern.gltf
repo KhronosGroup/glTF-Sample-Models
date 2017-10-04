@@ -1,0 +1,433 @@
+{
+  "accessors": [
+    {
+      "componentType": 5123,
+      "count": 2616,
+      "max": [
+        925
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 926,
+      "max": [
+        0.992169142,
+        -0.007998445
+      ],
+      "min": [
+        0.0107366741,
+        -0.992534757
+      ],
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5126,
+      "count": 926,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 926,
+      "max": [
+        1,
+        0.9999658,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -0.962171,
+        -1,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "componentType": 5126,
+      "count": 926,
+      "max": [
+        7.74559927,
+        12.8321095,
+        2.31570983
+      ],
+      "min": [
+        -7.74559927,
+        -12.8321095,
+        -2.31570983
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5123,
+      "count": 3744,
+      "max": [
+        755
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 756,
+      "max": [
+        0.8007193,
+        -0.0581455827
+      ],
+      "min": [
+        0.351246148,
+        -0.361011624
+      ],
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5126,
+      "count": 756,
+      "max": [
+        1,
+        1,
+        0.999998
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.999998
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 756,
+      "max": [
+        0.9997526,
+        1,
+        0.999752462,
+        1
+      ],
+      "min": [
+        -0.9995128,
+        -1,
+        -0.999752462,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "componentType": 5126,
+      "count": 756,
+      "max": [
+        0.129208073,
+        0.6523504,
+        0.129208073
+      ],
+      "min": [
+        -0.129208073,
+        -0.6523504,
+        -0.129208073
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5123,
+      "count": 9822,
+      "max": [
+        2462
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 2463,
+      "max": [
+        0.9923278,
+        -0.00728821754
+      ],
+      "min": [
+        0.3673209,
+        -0.413352221
+      ],
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5126,
+      "count": 2463,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 2463,
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "componentType": 5126,
+      "count": 2463,
+      "max": [
+        1.03408229,
+        2.529281,
+        1.03408468
+      ],
+      "min": [
+        -1.03408229,
+        -2.529281,
+        -1.03408468
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 6353
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6353,
+      "byteLength": 6051
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12404,
+      "byteLength": 16131
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 28535,
+      "uri": "0.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Lantern_baseColor.png"
+    },
+    {
+      "uri": "Lantern_roughnessMetallic.png"
+    },
+    {
+      "uri": "Lantern_normal.png"
+    },
+    {
+      "uri": "Lantern_emissive.png"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 1,
+            "NORMAL": 2,
+            "TANGENT": 3,
+            "POSITION": 4
+          },
+          "indices": 0,
+          "material": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "TEXCOORD_0": 0,
+                "NORMAL": 1,
+                "TANGENT": 2,
+                "POSITION": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "LanternPole_Body"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "POSITION": 9
+          },
+          "indices": 5,
+          "material": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "TEXCOORD_0": 0,
+                "NORMAL": 1,
+                "TANGENT": 2,
+                "POSITION": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "LanternPole_Chain"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 11,
+            "NORMAL": 12,
+            "TANGENT": 13,
+            "POSITION": 14
+          },
+          "indices": 10,
+          "material": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "TEXCOORD_0": 0,
+                "NORMAL": 1,
+                "TANGENT": 2,
+                "POSITION": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "LanternPole_Lantern"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.214041144,
+          0.214041144,
+          0.214041144,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "normalTexture": {
+        "index": 2
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 3
+      },
+      "name": "LanternPost_Mat"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        -3.82315421,
+        13.01603,
+        0
+      ],
+      "name": "LanternPole_Body"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        -9.582001,
+        21.0378723,
+        0
+      ],
+      "name": "LanternPole_Chain"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -9.582007,
+        18.0091515,
+        0
+      ],
+      "name": "LanternPole_Lantern"
+    },
+    {
+      "children": [
+        0,
+        1,
+        2
+      ],
+      "name": "Lantern"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        3
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    },
+    {
+      "source": 3
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}
