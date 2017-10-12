@@ -4,49 +4,19 @@
       "bufferView": 0,
       "componentType": 5126,
       "count": 406,
-      "type": "VEC2",
-      "max": [
-        0.9824978,
-        -0.00462793233
-      ],
-      "min": [
-        0.00678020436,
-        -0.997018039
-      ]
+      "type": "VEC2"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
       "count": 406,
-      "type": "VEC3",
-      "max": [
-        0.9959669,
-        0.974968433,
-        0.9986338
-      ],
-      "min": [
-        -0.995177031,
-        -0.9995665,
-        -0.9988549
-      ]
+      "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
       "count": 406,
-      "type": "VEC4",
-      "max": [
-        0.929839253,
-        0.998867154,
-        0.9930595,
-        1.0
-      ],
-      "min": [
-        -0.999970555,
-        -0.999693751,
-        -0.995075762,
-        1.0
-      ]
+      "type": "VEC4"
     },
     {
       "bufferView": 3,
@@ -68,13 +38,7 @@
       "bufferView": 4,
       "componentType": 5123,
       "count": 2046,
-      "type": "SCALAR",
-      "max": [
-        405
-      ],
-      "min": [
-        0
-      ]
+      "type": "SCALAR"
     }
   ],
   "asset": {

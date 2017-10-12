@@ -4,49 +4,19 @@
       "bufferView": 0,
       "componentType": 5126,
       "count": 11505,
-      "type": "VEC2",
-      "max": [
-        1.0,
-        -0.008408904
-      ],
-      "min": [
-        0.00469656335,
-        -0.996301055
-      ]
+      "type": "VEC2"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
       "count": 11505,
-      "type": "VEC3",
-      "max": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -1.0,
-        -1.0
-      ]
+      "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
       "count": 11505,
-      "type": "VEC4",
-      "max": [
-        0.9997274,
-        1.0,
-        1.0,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -1.0,
-        -1.0,
-        -1.0
-      ]
+      "type": "VEC4"
     },
     {
       "bufferView": 3,
@@ -68,13 +38,7 @@
       "bufferView": 4,
       "componentType": 5123,
       "count": 54972,
-      "type": "SCALAR",
-      "max": [
-        11504
-      ],
-      "min": [
-        0
-      ]
+      "type": "SCALAR"
     }
   ],
   "asset": {
