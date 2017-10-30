@@ -1,5 +1,6 @@
 # adjust according to actual installation path of gltf-pipeline
-alias gltfpipe="node /home/user/ehome/projects/gltf/gltf-pipeline-master/bin/gltf-pipeline.js"
+# alias gltfpipe="node /home/user/ehome/projects/gltf/gltf-pipeline-master/bin/gltf-pipeline.js"
+# below expects a functional gltfpipe command
 for gltfDir in */glTF-MaterialsCommon
 do
     cd $gltfDir
