@@ -1,5 +1,5 @@
 language: dart
 dart:
- - "2.0.0-dev.3.0"
+ - "2.0.0-dev.6.0"
 before_script: wget https://github.com/KhronosGroup/glTF-Validator/raw/snapshot/gltf_validator.snapshot
-script: dart gltf_validator.snapshot -r -p -w ./2.0/
+script: dart --no_background_compilation gltf_validator.snapshot -r -p -a ./2.0/
