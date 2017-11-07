@@ -5,7 +5,7 @@
             "componentType" : 5123,
             "count" : 46356,
             "max" : [
-                14358
+                14555
             ],
             "min" : [
                 0
@@ -15,23 +15,23 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 14359,
+            "count" : 14556,
             "max" : [
-                0.9449769854545593,
-                1.0,
-                0.9009739756584167
+                0.9424954056739807,
+                0.8128451108932495,
+                0.900973916053772
             ],
             "min" : [
-                -0.9449769854545593,
-                -1.0,
-                -0.9009950160980225
+                -0.9474585652351379,
+                -1.18715500831604,
+                -0.9009949564933777
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 14359,
+            "count" : 14556,
             "max" : [
                 1.0,
                 1.0,
@@ -47,7 +47,7 @@
         {
             "bufferView" : 3,
             "componentType" : 5126,
-            "count" : 14359,
+            "count" : 14556,
             "max" : [
                 0.9999759793281555,
                 1.998665988445282
@@ -72,35 +72,32 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 172308,
+            "byteLength" : 174672,
             "byteOffset" : 92712,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 172308,
-            "byteOffset" : 265020,
+            "byteLength" : 174672,
+            "byteOffset" : 267384,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 114872,
-            "byteOffset" : 437328,
+            "byteLength" : 116448,
+            "byteOffset" : 442056,
             "target" : 34962
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 552200,
+            "byteLength" : 558504,
             "uri" : "DamagedHelmet.bin"
         }
     ],
     "images" : [
         {
             "uri" : "Default_albedo.jpg"
-        },
-        {
-            "uri" : "Default_normal.jpg"
         },
         {
             "uri" : "Default_metalRoughness.jpg"
@@ -110,6 +107,9 @@
         },
         {
             "uri" : "Default_AO.jpg"
+        },
+        {
+            "uri" : "Default_normal.jpg"
         }
     ],
     "materials" : [
@@ -120,21 +120,21 @@
                 1.0
             ],
             "emissiveTexture" : {
-                "index" : 3
+                "index" : 2
             },
-            "name" : "glTF Material",
+            "name" : "Material_MR",
             "normalTexture" : {
-                "index" : 1
+                "index" : 4
             },
             "occlusionTexture" : {
-                "index" : 4
+                "index" : 3
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
                 },
                 "metallicRoughnessTexture" : {
-                    "index" : 2
+                    "index" : 1
                 }
             }
         }
