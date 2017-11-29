@@ -19,7 +19,6 @@
 | [Box](Box)                                    | ![](Box/screenshot/screenshot.png)               | One mesh and one material. Start with this. |
 | [Box Textured](BoxTextured)                   | ![](BoxTextured/screenshot/screenshot.png)       | Box with one texture. Start with this to test textures. |
 | [Duck](Duck)                                  | ![](Duck/screenshot/screenshot.png)              | The COLLADA duck. One texture. |
-| [Smiling Face](SmilingFace)                   | ![](SmilingFace/screenshot/screenshot.png)       | A smiling face with multiple textures. |
 | [2 Cylinder Engine](2CylinderEngine)          | ![](2CylinderEngine/screenshot/screenshot.png)   | Small CAD data set, including hierarchy. |
 | [Reciprocating Saw](ReciprocatingSaw)         | ![](ReciprocatingSaw/screenshot/screenshot.png)  | Small CAD data set, including hierarchy. |
 | [Gearbox Assy](GearboxAssy)                   | ![](GearboxAssy/screenshot/screenshot.png)       | Medium-sized CAD data set, including hierarchy. |
@@ -28,7 +27,6 @@
 | [Cesium Milk Truck](CesiumMilkTruck)          | ![](CesiumMilkTruck/screenshot/screenshot.gif)   | Textured. Multiple nodes/meshes. Animations. |
 | [Rigged Simple](RiggedSimple)                 | ![](RiggedSimple/screenshot/screenshot.gif)      | Animations. Skins. Start with this to test skinning. |
 | [Rigged Figure](RiggedFigure)                 | ![](RiggedFigure/screenshot/screenshot.gif)      | Animations. Skins. |
-| [Walking Lady](WalkingLady)                   | ![](WalkingLady/screenshot/screenshot.gif)       | Animations. Skins. |
 | [Cesium Man](CesiumMan)                       | ![](CesiumMan/screenshot/screenshot.gif)         | Textured. Animations. Skins. |
 | [Monster](Monster)                            | ![](Monster/screenshot/screenshot.gif)           | Textured. Animations. Skins. |
 | [BrainStem](BrainStem)                        | ![](BrainStem/screenshot/screenshot.gif)         | Animations. Skins. |
@@ -43,9 +41,10 @@
 | [Boom Box](BoomBox)                           | ![](BoomBox/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Corset](Corset)                              | ![](Corset/screenshot/screenshot.jpg)            | :white_check_mark: | :white_check_mark: |                    |
 | [Lantern](Lantern)                            | ![](Lantern/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [WaterBottle](WaterBottle)                    | ![](WaterBottle/screenshot/screenshot.jpg)       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [MetalRoughSpheres](MetalRoughSpheres)        | ![](MetalRoughSpheres/screenshot/screenshot.png) |                    |                    |                    |
-| [NormalTangentTest](NormalTangentTest)        | ![](NormalTangentTest/screenshot/screenshot.png) | :white_check_mark: |                    |                    |
+| [Water Bottle](WaterBottle)                   | ![](WaterBottle/screenshot/screenshot.jpg)       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [Metal Rough Spheres](MetalRoughSpheres)      | ![](MetalRoughSpheres/screenshot/screenshot.png) |                    |                    |                    |
+| [Normal Tangent Test](NormalTangentTest)      | ![](NormalTangentTest/screenshot/screenshot.png) | :white_check_mark: |                    |                    |
+| [Boom Box With Axes](BoomBoxWithAxes)         | ![](BoomBoxWithAxes/screenshot/screenshot.jpg)   | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 ## Further PBR models
 
