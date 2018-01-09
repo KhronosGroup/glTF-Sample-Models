@@ -81,20 +81,9 @@
                         "node": 2,
                         "path": "rotation"
                     }
-                }
-            ],
-            "samplers": [
+                },
                 {
-                    "input": 6,
-                    "interpolation": "LINEAR",
-                    "output": 7
-                }
-            ]
-        },
-        {
-            "channels": [
-                {
-                    "sampler": 0,
+                    "sampler": 1,
                     "target": {
                         "node": 0,
                         "path": "translation"
@@ -102,6 +91,11 @@
                 }
             ],
             "samplers": [
+                {
+                    "input": 6,
+                    "interpolation": "LINEAR",
+                    "output": 7
+                },
                 {
                     "input": 8,
                     "interpolation": "LINEAR",
