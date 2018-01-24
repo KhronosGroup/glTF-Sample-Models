@@ -13,7 +13,7 @@ Sample glTF 2.0 models are provided in as many of the following formats as possi
 * glTF (.gltf) with separate resources: .bin (geometry, animation, skins), .glsl (shaders), and image files
 * glTF (.gltf) with embedded resources
 * Binary glTF (.glb) using the [binary container format](https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#glb-file-format-specification)
-* glTF (.gltf) using the [KHR_materials_pbrSpecularGlossiness](https://github.com/KhronosGroup/glTF/blob/master/extensions/Khronos/KHR_materials_pbrSpecularGlossiness/README.md) extension
+* glTF (.gltf) using the [KHR_materials_pbrSpecularGlossiness](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_pbrSpecularGlossiness) extension
 * Original COLLADA (.dae) or other source format
 
 See the `README.md` in each model's directory for usage restrictions.
