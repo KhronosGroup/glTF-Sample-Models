@@ -2430,8 +2430,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 1,
+            "POSITION": 2
           },
           "indices": 0,
           "mode": 4,
@@ -2499,8 +2499,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 10,
+            "POSITION": 11
           },
           "indices": 9,
           "mode": 4,
@@ -2728,8 +2728,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 1,
+            "POSITION": 2
           },
           "indices": 0,
           "mode": 4,
@@ -2750,8 +2750,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 10,
+            "POSITION": 11
           },
           "indices": 9,
           "mode": 4,
@@ -2934,8 +2934,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 61,
+            "POSITION": 62
           },
           "indices": 60,
           "mode": 4,
@@ -3002,8 +3002,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 70,
+            "POSITION": 71
           },
           "indices": 69,
           "mode": 4,
@@ -3047,8 +3047,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 70,
+            "POSITION": 71
           },
           "indices": 69,
           "mode": 4,
@@ -3069,8 +3069,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 76,
+            "POSITION": 77
           },
           "indices": 75,
           "mode": 4,
@@ -3091,8 +3091,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 79,
+            "POSITION": 80
           },
           "indices": 78,
           "mode": 4,
@@ -3113,8 +3113,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 82,
+            "POSITION": 83
           },
           "indices": 81,
           "mode": 4,
@@ -3135,8 +3135,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 85,
+            "POSITION": 86
           },
           "indices": 84,
           "mode": 4,
@@ -3180,8 +3180,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 91,
+            "POSITION": 92
           },
           "indices": 90,
           "mode": 4,
@@ -3225,8 +3225,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 61,
+            "POSITION": 62
           },
           "indices": 60,
           "mode": 4,
@@ -3248,8 +3248,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 70,
+            "POSITION": 71
           },
           "indices": 69,
           "mode": 4,
@@ -3271,8 +3271,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 76,
+            "POSITION": 77
           },
           "indices": 75,
           "mode": 4,
@@ -3294,8 +3294,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 79,
+            "POSITION": 80
           },
           "indices": 78,
           "mode": 4,
@@ -3317,8 +3317,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 82,
+            "POSITION": 83
           },
           "indices": 81,
           "mode": 4,
@@ -3340,8 +3340,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 85,
+            "POSITION": 86
           },
           "indices": 84,
           "mode": 4,
@@ -3363,8 +3363,8 @@
       "primitives": [
         {
           "attributes": {
-            "NORMAL": 0,
-            "POSITION": 0
+            "NORMAL": 91,
+            "POSITION": 92
           },
           "indices": 90,
           "mode": 4,
