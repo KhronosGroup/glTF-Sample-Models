@@ -125,12 +125,12 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 142
+      "byteLength": 118
     }
   ],
   "buffers": [
     {
-      "byteLength": 142,
+      "byteLength": 118,
       "uri": "0.bin"
     }
   ],
