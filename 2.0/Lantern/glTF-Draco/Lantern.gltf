@@ -114,22 +114,22 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 8759
+      "byteLength": 7820
     },
     {
       "buffer": 0,
-      "byteOffset": 8759,
-      "byteLength": 8297
+      "byteOffset": 7820,
+      "byteLength": 7525
     },
     {
       "buffer": 0,
-      "byteOffset": 17056,
-      "byteLength": 24432
+      "byteOffset": 15345,
+      "byteLength": 21239
     }
   ],
   "buffers": [
     {
-      "byteLength": 41488,
+      "byteLength": 36584,
       "uri": "0.bin"
     }
   ],

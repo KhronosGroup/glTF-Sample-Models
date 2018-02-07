@@ -541,27 +541,27 @@
     {
       "buffer": 0,
       "byteOffset": 1240,
-      "byteLength": 10070
+      "byteLength": 7871
     },
     {
       "buffer": 0,
-      "byteOffset": 11310,
-      "byteLength": 509
+      "byteOffset": 9111,
+      "byteLength": 474
     },
     {
       "buffer": 0,
-      "byteOffset": 11819,
-      "byteLength": 1414
+      "byteOffset": 9585,
+      "byteLength": 1249
     },
     {
       "buffer": 0,
-      "byteOffset": 13233,
-      "byteLength": 4055
+      "byteOffset": 10834,
+      "byteLength": 3137
     }
   ],
   "buffers": [
     {
-      "byteLength": 17288,
+      "byteLength": 13971,
       "uri": "0.bin"
     }
   ],

@@ -2616,12 +2616,12 @@
     {
       "buffer": 0,
       "byteOffset": 42180,
-      "byteLength": 27757
+      "byteLength": 23752
     }
   ],
   "buffers": [
     {
-      "byteLength": 69937,
+      "byteLength": 65932,
       "uri": "0.bin"
     }
   ],
