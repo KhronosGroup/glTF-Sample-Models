@@ -44,12 +44,12 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 42589
+      "byteLength": 35867
     }
   ],
   "buffers": [
     {
-      "byteLength": 42589,
+      "byteLength": 35867,
       "uri": "0.bin"
     }
   ],
