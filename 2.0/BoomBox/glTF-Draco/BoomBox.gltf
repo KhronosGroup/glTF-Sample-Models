@@ -1,0 +1,165 @@
+{
+  "accessors": [
+    {
+      "componentType": 5123,
+      "count": 18108,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 3575,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5126,
+      "count": 3575,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 3575,
+      "type": "VEC4"
+    },
+    {
+      "componentType": 5126,
+      "count": 3575,
+      "max": [
+        0.009921154,
+        0.00977163,
+        0.0100762453
+      ],
+      "min": [
+        -0.009921154,
+        -0.00977163,
+        -0.0100762453
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 35867
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 35867,
+      "uri": "0.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "BoomBox_baseColor.png"
+    },
+    {
+      "uri": "BoomBox_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "BoomBox_normal.png"
+    },
+    {
+      "uri": "BoomBox_emissive.png"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 1,
+            "NORMAL": 2,
+            "TANGENT": 3,
+            "POSITION": 4
+          },
+          "indices": 0,
+          "material": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "TEXCOORD_0": 0,
+                "NORMAL": 1,
+                "TANGENT": 2,
+                "POSITION": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "BoomBox"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 3
+      },
+      "name": "BoomBox_Mat"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "name": "BoomBox"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    },
+    {
+      "source": 3
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}
