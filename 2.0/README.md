@@ -40,6 +40,7 @@
 | [Barramundi Fish](BarramundiFish)             | ![](BarramundiFish/screenshot/screenshot.jpg)    | :white_check_mark: | :white_check_mark: |                    |
 | [Boom Box](BoomBox)                           | ![](BoomBox/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Corset](Corset)                              | ![](Corset/screenshot/screenshot.jpg)            | :white_check_mark: | :white_check_mark: |                    |
+| [Flight Helmet](FlightHelmet)                 | ![](FlightHelmet/screenshot/screenshot.jpg)      | :white_check_mark: | :white_check_mark: |                    |
 | [Lantern](Lantern)                            | ![](Lantern/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Water Bottle](WaterBottle)                   | ![](WaterBottle/screenshot/screenshot.jpg)       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Metal Rough Spheres](MetalRoughSpheres)      | ![](MetalRoughSpheres/screenshot/screenshot.png) |                    |                    |                    |
