@@ -10,6 +10,8 @@
 | [Animated Morph Cube](AnimatedMorphCube)               | ![](AnimatedMorphCube/screenshot/screenshot.gif)                | Demonstrates a simple cube with two simple morph targets and an animation that transitions between them both. |
 | [Animated Morph Sphere](AnimatedMorphSphere)           | ![](AnimatedMorphSphere/screenshot/screenshot.gif)              | This sample is similar to the [Animated Morph Cube](AnimatedMorphCube), but the two morph targets move many more vertices and are more extreme than with the cube. |
 | [Simple Meshes](SimpleMeshes)                          | ![](SimpleMeshes/screenshot/screenshot.png)                     | A simple `scene` with two `nodes`, both containing the same `mesh`, namely a `mesh` with a single `mesh.primitive` with a single indexed triangle with *multiple* attributes (positions, normals and texture coordinates), but without a `material` |
+| [Simple Morph](SimpleMorph)                            | ![](SimpleMorph/screenshot/screenshot.png)                      | A triangle with a morph animation applied |
+| [Simple Sparse Accessor](SimpleSparseAccessor)         | ![](SimpleSparseAccessor/screenshot/screenshot.png)             | A simple mesh that uses sparse accessors |
 | [Cameras](Cameras)                                     | ![](Cameras/screenshot/screenshot.png)                          | A sample with two different `camera` objects |
 
 ## More complex models
@@ -17,7 +19,10 @@
 | Model                                         | Screenshot                                       | Description|
 |-----------------------------------------------|--------------------------------------------------|------------|
 | [Box](Box)                                    | ![](Box/screenshot/screenshot.png)               | One mesh and one material. Start with this. |
+| [Box Interleaved](BoxInterleaved)             | ![](BoxInterleaved/screenshot/screenshot.png)    | Box example with interleaved position and normal attributes. |
 | [Box Textured](BoxTextured)                   | ![](BoxTextured/screenshot/screenshot.png)       | Box with one texture. Start with this to test textures. |
+| [Box Textured NPOT](BoxTexturedNonPowerOfTwo) | ![](BoxTexturedNonPowerOfTwo/screenshot/screenshot.png) | Box with a non-power-of-2 (NPOT) texture.  Not all implementations support NPOT textures. |
+| [Box Vertex Colors](BoxVertexColors)          | ![](BoxVertexColors/screenshot/screenshot.png)   | Box with vertex colors applied. |
 | [Duck](Duck)                                  | ![](Duck/screenshot/screenshot.png)              | The COLLADA duck. One texture. |
 | [2 Cylinder Engine](2CylinderEngine)          | ![](2CylinderEngine/screenshot/screenshot.png)   | Small CAD data set, including hierarchy. |
 | [Reciprocating Saw](ReciprocatingSaw)         | ![](ReciprocatingSaw/screenshot/screenshot.png)  | Small CAD data set, including hierarchy. |
@@ -36,16 +41,14 @@
 
 | Model                                         | Screenshot                                       | Normal Map         | Occlusion Map      | Emissive Map       |
 |-----------------------------------------------|:------------------------------------------------:|:------------------:|:------------------:|:------------------:|
-| [Avocado](Avocado)                            | ![](Avocado/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: |                    |
+| [Avocado](Avocado)                            | ![](Avocado/screenshot/screenshot.jpg)           | :white_check_mark: |                    |                    |
 | [Barramundi Fish](BarramundiFish)             | ![](BarramundiFish/screenshot/screenshot.jpg)    | :white_check_mark: | :white_check_mark: |                    |
 | [Boom Box](BoomBox)                           | ![](BoomBox/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Corset](Corset)                              | ![](Corset/screenshot/screenshot.jpg)            | :white_check_mark: | :white_check_mark: |                    |
+| [Damaged Helmet](DamagedHelmet)               | ![](DamagedHelmet/screenshot/screenshot.png)     | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Flight Helmet](FlightHelmet)                 | ![](FlightHelmet/screenshot/screenshot.jpg)      | :white_check_mark: | :white_check_mark: |                    |
 | [Lantern](Lantern)                            | ![](Lantern/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Water Bottle](WaterBottle)                   | ![](WaterBottle/screenshot/screenshot.jpg)       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [Metal Rough Spheres](MetalRoughSpheres)      | ![](MetalRoughSpheres/screenshot/screenshot.png) |                    |                    |                    |
-| [Normal Tangent Test](NormalTangentTest)      | ![](NormalTangentTest/screenshot/screenshot.png) | :white_check_mark: |                    |                    |
-| [Boom Box With Axes](BoomBoxWithAxes)         | ![](BoomBoxWithAxes/screenshot/screenshot.jpg)   | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 ## Further PBR models
 
@@ -56,3 +59,16 @@
 | [Animated Cube](AnimatedCube)                          | ![](AnimatedCube/screenshot/screenshot.gif)                     | Same as previous cube having a linear rotation animation.      |
 | [Suzanne](Suzanne)                                     | ![](Suzanne/screenshot/screenshot.jpg)                          | Suzanne from Blender with smoothed faces.                      |
 | [Sci Fi Helmet](SciFiHelmet)                           | ![](SciFiHelmet/screenshot/screenshot.jpg)                      | Sci Fi Helmet having unsigned integer indices.                 |
+
+## Feature Test Models
+
+| Model                                         | Screenshot                                                  | Description|
+|-----------------------------------------------|-------------------------------------------------------------|------------|
+| [Boom Box With Axes](BoomBoxWithAxes)         | ![](BoomBoxWithAxes/screenshot/screenshot.jpg)              | Shows X, Y, and Z axis default orientations. |
+| [Metal Rough Spheres](MetalRoughSpheres)      | ![](MetalRoughSpheres/screenshot/screenshot.png)            | Tests various metal and roughness values. |
+| [Normal Tangent Test](NormalTangentTest)      | ![](NormalTangentTest/screenshot/screenshot.png)            | Tests an engine's ability to automatically generate tangent vectors for a normal map. |
+| [Normal Tangent Mirror Test](NormalTangentMirrorTest) | ![](NormalTangentMirrorTest/screenshot/screenshot.png) | Tests an engine's ability to load supplied tangent vectors for a normal map. |
+| [Orientation Test](OrientationTest)           | ![](OrientationTest/screenshot/screenshot.png)              | Tests node translations and rotations. |
+| [Texture Coordinate Test](TextureCoordinateTest) | ![](TextureCoordinateTest/screenshot/screenshot.png)     | Shows how XYZ and UV positions relate to displayed geometry. |
+| [Texture Settings Test](TextureSettingsTest)  | ![](TextureSettingsTest/screenshot/screenshot.png)          | Tests single/double-sided and various texturing modes. |
+| [Vertex Color Test](VertexColorTest)          | ![](VertexColorTest/screenshot/screenshot.png)              | Tests if vertex colors are supported. |
