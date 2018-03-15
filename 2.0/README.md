@@ -49,7 +49,6 @@
 | [Flight Helmet](FlightHelmet)                 | ![](FlightHelmet/screenshot/screenshot.jpg)      | :white_check_mark: | :white_check_mark: |                    |
 | [Lantern](Lantern)                            | ![](Lantern/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Water Bottle](WaterBottle)                   | ![](WaterBottle/screenshot/screenshot.jpg)       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [Boom Box With Axes](BoomBoxWithAxes)         | ![](BoomBoxWithAxes/screenshot/screenshot.jpg)   | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 ## Further PBR models
 
@@ -65,6 +64,7 @@
 
 | Model                                         | Screenshot                                                  | Description|
 |-----------------------------------------------|-------------------------------------------------------------|------------|
+| [Boom Box With Axes](BoomBoxWithAxes)         | ![](BoomBoxWithAxes/screenshot/screenshot.jpg)              | Shows X, Y, and Z axis default orientations. |
 | [Metal Rough Spheres](MetalRoughSpheres)      | ![](MetalRoughSpheres/screenshot/screenshot.png)            | Tests various metal and roughness values. |
 | [Normal Tangent Test](NormalTangentTest)      | ![](NormalTangentTest/screenshot/screenshot.png)            | Tests an engine's ability to automatically generate tangent vectors for a normal map. |
 | [Normal Tangent Mirror Test](NormalTangentMirrorTest) | ![](NormalTangentMirrorTest/screenshot/screenshot.png) | Tests an engine's ability to load supplied tangent vectors for a normal map. |
