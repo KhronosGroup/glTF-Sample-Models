@@ -2,8 +2,8 @@
 
 ## Simple models for testing individual features
 
-| Model                                                  | Screenshot                                                      | Description|
-|--------------------------------------------------------|-----------------------------------------------------------------|------------|
+| Model                                                  | Screenshot                                                      | Description |
+|--------------------------------------------------------|-----------------------------------------------------------------|-------------|
 | [Triangle Without Indices](TriangleWithoutIndices)     | ![](TriangleWithoutIndices/screenshot/screenshot.png)           | The simplest possible glTF asset: A single `scene` with a single `node` and a single `mesh` with a single `mesh.primitive` with a single triangle with a single attribute, without indices and without a `material` |
 | [Triangle](Triangle)                                   | ![](Triangle/screenshot/screenshot.png)                         | A very simple glTF asset: The basic structure is the same as in [Triangle Without Indices](TriangleWithoutIndices), but here, the `mesh.primitive` describes an *indexed* geometry
 | [Animated Triangle](AnimatedTriangle)                  | ![](AnimatedTriangle/screenshot/screenshot.gif)                 | This sample is similar to the [Triangle](Triangle), but the `node` has a `rotation` property that is modified with a simple `animation` |
@@ -16,8 +16,8 @@
 
 ## More complex models
 
-| Model                                         | Screenshot                                       | Description|
-|-----------------------------------------------|--------------------------------------------------|------------|
+| Model                                         | Screenshot                                       | Description |
+|-----------------------------------------------|--------------------------------------------------|-------------|
 | [Box](Box)                                    | ![](Box/screenshot/screenshot.png)               | One mesh and one material. Start with this. |
 | [Box Interleaved](BoxInterleaved)             | ![](BoxInterleaved/screenshot/screenshot.png)    | Box example with interleaved position and normal attributes. |
 | [Box Textured](BoxTextured)                   | ![](BoxTextured/screenshot/screenshot.png)       | Box with one texture. Start with this to test textures. |
@@ -52,8 +52,8 @@
 
 ## Further PBR models
 
-| Model                                                  | Screenshot                                                      | Description|
-|--------------------------------------------------------|-----------------------------------------------------------------|------------|
+| Model                                                  | Screenshot                                                      | Description |
+|--------------------------------------------------------|-----------------------------------------------------------------|-------------|
 | [Two Sided Plane](TwoSidedPlane)                       | ![](TwoSidedPlane/screenshot/screenshot.jpg)                    | A plane having the two sided material parameter enabled.       |
 | [Cube](Cube)                                           | ![](Cube/screenshot/screenshot.jpg)                             | A cube with non-smoothed faces.                                |
 | [Animated Cube](AnimatedCube)                          | ![](AnimatedCube/screenshot/screenshot.gif)                     | Same as previous cube having a linear rotation animation.      |
@@ -62,8 +62,9 @@
 
 ## Feature Test Models
 
-| Model                                         | Screenshot                                                  | Description|
-|-----------------------------------------------|-------------------------------------------------------------|------------|
+| Model                                         | Screenshot                                                  | Description |
+|-----------------------------------------------|-------------------------------------------------------------|-------------|
+| [Alpha Blend Mode Test](AlphaBlendModeTest)   | ![](AlphaBlendModeTest/screenshot/screenshot.png)           | Tests alpha modes and settings. |
 | [Boom Box With Axes](BoomBoxWithAxes)         | ![](BoomBoxWithAxes/screenshot/screenshot.jpg)              | Shows X, Y, and Z axis default orientations. |
 | [Metal Rough Spheres](MetalRoughSpheres)      | ![](MetalRoughSpheres/screenshot/screenshot.png)            | Tests various metal and roughness values. |
 | [Normal Tangent Test](NormalTangentTest)      | ![](NormalTangentTest/screenshot/screenshot.png)            | Tests an engine's ability to automatically generate tangent vectors for a normal map. |
