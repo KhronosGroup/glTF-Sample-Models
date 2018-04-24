@@ -27,6 +27,7 @@ For addition glTF models, see:
 * Cesium's [demo models](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Apps/SampleData/models) and [unit test models](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Specs/Data/Models).
 * Flightradar24's [GitHub repo](https://github.com/kalmykov/fr24-3d-models) of aircrafts.
 * Sketchfab's [glTF samples](https://sketchfab.com/features/gltf).
+* [320+ CC0 (public domain) nature themed objects](https://www.reddit.com/r/gamedev/comments/8bs2zy/320_nature_themed_lowpoly_models_and_sprites_all/) including plants, trees, terrain, water, stones, statues, fences, camping equipment, etc. by Kenney
 
 ## Contributing Sample Models
 
