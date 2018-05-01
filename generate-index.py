@@ -6,7 +6,7 @@ import os
 def generate_index(root):
     os.chdir(root)
     index = []
-    for model in os.listdir("."):
+    for model in sorted(os.listdir(".")):
         if not os.path.isdir(model):
             continue
         os.chdir(model)
