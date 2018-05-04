@@ -17,13 +17,19 @@ def generate_index(root):
             model_file = [f for f in os.listdir(variant_dir)
                           if f.endswith(".glb") or f.endswith(".gltf")][0]
             variants[variant_dir] = model_file
-        if "screenshot" not in model_contents:
-            print "WARNING: no screenshot found for {}".format("model")
-        index.append({
-            "name": model,
-            "variants": variants,
-            "screenshot": "screenshot/" + os.listdir("screenshot")[0]
-        })
+        if not variants:
+            print ("WARNING: no model files found for {}".format(model))
+        else:
+            model_info = {
+                "name": model,
+                "variants": variants,
+                "screenshot": None
+            }
+            if "screenshot" not in model_contents:
+                print ("WARNING: no screenshot found for {}".format(model))
+            else:
+                model_info["screenshot"] = "screenshot/" + [s for s in os.listdir("screenshot") if s.startswith("screenshot.")][0]
+            index.append(model_info)
         os.chdir("..")
 
     with open("model-index.json", "w") as f:

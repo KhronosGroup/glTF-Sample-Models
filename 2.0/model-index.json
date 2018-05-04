@@ -1,455 +1,455 @@
 [
   {
-    "name": "2CylinderEngine", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "2CylinderEngine",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "2CylinderEngine.gltf", 
-      "glTF-Binary": "2CylinderEngine.glb", 
-      "glTF-Draco": "2CylinderEngine.gltf", 
-      "glTF-Embedded": "2CylinderEngine.gltf", 
+      "glTF": "2CylinderEngine.gltf",
+      "glTF-Binary": "2CylinderEngine.glb",
+      "glTF-Draco": "2CylinderEngine.gltf",
+      "glTF-Embedded": "2CylinderEngine.gltf",
       "glTF-pbrSpecularGlossiness": "2CylinderEngine.gltf"
     }
-  }, 
+  },
   {
-    "name": "AlphaBlendModeTest", 
-    "screenshot": "screenshot/screenshot_large.jpg", 
+    "name": "AlphaBlendModeTest",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "AlphaBlendModeTest.gltf", 
-      "glTF-Binary": "AlphaBlendModeTest.glb", 
+      "glTF": "AlphaBlendModeTest.gltf",
+      "glTF-Binary": "AlphaBlendModeTest.glb",
       "glTF-Embedded": "AlphaBlendModeTest.gltf"
     }
-  }, 
+  },
   {
-    "name": "AnimatedCube", 
-    "screenshot": "screenshot/screenshot.gif", 
+    "name": "AnimatedCube",
+    "screenshot": "screenshot/screenshot.gif",
     "variants": {
       "glTF": "AnimatedCube.gltf"
     }
-  }, 
+  },
   {
-    "name": "AnimatedMorphCube", 
-    "screenshot": "screenshot/screenshot.gif", 
+    "name": "AnimatedMorphCube",
+    "screenshot": "screenshot/screenshot.gif",
     "variants": {
-      "glTF": "AnimatedMorphCube.gltf", 
+      "glTF": "AnimatedMorphCube.gltf",
       "glTF-Binary": "AnimatedMorphCube.glb"
     }
-  }, 
+  },
   {
-    "name": "AnimatedMorphSphere", 
-    "screenshot": "screenshot/screenshot.gif", 
+    "name": "AnimatedMorphSphere",
+    "screenshot": "screenshot/screenshot.gif",
     "variants": {
-      "glTF": "AnimatedMorphSphere.gltf", 
+      "glTF": "AnimatedMorphSphere.gltf",
       "glTF-Binary": "AnimatedMorphSphere.glb"
     }
-  }, 
+  },
   {
-    "name": "AnimatedTriangle", 
-    "screenshot": "screenshot/animation.png", 
+    "name": "AnimatedTriangle",
+    "screenshot": "screenshot/screenshot.gif",
     "variants": {
-      "glTF": "AnimatedTriangle.gltf", 
+      "glTF": "AnimatedTriangle.gltf",
       "glTF-Embedded": "AnimatedTriangle.gltf"
     }
-  }, 
+  },
   {
-    "name": "Avocado", 
-    "screenshot": "screenshot/screenshot.jpg", 
+    "name": "Avocado",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "Avocado.gltf", 
-      "glTF-Binary": "Avocado.glb", 
-      "glTF-Draco": "Avocado.gltf", 
+      "glTF": "Avocado.gltf",
+      "glTF-Binary": "Avocado.glb",
+      "glTF-Draco": "Avocado.gltf",
       "glTF-pbrSpecularGlossiness": "Avocado.gltf"
     }
-  }, 
+  },
   {
-    "name": "BarramundiFish", 
-    "screenshot": "screenshot/screenshot.jpg", 
+    "name": "BarramundiFish",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "BarramundiFish.gltf", 
-      "glTF-Binary": "BarramundiFish.glb", 
-      "glTF-Draco": "BarramundiFish.gltf", 
+      "glTF": "BarramundiFish.gltf",
+      "glTF-Binary": "BarramundiFish.glb",
+      "glTF-Draco": "BarramundiFish.gltf",
       "glTF-pbrSpecularGlossiness": "BarramundiFish.gltf"
     }
-  }, 
+  },
   {
-    "name": "BoomBox", 
-    "screenshot": "screenshot/screenshot.jpg", 
+    "name": "BoomBox",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "BoomBox.gltf", 
-      "glTF-Binary": "BoomBox.glb", 
-      "glTF-Draco": "BoomBox.gltf", 
+      "glTF": "BoomBox.gltf",
+      "glTF-Binary": "BoomBox.glb",
+      "glTF-Draco": "BoomBox.gltf",
       "glTF-pbrSpecularGlossiness": "BoomBox.gltf"
     }
-  }, 
+  },
   {
-    "name": "BoomBoxWithAxes", 
-    "screenshot": "screenshot/screenshot.jpg", 
+    "name": "BoomBoxWithAxes",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "BoomBoxWithAxes.gltf"
     }
-  }, 
+  },
   {
-    "name": "Box", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "Box",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "Box.gltf", 
-      "glTF-Binary": "Box.glb", 
-      "glTF-Draco": "Box.gltf", 
-      "glTF-Embedded": "Box.gltf", 
+      "glTF": "Box.gltf",
+      "glTF-Binary": "Box.glb",
+      "glTF-Draco": "Box.gltf",
+      "glTF-Embedded": "Box.gltf",
       "glTF-pbrSpecularGlossiness": "Box.gltf"
     }
-  }, 
+  },
   {
-    "name": "BoxAnimated", 
-    "screenshot": "screenshot/screenshot.gif", 
+    "name": "BoxAnimated",
+    "screenshot": "screenshot/screenshot.gif",
     "variants": {
-      "glTF": "BoxAnimated.gltf", 
-      "glTF-Binary": "BoxAnimated.glb", 
-      "glTF-Embedded": "BoxAnimated.gltf", 
+      "glTF": "BoxAnimated.gltf",
+      "glTF-Binary": "BoxAnimated.glb",
+      "glTF-Embedded": "BoxAnimated.gltf",
       "glTF-pbrSpecularGlossiness": "BoxAnimated.gltf"
     }
-  }, 
+  },
   {
-    "name": "BoxInterleaved", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "BoxInterleaved",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "BoxInterleaved.gltf", 
-      "glTF-Binary": "BoxInterleaved.glb", 
-      "glTF-Embedded": "BoxInterleaved.gltf", 
+      "glTF": "BoxInterleaved.gltf",
+      "glTF-Binary": "BoxInterleaved.glb",
+      "glTF-Embedded": "BoxInterleaved.gltf",
       "glTF-pbrSpecularGlossiness": "BoxInterleaved.gltf"
     }
-  }, 
+  },
   {
-    "name": "BoxTextured", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "BoxTextured",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "BoxTextured.gltf", 
-      "glTF-Binary": "BoxTextured.glb", 
-      "glTF-Embedded": "BoxTextured.gltf", 
+      "glTF": "BoxTextured.gltf",
+      "glTF-Binary": "BoxTextured.glb",
+      "glTF-Embedded": "BoxTextured.gltf",
       "glTF-pbrSpecularGlossiness": "BoxTextured.gltf"
     }
-  }, 
+  },
   {
-    "name": "BoxTexturedNonPowerOfTwo", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "BoxTexturedNonPowerOfTwo",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "BoxTexturedNonPowerOfTwo.gltf", 
-      "glTF-Binary": "BoxTexturedNonPowerOfTwo.glb", 
-      "glTF-Embedded": "BoxTexturedNonPowerOfTwo.gltf", 
+      "glTF": "BoxTexturedNonPowerOfTwo.gltf",
+      "glTF-Binary": "BoxTexturedNonPowerOfTwo.glb",
+      "glTF-Embedded": "BoxTexturedNonPowerOfTwo.gltf",
       "glTF-pbrSpecularGlossiness": "BoxTexturedNonPowerOfTwo.gltf"
     }
-  }, 
+  },
   {
-    "name": "BoxVertexColors", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "BoxVertexColors",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "BoxVertexColors.gltf", 
-      "glTF-Binary": "BoxVertexColors.glb", 
+      "glTF": "BoxVertexColors.gltf",
+      "glTF-Binary": "BoxVertexColors.glb",
       "glTF-Embedded": "BoxVertexColors.gltf"
     }
-  }, 
+  },
   {
-    "name": "BrainStem", 
-    "screenshot": "screenshot/screenshot.gif", 
+    "name": "BrainStem",
+    "screenshot": "screenshot/screenshot.gif",
     "variants": {
-      "glTF": "BrainStem.gltf", 
-      "glTF-Binary": "BrainStem.glb", 
-      "glTF-Draco": "BrainStem.gltf", 
-      "glTF-Embedded": "BrainStem.gltf", 
+      "glTF": "BrainStem.gltf",
+      "glTF-Binary": "BrainStem.glb",
+      "glTF-Draco": "BrainStem.gltf",
+      "glTF-Embedded": "BrainStem.gltf",
       "glTF-pbrSpecularGlossiness": "BrainStem.gltf"
     }
-  }, 
+  },
   {
-    "name": "Buggy", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "Buggy",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "Buggy.gltf", 
-      "glTF-Binary": "Buggy.glb", 
-      "glTF-Draco": "Buggy.gltf", 
-      "glTF-Embedded": "Buggy.gltf", 
+      "glTF": "Buggy.gltf",
+      "glTF-Binary": "Buggy.glb",
+      "glTF-Draco": "Buggy.gltf",
+      "glTF-Embedded": "Buggy.gltf",
       "glTF-pbrSpecularGlossiness": "Buggy.gltf"
     }
-  }, 
+  },
   {
-    "name": "Cameras", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "Cameras",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "Cameras.gltf", 
+      "glTF": "Cameras.gltf",
       "glTF-Embedded": "Cameras.gltf"
     }
-  }, 
+  },
   {
-    "name": "CesiumMan", 
-    "screenshot": "screenshot/screenshot.gif", 
+    "name": "CesiumMan",
+    "screenshot": "screenshot/screenshot.gif",
     "variants": {
-      "glTF": "CesiumMan.gltf", 
-      "glTF-Binary": "CesiumMan.glb", 
-      "glTF-Draco": "CesiumMan.gltf", 
-      "glTF-Embedded": "CesiumMan.gltf", 
+      "glTF": "CesiumMan.gltf",
+      "glTF-Binary": "CesiumMan.glb",
+      "glTF-Draco": "CesiumMan.gltf",
+      "glTF-Embedded": "CesiumMan.gltf",
       "glTF-pbrSpecularGlossiness": "CesiumMan.gltf"
     }
-  }, 
+  },
   {
-    "name": "CesiumMilkTruck", 
-    "screenshot": "screenshot/screenshot.gif", 
+    "name": "CesiumMilkTruck",
+    "screenshot": "screenshot/screenshot.gif",
     "variants": {
-      "glTF": "CesiumMilkTruck.gltf", 
-      "glTF-Binary": "CesiumMilkTruck.glb", 
-      "glTF-Draco": "CesiumMilkTruck.gltf", 
-      "glTF-Embedded": "CesiumMilkTruck.gltf", 
+      "glTF": "CesiumMilkTruck.gltf",
+      "glTF-Binary": "CesiumMilkTruck.glb",
+      "glTF-Draco": "CesiumMilkTruck.gltf",
+      "glTF-Embedded": "CesiumMilkTruck.gltf",
       "glTF-pbrSpecularGlossiness": "CesiumMilkTruck.gltf"
     }
-  }, 
+  },
   {
-    "name": "Corset", 
-    "screenshot": "screenshot/screenshot.jpg", 
+    "name": "Corset",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "Corset.gltf", 
-      "glTF-Binary": "Corset.glb", 
-      "glTF-Draco": "Corset.gltf", 
+      "glTF": "Corset.gltf",
+      "glTF-Binary": "Corset.glb",
+      "glTF-Draco": "Corset.gltf",
       "glTF-pbrSpecularGlossiness": "Corset.gltf"
     }
-  }, 
+  },
   {
-    "name": "Cube", 
-    "screenshot": "screenshot/screenshot.jpg", 
+    "name": "Cube",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "Cube.gltf"
     }
-  }, 
+  },
   {
-    "name": "DamagedHelmet", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "DamagedHelmet",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "DamagedHelmet.gltf", 
-      "glTF-Binary": "DamagedHelmet.glb", 
+      "glTF": "DamagedHelmet.gltf",
+      "glTF-Binary": "DamagedHelmet.glb",
       "glTF-Embedded": "DamagedHelmet.gltf"
     }
-  }, 
+  },
   {
-    "name": "Duck", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "Duck",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "Duck.gltf", 
-      "glTF-Binary": "Duck.glb", 
-      "glTF-Draco": "Duck.gltf", 
-      "glTF-Embedded": "Duck.gltf", 
+      "glTF": "Duck.gltf",
+      "glTF-Binary": "Duck.glb",
+      "glTF-Draco": "Duck.gltf",
+      "glTF-Embedded": "Duck.gltf",
       "glTF-pbrSpecularGlossiness": "Duck.gltf"
     }
-  }, 
+  },
   {
-    "name": "FlightHelmet", 
-    "screenshot": "screenshot/screenshot.jpg", 
+    "name": "FlightHelmet",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "FlightHelmet.gltf"
     }
-  }, 
+  },
   {
-    "name": "GearboxAssy", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "GearboxAssy",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "GearboxAssy.gltf", 
-      "glTF-Binary": "GearboxAssy.glb", 
-      "glTF-Draco": "GearboxAssy.gltf", 
-      "glTF-Embedded": "GearboxAssy.gltf", 
+      "glTF": "GearboxAssy.gltf",
+      "glTF-Binary": "GearboxAssy.glb",
+      "glTF-Draco": "GearboxAssy.gltf",
+      "glTF-Embedded": "GearboxAssy.gltf",
       "glTF-pbrSpecularGlossiness": "GearboxAssy.gltf"
     }
-  }, 
+  },
   {
-    "name": "Lantern", 
-    "screenshot": "screenshot/screenshot.jpg", 
+    "name": "Lantern",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "Lantern.gltf", 
-      "glTF-Binary": "Lantern.glb", 
-      "glTF-Draco": "Lantern.gltf", 
+      "glTF": "Lantern.gltf",
+      "glTF-Binary": "Lantern.glb",
+      "glTF-Draco": "Lantern.gltf",
       "glTF-pbrSpecularGlossiness": "Lantern.gltf"
     }
-  }, 
+  },
   {
-    "name": "MetalRoughSpheres", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "MetalRoughSpheres",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "MetalRoughSpheres.gltf", 
-      "glTF-Binary": "MetalRoughSpheres.glb", 
+      "glTF": "MetalRoughSpheres.gltf",
+      "glTF-Binary": "MetalRoughSpheres.glb",
       "glTF-Embedded": "MetalRoughSpheres.gltf"
     }
-  }, 
+  },
   {
-    "name": "Monster", 
-    "screenshot": "screenshot/screenshot.gif", 
+    "name": "Monster",
+    "screenshot": "screenshot/screenshot.gif",
     "variants": {
-      "glTF": "Monster.gltf", 
-      "glTF-Binary": "Monster.glb", 
-      "glTF-Draco": "Monster.gltf", 
-      "glTF-Embedded": "Monster.gltf", 
+      "glTF": "Monster.gltf",
+      "glTF-Binary": "Monster.glb",
+      "glTF-Draco": "Monster.gltf",
+      "glTF-Embedded": "Monster.gltf",
       "glTF-pbrSpecularGlossiness": "Monster.gltf"
     }
-  }, 
+  },
   {
-    "name": "NormalTangentMirrorTest", 
-    "screenshot": "screenshot/back-side.png", 
+    "name": "NormalTangentMirrorTest",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "NormalTangentMirrorTest.gltf", 
-      "glTF-Binary": "NormalTangentMirrorTest.glb", 
+      "glTF": "NormalTangentMirrorTest.gltf",
+      "glTF-Binary": "NormalTangentMirrorTest.glb",
       "glTF-Embedded": "NormalTangentMirrorTest.gltf"
     }
-  }, 
+  },
   {
-    "name": "NormalTangentTest", 
-    "screenshot": "screenshot/back-side.png", 
+    "name": "NormalTangentTest",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "NormalTangentTest.gltf", 
-      "glTF-Binary": "NormalTangentTest.glb", 
+      "glTF": "NormalTangentTest.gltf",
+      "glTF-Binary": "NormalTangentTest.glb",
       "glTF-Embedded": "NormalTangentTest.gltf"
     }
-  }, 
+  },
   {
-    "name": "OrientationTest", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "OrientationTest",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "OrientationTest.gltf", 
-      "glTF-Binary": "OrientationTest.glb", 
+      "glTF": "OrientationTest.gltf",
+      "glTF-Binary": "OrientationTest.glb",
       "glTF-Embedded": "OrientationTest.gltf"
     }
-  }, 
+  },
   {
-    "name": "ReciprocatingSaw", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "ReciprocatingSaw",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "ReciprocatingSaw.gltf", 
-      "glTF-Binary": "ReciprocatingSaw.glb", 
-      "glTF-Draco": "ReciprocatingSaw.gltf", 
-      "glTF-Embedded": "ReciprocatingSaw.gltf", 
+      "glTF": "ReciprocatingSaw.gltf",
+      "glTF-Binary": "ReciprocatingSaw.glb",
+      "glTF-Draco": "ReciprocatingSaw.gltf",
+      "glTF-Embedded": "ReciprocatingSaw.gltf",
       "glTF-pbrSpecularGlossiness": "ReciprocatingSaw.gltf"
     }
-  }, 
+  },
   {
-    "name": "RiggedFigure", 
-    "screenshot": "screenshot/screenshot.gif", 
+    "name": "RiggedFigure",
+    "screenshot": "screenshot/screenshot.gif",
     "variants": {
-      "glTF": "RiggedFigure.gltf", 
-      "glTF-Binary": "RiggedFigure.glb", 
-      "glTF-Draco": "RiggedFigure.gltf", 
-      "glTF-Embedded": "RiggedFigure.gltf", 
+      "glTF": "RiggedFigure.gltf",
+      "glTF-Binary": "RiggedFigure.glb",
+      "glTF-Draco": "RiggedFigure.gltf",
+      "glTF-Embedded": "RiggedFigure.gltf",
       "glTF-pbrSpecularGlossiness": "RiggedFigure.gltf"
     }
-  }, 
+  },
   {
-    "name": "RiggedSimple", 
-    "screenshot": "screenshot/screenshot.gif", 
+    "name": "RiggedSimple",
+    "screenshot": "screenshot/screenshot.gif",
     "variants": {
-      "glTF": "RiggedSimple.gltf", 
-      "glTF-Binary": "RiggedSimple.glb", 
-      "glTF-Draco": "RiggedSimple.gltf", 
-      "glTF-Embedded": "RiggedSimple.gltf", 
+      "glTF": "RiggedSimple.gltf",
+      "glTF-Binary": "RiggedSimple.glb",
+      "glTF-Draco": "RiggedSimple.gltf",
+      "glTF-Embedded": "RiggedSimple.gltf",
       "glTF-pbrSpecularGlossiness": "RiggedSimple.gltf"
     }
-  }, 
+  },
   {
-    "name": "SciFiHelmet", 
-    "screenshot": "screenshot/screenshot.jpg", 
+    "name": "SciFiHelmet",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "SciFiHelmet.gltf"
     }
-  }, 
+  },
   {
-    "name": "SimpleMeshes", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "SimpleMeshes",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "SimpleMeshes.gltf", 
+      "glTF": "SimpleMeshes.gltf",
       "glTF-Embedded": "SimpleMeshes.gltf"
     }
-  }, 
+  },
   {
-    "name": "SimpleMorph", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "SimpleMorph",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "SimpleMorph.gltf", 
+      "glTF": "SimpleMorph.gltf",
       "glTF-Embedded": "SimpleMorph.gltf"
     }
-  }, 
+  },
   {
-    "name": "SimpleSparseAccessor", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "SimpleSparseAccessor",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "SimpleSparseAccessor.gltf", 
+      "glTF": "SimpleSparseAccessor.gltf",
       "glTF-Embedded": "SimpleSparseAccessor.gltf"
     }
-  }, 
+  },
   {
-    "name": "Suzanne", 
-    "screenshot": "screenshot/screenshot.jpg", 
+    "name": "Suzanne",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "Suzanne.gltf"
     }
-  }, 
+  },
   {
-    "name": "TextureCoordinateTest", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "TextureCoordinateTest",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "TextureCoordinateTest.gltf", 
-      "glTF-Binary": "TextureCoordinateTest.glb", 
+      "glTF": "TextureCoordinateTest.gltf",
+      "glTF-Binary": "TextureCoordinateTest.glb",
       "glTF-Embedded": "TextureCoordinateTest.gltf"
     }
-  }, 
+  },
   {
-    "name": "TextureSettingsTest", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "TextureSettingsTest",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "TextureSettingsTest.gltf", 
-      "glTF-Binary": "TextureSettingsTest.glb", 
+      "glTF": "TextureSettingsTest.gltf",
+      "glTF-Binary": "TextureSettingsTest.glb",
       "glTF-Embedded": "TextureSettingsTest.gltf"
     }
-  }, 
+  },
   {
-    "name": "Triangle", 
-    "screenshot": "screenshot/simpleTriangle.png", 
+    "name": "Triangle",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "Triangle.gltf", 
+      "glTF": "Triangle.gltf",
       "glTF-Embedded": "Triangle.gltf"
     }
-  }, 
+  },
   {
-    "name": "TriangleWithoutIndices", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "TriangleWithoutIndices",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "TriangleWithoutIndices.gltf", 
+      "glTF": "TriangleWithoutIndices.gltf",
       "glTF-Embedded": "TriangleWithoutIndices.gltf"
     }
-  }, 
+  },
   {
-    "name": "TwoSidedPlane", 
-    "screenshot": "screenshot/screenshot.jpg", 
+    "name": "TwoSidedPlane",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "TwoSidedPlane.gltf"
     }
-  }, 
+  },
   {
-    "name": "VC", 
-    "screenshot": "screenshot/screenshot.gif", 
+    "name": "VC",
+    "screenshot": "screenshot/screenshot.gif",
     "variants": {
-      "glTF": "VC.gltf", 
-      "glTF-Binary": "VC.glb", 
-      "glTF-Draco": "VC.gltf", 
-      "glTF-Embedded": "VC.gltf", 
+      "glTF": "VC.gltf",
+      "glTF-Binary": "VC.glb",
+      "glTF-Draco": "VC.gltf",
+      "glTF-Embedded": "VC.gltf",
       "glTF-pbrSpecularGlossiness": "VC.gltf"
     }
-  }, 
+  },
   {
-    "name": "VertexColorTest", 
-    "screenshot": "screenshot/screenshot.png", 
+    "name": "VertexColorTest",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "VertexColorTest.gltf", 
-      "glTF-Binary": "VertexColorTest.glb", 
+      "glTF": "VertexColorTest.gltf",
+      "glTF-Binary": "VertexColorTest.glb",
       "glTF-Embedded": "VertexColorTest.gltf"
     }
-  }, 
+  },
   {
-    "name": "WaterBottle", 
-    "screenshot": "screenshot/screenshot.jpg", 
+    "name": "WaterBottle",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "WaterBottle.gltf", 
-      "glTF-Binary": "WaterBottle.glb", 
-      "glTF-Draco": "WaterBottle.gltf", 
+      "glTF": "WaterBottle.gltf",
+      "glTF-Binary": "WaterBottle.glb",
+      "glTF-Draco": "WaterBottle.gltf",
       "glTF-pbrSpecularGlossiness": "WaterBottle.gltf"
     }
   }
