@@ -401,6 +401,13 @@
     }
   },
   {
+    "name": "TextureTransformTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "TextureTransformTest.gltf"
+    }
+  },
+  {
     "name": "Triangle",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
