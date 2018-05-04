@@ -73,4 +73,8 @@
 | [Texture Coordinate Test](TextureCoordinateTest)      | ![](TextureCoordinateTest/screenshot/screenshot.png)          | Shows how XYZ and UV positions relate to displayed geometry. |
 | [Texture Settings Test](TextureSettingsTest)          | ![](TextureSettingsTest/screenshot/screenshot.png)            | Tests single/double-sided and various texturing modes. |
 | [Vertex Color Test](VertexColorTest)                  | ![](VertexColorTest/screenshot/screenshot.png)                | Tests if vertex colors are supported. |
+
+## Extension Test Models
+| Model                                                 | Screenshot                                                    | Description |
+|-------------------------------------------------------|---------------------------------------------------------------|-------------|
 | [Texture Transform Test](TextureTransformTest)        | ![](TextureTransformTest/screenshot/screenshot.jpg)           | Tests if KHR_texture_transform extension is supported properly. |

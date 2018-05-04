@@ -1,4 +1,4 @@
-# Texture Coordinate Test
+# Texture Transform Test
 
 ## Screenshot
 
