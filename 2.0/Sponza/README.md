@@ -4,7 +4,7 @@
 
 Lights are shown here, they are not part of the model.
 
-![screenshot](screenshot/screenshot.jpg)
+![screenshot](screenshot/large.jpg)
 
 ## Model notes
 

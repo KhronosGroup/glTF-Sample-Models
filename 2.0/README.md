@@ -36,6 +36,7 @@
 | [Monster](Monster)                            | ![](Monster/screenshot/screenshot.gif)           | Textured. Animations. Skins. |
 | [BrainStem](BrainStem)                        | ![](BrainStem/screenshot/screenshot.gif)         | Animations. Skins. |
 | [Virtual City](VC)                            | ![](VC/screenshot/screenshot.gif)                | Textured. Animations. Skins. |
+| [Sponza](Sponza)                              | ![](Sponza/screenshot/screenshot.jpg)            | Building interior, often used to test lighting. |
 
 ## PBR models
 
@@ -67,6 +68,7 @@
 | [Alpha Blend Mode Test](AlphaBlendModeTest)           | ![](AlphaBlendModeTest/screenshot/screenshot.png)             | Tests alpha modes and settings. |
 | [Boom Box With Axes](BoomBoxWithAxes)                 | ![](BoomBoxWithAxes/screenshot/screenshot.jpg)                | Shows X, Y, and Z axis default orientations. |
 | [Metal Rough Spheres](MetalRoughSpheres)              | ![](MetalRoughSpheres/screenshot/screenshot.png)              | Tests various metal and roughness values. |
+| [Multi UV Test](MultiUVTest)                          | ![](MultiUVTest/screenshot/screenshot.jpg)                    | Tests a second set of texture coordinates. |
 | [Normal Tangent Test](NormalTangentTest)              | ![](NormalTangentTest/screenshot/screenshot.png)              | Tests an engine's ability to automatically generate tangent vectors for a normal map. |
 | [Normal Tangent Mirror Test](NormalTangentMirrorTest) | ![](NormalTangentMirrorTest/screenshot/screenshot.png)        | Tests an engine's ability to load supplied tangent vectors for a normal map. |
 | [Orientation Test](OrientationTest)                   | ![](OrientationTest/screenshot/screenshot.png)                | Tests node translations and rotations. |
