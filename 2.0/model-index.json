@@ -285,6 +285,15 @@
     }
   },
   {
+    "name": "MultiUVTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "MultiUVTest.gltf",
+      "glTF-Binary": "MultiUVTest.glb",
+      "glTF-Embedded": "MultiUVTest.gltf"
+    }
+  },
+  {
     "name": "NormalTangentMirrorTest",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -373,6 +382,13 @@
     "variants": {
       "glTF": "SimpleSparseAccessor.gltf",
       "glTF-Embedded": "SimpleSparseAccessor.gltf"
+    }
+  },
+  {
+    "name": "Sponza",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "Sponza.gltf"
     }
   },
   {
