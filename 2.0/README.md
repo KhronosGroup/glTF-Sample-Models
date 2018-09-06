@@ -79,4 +79,5 @@
 ## Extension Test Models
 | Model                                                 | Screenshot                                                    | Description |
 |-------------------------------------------------------|---------------------------------------------------------------|-------------|
+| [SpecGloss Vs MetalRough](SpecGlossVsMetalRough)      | ![](SpecGlossVsMetalRough/screenshot/screenshot.jpg)          | Tests if KHR_materials_pbrSpecularGlossiness extension is supported properly. |
 | [Texture Transform Test](TextureTransformTest)        | ![](TextureTransformTest/screenshot/screenshot.jpg)           | Tests if KHR_texture_transform extension is supported properly. |
