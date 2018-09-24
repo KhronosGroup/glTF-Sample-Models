@@ -28,7 +28,7 @@ For addition glTF models, see:
 * Flightradar24's [GitHub repo](https://github.com/kalmykov/fr24-3d-models) of aircrafts.
 * Sketchfab's [glTF samples](https://sketchfab.com/features/gltf).
 * [Kenney • Assets](https://kenney.nl/assets?q=3d) hundreds of themed low-poly assets (nature, space, castle, furniture, etc.) provided by Kenney under CC0 licenses.
-* [30+ pirate themed (public domain) models](https://www.reddit.com/r/gamedev/comments/9i88rb/over_30_pirate_themed_public_domain_models/)
+   * [30+ pirate themed models](https://kenney.nl/assets/pirate-kit) by Kenney under CC0 license.
 
 ## Contributing Sample Models
 
