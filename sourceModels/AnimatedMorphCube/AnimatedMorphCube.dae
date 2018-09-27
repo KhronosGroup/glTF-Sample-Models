@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <author>Rob Taglang</author>
+            <copyright>
+                Copyright 2018 Rob Taglang
+                Licensed under the Creative Commons Attribution Noncommercial Share Alike license.
+                See license file or www.creativecommons.org for details.
+            </copyright>
+        </contributor>
+        <unit meter="0.01" name="centimeter"/>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+
+    <library_animations>
+        <animation id="morph-animation-1">
+            <source id="morph-animation-1-input">
+                <float_array id="morph-animation-1-input-array" count="127">
+                    0.00000 0.03333 0.06667 0.10000 0.13333 0.16667 0.20000 0.23333 
+                    0.26667 0.30000 0.33333 0.36667 0.40000 0.43333 0.46667 0.50000 
+                    0.53333 0.56667 0.60000 0.63333 0.66667 0.70000 0.73333 0.76667 
+                    0.80000 0.83333 0.86667 0.90000 0.93333 0.96667 1.00000 1.03333 
+                    1.06667 1.10000 1.13333 1.16667 1.20000 1.23333 1.26667 1.30000 
+                    1.33333 1.36667 1.40000 1.43333 1.46667 1.50000 1.53333 1.56667 
+                    1.60000 1.63333 1.66667 1.70000 1.73333 1.76667 1.80000 1.83333 
+                    1.86667 1.90000 1.93333 1.96667 2.00000 2.03333 2.06667 2.10000 
+                    2.13333 2.16667 2.20000 2.23333 2.26667 2.30000 2.33333 2.36667 
+                    2.40000 2.43333 2.46667 2.50000 2.53333 2.56667 2.60000 2.63333 
+                    2.66667 2.70000 2.73333 2.76667 2.80000 2.83333 2.86667 2.90000 
+                    2.93333 2.96667 3.00000 3.03333 3.06667 3.10000 3.13333 3.16667 
+                    3.20000 3.23333 3.26666 3.30000 3.33333 3.36666 3.40000 3.43333 
+                    3.46666 3.50000 3.53333 3.56666 3.60000 3.63333 3.66666 3.70000 
+                    3.73333 3.76666 3.80000 3.83333 3.86666 3.90000 3.93333 3.96666 
+                    4.00000 4.03333 4.06666 4.10000 4.13333 4.16666 4.20000 
+                </float_array>
+                <technique_common>
+                    <accessor count="127" source="morph-animation-1-input-array">
+                        <param name="TIME" type="float"/>
+                    </accessor>
+                </technique_common>
+            </source>
+
+            <source id="morph-animation-1-interpolation">
+                <Name_array id="morph-animation-1-interpolation-array" count="127">
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                </Name_array>
+                <technique_common>
+                    <accessor count="127" source="#morph-animation-1-interpolation-array">
+                        <param name="INTERPOLATION" type="Name"/>
+                    </accessor>
+                </technique_common>
+            </source>
+
+            <source id="morph-animation-1-output">
+                <float_array id="morph-animation-1-output-array" count="127">
+                    0.00000 0.00128 0.00506 0.01123 0.01968 0.03029 0.04297 0.05760 
+                    0.07407 0.09229 0.11212 0.13348 0.15625 0.18032 0.20558 0.23193 
+                    0.25926 0.28745 0.31641 0.34601 0.37616 0.40674 0.43764 0.46877 
+                    0.50000 0.53123 0.56236 0.59326 0.62384 0.65399 0.68359 0.71255 
+                    0.74074 0.76807 0.79442 0.81968 0.84375 0.86652 0.88788 0.90771 
+                    0.92593 0.94240 0.95703 0.96971 0.98032 0.98877 0.99494 0.99872 
+                    1.00000 0.99821 0.99299 0.98459 0.97325 0.95921 0.94271 0.92399 
+                    0.90329 0.88086 0.85693 0.83175 0.80556 0.77859 0.75109 0.72331 
+                    0.69547 0.66783 0.64063 0.61409 0.58848 0.56402 0.54096 0.51954 
+                    0.50000 0.48107 0.46137 0.44100 0.42007 0.39866 0.37689 0.35484 
+                    0.33263 0.31033 0.28807 0.26592 0.24400 0.22240 0.20122 0.18056 
+                    0.16051 0.14118 0.12267 0.10507 0.08848 0.07300 0.05873 0.04577 
+                    0.03422 0.02418 0.01574 0.00900 0.00407 0.00103 0.00000 0.00000 
+                    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 
+                    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 
+                    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000
+                </float_array>
+                <technique_common>
+                    <accessor count="127" source="morph-animation-1-output-array">
+                        <param type="float"/>
+                    </accessor>
+                </technique_common>
+            </source>
+
+            <sampler id="morph-sampler-1">
+                <input semantic="INPUT" source="#morph-animation-1-input"/>
+                <input semantic="OUTPUT" source="#morph-animation-1-output"/>
+                <input semantic="INTERPOLATION" source="#morph-animation-1-interpolation"/>
+            </sampler>
+
+            <channel source="#morph-sampler-1" target="morph-weights(0)"/>
+        </animation>
+
+        <animation id="morph-animation-2">
+            <source id="morph-animation-2-input">
+                <float_array id="morph-animation-2-input-array" count="127">
+                    0.00000 0.03333 0.06667 0.10000 0.13333 0.16667 0.20000 0.23333 
+                    0.26667 0.30000 0.33333 0.36667 0.40000 0.43333 0.46667 0.50000 
+                    0.53333 0.56667 0.60000 0.63333 0.66667 0.70000 0.73333 0.76667 
+                    0.80000 0.83333 0.86667 0.90000 0.93333 0.96667 1.00000 1.03333 
+                    1.06667 1.10000 1.13333 1.16667 1.20000 1.23333 1.26667 1.30000 
+                    1.33333 1.36667 1.40000 1.43333 1.46667 1.50000 1.53333 1.56667 
+                    1.60000 1.63333 1.66667 1.70000 1.73333 1.76667 1.80000 1.83333 
+                    1.86667 1.90000 1.93333 1.96667 2.00000 2.03333 2.06667 2.10000 
+                    2.13333 2.16667 2.20000 2.23333 2.26667 2.30000 2.33333 2.36667 
+                    2.40000 2.43333 2.46667 2.50000 2.53333 2.56667 2.60000 2.63333 
+                    2.66667 2.70000 2.73333 2.76667 2.80000 2.83333 2.86667 2.90000 
+                    2.93333 2.96667 3.00000 3.03333 3.06667 3.10000 3.13333 3.16667 
+                    3.20000 3.23333 3.26666 3.30000 3.33333 3.36666 3.40000 3.43333 
+                    3.46666 3.50000 3.53333 3.56666 3.60000 3.63333 3.66666 3.70000 
+                    3.73333 3.76666 3.80000 3.83333 3.86666 3.90000 3.93333 3.96666 
+                    4.00000 4.03333 4.06666 4.10000 4.13333 4.16666 4.20000 
+                </float_array>
+                <technique_common>
+                    <accessor count="127" source="morph-animation-2-input-array">
+                        <param name="TIME" type="float"/>
+                    </accessor>
+                </technique_common>
+            </source>
+
+            <source id="morph-animation-2-interpolation">
+                <Name_array id="morph-animation-2-interpolation-array" count="127">
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                    LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR
+                </Name_array>
+                <technique_common>
+                    <accessor count="127" source="#morph-animation-2-interpolation-array">
+                        <param name="INTERPOLATION" type="Name"/>
+                    </accessor>
+                </technique_common>
+            </source>
+
+            <source id="morph-animation-2-output">
+                <float_array id="morph-animation-2-output-array" count="127">
+                    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 
+                    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 
+                    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 
+                    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 
+                    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 
+                    0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 
+                    0.00000 0.00179 0.00701 0.01541 0.02675 0.04079 0.05729 0.07601 
+                    0.09671 0.11914 0.14307 0.16825 0.19444 0.22141 0.24891 0.27669 
+                    0.30453 0.33217 0.35937 0.38591 0.41152 0.43598 0.45904 0.48046 
+                    0.50000 0.51893 0.53863 0.55900 0.57993 0.60134 0.62311 0.64516 
+                    0.66737 0.68967 0.71193 0.73408 0.75600 0.77760 0.79878 0.81944 
+                    0.83949 0.85882 0.87733 0.89493 0.91152 0.92700 0.94127 0.95423 
+                    0.96578 0.97582 0.98426 0.99100 0.99593 0.99897 1.00000 0.99494 
+                    0.98033 0.95703 0.92593 0.88788 0.84375 0.79442 0.74074 0.68360 
+                    0.62385 0.56236 0.50000 0.43765 0.37616 0.31641 0.25926 0.20559 
+                    0.15625 0.11213 0.07408 0.04297 0.01968 0.00506 0.00000 
+                </float_array>
+                <technique_common>
+                    <accessor count="127" source="morph-animation-2-output-array">
+                        <param type="float"/>
+                    </accessor>
+                </technique_common>
+            </source>
+
+            <sampler id="morph-sampler-2">
+                <input semantic="INPUT" source="#morph-animation-2-input"/>
+                <input semantic="OUTPUT" source="#morph-animation-2-output"/>
+                <input semantic="INTERPOLATION" source="#morph-animation-2-interpolation"/>
+            </sampler>
+
+            <channel source="#morph-sampler-2" target="morph-weights(1)"/>
+        </animation>
+    </library_animations>
+
+    <library_geometries>
+        <geometry id="base-geometry" name="Cube">
+            <mesh>
+                <source id="base-mesh-positions">
+                    <float_array id="base-mesh-positions-array" count="72">
+                       -0.01000     0.01000     0.01000 
+                        0.01000     0.01000     0.01000 
+                        0.01000    -0.01000     0.01000 
+                       -0.01000    -0.01000     0.01000 
+                       -0.01000     0.01000    -0.01000 
+                       -0.01000    -0.01000    -0.01000 
+                        0.01000    -0.01000    -0.01000 
+                        0.01000     0.01000    -0.01000 
+                       -0.01000     0.01000     0.01000 
+                       -0.01000    -0.01000     0.01000 
+                       -0.01000    -0.01000    -0.01000 
+                       -0.01000     0.01000    -0.01000 
+                       -0.01000    -0.01000     0.01000 
+                        0.01000    -0.01000     0.01000 
+                        0.01000    -0.01000    -0.01000 
+                       -0.01000    -0.01000    -0.01000 
+                        0.01000    -0.01000     0.01000 
+                        0.01000     0.01000     0.01000 
+                        0.01000     0.01000    -0.01000 
+                        0.01000    -0.01000    -0.01000 
+                       -0.01000     0.01000    -0.01000 
+                        0.01000     0.01000    -0.01000 
+                        0.01000     0.01000     0.01000 
+                       -0.01000     0.01000     0.01000
+                    </float_array>
+                    <technique_common>
+                        <accessor count="24" source="#base-mesh-positions-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="base-mesh-normals">
+                    <float_array id="base-mesh-normals-array" count="18">
+                        0.00000     0.00000     1.00000 
+                        0.00000     0.00000    -1.00000 
+                       -1.00000     0.00000     0.00000 
+                        0.00000    -1.00000     0.00000 
+                        1.00000     0.00000     0.00000 
+                        0.00000     1.00000     0.00000 
+                    </float_array>
+                    <technique_common>
+                        <accessor count="6" source="#base-mesh-normals-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="base-mesh-vertices">
+                    <input semantic="POSITION" source="#base-mesh-positions"/>
+                </vertices>
+                <triangles count="12">
+                    <input semantic="VERTEX" source="#base-mesh-vertices" offset="0" />
+                    <input semantic="NORMAL" source="#base-mesh-normals" offset="1" />
+                    <p>
+                         2 0     1 0     0 0
+                         3 0     2 0     0 0
+                         6 1     5 1     4 1
+                         7 1     6 1     4 1
+                        10 2     9 2     8 2
+                        11 2    10 2     8 2
+                        14 3    13 3    12 3
+                        15 3    14 3    12 3
+                        18 4    17 4    16 4
+                        19 4    18 4    16 4
+                        22 5    21 5    20 5
+                        23 5    22 5    20 5
+                    </p>
+                </triangles>
+            </mesh>
+        </geometry>
+
+        <geometry id="morph-geometry-1">
+            <mesh>
+                <source id="morph-mesh-1-positions">
+                    <float_array id="morph-mesh-1-positions-array" count="72">
+                       -0.01000     0.01000     0.01000 
+                        0.01000     0.01000     0.01000 
+                        0.01000     0.00893     0.01000 
+                       -0.01000     0.00893     0.01000 
+                       -0.01000     0.01000    -0.01000 
+                       -0.01000     0.00893    -0.01000 
+                        0.01000     0.00893    -0.01000 
+                        0.01000     0.01000    -0.01000 
+                       -0.01000     0.01000     0.01000 
+                       -0.01000     0.00893     0.01000 
+                       -0.01000     0.00893    -0.01000 
+                       -0.01000     0.01000    -0.01000 
+                       -0.01000     0.00893     0.01000 
+                        0.01000     0.00893     0.01000 
+                        0.01000     0.00893    -0.01000 
+                       -0.01000     0.00893    -0.01000 
+                        0.01000     0.00893     0.01000 
+                        0.01000     0.01000     0.01000 
+                        0.01000     0.01000    -0.01000 
+                        0.01000     0.00893    -0.01000 
+                       -0.01000     0.01000    -0.01000 
+                        0.01000     0.01000    -0.01000 
+                        0.01000     0.01000     0.01000 
+                       -0.01000     0.01000     0.01000
+                    </float_array>
+                    <technique_common>
+                        <accessor count="24" source="#morph-mesh-1-positions-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="morph-mesh-1-normals">
+                    <float_array id="morph-mesh-1-normals-array" count="18">
+                        0.00000     0.00000     1.00000 
+                        0.00000     0.00000    -1.00000 
+                       -1.00000     0.00000     0.00000 
+                        0.00000    -1.00000     0.00000 
+                        1.00000     0.00000     0.00000 
+                        0.00000     1.00000     0.00000 
+                    </float_array>
+                    <technique_common>
+                        <accessor count="6" source="#morph-mesh-1-normals-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="morph-mesh-1-vertices">
+                    <input semantic="POSITION" source="#morph-mesh-1-positions"/>
+                </vertices>
+                <triangles count="12">
+                    <input semantic="VERTEX" source="#morph-mesh-1-vertices" offset="0" />
+                    <input semantic="NORMAL" source="#morph-mesh-1-normals" offset="1" />
+                    <p>
+                         2 0     1 0     0 0
+                         3 0     2 0     0 0
+                         6 1     5 1     4 1
+                         7 1     6 1     4 1
+                        10 2     9 2     8 2
+                        11 2    10 2     8 2
+                        14 3    13 3    12 3
+                        15 3    14 3    12 3
+                        18 4    17 4    16 4
+                        19 4    18 4    16 4
+                        22 5    21 5    20 5
+                        23 5    22 5    20 5
+                    </p>
+                </triangles>
+            </mesh>
+        </geometry>
+
+        <geometry id="morph-geometry-2">
+            <mesh>
+                <source id="morph-mesh-2-positions">
+                    <float_array id="morph-mesh-2-positions-array" count="72">
+                       -0.01000     0.01000     0.01000 
+                        0.01000     0.01000     0.01000 
+                        0.01000    -0.01000     0.01000 
+                       -0.01000    -0.01000     0.01000 
+                       -0.01000     0.01000    -0.01000 
+                       -0.01000     0.00989    -0.01000 
+                        0.01000     0.00989    -0.01000 
+                        0.01000     0.01000    -0.01000 
+                       -0.01000     0.01000     0.01000 
+                       -0.01000    -0.01000     0.01000 
+                       -0.01000     0.00989    -0.01000 
+                       -0.01000     0.01000    -0.01000 
+                       -0.01000    -0.01000     0.01000 
+                        0.01000    -0.01000     0.01000 
+                        0.01000     0.00989    -0.01000 
+                       -0.01000     0.00989    -0.01000 
+                        0.01000    -0.01000     0.01000 
+                        0.01000     0.01000     0.01000 
+                        0.01000     0.01000    -0.01000 
+                        0.01000     0.00989    -0.01000 
+                       -0.01000     0.01000    -0.01000 
+                        0.01000     0.01000    -0.01000 
+                        0.01000     0.01000     0.01000 
+                       -0.01000     0.01000     0.01000
+                    </float_array>
+                    <technique_common>
+                        <accessor count="24" source="#morph-mesh-2-positions-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="morph-mesh-2-normals">
+                    <float_array id="morph-mesh-2-normals-array" count="18">
+                        0.00000     0.00000     1.00000 
+                        0.00000     0.00000    -1.00000 
+                       -1.00000     0.00000     0.00000 
+                        0.00000    -1.00000     0.00000 
+                        1.00000     0.00000     0.00000 
+                        0.00000     1.00000     0.00000 
+                    </float_array>
+                    <technique_common>
+                        <accessor count="6" source="#morph-mesh-2-normals-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="morph-mesh-2-vertices">
+                    <input semantic="POSITION" source="#morph-mesh-2-positions"/>
+                </vertices>
+                <triangles count="12">
+                    <input semantic="VERTEX" source="#morph-mesh-2-vertices" offset="0" />
+                    <input semantic="NORMAL" source="#morph-mesh-2-normals" offset="1" />
+                    <p>
+                         2 0     1 0     0 0
+                         3 0     2 0     0 0
+                         6 1     5 1     4 1
+                         7 1     6 1     4 1
+                        10 2     9 2     8 2
+                        11 2    10 2     8 2
+                        14 3    13 3    12 3
+                        15 3    14 3    12 3
+                        18 4    17 4    16 4
+                        19 4    18 4    16 4
+                        22 5    21 5    20 5
+                        23 5    22 5    20 5
+                    </p>
+                </triangles>
+            </mesh>
+        </geometry>
+    </library_geometries>
+
+    <library_materials>
+        <material id="material">
+            <instance_effect url="#effect"/>
+        </material>
+    </library_materials>
+
+    <library_effects>
+        <effect id="effect" name="Material">
+          <profile_COMMON>
+            <technique sid="common">
+                <blinn>
+                    <diffuse>
+                        <color>
+                            0.6038274 0.6038274 0.6038274 1
+                        </color>
+                    </diffuse>
+                </blinn>
+            </technique>
+          </profile_COMMON>
+        </effect>
+    </library_effects>
+
+    <library_controllers>
+        <controller id="morph">
+            <morph source="#base-geometry">
+                <source id="morph-targets">
+                    <IDREF_array id="morph-targets-array" count="2">
+                        morph-geometry-1
+                        morph-geometry-2
+                    </IDREF_array>
+                    <technique_common>
+                        <accessor count="2" source="#morph-targets-array">
+                            <param name="MORPH_TARGET" type="IDREF"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+
+                <source id="morph-weights">
+                    <float_array id="morph-weights-array" count="2">
+                        0.0
+                        0.0
+                    </float_array>
+                    <technique_common>
+                        <accessor count="2" source="#morph-weights-array">
+                            <param name="MORPH_WEIGHT" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+
+                <targets>
+                    <input semantic="MORPH_TARGET" source="#morph-targets"/>
+                    <input semantic="MORPH_WEIGHT" source="#morph-weights"/>
+                </targets>
+            </morph>
+        </controller>
+    </library_controllers>
+
+    <library_visual_scenes>
+        <visual_scene id="scene">
+            <node id="node" type="NODE" name="AnimatedMorphCube">
+                <rotate>1.0 0.0 0.0 90.0</rotate>
+                <rotate>0.0 0.0 1.0 180.0</rotate>
+                <instance_geometry url="#base-geometry">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material target="#material"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+
+    <scene>
+        <instance_visual_scene url="#scene"/>
+    </scene>
+</COLLADA>
