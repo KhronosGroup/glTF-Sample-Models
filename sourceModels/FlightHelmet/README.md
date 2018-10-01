@@ -1,3 +1,7 @@
+# Flight Helmet
+
+## Description
+
 Authored with PBR metallic/smoothness intended for import into Unity3D.
 
 Binary FBX contains only the geometry. Textures are in separate files.
@@ -24,3 +28,8 @@ Binary FBX contains only the geometry. Textures are in separate files.
 |`FlightHelmet_RubberWoodMat_BaseColor.png`|Albedo|
 |`FlightHelmet_RubberWoodMat_Metallic.png`|Metallic/Smoothness|
 |`FlightHelmet_RubberWoodMat_Normal.png`|Normal|
+
+## License Information
+
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)  
+To the extent possible under law, Microsoft has waived all copyright and related or neighboring rights to this asset.
