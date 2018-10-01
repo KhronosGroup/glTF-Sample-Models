@@ -1,6 +1,10 @@
 # Animated Morph Cube
 
-## Details
+## Screenshot
+
+![screenshot](screenshot/screenshot.gif)
+
+## Description
 
 The cube contains two morph targets in it:
 
@@ -9,12 +13,7 @@ The cube contains two morph targets in it:
 
 The animation loops, morphing between these two states.
 
-## Screenshot
-
-![screenshot](screenshot/screenshot.gif)
-
 ## License Information
 
-Public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/))
-
-Donated by Howard Wolosky for glTF testing.
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)  
+To the extent possible under law, Microsoft has waived all copyright and related or neighboring rights to this asset.
