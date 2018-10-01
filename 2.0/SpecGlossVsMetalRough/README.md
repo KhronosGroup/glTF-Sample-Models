@@ -15,8 +15,7 @@ The labels floating above the water bottles should also have the same visual app
 
 ## License Information
 
-Water Bottle model donated by Microsoft for glTF testing, created by [Patrick Ryan](https://www.linkedin.com/in/patrickcryan)
+Based on the Water Bottle sample model, donated by Microsoft for glTF testing.
 
-Two-bottle adaptation by [Ed Mackey](https://twitter.com/emackey).
-
-Thanks to [Alex Wood](https://github.com/abwood) for the idea of making the `KHR_materials_pbrSpecularGlossiness` label quad itself use the extension for its own material.
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+To the extent possible under law, Microsoft has waived all copyright and related or neighboring rights to this asset.
