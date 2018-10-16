@@ -41,8 +41,12 @@ We appreciate sample model contributions; they help ensure a consistent glTF eco
 
 To contribute a model, open a pull request with:
 * A new subdirectory containing
-   * The model in as many glTF variations as possible (using the same directory structure as the others ([example](1.0/Box))).  Tools for converting to glTF are [here](https://github.com/KhronosGroup/glTF#converters).
-   * A README.md with any usage restrictions.
+   * The model in as many glTF variations as reasonable (using the same directory structure as the others ([example](2.0/Box))). Tools for converting to glTF are [here](https://github.com/KhronosGroup/glTF#converters).
+   * A screenshot of the model, stored in a subdirectory called `/screenshot`
+   * A README.md with information about the model. As shown in [this example](https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Box/README.md), this file should at least include the following elements:
+      * The name or title of the model
+      * An embedding of the screenshot
+      * Information about the license under which the model is published. We recommend to use a permissive license like [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) or even [Creative Commons 1.0 Universal Public Domain Dedication ](http://creativecommons.org/publicdomain/zero/1.0/), to allow people to share and adapt the models for their own use.    
 * Add the new model to the appropriate table.
 
 If you have any questions, submit an [issue](https://github.com/KhronosGroup/glTF-Sample-Models/issues).
