@@ -385,6 +385,14 @@
     }
   },
   {
+    "name": "SpecGlossVsMetalRough",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "SpecGlossVsMetalRough.gltf",
+      "glTF-Binary": "SpecGlossVsMetalRough.glb"
+    }
+  },
+  {
     "name": "Sponza",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
