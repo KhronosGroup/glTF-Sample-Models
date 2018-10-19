@@ -11,6 +11,6 @@ morph target.
 
 ## License Information
 
-Model by @ft-lab.
+Model by [@ft-lab](https://github.com/ft-lab).
 
 CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
