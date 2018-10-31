@@ -285,6 +285,15 @@
     }
   },
   {
+    "name": "MorphPrimitivesTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "MorphPrimitivesTest.gltf",
+      "glTF-Binary": "MorphPrimitivesTest.glb",
+      "glTF-Draco": "MorphPrimitivesTest.glb"
+    }
+  },
+  {
     "name": "MultiUVTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
