@@ -1,0 +1,638 @@
+{
+    "asset": {
+        "copyright": "2018 (c) Adobe Systems Inc.",
+        "generator": "Adobe Dimension - 8970ad122a6e3e05361155dc7a4d4e710ad99dd4",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 2508,
+            "type": "VEC3",
+            "max": [
+                5.445000171661377,
+                26.0440673828125,
+                5.44500207901001
+            ],
+            "min": [
+                -5.44500207901001,
+                0.0,
+                -5.445003509521484
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 2508,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 2508,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 13530,
+            "type": "SCALAR",
+            "max": [
+                2507.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 30096,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 30096,
+            "byteLength": 30096,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 60192,
+            "byteLength": 20064,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 80256,
+            "byteLength": 54120,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 134376,
+            "byteLength": 89994
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 224370,
+            "byteLength": 28099
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 252469,
+            "byteLength": 9497
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 261966,
+            "byteLength": 3888
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 265854,
+            "byteLength": 2145
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 267999,
+            "byteLength": 110501
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 378500,
+            "byteLength": 34729
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 413229,
+            "byteLength": 11714
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 424943,
+            "byteLength": 4177
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 429120,
+            "byteLength": 2201
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 431321,
+            "byteLength": 96146
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 527467,
+            "byteLength": 29402
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 556869,
+            "byteLength": 10249
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 567118,
+            "byteLength": 4243
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 571361,
+            "byteLength": 2189
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 573550,
+            "byteLength": 92167
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 665717,
+            "byteLength": 25481
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 691198,
+            "byteLength": 8210
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 699408,
+            "byteLength": 3530
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 702938,
+            "byteLength": 2078
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 705016,
+            "byteLength": 103877
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 808893,
+            "byteLength": 32167
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 841060,
+            "byteLength": 10804
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 851864,
+            "byteLength": 4338
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 856202,
+            "byteLength": 2244
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 858446,
+            "byteLength": 113087
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 971533,
+            "byteLength": 35227
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1006760,
+            "byteLength": 11781
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1018541,
+            "byteLength": 4497
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1023038,
+            "byteLength": 2242
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1025280,
+            "uri": "WaterBottle_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.0010000000474974514,
+                "yfov": 0.6024156808853149,
+                "zfar": 200.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "texture6391",
+            "uri": "WaterBottle_images/texture6391.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "texture8933_roughness_texture6526_metallic_1",
+            "uri": "WaterBottle_images/texture8933_roughness_texture6526_metallic_1.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "texture6438",
+            "uri": "WaterBottle_images/texture6438.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_x_0",
+            "bufferView": 4,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_x_1",
+            "bufferView": 5,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_x_2",
+            "bufferView": 6,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_x_3",
+            "bufferView": 7,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_x_4",
+            "bufferView": 8,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_x_0",
+            "bufferView": 9,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_x_1",
+            "bufferView": 10,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_x_2",
+            "bufferView": 11,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_x_3",
+            "bufferView": 12,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_x_4",
+            "bufferView": 13,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_y_0",
+            "bufferView": 14,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_y_1",
+            "bufferView": 15,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_y_2",
+            "bufferView": 16,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_y_3",
+            "bufferView": 17,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_y_4",
+            "bufferView": 18,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_y_0",
+            "bufferView": 19,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_y_1",
+            "bufferView": 20,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_y_2",
+            "bufferView": 21,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_y_3",
+            "bufferView": 22,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_y_4",
+            "bufferView": 23,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_z_0",
+            "bufferView": 24,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_z_1",
+            "bufferView": 25,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_z_2",
+            "bufferView": 26,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_z_3",
+            "bufferView": 27,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_pos_z_4",
+            "bufferView": 28,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_z_0",
+            "bufferView": 29,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_z_1",
+            "bufferView": 30,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_z_2",
+            "bufferView": 31,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_z_3",
+            "bufferView": 32,
+            "mimeType": "image/png"
+        },
+        {
+            "name": "iblImage12612_neg_z_4",
+            "bufferView": 33,
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "normalTexture": {
+                "index": 2
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "WaterBottle_N3D",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "matrix": [
+                -0.6500387191772461,
+                5.4016709327697757e-8,
+                0.7599011659622192,
+                0.0,
+                0.048781588673591617,
+                0.9979373812675476,
+                0.04172892868518829,
+                0.0,
+                -0.7583338022232056,
+                0.06419459730386734,
+                -0.6486979722976685,
+                0.0,
+                -37.01698303222656,
+                14.412158966064454,
+                -35.886627197265628,
+                1.0
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "name": "ground_plane_n3d"
+        },
+        {
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -0.0053253173828125,
+                0.0,
+                0.039974212646484378,
+                1.0
+            ],
+            "mesh": 0,
+            "name": "WaterBottle"
+        }
+    ],
+    "samplers": [
+        {},
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ],
+            "name": "scene",
+            "extensions": {
+                "EXT_lights_image_based": {
+                    "light": 0
+                }
+            }
+        }
+    ],
+    "textures": [
+        {
+            "name": "material2::baseColor::sampler",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "texture8933_roughness_texture6526_metallic_1_texture",
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "name": "material2::normal::sampler",
+            "sampler": 2,
+            "source": 2
+        }
+    ],
+    "scene": 0,
+    "extensions": {
+        "EXT_lights_image_based": {
+            "lights": [
+                {
+                    "intensity": 1.4600000381469729,
+                    "irradianceCoefficients": [
+                        [
+                            6.269694918322759,
+                            5.661941963333502,
+                            5.937889664595887
+                        ],
+                        [
+                            4.860222834766449,
+                            4.648969318937345,
+                            4.701052443690172
+                        ],
+                        [
+                            -0.08128470525376364,
+                            0.029750355556078194,
+                            0.1613777992669396
+                        ],
+                        [
+                            -0.07498118511724053,
+                            -0.10785717790128538,
+                            -0.1877715424347407
+                        ],
+                        [
+                            0.3140410450784875,
+                            0.29182248661265577,
+                            0.2784992971127889
+                        ],
+                        [
+                            -0.3669129619012502,
+                            -0.2988388763984105,
+                            -0.25439260354528028
+                        ],
+                        [
+                            2.4746019300278077,
+                            2.993403313529651,
+                            3.882869248066796
+                        ],
+                        [
+                            -0.39395287729571379,
+                            -0.4091240851105478,
+                            -0.4672629865623402
+                        ],
+                        [
+                            -4.249102887757866,
+                            -3.797484050312484,
+                            -3.7483106491851658
+                        ]
+                    ],
+                    "name": "imageBasedLight",
+                    "rotation": [
+                        0,
+                        -0.7071067690849304,
+                        0,
+                        0.7071067690849304
+                    ],
+                    "specularImageSize": 256,
+                    "specularImages": [
+                        [
+                            3,
+                            8,
+                            13,
+                            18,
+                            23,
+                            28
+                        ],
+                        [
+                            4,
+                            9,
+                            14,
+                            19,
+                            24,
+                            29
+                        ],
+                        [
+                            5,
+                            10,
+                            15,
+                            20,
+                            25,
+                            30
+                        ],
+                        [
+                            6,
+                            11,
+                            16,
+                            21,
+                            26,
+                            31
+                        ],
+                        [
+                            7,
+                            12,
+                            17,
+                            22,
+                            27,
+                            32
+                        ]
+                    ]
+                }
+            ]
+        }
+    },
+    "extensionsUsed": [
+        "EXT_lights_image_based"
+    ]
+}
