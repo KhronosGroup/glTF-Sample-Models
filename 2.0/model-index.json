@@ -174,8 +174,7 @@
     "screenshot": "screenshot/screenshot.png",
     "variants": {
       "glTF": "camera.gltf",
-      "glTF-Binary": "camera.glb",
-      "glTF-Embedded": "camera.gltf"
+      "glTF-Binary": "camera.glb"
     }
   },
   {
