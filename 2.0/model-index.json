@@ -51,6 +51,14 @@
     }
   },
   {
+    "name": "AntiqueCamera",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "AntiqueCamera.gltf",
+      "glTF-Binary": "AntiqueCamera.glb"
+    }
+  },
+  {
     "name": "Avocado",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
@@ -167,14 +175,6 @@
       "glTF-Draco": "Buggy.gltf",
       "glTF-Embedded": "Buggy.gltf",
       "glTF-pbrSpecularGlossiness": "Buggy.gltf"
-    }
-  },
-  {
-    "name": "Camera",
-    "screenshot": "screenshot/screenshot.png",
-    "variants": {
-      "glTF": "camera.gltf",
-      "glTF-Binary": "camera.glb"
     }
   },
   {
