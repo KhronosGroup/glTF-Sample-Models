@@ -170,6 +170,15 @@
     }
   },
   {
+    "name": "Camera",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "camera.gltf",
+      "glTF-Binary": "camera.glb",
+      "glTF-Embedded": "camera.gltf"
+    }
+  },
+  {
     "name": "Cameras",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
