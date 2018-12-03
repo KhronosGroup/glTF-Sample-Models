@@ -60,7 +60,7 @@
 | [Animated Cube](AnimatedCube)                          | ![](AnimatedCube/screenshot/screenshot.gif)                     | Same as previous cube having a linear rotation animation.      |
 | [Suzanne](Suzanne)                                     | ![](Suzanne/screenshot/screenshot.jpg)                          | Suzanne from Blender with smoothed faces.                      |
 | [Sci Fi Helmet](SciFiHelmet)                           | ![](SciFiHelmet/screenshot/screenshot.jpg)                      | Sci Fi Helmet having unsigned integer indices.                 |
-| [Camera](Camera)                                       | ![](camera/screenshot/screenshot.png)                           | Old camera model having various materials.                     |
+| [Camera](Camera)                                       | ![](Camera/screenshot/screenshot.png)                           | Old camera model having various materials.                     |
 
 ## Feature Test Models
 
