@@ -981,9 +981,9 @@
     "extensions" : {},
     "images" : [
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "l.jpg",
-            "uri" : "l.png"
+            "uri" : "l.jpg"
         }
     ],
     "materials" : [
