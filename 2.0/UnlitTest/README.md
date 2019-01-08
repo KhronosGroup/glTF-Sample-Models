@@ -37,4 +37,4 @@ In your own models, if you consider using a lit material to be a reasonable fall
 
 Copyright 2019 Analytical Graphics, Inc.
 CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/
-Model and textures by Ed Mackey.
+Model by Ed Mackey.
