@@ -263,6 +263,14 @@
     }
   },
   {
+    "name": "InterpolationTest",
+    "screenshot": "screenshot/screenshot.gif",
+    "variants": {
+      "glTF": "InterpolationTest.gltf",
+      "glTF-Binary": "InterpolationTest.glb"
+    }
+  },
+  {
     "name": "Lantern",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
