@@ -83,5 +83,6 @@
 
 | Model                                                 | Screenshot                                                    | Description |
 |-------------------------------------------------------|---------------------------------------------------------------|-------------|
-| [SpecGloss Vs MetalRough](SpecGlossVsMetalRough)      | ![](SpecGlossVsMetalRough/screenshot/screenshot.jpg)          | Tests if KHR_materials_pbrSpecularGlossiness extension is supported properly. |
-| [Texture Transform Test](TextureTransformTest)        | ![](TextureTransformTest/screenshot/screenshot.jpg)           | Tests if KHR_texture_transform extension is supported properly. |
+| [SpecGloss Vs MetalRough](SpecGlossVsMetalRough)      | ![](SpecGlossVsMetalRough/screenshot/screenshot.jpg)          | Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly. |
+| [Texture Transform Test](TextureTransformTest)        | ![](TextureTransformTest/screenshot/screenshot.jpg)           | Tests if the KHR_texture_transform extension is supported properly. |
+| [Unlit Test](UnlitTest)                               | ![](UnlitTest/screenshot/screenshot.png)                      | Tests if the KHR_materials_unlit extension is supported properly. |

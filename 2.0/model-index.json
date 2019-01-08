@@ -480,6 +480,14 @@
     }
   },
   {
+    "name": "UnlitTest",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "UnlitTest.gltf",
+      "glTF-Binary": "UnlitTest.glb"
+    }
+  },
+  {
     "name": "VC",
     "screenshot": "screenshot/screenshot.gif",
     "variants": {
