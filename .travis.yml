@@ -1,5 +1,5 @@
 language: dart
 dart:
- - "2.1.0-dev.7.1"
+ - "2.2.0-dev.1.1"
 before_script: wget https://github.khronos.org/glTF-Validator/gltf_validator_linux64.snapshot
 script: dart --no_background_compilation gltf_validator_linux64.snapshot -r -p -a ./2.0/
