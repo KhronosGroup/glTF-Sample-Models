@@ -514,7 +514,7 @@
                     }
                 }
             ],
-            "name" : "CubeAction",
+            "name" : "Step Scale",
             "samplers" : [
                 {
                     "input" : 40,
@@ -533,7 +533,7 @@
                     }
                 }
             ],
-            "name" : "CubeAction.001",
+            "name" : "Linear Scale",
             "samplers" : [
                 {
                     "input" : 42,
@@ -552,7 +552,7 @@
                     }
                 }
             ],
-            "name" : "CubeAction.002",
+            "name" : "CubicSpline Scale",
             "samplers" : [
                 {
                     "input" : 44,
@@ -571,7 +571,7 @@
                     }
                 }
             ],
-            "name" : "Cube.003Action",
+            "name" : "Step Rotation",
             "samplers" : [
                 {
                     "input" : 46,
@@ -590,7 +590,7 @@
                     }
                 }
             ],
-            "name" : "Cube.003Action.001",
+            "name" : "CubicSpline Rotation",
             "samplers" : [
                 {
                     "input" : 48,
@@ -609,7 +609,7 @@
                     }
                 }
             ],
-            "name" : "Cube.003Action.002",
+            "name" : "Linear Rotation",
             "samplers" : [
                 {
                     "input" : 50,
@@ -628,7 +628,7 @@
                     }
                 }
             ],
-            "name" : "Cube.006Action",
+            "name" : "Step Translation",
             "samplers" : [
                 {
                     "input" : 52,
@@ -647,7 +647,7 @@
                     }
                 }
             ],
-            "name" : "Cube.008Action",
+            "name" : "CubicSpline Translation",
             "samplers" : [
                 {
                     "input" : 54,
@@ -666,7 +666,7 @@
                     }
                 }
             ],
-            "name" : "Cube.009Action",
+            "name" : "Linear Translation",
             "samplers" : [
                 {
                     "input" : 56,
