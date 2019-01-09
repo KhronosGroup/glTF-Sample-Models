@@ -281,6 +281,14 @@
     }
   },
   {
+    "name": "Lights",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "Lights.gltf",
+      "glTF-Binary": "Lights.glb"
+    }
+  },
+  {
     "name": "MetalRoughSpheres",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
