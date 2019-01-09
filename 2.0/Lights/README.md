@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-![screenshot](screenshot/screenshot.gif)
+![screenshot](screenshot/screenshot.png)
 
 ## License Information
 

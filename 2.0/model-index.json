@@ -282,7 +282,7 @@
   },
   {
     "name": "Lights",
-    "screenshot": "screenshot/screenshot.jpg",
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
       "glTF": "Lights.gltf",
       "glTF-Binary": "Lights.glb"
