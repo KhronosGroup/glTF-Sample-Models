@@ -1,0 +1,370 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1984,
+            "max" : [
+                1.000000238418579,
+                1,
+                1.0000003576278687
+            ],
+            "min" : [
+                -0.9999998211860657,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1984,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1984,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 2880,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1966,
+            "max" : [
+                1.3671875,
+                0.984375,
+                0.8515625
+            ],
+            "min" : [
+                -1.3671875,
+                -0.984375,
+                -0.8515625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1966,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5123,
+            "count" : 2904,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 5,
+            "max" : [
+                8.333333333333334
+            ],
+            "min" : [
+                0.041666666666666664
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 15,
+            "type" : "VEC3"
+        }
+    ],
+    "animations" : [
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "translation"
+                    }
+                }
+            ],
+            "name" : "SphereAction",
+            "samplers" : [
+                {
+                    "input" : 7,
+                    "interpolation" : "CUBICSPLINE",
+                    "output" : 8
+                }
+            ]
+        }
+    ],
+    "asset" : {
+        "copyright" : "hiloteam",
+        "generator" : "Khronos Blender glTF 2.0 I/O",
+        "version" : "2.0"
+    },
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 23808,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23808,
+            "byteOffset" : 23808
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15872,
+            "byteOffset" : 47616
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5760,
+            "byteOffset" : 63488
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23592,
+            "byteOffset" : 69248
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23592,
+            "byteOffset" : 92840
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5808,
+            "byteOffset" : 116432
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20,
+            "byteOffset" : 122240
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 180,
+            "byteOffset" : 122260
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 122440,
+            "uri" : "model.bin"
+        }
+    ],
+    "extensions" : {},
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "light.png",
+            "uri" : "light.png"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "light",
+            "extensions": {
+                "KHR_techniques_webgl": {
+                    "technique": 0
+                }
+            }
+        },
+        {
+            "name" : "lambert",
+            "extensions": {
+                "KHR_techniques_webgl": {
+                    "technique": 1,
+                    "values" : {
+                        "u_ambient": [
+                            0.6, 0.6, 0.6, 1
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 1,
+                        "POSITION" : 0,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Suzanne",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 5,
+                        "POSITION" : 4
+                    },
+                    "indices" : 6,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "light",
+            "scale" : [
+                0.08610498905181885,
+                0.08610498905181885,
+                0.08610498905181885
+            ],
+            "translation" : [
+                -1.377143144607544,
+                -1.2656183242797852,
+                0.6181074380874634
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Suzanne"
+        }
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "extensions": {
+        "KHR_techniques_webgl": {
+            "programs": [
+                {
+                    "fragmentShader": 0,
+                    "vertexShader": 1
+                },
+                {
+                    "fragmentShader": 2,
+                    "vertexShader": 3
+                }
+            ],
+            "shaders": [
+                {
+                    "type": 35632,
+                    "uri": "lightFS.glsl"
+                },
+                {
+                    "type": 35633,
+                    "uri": "lightVS.glsl"
+                },
+                {
+                    "type": 35632,
+                    "uri": "lambertFS.glsl"
+                },
+                {
+                    "type": 35633,
+                    "uri": "lambertVS.glsl"
+                }
+            ],
+            "techniques": [
+                {
+                    "program": 0,
+                    "attributes": {
+                        "a_position": {
+                            "semantic": "POSITION"
+                        },
+                        "a_texcoord0": {
+                            "semantic": "TEXCOORD_0"
+                        }
+                    },
+                    "uniforms": {
+                        "u_diffuse": {
+                            "type": 35678,
+                            "value": {
+                                "index": 0
+                            }
+                        },
+                        "u_modelViewMatrix": {
+                            "semantic": "MODELVIEW",
+                            "type": 35676
+                        },
+                        "u_projectionMatrix": {
+                            "semantic": "PROJECTION",
+                            "type": 35676
+                        }
+                    }
+                },
+                {
+                    "program": 1,
+                    "attributes": {
+                        "a_position": {
+                            "semantic": "POSITION"
+                        },
+                        "a_normal": {
+                            "semantic": "NORMAL"
+                        }
+                    },
+                    "uniforms": {
+                        "u_diffuse":{
+                            "type": 35666,
+                            "value":[
+                                0.9333333373069763,
+                                0.4627451002597809,
+                                0.16862745583057404,
+                                1
+                            ]
+                        },
+                        "u_ambient":{
+                            "type": 35666,
+                            "value":[
+                                0, 1, 1, 1
+                            ]
+                        },
+                        "u_normalMatrix": {
+                            "semantic": "MODELVIEWINVERSETRANSPOSE",
+                            "type": 35675
+                        },
+                        "u_modelMatrix": {
+                            "semantic": "MODEL",
+                            "type": 35676
+                        },
+                        "u_modelViewProjectionMatrix": {
+                            "semantic": "MODELVIEWPROJECTION",
+                            "type": 35676
+                        },
+                        "u_lightModelMatrix": {
+                            "semantic": "MODEL",
+                            "type": 35676,
+                            "node": 0
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "extensionsRequired": [
+        "KHR_techniques_webgl"
+    ],
+    "extensionsUsed": [
+        "KHR_techniques_webgl"
+    ]
+}
