@@ -10,7 +10,6 @@
 | [Animated Morph Cube](AnimatedMorphCube)               | ![](AnimatedMorphCube/screenshot/screenshot.gif)                | Demonstrates a simple cube with two simple morph targets and an animation that transitions between them both. |
 | [Animated Morph Sphere](AnimatedMorphSphere)           | ![](AnimatedMorphSphere/screenshot/screenshot.gif)              | This sample is similar to the [Animated Morph Cube](AnimatedMorphCube), but the two morph targets move many more vertices and are more extreme than with the cube. |
 | [Simple Meshes](SimpleMeshes)                          | ![](SimpleMeshes/screenshot/screenshot.png)                     | A simple `scene` with two `nodes`, both containing the same `mesh`, namely a `mesh` with a single `mesh.primitive` with a single indexed triangle with *multiple* attributes (positions, normals and texture coordinates), but without a `material` |
-| [Environment Test](EnvironmentTest)                          | ![](EnvironmentTest/screenshot/screenshot.png)                     | A simple `scene` with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting. |
 | [Simple Morph](SimpleMorph)                            | ![](SimpleMorph/screenshot/screenshot.png)                      | A triangle with a morph animation applied |
 | [Simple Sparse Accessor](SimpleSparseAccessor)         | ![](SimpleSparseAccessor/screenshot/screenshot.png)             | A simple mesh that uses sparse accessors |
 | [Cameras](Cameras)                                     | ![](Cameras/screenshot/screenshot.png)                          | A sample with two different `camera` objects |
@@ -70,6 +69,7 @@
 |-------------------------------------------------------|---------------------------------------------------------------|-------------|
 | [Alpha Blend Mode Test](AlphaBlendModeTest)           | ![](AlphaBlendModeTest/screenshot/screenshot.png)             | Tests alpha modes and settings. |
 | [Boom Box With Axes](BoomBoxWithAxes)                 | ![](BoomBoxWithAxes/screenshot/screenshot.jpg)                | Shows X, Y, and Z axis default orientations. |
+| [Environment Test](EnvironmentTest)                          | ![](EnvironmentTest/screenshot/screenshot.png)                     | A simple `scene` with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting. |
 | [Metal Rough Spheres](MetalRoughSpheres)              | ![](MetalRoughSpheres/screenshot/screenshot.png)              | Tests various metal and roughness values. |
 | [Morph Primitives Test](MorphPrimitivesTest)          | ![](MorphPrimitivesTest/screenshot/screenshot.jpg)            | Tests a morph target on multiple primitives. |
 | [Multi UV Test](MultiUVTest)                          | ![](MultiUVTest/screenshot/screenshot.jpg)                    | Tests a second set of texture coordinates. |
