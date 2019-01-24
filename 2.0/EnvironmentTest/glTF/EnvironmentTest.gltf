@@ -127,12 +127,12 @@
     "images": [
         {
             "name": "tmp_image_pie_dc1e_1a22_fbf9roughness_map_roughness_tmp_image_pie_dc1e_1a22_fbf9metal_map_metallic_0",
-            "uri": "EnvironmentTest_images/tmp_image_pie_dc1e_1a22_fbf9roughness_map_roughness_tmp_image_pie_dc1e_1a22_fbf9metal_map_metallic_0.jpg",
+            "uri": "EnvironmentTest_images/roughness_metallic_0.jpg",
             "mimeType": "image/jpeg"
         },
         {
             "name": "tmp_image_pie_b20b_ebb4_317droughness_map2_roughness_tmp_image_pie_b20b_ebb4_317dmetal_map2_metallic_1",
-            "uri": "EnvironmentTest_images/tmp_image_pie_b20b_ebb4_317droughness_map2_roughness_tmp_image_pie_b20b_ebb4_317dmetal_map2_metallic_1.jpg",
+            "uri": "EnvironmentTest_images/roughness_metallic_1.jpg",
             "mimeType": "image/jpeg"
         }
     ],

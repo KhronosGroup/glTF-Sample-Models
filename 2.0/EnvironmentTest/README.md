@@ -1,4 +1,4 @@
-# Metal-Rough Spheres with IBL
+# Environment Test
 
 ## Screenshot
 
