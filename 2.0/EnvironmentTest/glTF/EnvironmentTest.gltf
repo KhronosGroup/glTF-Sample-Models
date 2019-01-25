@@ -1,0 +1,328 @@
+{
+    "asset": {
+        "copyright": "2018 (c) Adobe Systems Inc.",
+        "generator": "Adobe Dimension - b417c10282aa66313155856d4a54e84f3f388647",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 4598,
+            "type": "VEC3",
+            "max": [
+                10.647041320800782,
+                1.6470409631729127,
+                0.6470409631729126
+            ],
+            "min": [
+                -10.647041320800782,
+                0.3529590368270874,
+                -0.6470409631729126
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 4598,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 4598,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 25344,
+            "type": "SCALAR",
+            "max": [
+                4597.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 4598,
+            "type": "VEC3",
+            "max": [
+                10.647041320800782,
+                -0.3529590368270874,
+                0.6470409631729126
+            ],
+            "min": [
+                -10.647041320800782,
+                -1.6470409631729127,
+                -0.6470409631729126
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 4598,
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 55176,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 55176,
+            "byteLength": 55176,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 110352,
+            "byteLength": 36784,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 147136,
+            "byteLength": 101376,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 248512,
+            "byteLength": 55176,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 303688,
+            "byteLength": 36784,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 340472,
+            "uri": "EnvironmentTest_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.0010000000474974514,
+                "yfov": 0.6024156808853149,
+                "zfar": 200.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "tmp_image_pie_dc1e_1a22_fbf9roughness_map_roughness_tmp_image_pie_dc1e_1a22_fbf9metal_map_metallic_0",
+            "uri": "EnvironmentTest_images/roughness_metallic_0.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "tmp_image_pie_b20b_ebb4_317droughness_map2_roughness_tmp_image_pie_b20b_ebb4_317dmetal_map2_metallic_1",
+            "uri": "EnvironmentTest_images/roughness_metallic_1.jpg",
+            "mimeType": "image/jpeg"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "metallicRoughnessTexture": {
+                    "index": 0
+                }
+            },
+            "name": "MetallicSpheresMat",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "name": "DielectricSpheresMat",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "name": "DielectricSpheresMat",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Metallic0_N3D",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "Dielectric0_N3D2",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 5,
+                        "NORMAL": 1,
+                        "POSITION": 4
+                    },
+                    "indices": 3,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "Dielectric0_N3D",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 5
+                    },
+                    "indices": 3,
+                    "material": 2
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "matrix": [
+                0.9999533295631409,
+                3.16067598760128e-8,
+                0.009662099182605744,
+                0.0,
+                0.0014864075928926468,
+                0.9880954027175903,
+                -0.15383504331111909,
+                0.0,
+                -0.009547080844640732,
+                0.15384222567081452,
+                0.988049328327179,
+                0.0,
+                -0.7599077224731445,
+                7.708760738372803,
+                27.743375778198243,
+                1.0
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "name": "ground_plane_n3d"
+        },
+        {
+            "children": [
+                3,
+                4,
+                5
+            ],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -0.5564079284667969,
+                4.774584770202637,
+                -1.0962677001953126,
+                1.0
+            ],
+            "name": "ENV_Spheres"
+        },
+        {
+            "mesh": 0,
+            "name": "Metallic0"
+        },
+        {
+            "mesh": 1,
+            "name": "Dielectric0"
+        },
+        {
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                -1.985867977142334,
+                0.0,
+                1.0
+            ],
+            "mesh": 2,
+            "name": "Dielectric0-Black"
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "tmp_image_pie_dc1e_1a22_fbf9roughness_map_roughness_tmp_image_pie_dc1e_1a22_fbf9metal_map_metallic_0_texture",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "tmp_image_pie_b20b_ebb4_317droughness_map2_roughness_tmp_image_pie_b20b_ebb4_317dmetal_map2_metallic_1_texture",
+            "sampler": 1,
+            "source": 1
+        }
+    ],
+    "scene": 0
+}

@@ -245,6 +245,14 @@
     }
   },
   {
+    "name": "EnvironmentTest",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "EnvironmentTest.gltf",
+      "glTF-IBL": "EnvironmentTest.gltf"
+    }
+  },
+  {
     "name": "FlightHelmet",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
