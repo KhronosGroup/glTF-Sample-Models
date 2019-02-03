@@ -1,4 +1,4 @@
-# Unlit Test
+# TechniquesWebGLTest
 
 ## Screenshot
 
