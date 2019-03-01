@@ -537,7 +537,7 @@
             "samplers" : [
                 {
                     "input" : 42,
-                    "interpolation" : "CUBICSPLINE",
+                    "interpolation" : "LINEAR",
                     "output" : 43
                 }
             ]
