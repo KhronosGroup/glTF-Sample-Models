@@ -6,8 +6,7 @@
       "glTF": "2CylinderEngine.gltf",
       "glTF-Binary": "2CylinderEngine.glb",
       "glTF-Draco": "2CylinderEngine.gltf",
-      "glTF-Embedded": "2CylinderEngine.gltf",
-      "glTF-pbrSpecularGlossiness": "2CylinderEngine.gltf"
+      "glTF-Embedded": "2CylinderEngine.gltf"
     }
   },
   {
@@ -102,8 +101,7 @@
       "glTF": "Box.gltf",
       "glTF-Binary": "Box.glb",
       "glTF-Draco": "Box.gltf",
-      "glTF-Embedded": "Box.gltf",
-      "glTF-pbrSpecularGlossiness": "Box.gltf"
+      "glTF-Embedded": "Box.gltf"
     }
   },
   {
@@ -112,8 +110,7 @@
     "variants": {
       "glTF": "BoxAnimated.gltf",
       "glTF-Binary": "BoxAnimated.glb",
-      "glTF-Embedded": "BoxAnimated.gltf",
-      "glTF-pbrSpecularGlossiness": "BoxAnimated.gltf"
+      "glTF-Embedded": "BoxAnimated.gltf"
     }
   },
   {
@@ -122,8 +119,7 @@
     "variants": {
       "glTF": "BoxInterleaved.gltf",
       "glTF-Binary": "BoxInterleaved.glb",
-      "glTF-Embedded": "BoxInterleaved.gltf",
-      "glTF-pbrSpecularGlossiness": "BoxInterleaved.gltf"
+      "glTF-Embedded": "BoxInterleaved.gltf"
     }
   },
   {
@@ -132,8 +128,7 @@
     "variants": {
       "glTF": "BoxTextured.gltf",
       "glTF-Binary": "BoxTextured.glb",
-      "glTF-Embedded": "BoxTextured.gltf",
-      "glTF-pbrSpecularGlossiness": "BoxTextured.gltf"
+      "glTF-Embedded": "BoxTextured.gltf"
     }
   },
   {
@@ -142,8 +137,7 @@
     "variants": {
       "glTF": "BoxTexturedNonPowerOfTwo.gltf",
       "glTF-Binary": "BoxTexturedNonPowerOfTwo.glb",
-      "glTF-Embedded": "BoxTexturedNonPowerOfTwo.gltf",
-      "glTF-pbrSpecularGlossiness": "BoxTexturedNonPowerOfTwo.gltf"
+      "glTF-Embedded": "BoxTexturedNonPowerOfTwo.gltf"
     }
   },
   {
@@ -162,8 +156,7 @@
       "glTF": "BrainStem.gltf",
       "glTF-Binary": "BrainStem.glb",
       "glTF-Draco": "BrainStem.gltf",
-      "glTF-Embedded": "BrainStem.gltf",
-      "glTF-pbrSpecularGlossiness": "BrainStem.gltf"
+      "glTF-Embedded": "BrainStem.gltf"
     }
   },
   {
@@ -173,8 +166,7 @@
       "glTF": "Buggy.gltf",
       "glTF-Binary": "Buggy.glb",
       "glTF-Draco": "Buggy.gltf",
-      "glTF-Embedded": "Buggy.gltf",
-      "glTF-pbrSpecularGlossiness": "Buggy.gltf"
+      "glTF-Embedded": "Buggy.gltf"
     }
   },
   {
@@ -192,8 +184,7 @@
       "glTF": "CesiumMan.gltf",
       "glTF-Binary": "CesiumMan.glb",
       "glTF-Draco": "CesiumMan.gltf",
-      "glTF-Embedded": "CesiumMan.gltf",
-      "glTF-pbrSpecularGlossiness": "CesiumMan.gltf"
+      "glTF-Embedded": "CesiumMan.gltf"
     }
   },
   {
@@ -203,8 +194,7 @@
       "glTF": "CesiumMilkTruck.gltf",
       "glTF-Binary": "CesiumMilkTruck.glb",
       "glTF-Draco": "CesiumMilkTruck.gltf",
-      "glTF-Embedded": "CesiumMilkTruck.gltf",
-      "glTF-pbrSpecularGlossiness": "CesiumMilkTruck.gltf"
+      "glTF-Embedded": "CesiumMilkTruck.gltf"
     }
   },
   {
@@ -240,8 +230,7 @@
       "glTF": "Duck.gltf",
       "glTF-Binary": "Duck.glb",
       "glTF-Draco": "Duck.gltf",
-      "glTF-Embedded": "Duck.gltf",
-      "glTF-pbrSpecularGlossiness": "Duck.gltf"
+      "glTF-Embedded": "Duck.gltf"
     }
   },
   {
@@ -266,8 +255,7 @@
       "glTF": "GearboxAssy.gltf",
       "glTF-Binary": "GearboxAssy.glb",
       "glTF-Draco": "GearboxAssy.gltf",
-      "glTF-Embedded": "GearboxAssy.gltf",
-      "glTF-pbrSpecularGlossiness": "GearboxAssy.gltf"
+      "glTF-Embedded": "GearboxAssy.gltf"
     }
   },
   {
@@ -304,8 +292,7 @@
       "glTF": "Monster.gltf",
       "glTF-Binary": "Monster.glb",
       "glTF-Draco": "Monster.gltf",
-      "glTF-Embedded": "Monster.gltf",
-      "glTF-pbrSpecularGlossiness": "Monster.gltf"
+      "glTF-Embedded": "Monster.gltf"
     }
   },
   {
@@ -360,8 +347,7 @@
       "glTF": "ReciprocatingSaw.gltf",
       "glTF-Binary": "ReciprocatingSaw.glb",
       "glTF-Draco": "ReciprocatingSaw.gltf",
-      "glTF-Embedded": "ReciprocatingSaw.gltf",
-      "glTF-pbrSpecularGlossiness": "ReciprocatingSaw.gltf"
+      "glTF-Embedded": "ReciprocatingSaw.gltf"
     }
   },
   {
@@ -371,8 +357,7 @@
       "glTF": "RiggedFigure.gltf",
       "glTF-Binary": "RiggedFigure.glb",
       "glTF-Draco": "RiggedFigure.gltf",
-      "glTF-Embedded": "RiggedFigure.gltf",
-      "glTF-pbrSpecularGlossiness": "RiggedFigure.gltf"
+      "glTF-Embedded": "RiggedFigure.gltf"
     }
   },
   {
@@ -382,8 +367,7 @@
       "glTF": "RiggedSimple.gltf",
       "glTF-Binary": "RiggedSimple.glb",
       "glTF-Draco": "RiggedSimple.gltf",
-      "glTF-Embedded": "RiggedSimple.gltf",
-      "glTF-pbrSpecularGlossiness": "RiggedSimple.gltf"
+      "glTF-Embedded": "RiggedSimple.gltf"
     }
   },
   {
@@ -502,8 +486,7 @@
       "glTF": "VC.gltf",
       "glTF-Binary": "VC.glb",
       "glTF-Draco": "VC.gltf",
-      "glTF-Embedded": "VC.gltf",
-      "glTF-pbrSpecularGlossiness": "VC.gltf"
+      "glTF-Embedded": "VC.gltf"
     }
   },
   {
