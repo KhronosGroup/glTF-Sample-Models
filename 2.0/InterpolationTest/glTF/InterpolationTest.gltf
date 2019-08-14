@@ -536,9 +536,9 @@
             "name" : "Linear Scale",
             "samplers" : [
                 {
-                    "input" : 42,
-                    "interpolation" : "CUBICSPLINE",
-                    "output" : 43
+                    "input" : 40,
+                    "interpolation" : "LINEAR",
+                    "output" : 41
                 }
             ]
         },
