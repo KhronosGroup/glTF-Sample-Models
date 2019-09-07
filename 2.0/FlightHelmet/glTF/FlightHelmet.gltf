@@ -532,7 +532,6 @@
       "name": "MetalPartsMat"
     },
     {
-      "doubleSided": true,
       "pbrMetallicRoughness": {
         "baseColorTexture": {
           "index": 12
