@@ -77,29 +77,29 @@
     },
     {
       "componentType": 5126,
-      "count": 2463,
+      "count": 2468,
       "type": "VEC2"
     },
     {
       "componentType": 5126,
-      "count": 2463,
+      "count": 2468,
       "type": "VEC3"
     },
     {
       "componentType": 5126,
-      "count": 2463,
+      "count": 2468,
       "type": "VEC4"
     },
     {
       "componentType": 5126,
-      "count": 2463,
+      "count": 2468,
       "max": [
         1.03408229,
         2.529281,
         1.03408468
       ],
       "min": [
-        -1.03408229,
+        -1.034082293510437,
         -2.529281,
         -1.03408468
       ],
