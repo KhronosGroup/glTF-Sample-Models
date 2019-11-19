@@ -69,7 +69,8 @@
 |-------------------------------------------------------|---------------------------------------------------------------|-------------|
 | [Alpha Blend Mode Test](AlphaBlendModeTest)           | ![](AlphaBlendModeTest/screenshot/screenshot.png)             | Tests alpha modes and settings. |
 | [Boom Box With Axes](BoomBoxWithAxes)                 | ![](BoomBoxWithAxes/screenshot/screenshot.jpg)                | Shows X, Y, and Z axis default orientations. |
-| [Metal Rough Spheres](MetalRoughSpheres)              | ![](MetalRoughSpheres/screenshot/screenshot.png)              | Tests various metal and roughness values. |
+| [Metal Rough Spheres](MetalRoughSpheres)              | ![](MetalRoughSpheres/screenshot/screenshot.png)              | Tests various metal and roughness values (texture mapped). |
+| [Metal Rough Spheres (Textureless)](MetalRoughSpheresNoTextures) | ![](MetalRoughSpheresNoTextures/screenshot/screenshot.png) | Tests various metal and roughness values (textureless). |
 | [Morph Primitives Test](MorphPrimitivesTest)          | ![](MorphPrimitivesTest/screenshot/screenshot.jpg)            | Tests a morph target on multiple primitives. |
 | [Multi UV Test](MultiUVTest)                          | ![](MultiUVTest/screenshot/screenshot.jpg)                    | Tests a second set of texture coordinates. |
 | [Normal Tangent Test](NormalTangentTest)              | ![](NormalTangentTest/screenshot/screenshot.png)              | Tests an engine's ability to automatically generate tangent vectors for a normal map. |

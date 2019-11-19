@@ -286,6 +286,14 @@
     }
   },
   {
+    "name": "MetalRoughSpheresNoTextures",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "MetalRoughSpheresNoTextures.gltf",
+      "glTF-Binary": "MetalRoughSpheresNoTextures.glb"
+    }
+  },
+  {
     "name": "Monster",
     "screenshot": "screenshot/screenshot.gif",
     "variants": {
