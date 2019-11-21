@@ -72,6 +72,7 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "BarramundiFish.gltf",
+      "glTF-Clearcoat": "BarramundiFish.gltf",
       "glTF-Binary": "BarramundiFish.glb",
       "glTF-Draco": "BarramundiFish.gltf",
       "glTF-pbrSpecularGlossiness": "BarramundiFish.gltf"
