@@ -15,12 +15,13 @@ Be aware that W is -1.0 for most of the tangent signs, you will need to handle t
 
 ## Sources
 
-### http://www.crytek.com/cryengine/cryengine3/downloads
-- http://www.crytek.com/download/sponza\_obj.rar
-- http://www.crytek.com/download/sponza\_textures.rar
+### https://www.cryengine.com/marketplace/
+
+- https://www.cryengine.com/marketplace/product/CEMP-1102
 
 ### http://www.alexandre-pestana.com/pbr-textures-sponza/
-- http://www.alexandre-pestana.com/downloads/SponzaPBR\_Textures.rar
+
+- www.alexandre-pestana.com/downloads/SponzaPBR_Textures.rar
 
 I needed to resize some of the alpha mask textures to the 1024x1024 resolution used by the new texture pack,
 and merge in diffuse with alpha.
