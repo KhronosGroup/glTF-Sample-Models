@@ -180,6 +180,12 @@
     }
   },
   {
+    "name": "CarbonFiberWheel",
+    "variants": {
+      "glTF-Clearcoat-Binary": "CarbonFiberWheel-draft1.glb"
+    }
+  },
+  {
     "name": "CesiumMan",
     "screenshot": "screenshot/screenshot.gif",
     "variants": {
