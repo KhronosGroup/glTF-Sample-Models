@@ -105,9 +105,11 @@
       "uri": "BoomBox_emissive.png"
     },
     {
+      "mimeType": "image/ktx2",
       "uri": "Helipad_diffuse.ktx2"
     },
     {
+      "mimeType": "image/ktx2",
       "uri": "Helipad_specular.ktx2"
     }
   ],
