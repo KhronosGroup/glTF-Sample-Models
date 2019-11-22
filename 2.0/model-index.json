@@ -72,6 +72,7 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "BarramundiFish.gltf",
+      "glTF-Clearcoat": "BarramundiFish.gltf",
       "glTF-Binary": "BarramundiFish.glb",
       "glTF-Draco": "BarramundiFish.gltf",
       "glTF-pbrSpecularGlossiness": "BarramundiFish.gltf"
@@ -82,6 +83,7 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "BoomBox.gltf",
+      "glTF-Clearcoat": "BoomBox.gltf",
       "glTF-Binary": "BoomBox.glb",
       "glTF-Draco": "BoomBox.gltf",
       "glTF-pbrSpecularGlossiness": "BoomBox.gltf"
@@ -175,6 +177,12 @@
     "variants": {
       "glTF": "Cameras.gltf",
       "glTF-Embedded": "Cameras.gltf"
+    }
+  },
+  {
+    "name": "CarbonFiberWheel",
+    "variants": {
+      "glTF-Clearcoat-Binary": "CarbonFiberWheel-draft1.glb"
     }
   },
   {
