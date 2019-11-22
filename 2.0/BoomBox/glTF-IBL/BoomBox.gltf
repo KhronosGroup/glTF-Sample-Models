@@ -164,6 +164,11 @@
   "scene": 0,
   "scenes": [
     {
+      "extensions": {
+        "KHR_lights_image_based": {
+          "imageBasedLight": 0
+        }
+      },
       "nodes": [
         0
       ]
