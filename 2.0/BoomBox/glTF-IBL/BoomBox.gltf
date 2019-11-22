@@ -7,8 +7,8 @@
           "rotation": [ 0.18257418583505536, 0.3651483716701107, 0.5477225575051661, 0.7302967433402214 ],
           "brightnessFactor": 0.5,
           "brightnessOffset": 0.75,
-          "specularEnvironmentTexture": 0,
-          "diffuseEnvironmentTexture": 1
+          "diffuseEnvironmentTexture": 4,
+          "specularEnvironmentTexture": 5
         }
       ]
     }
@@ -103,6 +103,12 @@
     },
     {
       "uri": "BoomBox_emissive.png"
+    },
+    {
+      "uri": "Helipad_diffuse.ktx2"
+    },
+    {
+      "uri": "Helipad_specular.ktx2"
     }
   ],
   "meshes": [
@@ -186,6 +192,14 @@
     },
     {
       "source": 3
+    },
+    {
+      "name": "environment-diffuse",
+      "source": 4
+    },
+    {
+      "name": "environment-specular",
+      "source": 5
     }
   ]
 }
