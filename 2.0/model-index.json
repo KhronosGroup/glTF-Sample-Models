@@ -73,6 +73,7 @@
     "variants": {
       "glTF": "BarramundiFish.gltf",
       "glTF-Clearcoat": "BarramundiFish.gltf",
+	  "glTF-ClearcoatTester": "BarramundiFish.gltf",
       "glTF-Binary": "BarramundiFish.glb",
       "glTF-Draco": "BarramundiFish.gltf",
       "glTF-pbrSpecularGlossiness": "BarramundiFish.gltf"
@@ -86,7 +87,8 @@
       "glTF-Clearcoat": "BoomBox.gltf",
       "glTF-Binary": "BoomBox.glb",
       "glTF-Draco": "BoomBox.gltf",
-      "glTF-pbrSpecularGlossiness": "BoomBox.gltf"
+      "glTF-pbrSpecularGlossiness": "BoomBox.gltf",
+	  "glTF-DielectricTest": "BoomBox.gltf"
     }
   },
   {
@@ -386,6 +388,12 @@
     }
   },
   {
+    "name": "SheenChair",
+    "variants": {
+      "glTF": "gltf_sheen_damask.gltf"
+    }
+  },
+  {
     "name": "SimpleMeshes",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -415,6 +423,18 @@
     "variants": {
       "glTF": "SpecGlossVsMetalRough.gltf",
       "glTF-Binary": "SpecGlossVsMetalRough.glb"
+    }
+  },
+  {
+    "name": "SpecularExtensionTest",
+    "variants": {
+      "glTF": "specularTest.gltf"
+    }
+  },
+  {
+    "name": "SpecularExtensionTestWithout",
+    "variants": {
+      "glTF": "specularTest.gltf"
     }
   },
   {
