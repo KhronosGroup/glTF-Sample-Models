@@ -342,6 +342,13 @@
     }
   },
   {
+    "name": "OrangeSphere",
+    "variants": {
+      "glTF": "OrangeSphere.gltf",
+      "glTF-Specular": "OrangeSphere.gltf"
+    }
+  },
+  {
     "name": "OrientationTest",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -423,18 +430,6 @@
     "variants": {
       "glTF": "SpecGlossVsMetalRough.gltf",
       "glTF-Binary": "SpecGlossVsMetalRough.glb"
-    }
-  },
-  {
-    "name": "SpecularExtensionTest",
-    "variants": {
-      "glTF": "specularTest.gltf"
-    }
-  },
-  {
-    "name": "SpecularExtensionTestWithout",
-    "variants": {
-      "glTF": "specularTest.gltf"
     }
   },
   {
