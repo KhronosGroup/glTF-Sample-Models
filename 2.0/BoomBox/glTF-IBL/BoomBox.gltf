@@ -1,0 +1,212 @@
+{
+  "extensionsUsed": [ "KHR_lights_image_based" ],
+  "extensions": {
+    "KHR_lights_image_based": {
+      "imageBasedLights":[
+        {
+          "rotation": [ 0.18257418583505536, 0.3651483716701107, 0.5477225575051661, 0.7302967433402214 ],
+          "brightnessFactor": 0.5,
+          "brightnessOffset": 0.75,
+          "diffuseEnvironmentTexture": 4,
+          "specularEnvironmentTexture": 5
+        }
+      ]
+    }
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 3575,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3575,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3575,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3575,
+      "type": "VEC3",
+      "max": [
+        0.009921154,
+        0.00977163,
+        0.0100762453
+      ],
+      "min": [
+        -0.009921154,
+        -0.00977163,
+        -0.0100762453
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 18108,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 28600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28600,
+      "byteLength": 42900
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 71500,
+      "byteLength": 57200
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 128700,
+      "byteLength": 42900
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 171600,
+      "byteLength": 36216
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "BoomBox.bin",
+      "byteLength": 207816
+    }
+  ],
+  "images": [
+    {
+      "uri": "BoomBox_baseColor.png"
+    },
+    {
+      "uri": "BoomBox_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "BoomBox_normal.png"
+    },
+    {
+      "uri": "BoomBox_emissive.png"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "Helipad_diffuse.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "Helipad_specular.ktx2"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "POSITION": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "BoomBox"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 3
+      },
+      "name": "BoomBox_Mat"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "BoomBox"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "extensions": {
+        "KHR_lights_image_based": {
+          "imageBasedLight": 0
+        }
+      },
+      "nodes": [
+        0
+      ]
+    },
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    },
+    {
+      "source": 3
+    },
+    {
+      "name": "environment-diffuse",
+      "source": 4
+    },
+    {
+      "name": "environment-specular",
+      "source": 5
+    }
+  ]
+}

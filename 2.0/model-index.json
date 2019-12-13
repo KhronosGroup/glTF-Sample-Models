@@ -85,6 +85,7 @@
     "variants": {
       "glTF": "BoomBox.gltf",
       "glTF-Clearcoat": "BoomBox.gltf",
+      "glTF-IBL": "BoomBox.gltf",
       "glTF-Binary": "BoomBox.glb",
       "glTF-Draco": "BoomBox.gltf",
       "glTF-pbrSpecularGlossiness": "BoomBox.gltf",
