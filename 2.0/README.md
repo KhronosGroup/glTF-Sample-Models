@@ -12,6 +12,7 @@
 | [Simple Meshes](SimpleMeshes)                          | ![](SimpleMeshes/screenshot/screenshot.png)                     | A simple `scene` with two `nodes`, both containing the same `mesh`, namely a `mesh` with a single `mesh.primitive` with a single indexed triangle with *multiple* attributes (positions, normals and texture coordinates), but without a `material` |
 | [Simple Morph](SimpleMorph)                            | ![](SimpleMorph/screenshot/screenshot.png)                      | A triangle with a morph animation applied |
 | [Simple Sparse Accessor](SimpleSparseAccessor)         | ![](SimpleSparseAccessor/screenshot/screenshot.png)             | A simple mesh that uses sparse accessors |
+| [Simple Skin](SimpleSkin)                              | ![](SimpleSkin/screenshot/screenshot.png)                       | A simple example of vertex skinning in glTF
 | [Cameras](Cameras)                                     | ![](Cameras/screenshot/screenshot.png)                          | A sample with two different `camera` objects |
 | [Interpolation Test](InterpolationTest)                | ![](InterpolationTest/screenshot/screenshot.gif)                | A sample with three different `animation` interpolations |
 
