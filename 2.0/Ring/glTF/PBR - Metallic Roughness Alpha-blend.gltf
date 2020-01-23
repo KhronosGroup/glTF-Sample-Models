@@ -1,0 +1,345 @@
+{
+  "extensionsRequired": [
+    "KHR_materials_clearcoat"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_clearcoat"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 23760,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4617,
+      "max": [
+        0.9956876039505,
+        0.306905686855316,
+        0.995075702667236
+      ],
+      "min": [
+        -0.995687305927277,
+        -0.306905657052994,
+        -0.997510254383087
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4617,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4617,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 2160,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 455,
+      "max": [
+        0.942354738712311,
+        0.204216063022614,
+        0.941710293292999
+      ],
+      "min": [
+        -0.942354619503021,
+        -0.204216077923775,
+        -0.94414496421814
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 455,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 455,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 2019.3.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 95040,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 55404,
+      "byteOffset": 95040,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 55404,
+      "byteOffset": 150444,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36936,
+      "byteOffset": 205848,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8640,
+      "byteOffset": 242784,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5460,
+      "byteOffset": 251424,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5460,
+      "byteOffset": 256884,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3640,
+      "byteOffset": 262344,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 265984,
+      "uri": "PBR - Metallic Roughness Alpha-blend.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Carbon_baseColor.png"
+    },
+    {
+      "uri": "Carbon_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Carbon_normal.png"
+    },
+    {
+      "uri": "Carbon_emissive.png"
+    },
+    {
+      "uri": "Titan_baseColor.png"
+    },
+    {
+      "uri": "Titan_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "Titan_normal.png"
+    },
+    {
+      "uri": "Titan_emissive.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 3
+      },
+      "name": "Carbon",
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 1.0,
+          "clearcoatRoughnessFactor": 0.03
+        }
+      },
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 7
+      },
+      "name": "Titan",
+      "normalTexture": {
+        "index": 6
+      },
+      "occlusionTexture": {
+        "index": 5
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Ring1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Ring1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        3
+      ],
+      "name": "root",
+      "scale": [
+        2.73165345191956,
+        2.73165345191956,
+        2.73165345191956
+      ],
+      "translation": [
+        -0.00336194038391113,
+        -5.96046447753906e-08,
+        0.00332951545715332
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Ring1"
+    },
+    {
+      "mesh": 0,
+      "name": "Ring1"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Ring1"
+    },
+    {
+      "mesh": 1,
+      "name": "Ring1"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    }
+  ]
+}

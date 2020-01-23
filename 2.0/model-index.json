@@ -403,6 +403,12 @@
     }
   },
   {
+    "name": "Ring",
+    "variants": {
+      "glTF": "PBR - Metallic Roughness Alpha-blend.gltf"
+    }
+  },
+  {
     "name": "SciFiHelmet",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
