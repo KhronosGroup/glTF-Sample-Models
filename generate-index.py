@@ -22,8 +22,7 @@ def generate_index(root):
         else:
             model_info = {
                 "name": model,
-                "variants": variants,
-                "screenshot": None
+                "variants": variants
             }
             if "screenshot" not in model_contents:
                 print ("WARNING: no screenshot found for {}".format(model))
