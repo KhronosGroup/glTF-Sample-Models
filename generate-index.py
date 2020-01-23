@@ -24,10 +24,16 @@ def generate_index(root):
                 "name": model,
                 "variants": variants
             }
-            if "screenshot" not in model_contents:
-                print ("WARNING: no screenshot found for {}".format(model))
-            else:
-                model_info["screenshot"] = "screenshot/" + [s for s in os.listdir("screenshot") if s.startswith("screenshot.")][0]
+
+            if "screenshot" in model_contents:
+                for s in os.listdir("screenshot"):
+                    if s.startswith("screenshot."):
+                        model_info["screenshot"] = "screenshot/" + s
+                        break
+
+            if "screenshot" not in model_info:
+                print("WARNING: no screenshot found for {}".format(model))
+
             index.append(model_info)
         os.chdir("..")
 
