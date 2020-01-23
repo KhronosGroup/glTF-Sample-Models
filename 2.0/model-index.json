@@ -270,6 +270,12 @@
     }
   },
   {
+    "name": "HighHeel",
+    "variants": {
+      "glTF": "HighHeel.gltf"
+    }
+  },
+  {
     "name": "InterpolationTest",
     "screenshot": "screenshot/screenshot.gif",
     "variants": {
