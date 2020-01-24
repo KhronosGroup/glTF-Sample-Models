@@ -183,7 +183,6 @@
     "variants": {
       "glTF": "CesiumMan.gltf",
       "glTF-Binary": "CesiumMan.glb",
-      "glTF-Draco": "CesiumMan.gltf",
       "glTF-Embedded": "CesiumMan.gltf"
     }
   },
