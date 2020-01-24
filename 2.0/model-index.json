@@ -293,16 +293,6 @@
     }
   },
   {
-    "name": "Monster",
-    "screenshot": "screenshot/screenshot.gif",
-    "variants": {
-      "glTF": "Monster.gltf",
-      "glTF-Binary": "Monster.glb",
-      "glTF-Draco": "Monster.gltf",
-      "glTF-Embedded": "Monster.gltf"
-    }
-  },
-  {
     "name": "MorphPrimitivesTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
