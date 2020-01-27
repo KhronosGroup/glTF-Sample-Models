@@ -353,7 +353,6 @@
     "variants": {
       "glTF": "RiggedFigure.gltf",
       "glTF-Binary": "RiggedFigure.glb",
-      "glTF-Draco": "RiggedFigure.gltf",
       "glTF-Embedded": "RiggedFigure.gltf"
     }
   },
