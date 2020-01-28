@@ -1,4 +1,20 @@
 {
+  "extensions": {
+    "UX3D_lights_imageBased": {
+      "imageBasedLights": [
+        {
+          "specularEnvironmentTexture": 32,
+          "diffuseEnvironmentTexture": 33,
+          "extensions": {
+            "KHR_materials_sheen":
+            {
+              "specularEnvironmentTexture": 34
+            }
+          }
+        }
+      ]
+    }
+  },
   "accessors": [
     {
       "bufferView": 0,
@@ -575,6 +591,15 @@
     },
     {
       "uri": "Sole_emissive.png"
+    },
+    {
+      "uri": "HeliPad_GoldenHour_GGX_specular.ktx2"
+    },
+    {
+      "uri": "HeliPad_GoldenHour_GGX_diffuse.ktx2"
+    },
+    {
+      "uri": "HeliPad_GoldenHour_Charlie_specular.ktx2"
     }
   ],
   "materials": [
@@ -1058,7 +1083,12 @@
       "name": "Scene",
       "nodes": [
         0
-      ]
+      ],
+      "extensions": {
+        "UX3D_lights_imageBased": {
+          "imageBasedLight": 0
+        }
+      }
     }
   ],
   "textures": [
@@ -1189,6 +1219,15 @@
     {
       "sampler": 0,
       "source": 31
+    },
+    {
+      "source": 32
+    },
+    {
+      "source": 33
+    },
+    {
+      "source": 34
     }
   ]
 }
