@@ -183,7 +183,6 @@
     "variants": {
       "glTF": "CesiumMan.gltf",
       "glTF-Binary": "CesiumMan.glb",
-      "glTF-Draco": "CesiumMan.gltf",
       "glTF-Embedded": "CesiumMan.gltf"
     }
   },
@@ -294,16 +293,6 @@
     }
   },
   {
-    "name": "Monster",
-    "screenshot": "screenshot/screenshot.gif",
-    "variants": {
-      "glTF": "Monster.gltf",
-      "glTF-Binary": "Monster.glb",
-      "glTF-Draco": "Monster.gltf",
-      "glTF-Embedded": "Monster.gltf"
-    }
-  },
-  {
     "name": "MorphPrimitivesTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
@@ -364,7 +353,6 @@
     "variants": {
       "glTF": "RiggedFigure.gltf",
       "glTF-Binary": "RiggedFigure.glb",
-      "glTF-Draco": "RiggedFigure.gltf",
       "glTF-Embedded": "RiggedFigure.gltf"
     }
   },
@@ -374,7 +362,6 @@
     "variants": {
       "glTF": "RiggedSimple.gltf",
       "glTF-Binary": "RiggedSimple.glb",
-      "glTF-Draco": "RiggedSimple.gltf",
       "glTF-Embedded": "RiggedSimple.gltf"
     }
   },

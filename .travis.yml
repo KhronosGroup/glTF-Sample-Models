@@ -1,5 +1,6 @@
-language: dart
-dart:
- - "2.2.0-dev.1.1"
-before_script: wget https://github.khronos.org/glTF-Validator/gltf_validator_linux64.snapshot
-script: dart --no_background_compilation gltf_validator_linux64.snapshot -r -p -a ./2.0/
+dist: bionic
+language: minimal
+env:
+  - LINK=https://github.com/KhronosGroup/glTF-Validator/releases/download/2.0.0-dev.3.2/gltf_validator-2.0.0-dev.3.2-linux64.tar.xz
+install: curl -sL $LINK | tar xJ
+script: ./gltf_validator -r -a ./2.0/
