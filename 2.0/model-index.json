@@ -251,6 +251,15 @@
     }
   },
   {
+    "name": "Fox",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "Fox.gltf",
+      "glTF-Binary": "Fox.glb",
+      "glTF-Embedded": "Fox.gltf"
+    }
+  },
+  {
     "name": "GearboxAssy",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
