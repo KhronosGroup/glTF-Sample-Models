@@ -30,7 +30,8 @@
     "screenshot": "screenshot/screenshot.gif",
     "variants": {
       "glTF": "AnimatedMorphCube.gltf",
-      "glTF-Binary": "AnimatedMorphCube.glb"
+      "glTF-Binary": "AnimatedMorphCube.glb",
+      "glTF-Quantized": "AnimatedMorphCube.gltf"
     }
   },
   {
@@ -64,6 +65,7 @@
       "glTF": "Avocado.gltf",
       "glTF-Binary": "Avocado.glb",
       "glTF-Draco": "Avocado.gltf",
+      "glTF-Quantized": "Avocado.gltf",
       "glTF-pbrSpecularGlossiness": "Avocado.gltf"
     }
   },
@@ -229,7 +231,8 @@
       "glTF": "Duck.gltf",
       "glTF-Binary": "Duck.glb",
       "glTF-Draco": "Duck.gltf",
-      "glTF-Embedded": "Duck.gltf"
+      "glTF-Embedded": "Duck.gltf",
+      "glTF-Quantized": "Duck.gltf"
     }
   },
   {
@@ -272,6 +275,7 @@
       "glTF": "Lantern.gltf",
       "glTF-Binary": "Lantern.glb",
       "glTF-Draco": "Lantern.gltf",
+      "glTF-Quantized": "Lantern.gltf",
       "glTF-pbrSpecularGlossiness": "Lantern.gltf"
     }
   },
