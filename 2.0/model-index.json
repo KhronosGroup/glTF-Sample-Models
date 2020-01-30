@@ -194,7 +194,6 @@
     "variants": {
       "glTF": "CesiumMilkTruck.gltf",
       "glTF-Binary": "CesiumMilkTruck.glb",
-      "glTF-Draco": "CesiumMilkTruck.gltf",
       "glTF-Embedded": "CesiumMilkTruck.gltf"
     }
   },
