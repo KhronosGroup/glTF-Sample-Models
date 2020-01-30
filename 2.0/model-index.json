@@ -198,6 +198,14 @@
     }
   },
   {
+    "name": "ClearCoatTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "ClearCoatTest.gltf",
+      "glTF-Binary": "ClearCoatTest.glb"
+    }
+  },
+  {
     "name": "Corset",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
