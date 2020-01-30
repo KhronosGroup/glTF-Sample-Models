@@ -35,11 +35,15 @@ If the center column appears to have exactly the same reflections as the left co
 
 This row simply turns on the `KHR_materials_clearcoat` extension in the middle column, with some reasonable non-textured settings.
 
-![First row](screenshot/FirstRow.jpg)
+![Simple coating](screenshot/FirstRow.jpg)
 
 #### Partial coating
 
 This row uses a texturemap to turn clear coat on and off for different sections of the geometry.  It is emulated in the right column with an alpha blend, making the coating disappear where it has been turned off.  In the middle column with the `KHR_materials_clearcoat` extension, this value is read from the `R` (Red) channel, as linear (not sRGB) values.
+
+The center column should show bands where the coating has been applied and un-applied.  The right column may look a little strange due to the use of alpha-blending, but its bands align with the center column's bands.
+
+![Partial coating](screenshot/PartialCoat.jpg)
 
 #### Roughness variations
 
