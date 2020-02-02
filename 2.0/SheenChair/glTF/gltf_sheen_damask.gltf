@@ -1063,8 +1063,8 @@
       "alphaMode": "OPAQUE",
 			"extensions": {
 				"KHR_materials_sheen": {
-					"sheenFactor": 1.0,
-					"sheenColor": [
+					"intensityFactor": 1.0,
+					"colorFactor": [
 						0.0,
 						0.0,
 						1.0

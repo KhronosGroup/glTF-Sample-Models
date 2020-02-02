@@ -716,8 +716,8 @@
       ],
 	   "extensions": {
 	  "KHR_materials_sheen": {
-					"sheenFactor": 1.0,
-					"sheenColor": [
+					"intensityFactor": 1.0,
+					"colorFactor": [
 						1.0,
 						1.0,
 						1.0
@@ -752,8 +752,8 @@
       ],
 	  "extensions": {
 				"KHR_materials_sheen": {
-					"sheenFactor": 0.2,
-					"sheenColor": [
+					"intensityFactor": 0.2,
+					"colorFactor": [
 						1.0,
 						0.0,
 						0.0

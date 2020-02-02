@@ -672,9 +672,8 @@
       },
 	  "extensions": {
 	  "KHR_materials_sheen": {
-					"sheenFactor": 1.0,
-					"sheenRoughness" : 0.1,
-					"sheenColor": [
+					"intensityFactor": 1.0,
+					"colorFactor": [
 						1.0,
 						0.0,
 						0.0
@@ -702,9 +701,8 @@
       ],
 	   "extensions": {
 	  "KHR_materials_sheen": {
-					"sheenFactor": 1.0,
-					"sheenRoughness" : 0.1,
-					"sheenColor": [
+					"intensityFactor": 1.0,
+					"colorFactor": [
 						0.0,
 						1.0,
 						0.0
@@ -739,9 +737,8 @@
       ],
 	  "extensions": {
 				"KHR_materials_sheen": {
-					"sheenFactor": 1.0,
-					"sheenRoughness" : 0.1,
-					"sheenColor": [
+					"intensityFactor": 1.0,
+					"colorFactor": [
 						0.5,
 						0.0,
 						1.0
