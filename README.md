@@ -23,7 +23,6 @@ Sample models help the glTF ecosystem, if you are able to contribute a model, se
 ## Model Publishing Services with glTF Download Capability
 
 * [Sketchfab](https://sketchfab.com/features/gltf) offers auto-conversion of all of its downloadable models, including PBR models, to glTF format.
-* [Microsoft's Remix3D](https://www.remix3d.com/) can download 3D models into Paint3D, which offers a "Save As GLB" export (GLB is the binary form of glTF).
 * [Google's Poly](https://poly.google.com/) offers certain 3D assets for download in glTF format.
 
 ## Other glTF Models

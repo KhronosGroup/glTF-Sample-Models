@@ -14,9 +14,10 @@ def generate_index(root):
         gltf_variant_dirs = [d for d in model_contents if d.startswith("glTF")]
         variants = {}
         for variant_dir in gltf_variant_dirs:
-            model_file = [f for f in os.listdir(variant_dir)
-                          if f.endswith(".glb") or f.endswith(".gltf")][0]
-            variants[variant_dir] = model_file
+            model_file_list = [f for f in os.listdir(variant_dir)
+                          if f.endswith(".glb") or f.endswith(".gltf")]
+            if (len(model_file_list) > 0):
+                variants[variant_dir] = model_file_list[0]
         if not variants:
             print ("WARNING: no model files found for {}".format(model))
         else:
