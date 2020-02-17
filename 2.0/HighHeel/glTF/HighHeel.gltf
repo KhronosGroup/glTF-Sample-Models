@@ -8,7 +8,7 @@
           "extensions": {
             "KHR_materials_sheen":
             {
-              "specularEnvironmentTexture": 34
+              "sheenEnvironmentTexture": 34
             }
           }
         }
