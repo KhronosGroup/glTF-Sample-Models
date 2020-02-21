@@ -238,6 +238,12 @@
     }
   },
   {
+    "name": "Dragon",
+    "variants": {
+      "glTF": "Dragon.gltf"
+    }
+  },
+  {
     "name": "Duck",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
