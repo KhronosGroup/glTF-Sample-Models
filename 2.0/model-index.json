@@ -204,6 +204,12 @@
     }
   },
   {
+    "name": "ClearcoatSphere",
+    "variants": {
+      "glTF": "ClearcoatSphere.gltf"
+    }
+  },
+  {
     "name": "ClearCoatTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
