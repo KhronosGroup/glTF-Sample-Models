@@ -453,6 +453,12 @@
     }
   },
   {
+    "name": "SpecularSpheres",
+    "variants": {
+      "glTF": "SpecularSpheres.gltf"
+    }
+  },
+  {
     "name": "SpecGlossVsMetalRough",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {

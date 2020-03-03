@@ -1,0 +1,216 @@
+{
+	"extensionsRequired": [
+		"KHR_materials_specular"
+	],
+	"extensionsUsed": [
+		"KHR_materials_specular"
+	],
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Sphere 0.0",
+			"translation": [
+                -2.5,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Sphere 0.5",
+			"translation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Sphere 1.0",
+			"translation": [
+                2.5,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "Material 0.0",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8,
+                    0.0,
+                    0.0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.01
+            },
+			"extensions": {
+				"KHR_materials_specular": {
+					"specularFactor": 0.0
+				}
+			}
+        },
+        {
+            "name" : "Material 0.5",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8,
+                    0.0,
+                    0.0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.01
+            },
+			"extensions": {
+				"KHR_materials_specular": {
+					"specularFactor": 0.5
+				}
+			}
+        },
+        {
+            "name" : "Material 1.0",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8,
+                    0.0,
+                    0.0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.01
+            },
+			"extensions": {
+				"KHR_materials_specular": {
+					"specularFactor": 1.0
+				}
+			}
+        }		
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere 0.0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Sphere 0.5",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Sphere 1.0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2499,
+            "max" : [
+                0.9872313737869263,
+                0.9975767135620117,
+                0.9872314929962158
+            ],
+            "min" : [
+                -0.9872310161590576,
+                -0.9975767135620117,
+                -0.9872310161590576
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2499,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2499,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 11904,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 29988,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 29988,
+            "byteOffset" : 29988
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 19992,
+            "byteOffset" : 59976
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23808,
+            "byteOffset" : 79968
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 103776,
+            "uri" : "SpecularSpheres.bin"
+        }
+    ]
+}
