@@ -1,0 +1,162 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "extensionsRequired": [
+        "KHR_lights_punctual",
+        "KHR_materials_thinfilm"
+	],
+	"extensionsUsed": [
+        "KHR_lights_punctual",
+        "KHR_materials_thinfilm"
+	],
+	"extensions": {
+		"KHR_lights_punctual": {
+			"lights": [
+				{
+                    "color": [1.0, 1.0, 1.0],
+                    "type": "directional",
+                    "intensity": 100.0
+				}
+			]
+		}
+	},
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Suzanne",
+            "mesh" : 0
+        },
+        {
+			"name": "Light",
+			"extensions": {
+				"KHR_lights_punctual": {
+					"light": 0
+				}
+			},
+			"translation": [
+				5.0,
+				5.0,
+				5.0
+			]
+		}
+    ],
+    "materials" : [
+        {
+            "doubleSided" : false,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8,
+					0.8,
+					0.8,
+                    1
+                ],
+				"metallicFactor": 1.0,
+				"roughnessFactor": 0.1
+            },
+			"extensions": {
+				"KHR_materials_thinfilm": {
+                    "thinfilmFactor": 2.0,
+                    "thinfilmThicknessMinimum": 400,
+                    "thinfilmThicknessMaximum": 600
+				}
+			}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Suzanne",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3321,
+            "max" : [
+                1.325934886932373,
+                0.9392361640930176,
+                0.8223199844360352
+            ],
+            "min" : [
+                -1.325934886932373,
+                -0.9704862236976624,
+                -0.7782661318778992
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3321,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3321,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 11808,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 39852,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 39852,
+            "byteOffset" : 39852
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 26568,
+            "byteOffset" : 79704
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23616,
+            "byteOffset" : 106272
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 129888,
+            "uri" : "ThinFilmSuzanne.bin"
+        }
+    ]
+}
