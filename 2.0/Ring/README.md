@@ -1,7 +1,6 @@
 # Ring
+## Screenshot
 
-## glTF Sample Viewer Output
-
-<iframe width=1024px height=768px src="http://gltf.ux3d.io?model=Ring"></iframe>
+[![screenshot](screenshot/screenshot.png)](http://gltf.ux3d.io?model=Ring)
 
 ## License Information
