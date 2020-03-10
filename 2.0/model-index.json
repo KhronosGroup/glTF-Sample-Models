@@ -506,6 +506,12 @@
     }
   },
   {
+    "name": "ThinFilmSuzanne",
+    "variants": {
+      "glTF": "ThinFilmSuzanne.gltf"
+    }
+  },
+  {
     "name": "Triangle",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
