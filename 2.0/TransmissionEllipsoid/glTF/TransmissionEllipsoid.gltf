@@ -1,0 +1,139 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Sphere",
+            "scale" : [
+                2,
+                1,
+                2
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : false,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8,
+					0.8,
+					0.8,
+                    1
+                ],
+				"metallicFactor": 1.0,
+				"roughnessFactor": 0.1
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 0.5,
+                    "ior": 1.33
+				}
+			}
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 8383,
+            "max" : [
+                0.9999982714653015,
+                1,
+                0.9999966621398926
+            ],
+            "min" : [
+                -0.9999975562095642,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 8383,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 8383,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 48384,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 100596,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 100596,
+            "byteOffset" : 100596
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 67064,
+            "byteOffset" : 201192
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 96768,
+            "byteOffset" : 268256
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 365024,
+            "uri" : "TransmissionEllipsoid.bin"
+        }
+    ],
+    "extensionsUsed": [
+        "KHR_materials_transmission"
+    ],
+    "extensionsRequired": [
+        "KHR_materials_transmission"
+    ]
+}
