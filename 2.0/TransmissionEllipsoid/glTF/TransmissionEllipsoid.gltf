@@ -15,12 +15,7 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Sphere",
-            "scale" : [
-                2,
-                1,
-                2
-            ]
+            "name" : "Sphere"
         }
     ],
     "meshes" : [
