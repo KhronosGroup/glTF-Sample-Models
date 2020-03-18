@@ -44,14 +44,9 @@
             ],
             "name" : "Material",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.8,
-					0.8,
-					0.8,
-                    1
-                ],
+                "baseColorFactor" : [1, 1, 1, 1],
 				"metallicFactor": 1.0,
-				"roughnessFactor": 0.1
+				"roughnessFactor": 0.0
             },
 			"extensions": {
 				"KHR_materials_transmission": {
@@ -67,14 +62,14 @@
             "componentType" : 5126,
             "count" : 8383,
             "max" : [
-                1.999996542930603,
+                0.9999982714653015,
                 1,
-                1.9999933242797852
+                0.9999966621398926
             ],
             "min" : [
-                -1.9999951124191284,
+                -0.9999975562095642,
                 -1,
-                -2
+                -1
             ],
             "type" : "VEC3"
         },
