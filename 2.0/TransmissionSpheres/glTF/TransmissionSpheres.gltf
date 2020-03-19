@@ -1,0 +1,633 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0, 1, 2, 3, 4, 5,
+                6, 7, 8, 9, 10, 11,
+                12, 13, 14, 15, 16, 17
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "translation": [-5, -3, 0]
+        },
+        {
+            "mesh" : 1,
+            "translation": [-3, -3, 0]
+        },
+        {
+            "mesh" : 2,
+            "translation": [-1, -3, 0]
+        },
+        {
+            "mesh" : 3,
+            "translation": [1, -3, 0]
+        },
+        {
+            "mesh" : 4,
+            "translation": [3, -3, 0]
+        },
+        {
+            "mesh" : 5,
+            "translation": [5, -3, 0]
+        },
+        {
+            "mesh" : 6,
+            "translation": [-5, 0, 0]
+        },
+        {
+            "mesh" : 7,
+            "translation": [-3, 0, 0]
+        },
+        {
+            "mesh" : 8,
+            "translation": [-1, 0, 0]
+        },
+        {
+            "mesh" : 9,
+            "translation": [1, 0, 0]
+        },
+        {
+            "mesh" : 10,
+            "translation": [3, 0, 0]
+        },
+        {
+            "mesh" : 11,
+            "translation": [5, 0, 0]
+        },
+        {
+            "mesh" : 12,
+            "translation": [-5, 3, 0]
+        },
+        {
+            "mesh" : 13,
+            "translation": [-3, 3, 0]
+        },
+        {
+            "mesh" : 14,
+            "translation": [-1, 3, 0]
+        },
+        {
+            "mesh" : 15,
+            "translation": [1, 3, 0]
+        },
+        {
+            "mesh" : 16,
+            "translation": [3, 3, 0]
+        },
+        {
+            "mesh" : 17,
+            "translation": [5, 3, 0]
+        }
+    ],
+    "meshes" : [
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 2
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 3
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 4
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 5
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 6
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 7
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 8
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 9
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 10
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 11
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 12
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 13
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 14
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 15
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 16
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material": 17
+                }
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 0.0,
+                    "ior": 1.3
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 0.2,
+                    "ior": 1.3
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 0.4,
+                    "ior": 1.3
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 0.6,
+                    "ior": 1.3
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 0.8,
+                    "ior": 1.3
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "ior": 1.3
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "ior": 1.0
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "ior": 1.1
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "ior": 1.2
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "ior": 1.3
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "ior": 1.4
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "ior": 1.5
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "ior": 1.3
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.2
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "ior": 1.3
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.4
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "ior": 1.3
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.6
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "ior": 1.3
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.8
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "ior": 1.3
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 1.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "ior": 1.3
+				}
+			}
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 8383,
+            "max" : [
+                0.9999982714653015,
+                1,
+                0.9999966621398926
+            ],
+            "min" : [
+                -0.9999975562095642,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 8383,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 8383,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 48384,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 100596,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 100596,
+            "byteOffset" : 100596
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 67064,
+            "byteOffset" : 201192
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 96768,
+            "byteOffset" : 268256
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 365024,
+            "uri" : "TransmissionSpheres.bin"
+        }
+    ],
+    "extensionsUsed": [
+        "KHR_materials_transmission"
+    ],
+    "extensionsRequired": [
+        "KHR_materials_transmission"
+    ]
+}
