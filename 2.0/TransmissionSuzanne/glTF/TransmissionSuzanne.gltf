@@ -1,0 +1,178 @@
+{
+    "extensionsUsed": [
+        "KHR_materials_transmission"
+    ],
+    "extensionsRequired": [
+        "KHR_materials_transmission"
+    ],
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0, 1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "translation": [
+                -1.5,
+                0,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "translation": [
+                1.5,
+                0,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "Material_withoutTransmissionDepthTexture",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            },
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "ior": 1.5,
+                    "transmissionFactor": 1.0,
+                    "transmissionDepth": 2.0
+                }
+            }
+        },
+        {
+            "name" : "Material_withTransmissionDepthTexture",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            },
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "ior": 1.5,
+                    "transmissionFactor": 1.0,
+                    "transmissionDepth": 2.0,
+                    "transmissionDepthTexture": {
+                        "index" : 0,
+                        "texCoord" : 0
+                    }
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "DepthMap",
+            "uri" : "DepthMap.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 9669,
+            "max" : [
+                1.328185796737671,
+                0.9392361640930176,
+                0.8224414587020874
+            ],
+            "min" : [
+                -1.328185796737671,
+                -0.971822202205658,
+                -0.7782661318778992
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 9669,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 9669,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 47232,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 116028,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 116028,
+            "byteOffset" : 116028
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 77352,
+            "byteOffset" : 232056
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 94464,
+            "byteOffset" : 309408
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 403872,
+            "uri" : "TransmissionSuzanne.bin"
+        }
+    ]
+}

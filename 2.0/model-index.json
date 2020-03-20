@@ -518,6 +518,12 @@
     }
   },
   {
+    "name": "TransmissionSuzanne",
+    "variants": {
+      "glTF": "TransmissionSuzanne.gltf"
+    }
+  },
+  {
     "name": "Triangle",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
