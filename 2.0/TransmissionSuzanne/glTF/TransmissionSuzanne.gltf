@@ -6,7 +6,7 @@
         "KHR_materials_transmission"
     ],
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
         "version" : "2.0"
     },
     "scene" : 0,
@@ -38,7 +38,7 @@
     ],
     "materials" : [
         {
-            "name" : "Material_withoutTransmissionDepthTexture",
+            "name" : "Material_withoutTransmissionThicknessTexture",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0
@@ -47,12 +47,12 @@
                 "KHR_materials_transmission": {
                     "ior": 1.5,
                     "transmissionFactor": 1.0,
-                    "transmissionDepth": 2.0
+                    "transmissionThickness": 2.0
                 }
             }
         },
         {
-            "name" : "Material_withTransmissionDepthTexture",
+            "name" : "Material_withTransmissionThicknessTexture",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0
@@ -61,8 +61,8 @@
                 "KHR_materials_transmission": {
                     "ior": 1.5,
                     "transmissionFactor": 1.0,
-                    "transmissionDepth": 2.0,
-                    "transmissionDepthTexture": {
+                    "transmissionThickness": 2.0,
+                    "transmissionThicknessTexture": {
                         "index" : 0,
                         "texCoord" : 0
                     }
@@ -84,7 +84,6 @@
                 }
             ]
         },
-
         {
             "primitives" : [
                 {
@@ -107,23 +106,23 @@
     "images" : [
         {
             "mimeType" : "image/png",
-            "name" : "DepthMap",
-            "uri" : "DepthMap.png"
+            "name" : "ThicknessMap",
+            "uri" : "ThicknessMap.png"
         }
     ],
     "accessors" : [
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 9669,
+            "count" : 11324,
             "max" : [
                 1.328185796737671,
                 0.9392361640930176,
-                0.8224414587020874
+                0.8211784362792969
             ],
             "min" : [
                 -1.328185796737671,
-                -0.971822202205658,
+                -0.9718220829963684,
                 -0.7782661318778992
             ],
             "type" : "VEC3"
@@ -131,47 +130,47 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 9669,
+            "count" : 11324,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 9669,
+            "count" : 11324,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 47232,
+            "count" : 55824,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 116028,
+            "byteLength" : 135888,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 116028,
-            "byteOffset" : 116028
+            "byteLength" : 135888,
+            "byteOffset" : 135888
         },
         {
             "buffer" : 0,
-            "byteLength" : 77352,
-            "byteOffset" : 232056
+            "byteLength" : 90592,
+            "byteOffset" : 271776
         },
         {
             "buffer" : 0,
-            "byteLength" : 94464,
-            "byteOffset" : 309408
+            "byteLength" : 111648,
+            "byteOffset" : 362368
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 403872,
+            "byteLength" : 474016,
             "uri" : "TransmissionSuzanne.bin"
         }
     ]
