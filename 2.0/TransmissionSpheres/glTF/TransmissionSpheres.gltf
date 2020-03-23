@@ -419,6 +419,34 @@
 				"KHR_materials_transmission": {
                     "transmissionFactor": 1.0,
                     "transmissionThickness": 2.0,
+                    "ior": 0.6
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "transmissionThickness": 2.0,
+                    "ior": 0.8
+				}
+			}
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0, 0, 1],
+				"metallicFactor": 0.0,
+				"roughnessFactor": 0.0
+            },
+			"extensions": {
+				"KHR_materials_transmission": {
+                    "transmissionFactor": 1.0,
+                    "transmissionThickness": 2.0,
                     "ior": 1.0
 				}
 			}
@@ -433,35 +461,7 @@
 				"KHR_materials_transmission": {
                     "transmissionFactor": 1.0,
                     "transmissionThickness": 2.0,
-                    "ior": 1.1
-				}
-			}
-        },
-        {
-            "pbrMetallicRoughness" : {
-                "baseColorFactor" : [1, 0, 0, 1],
-				"metallicFactor": 0.0,
-				"roughnessFactor": 0.0
-            },
-			"extensions": {
-				"KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0,
                     "ior": 1.2
-				}
-			}
-        },
-        {
-            "pbrMetallicRoughness" : {
-                "baseColorFactor" : [1, 0, 0, 1],
-				"metallicFactor": 0.0,
-				"roughnessFactor": 0.0
-            },
-			"extensions": {
-				"KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0,
-                    "ior": 1.3
 				}
 			}
         },
