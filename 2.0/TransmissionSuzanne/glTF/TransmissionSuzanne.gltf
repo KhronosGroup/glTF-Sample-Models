@@ -14,7 +14,7 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0, 1
+                0, 1, 2, 3
             ]
         }
     ],
@@ -23,7 +23,7 @@
             "mesh" : 0,
             "translation": [
                 -1.5,
-                0,
+                1.3,
                 0
             ]
         },
@@ -31,14 +31,29 @@
             "mesh" : 1,
             "translation": [
                 1.5,
-                0,
+                1.3,
+                0
+            ]
+        },
+        {
+            "mesh" : 2,
+            "translation": [
+                -1.5,
+                -1.3,
+                0
+            ]
+        },
+        {
+            "mesh" : 3,
+            "translation": [
+                1.5,
+                -1.3,
                 0
             ]
         }
     ],
     "materials" : [
         {
-            "name" : "Material_withoutTransmissionThicknessTexture",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0
@@ -52,7 +67,6 @@
             }
         },
         {
-            "name" : "Material_withTransmissionThicknessTexture",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0
@@ -62,6 +76,38 @@
                     "ior": 1.5,
                     "transmissionFactor": 1.0,
                     "transmissionThickness": 2.0,
+                    "transmissionThicknessTexture": {
+                        "index" : 0,
+                        "texCoord" : 0
+                    }
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            },
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "ior": 1.5,
+                    "transmissionFactor": 1.0,
+                    "transmissionThickness": 2.0,
+                    "transmissionAbsorption": [0.0, 0.36, 2.3]
+                }
+            }
+        },
+        {
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0
+            },
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "ior": 1.5,
+                    "transmissionFactor": 1.0,
+                    "transmissionThickness": 2.0,
+                    "transmissionAbsorption": [0.0, 0.36, 2.3],
                     "transmissionThicknessTexture": {
                         "index" : 0,
                         "texCoord" : 0
@@ -94,6 +140,32 @@
                     },
                     "indices" : 3,
                     "material" : 1
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 3
                 }
             ]
         }
