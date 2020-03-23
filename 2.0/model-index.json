@@ -518,6 +518,12 @@
     }
   },
   {
+    "name": "TransmissionPrism",
+    "variants": {
+      "glTF": "TransmissionPrism.gltf"
+    }
+  },
+  {
     "name": "TransmissionSuzanne",
     "variants": {
       "glTF": "TransmissionSuzanne.gltf"
