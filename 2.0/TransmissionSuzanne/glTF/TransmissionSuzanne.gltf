@@ -1,11 +1,15 @@
 {
     "extensionsUsed": [
+        "KHR_materials_thickness",
         "KHR_materials_transmission",
-        "KHR_materials_ior"
+        "KHR_materials_ior",
+        "KHR_materials_absorption"
     ],
     "extensionsRequired": [
+        "KHR_materials_thickness",
         "KHR_materials_transmission",
-        "KHR_materials_ior"
+        "KHR_materials_ior",
+        "KHR_materials_absorption"
     ],
     "asset" : {
         "generator" : "Khronos glTF Blender I/O v1.1.46",
@@ -56,72 +60,88 @@
     ],
     "materials" : [
         {
+            "name": "static thickness, no absorption",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0
             },
             "extensions": {
-                "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
-                },
                 "KHR_materials_ior": {
                     "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
+                },
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1.0
                 }
             }
         },
         {
+            "name": "thickness texture, no absorption",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0
             },
             "extensions": {
-                "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0,
-                    "transmissionThicknessTexture": {
+                "KHR_materials_ior": {
+                    "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0,
+                    "thicknessTexture": {
                         "index" : 0,
                         "texCoord" : 0
                     }
                 },
-                "KHR_materials_ior": {
-                    "ior": 1.3
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1.0
                 }
             }
         },
         {
+            "name": "static thickness, with absorption",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0
             },
             "extensions": {
-                "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0,
-                    "transmissionAbsorption": [0.0, 0.36, 2.3]
+                "KHR_materials_ior": {
+                    "ior": 1.3
                 },
-                "KHR_materials_ior": {
-                    "ior": 1.3
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
+                },
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1.0
+                },
+                "KHR_materials_absorption": {
+                    "absorption": [0.0, 0.36, 2.3]
                 }
             }
         },
         {
+            "name": "thickness texture, with absorption",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0
             },
             "extensions": {
-                "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0,
-                    "transmissionAbsorption": [0.0, 0.36, 2.3],
-                    "transmissionThicknessTexture": {
+                "KHR_materials_ior": {
+                    "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0,
+                    "thicknessTexture": {
                         "index" : 0,
                         "texCoord" : 0
                     }
                 },
-                "KHR_materials_ior": {
-                    "ior": 1.3
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1.0
+                },
+                "KHR_materials_absorption": {
+                    "absorption": [0.0, 0.36, 2.3]
                 }
             }
         }

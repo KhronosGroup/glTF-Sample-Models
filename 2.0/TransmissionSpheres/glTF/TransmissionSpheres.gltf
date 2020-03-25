@@ -354,11 +354,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 0.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 0.0
                 },
                 "KHR_materials_ior": {
                     "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -370,11 +372,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 0.2,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 0.2
                 },
                 "KHR_materials_ior": {
                     "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -386,11 +390,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 0.4,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 0.4
                 },
                 "KHR_materials_ior": {
                     "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -402,11 +408,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 0.6,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 0.6
                 },
                 "KHR_materials_ior": {
                     "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -418,11 +426,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 0.8,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 0.8
                 },
                 "KHR_materials_ior": {
                     "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -434,11 +444,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 1.0
                 },
                 "KHR_materials_ior": {
                     "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -450,11 +462,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 1.0
                 },
                 "KHR_materials_ior": {
                     "ior": 0.6
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -466,11 +480,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 1.0
                 },
                 "KHR_materials_ior": {
                     "ior": 0.8
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -482,11 +498,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 1.0
                 },
                 "KHR_materials_ior": {
                     "ior": 1.0
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -498,11 +516,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 1.0
                 },
                 "KHR_materials_ior": {
                     "ior": 1.2
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -514,11 +534,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 1.0
                 },
                 "KHR_materials_ior": {
                     "ior": 1.4
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -530,11 +552,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 1.0
                 },
                 "KHR_materials_ior": {
                     "ior": 1.5
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -546,11 +570,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 1.0
                 },
                 "KHR_materials_ior": {
                     "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 1.0
                 }
             }
         },
@@ -562,11 +588,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 1.0
                 },
                 "KHR_materials_ior": {
                     "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -578,11 +606,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 1.0
                 },
                 "KHR_materials_ior": {
                     "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -594,11 +624,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 1.0
                 },
                 "KHR_materials_ior": {
                     "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -610,11 +642,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 1.0
                 },
                 "KHR_materials_ior": {
                     "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         },
@@ -626,11 +660,13 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionThickness": 2.0
+                    "transmissionFactor": 1.0
                 },
                 "KHR_materials_ior": {
                     "ior": 1.3
+                },
+                "KHR_materials_thickness": {
+                    "thickness": 2.0
                 }
             }
         }
@@ -702,11 +738,13 @@
     "extensionsUsed": [
         "KHR_materials_transmission",
         "KHR_materials_ior",
+        "KHR_materials_thickness",
         "KHR_lights_punctual"
     ],
     "extensionsRequired": [
         "KHR_materials_transmission",
         "KHR_materials_ior",
+        "KHR_materials_thickness",
         "KHR_lights_punctual"
     ]
 }
