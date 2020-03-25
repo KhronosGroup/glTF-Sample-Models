@@ -50,7 +50,7 @@
                     }
                 },
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0
+                    "transmission": 1.0
                 },
                 "KHR_materials_absorption": {
                     "absorption": [0.0, 0.36, 2.3]
