@@ -39,7 +39,6 @@
             },
             "extensions": {
                 "KHR_materials_transmission": {
-                    "ior": 1.0,
                     "transmissionFactor": 1.0,
                     "transmissionThickness": 2.0,
                     "transmissionThicknessTexture": {
