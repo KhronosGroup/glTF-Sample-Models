@@ -1,11 +1,13 @@
 {
     "extensionsUsed": [
         "KHR_materials_transmission",
-        "KHR_materials_thickness"
+        "KHR_materials_thickness",
+        "KHR_materials_absorption"
     ],
     "extensionsRequired": [
         "KHR_materials_transmission",
-        "KHR_materials_thickness"
+        "KHR_materials_thickness",
+        "KHR_materials_absorption"
     ],
     "asset" : {
         "generator" : "Khronos glTF Blender I/O v1.1.46",
@@ -48,8 +50,10 @@
                     }
                 },
                 "KHR_materials_transmission": {
-                    "transmissionFactor": 1.0,
-                    "transmissionAbsorption": [0.0, 0.36, 2.3]
+                    "transmissionFactor": 1.0
+                },
+                "KHR_materials_absorption": {
+                    "absorption": [0.0, 0.36, 2.3]
                 }
             }
         }
