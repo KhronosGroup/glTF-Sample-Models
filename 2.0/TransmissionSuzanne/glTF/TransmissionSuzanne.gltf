@@ -20,108 +20,17 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0, 1, 2, 3
+                0
             ]
         }
     ],
     "nodes" : [
         {
-            "mesh" : 0,
-            "translation": [
-                -1.5,
-                1.3,
-                0
-            ]
-        },
-        {
-            "mesh" : 1,
-            "translation": [
-                1.5,
-                1.3,
-                0
-            ]
-        },
-        {
-            "mesh" : 2,
-            "translation": [
-                -1.5,
-                -1.3,
-                0
-            ]
-        },
-        {
-            "mesh" : 3,
-            "translation": [
-                1.5,
-                -1.3,
-                0
-            ]
+            "mesh" : 0
         }
     ],
     "materials" : [
         {
-            "name": "static thickness, no absorption",
-            "pbrMetallicRoughness" : {
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0
-            },
-            "extensions": {
-                "KHR_materials_ior": {
-                    "ior": 1.3
-                },
-                "KHR_materials_thickness": {
-                    "thickness": 2.0
-                },
-                "KHR_materials_transmission": {
-                    "transmission": 1.0
-                }
-            }
-        },
-        {
-            "name": "thickness texture, no absorption",
-            "pbrMetallicRoughness" : {
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0
-            },
-            "extensions": {
-                "KHR_materials_ior": {
-                    "ior": 1.3
-                },
-                "KHR_materials_thickness": {
-                    "thickness": 2.0,
-                    "thicknessTexture": {
-                        "index" : 0,
-                        "texCoord" : 0
-                    }
-                },
-                "KHR_materials_transmission": {
-                    "transmission": 1.0
-                }
-            }
-        },
-        {
-            "name": "static thickness, with absorption",
-            "pbrMetallicRoughness" : {
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0
-            },
-            "extensions": {
-                "KHR_materials_ior": {
-                    "ior": 1.3
-                },
-                "KHR_materials_thickness": {
-                    "thickness": 2.0
-                },
-                "KHR_materials_transmission": {
-                    "transmission": 1.0
-                },
-                "KHR_materials_absorption": {
-                    "absorptionColor": [0.0, 0.36, 2.3]
-                }
-            }
-        },
-        {
-            "name": "thickness texture, with absorption",
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0
@@ -157,45 +66,6 @@
                     },
                     "indices" : 3,
                     "material" : 0
-                }
-            ]
-        },
-        {
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 0,
-                        "NORMAL" : 1,
-                        "TEXCOORD_0" : 2
-                    },
-                    "indices" : 3,
-                    "material" : 1
-                }
-            ]
-        },
-        {
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 0,
-                        "NORMAL" : 1,
-                        "TEXCOORD_0" : 2
-                    },
-                    "indices" : 3,
-                    "material" : 2
-                }
-            ]
-        },
-        {
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 0,
-                        "NORMAL" : 1,
-                        "TEXCOORD_0" : 2
-                    },
-                    "indices" : 3,
-                    "material" : 3
                 }
             ]
         }
