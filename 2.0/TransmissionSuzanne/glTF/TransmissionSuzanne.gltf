@@ -3,37 +3,84 @@
         "KHR_materials_thickness",
         "KHR_materials_transmission",
         "KHR_materials_ior",
-        "KHR_materials_absorption"
+        "KHR_materials_absorption",
+        "KHR_lights_punctual"
     ],
     "extensionsRequired": [
         "KHR_materials_thickness",
         "KHR_materials_transmission",
         "KHR_materials_ior",
-        "KHR_materials_absorption"
+        "KHR_materials_absorption",
+        "KHR_lights_punctual"
     ],
     "asset" : {
         "generator" : "Khronos glTF Blender I/O v1.1.46",
         "version" : "2.0"
+    },
+    "extensions": {
+        "KHR_lights_punctual": {
+            "lights": [
+                {
+                    "color": [1.0, 1.0, 1.0],
+                    "type": "point",
+                    "intensity": 20.0
+                },
+                {
+                    "color": [1.0, 1.0, 1.0],
+                    "type": "point",
+                    "intensity": 20.0
+                }
+            ]
+        }
     },
     "scene" : 0,
     "scenes" : [
         {
             "name" : "Scene",
             "nodes" : [
-                0
+                0, 1, 2
             ]
         }
     ],
     "nodes" : [
         {
-            "mesh" : 0
+            "name": "Monkey",
+            "mesh" : 0,
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "name": "Light",
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 0
+                }
+            },
+            "translation": [
+                1.0, 0.0, -2.0
+            ]
+        },
+        {
+            "name": "Light",
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 1
+                }
+            },
+            "translation": [
+                -1.0, 0.0, -2.0
+            ]
         }
     ],
     "materials" : [
         {
             "pbrMetallicRoughness" : {
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0
+                "roughnessFactor" : 0.1
             },
             "extensions": {
                 "KHR_materials_ior": {
@@ -86,63 +133,63 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 11324,
+            "count" : 13956,
             "max" : [
-                1.328185796737671,
-                0.9392361640930176,
-                0.8211784362792969
+                1.325934886932373,
+                0.8208943009376526,
+                0.9704862236976624
             ],
             "min" : [
-                -1.328185796737671,
-                -0.9718220829963684,
-                -0.7782661318778992
+                -1.325934886932373,
+                -0.7782661318778992,
+                -0.9392361640930176
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 11324,
+            "count" : 13956,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 11324,
+            "count" : 13956,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 55824,
+            "count" : 13956,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 135888,
+            "byteLength" : 167472,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 135888,
-            "byteOffset" : 135888
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 90592,
-            "byteOffset" : 271776
+            "byteLength" : 167472,
+            "byteOffset" : 167472
         },
         {
             "buffer" : 0,
             "byteLength" : 111648,
-            "byteOffset" : 362368
+            "byteOffset" : 334944
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27912,
+            "byteOffset" : 446592
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 474016,
+            "byteLength" : 474504,
             "uri" : "TransmissionSuzanne.bin"
         }
     ]
