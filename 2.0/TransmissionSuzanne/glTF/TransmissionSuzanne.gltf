@@ -45,13 +45,7 @@
     "nodes" : [
         {
             "name": "Monkey",
-            "mesh" : 0,
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ]
+            "mesh": 0
         },
         {
             "name": "Light",
@@ -133,63 +127,63 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 13956,
+            "count" : 11151,
             "max" : [
-                1.325934886932373,
-                0.8208943009376526,
-                0.9704862236976624
+                1.3186391592025757,
+                0.9275127649307251,
+                0.8188740611076355
             ],
             "min" : [
-                -1.325934886932373,
-                -0.7782661318778992,
-                -0.9392361640930176
+                -1.3186392784118652,
+                -0.9669579863548279,
+                -0.7583317160606384
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 13956,
+            "count" : 11151,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 13956,
+            "count" : 11151,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 13956,
+            "count" : 55824,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 167472,
+            "byteLength" : 133812,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 167472,
-            "byteOffset" : 167472
+            "byteLength" : 133812,
+            "byteOffset" : 133812
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 89208,
+            "byteOffset" : 267624
         },
         {
             "buffer" : 0,
             "byteLength" : 111648,
-            "byteOffset" : 334944
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 27912,
-            "byteOffset" : 446592
+            "byteOffset" : 356832
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 474504,
+            "byteLength" : 468480,
             "uri" : "TransmissionSuzanne.bin"
         }
     ]
