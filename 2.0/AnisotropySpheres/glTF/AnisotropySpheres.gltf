@@ -71,8 +71,8 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropyFactor": 1.0,
-                    "anisotropyRotation": 0.0
+                    "anisotropyFactor": -1.0,
+                    "anisotropyRotation": 1.0
                 }
             }
         }
@@ -98,74 +98,74 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 2143,
+            "count" : 1087,
             "max" : [
-                1.0000005960464478,
+                1.000000238418579,
                 1,
-                1.000001072883606
+                1
             ],
             "min" : [
-                -1.000000238418579,
+                -1.0000005960464478,
                 -1,
-                -1
+                -1.0832821999429143e-06
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 2143,
+            "count" : 1087,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 2143,
+            "count" : 1087,
             "type" : "VEC4"
         },
         {
             "bufferView" : 3,
             "componentType" : 5126,
-            "count" : 2143,
+            "count" : 1087,
             "type" : "VEC2"
         },
         {
             "bufferView" : 4,
             "componentType" : 5123,
-            "count" : 11904,
+            "count" : 5952,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 25716,
+            "byteLength" : 13044,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 25716,
-            "byteOffset" : 25716
+            "byteLength" : 13044,
+            "byteOffset" : 13044
         },
         {
             "buffer" : 0,
-            "byteLength" : 34288,
-            "byteOffset" : 51432
+            "byteLength" : 17392,
+            "byteOffset" : 26088
         },
         {
             "buffer" : 0,
-            "byteLength" : 17144,
-            "byteOffset" : 85720
+            "byteLength" : 8696,
+            "byteOffset" : 43480
         },
         {
             "buffer" : 0,
-            "byteLength" : 23808,
-            "byteOffset" : 102864
+            "byteLength" : 11904,
+            "byteOffset" : 52176
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 126672,
+            "byteLength" : 64080,
             "uri" : "AnisotropySpheres.bin"
         }
     ]
