@@ -85,9 +85,10 @@
                     "attributes" : {
                         "POSITION" : 0,
                         "NORMAL" : 1,
-                        "TEXCOORD_0" : 2
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
                     },
-                    "indices" : 3,
+                    "indices" : 4,
                     "material" : 0
                 }
             ]
@@ -120,10 +121,16 @@
             "bufferView" : 2,
             "componentType" : 5126,
             "count" : 2143,
-            "type" : "VEC2"
+            "type" : "VEC4"
         },
         {
             "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 2143,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
             "componentType" : 5123,
             "count" : 11904,
             "type" : "SCALAR"
@@ -142,18 +149,23 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 17144,
+            "byteLength" : 34288,
             "byteOffset" : 51432
         },
         {
             "buffer" : 0,
+            "byteLength" : 17144,
+            "byteOffset" : 85720
+        },
+        {
+            "buffer" : 0,
             "byteLength" : 23808,
-            "byteOffset" : 68576
+            "byteOffset" : 102864
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 92384,
+            "byteLength" : 126672,
             "uri" : "AnisotropySpheres.bin"
         }
     ]
