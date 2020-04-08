@@ -512,6 +512,24 @@
     }
   },
   {
+    "name": "TransmissionSpheres",
+    "variants": {
+      "glTF": "TransmissionSpheres.gltf"
+    }
+  },
+  {
+    "name": "TransmissionPrism",
+    "variants": {
+      "glTF": "TransmissionPrism.gltf"
+    }
+  },
+  {
+    "name": "TransmissionSuzanne",
+    "variants": {
+      "glTF": "TransmissionSuzanne.gltf"
+    }
+  },
+  {
     "name": "Triangle",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
