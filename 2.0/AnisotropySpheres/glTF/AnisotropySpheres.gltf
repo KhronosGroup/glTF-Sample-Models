@@ -1,0 +1,160 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "extensionsUsed": [
+        "KHR_lights_punctual",
+        "KHR_materials_anisotropy"
+    ],
+    "extensionsRequired": [
+        "KHR_lights_punctual",
+        "KHR_materials_anisotropy"
+    ],
+    "extensions": {
+        "KHR_lights_punctual": {
+            "lights": [
+                {
+                    "color": [1.0, 1.0, 1.0],
+                    "type": "point",
+                    "intensity": 1000.0
+                }
+            ]
+        }
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "translation" : [0, 5, 5],
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 0
+                }
+            }
+        },
+        {
+            "mesh" : 0
+        },
+        {
+            "mesh" : 0,
+            "translation" : [-2, 0, 0]
+        },
+        {
+            "mesh" : 0,
+            "translation" : [2, 0, 0]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    1,
+                    0.6866853833198547,
+                    0.2831488251686096,
+                    1
+                ],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.1
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropyFactor": 1.0,
+                    "anisotropyRotation": 0.0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2143,
+            "max" : [
+                1.0000005960464478,
+                1,
+                1.000001072883606
+            ],
+            "min" : [
+                -1.000000238418579,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2143,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2143,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 11904,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 25716,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25716,
+            "byteOffset" : 25716
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17144,
+            "byteOffset" : 51432
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23808,
+            "byteOffset" : 68576
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 92384,
+            "uri" : "AnisotropySpheres.bin"
+        }
+    ]
+}

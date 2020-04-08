@@ -51,6 +51,12 @@
     }
   },
   {
+    "name": "AnisotropySpheres",
+    "variants": {
+      "glTF": "AnisotropySpheres.gltf"
+    }
+  },
+  {
     "name": "AntiqueCamera",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
