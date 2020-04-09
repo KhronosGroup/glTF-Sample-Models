@@ -16,8 +16,8 @@
             "lights": [
                 {
                     "color": [1.0, 1.0, 1.0],
-                    "type": "point",
-                    "intensity": 1000.0
+                    "type": "directional",
+                    "intensity": 100.0
                 }
             ]
         }
@@ -28,16 +28,16 @@
             "name" : "Scene",
             "nodes" : [
                 0,
-                1,
-                2,
-                3
+                1, 2, 3, 4, 5, 6, 7, 8, 9,
+                10, 11, 12, 13, 14, 15, 16, 17, 18,
+                19, 20, 21, 22, 23, 24, 25, 26, 27
             ]
         }
     ],
     "nodes" : [
         {
             "name" : "Light",
-            "translation" : [0, 5, 5],
+            "translation" : [2, 2, 5],
             "extensions": {
                 "KHR_lights_punctual": {
                     "light": 0
@@ -45,41 +45,496 @@
             }
         },
         {
-            "mesh" : 0
+            "mesh": 0,
+            "translation" : [-10.0, 2.5, 0]
         },
         {
-            "mesh" : 0,
-            "translation" : [-2, 0, 0]
+            "mesh": 1,
+            "translation" : [-7.5, 2.5, 0]
         },
         {
-            "mesh" : 0,
-            "translation" : [2, 0, 0]
+            "mesh": 2,
+            "translation" : [-5.0, 2.5, 0]
+        },
+        {
+            "mesh": 3,
+            "translation" : [-2.5, 2.5, 0]
+        },
+        {
+            "mesh": 4,
+            "translation" : [0.0, 2.5, 0]
+        },
+        {
+            "mesh": 5,
+            "translation" : [2.5, 2.5, 0]
+        },
+        {
+            "mesh": 6,
+            "translation" : [5.0, 2.5, 0]
+        },
+        {
+            "mesh": 7,
+            "translation" : [7.5, 2.5, 0]
+        },
+        {
+            "mesh": 8,
+            "translation" : [10.0, 2.5, 0]
+        },
+        {
+            "mesh": 9,
+            "translation" : [-10.0, 0.0, 0]
+        },
+        {
+            "mesh": 10,
+            "translation" : [-7.5, 0.0, 0]
+        },
+        {
+            "mesh": 11,
+            "translation" : [-5.0, 0.0, 0]
+        },
+        {
+            "mesh": 12,
+            "translation" : [-2.5, 0.0, 0]
+        },
+        {
+            "mesh": 13,
+            "translation" : [0.0, 0.0, 0]
+        },
+        {
+            "mesh": 14,
+            "translation" : [2.5, 0.0, 0]
+        },
+        {
+            "mesh": 15,
+            "translation" : [5.0, 0.0, 0]
+        },
+        {
+            "mesh": 16,
+            "translation" : [7.5, 0.0, 0]
+        },
+        {
+            "mesh": 17,
+            "translation" : [10.0, 0.0, 0]
+        },
+        {
+            "mesh": 18,
+            "translation" : [-10.0, -2.5, 0]
+        },
+        {
+            "mesh": 19,
+            "translation" : [-7.5, -2.5, 0]
+        },
+        {
+            "mesh": 20,
+            "translation" : [-5.0, -2.5, 0]
+        },
+        {
+            "mesh": 21,
+            "translation" : [-2.5, -2.5, 0]
+        },
+        {
+            "mesh": 22,
+            "translation" : [0.0, -2.5, 0]
+        },
+        {
+            "mesh": 23,
+            "translation" : [2.5, -2.5, 0]
+        },
+        {
+            "mesh": 24,
+            "translation" : [5.0, -2.5, 0]
+        },
+        {
+            "mesh": 25,
+            "translation" : [7.5, -2.5, 0]
+        },
+        {
+            "mesh": 26,
+            "translation" : [10.0, -2.5, 0]
         }
     ],
     "materials" : [
         {
-            "name" : "Material",
+            "name": "roughness: 0.0",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    1,
-                    0.6866853833198547,
-                    0.2831488251686096,
-                    1
-                ],
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
                 "metallicFactor" : 1,
-                "roughnessFactor" : 0.1
+                "roughnessFactor" : 0.0
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropyFactor": -1.0,
-                    "anisotropyRotation": 1.0
+                    "anisotropy": 0.0,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "roughness: 0.125",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.125
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "roughness: 0.25",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.25
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "roughness: 0.375",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.375
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "roughness: 0.5",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.5
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "roughness: 0.625",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.625
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "roughness: 0.75",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.75
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "roughness: 0.875",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.875
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "roughness: 1.0",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 1.0
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "anisotropy: -1.0",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": -1.0,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "anisotropy: -0.75",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": -0.75,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "anisotropy: -0.5",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": -0.5,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "anisotropy: -0.25",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": -0.25,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "anisotropy: 0.0",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 0.0,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "anisotropy: 0.25",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 0.25,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "anisotropy: 0.5",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 0.5,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "anisotropy: 0.75",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 0.75,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "anisotropy: 1.0",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "rotation: -1.0",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": -1.0
+                }
+            }
+        },
+        {
+            "name": "rotation: -0.75",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": -0.75
+                }
+            }
+        },
+        {
+            "name": "rotation: -0.5",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": -0.5
+                }
+            }
+        },
+        {
+            "name": "rotation: -0.25",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": -0.25
+                }
+            }
+        },
+        {
+            "name": "rotation: 0.0",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 0.0
+                }
+            }
+        },
+        {
+            "name": "rotation: 0.25",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 0.25
+                }
+            }
+        },
+        {
+            "name": "rotation: 0.5",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 0.5
+                }
+            }
+        },
+        {
+            "name": "rotation: 0.75",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 0.75
+                }
+            }
+        },
+        {
+            "name": "rotation: 1.0",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.2
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 1.0,
+                    "anisotropicRotation": 1.0
                 }
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Sphere",
             "primitives" : [
                 {
                     "attributes" : {
@@ -90,6 +545,370 @@
                     },
                     "indices" : 4,
                     "material" : 0
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 3
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 4
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 5
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 6
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 7
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 8
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 9
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 10
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 11
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 12
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 13
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 14
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 15
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 16
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 17
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 18
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 19
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 20
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 21
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 22
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 23
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 24
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 25
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 26
                 }
             ]
         }
