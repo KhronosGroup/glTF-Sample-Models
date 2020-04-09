@@ -159,11 +159,11 @@
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
                 "metallicFactor" : 1,
-                "roughnessFactor" : 0.0
+                "roughnessFactor" : 0.01
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 0.0,
+                    "anisotropy": 0.75,
                     "anisotropicRotation": 0.0
                 }
             }
@@ -177,7 +177,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.75,
                     "anisotropicRotation": 0.0
                 }
             }
@@ -191,7 +191,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.75,
                     "anisotropicRotation": 0.0
                 }
             }
@@ -205,7 +205,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.75,
                     "anisotropicRotation": 0.0
                 }
             }
@@ -219,7 +219,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.75,
                     "anisotropicRotation": 0.0
                 }
             }
@@ -233,7 +233,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.75,
                     "anisotropicRotation": 0.0
                 }
             }
@@ -247,7 +247,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.75,
                     "anisotropicRotation": 0.0
                 }
             }
@@ -261,7 +261,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.75,
                     "anisotropicRotation": 0.0
                 }
             }
@@ -275,7 +275,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.75,
                     "anisotropicRotation": 0.0
                 }
             }
@@ -289,7 +289,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": -1.0,
+                    "anisotropy": -0.99,
                     "anisotropicRotation": 0.0
                 }
             }
@@ -401,7 +401,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.99,
                     "anisotropicRotation": 0.0
                 }
             }
@@ -415,7 +415,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.99,
                     "anisotropicRotation": -1.0
                 }
             }
@@ -429,7 +429,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.99,
                     "anisotropicRotation": -0.75
                 }
             }
@@ -443,7 +443,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.99,
                     "anisotropicRotation": -0.5
                 }
             }
@@ -457,7 +457,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.99,
                     "anisotropicRotation": -0.25
                 }
             }
@@ -471,7 +471,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.99,
                     "anisotropicRotation": 0.0
                 }
             }
@@ -485,7 +485,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.99,
                     "anisotropicRotation": 0.25
                 }
             }
@@ -499,7 +499,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.99,
                     "anisotropicRotation": 0.5
                 }
             }
@@ -513,7 +513,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.99,
                     "anisotropicRotation": 0.75
                 }
             }
@@ -527,7 +527,7 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 1.0,
+                    "anisotropy": 0.99,
                     "anisotropicRotation": 1.0
                 }
             }
