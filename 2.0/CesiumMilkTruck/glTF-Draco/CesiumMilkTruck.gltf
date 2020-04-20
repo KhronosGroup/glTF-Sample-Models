@@ -1,0 +1,559 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.0.5",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        5
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Wheels",
+      "rotation": [
+        0,
+        0.08848588913679123,
+        0,
+        -0.9960774183273315
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "children": [
+        0
+      ],
+      "name": "Node",
+      "translation": [
+        1.432669997215271,
+        0,
+        -0.4277220070362091
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Wheels.001",
+      "rotation": [
+        0,
+        0.08848588913679123,
+        0,
+        -0.9960774183273315
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Node.001",
+      "translation": [
+        -1.352329969406128,
+        0,
+        -0.4277220070362091
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "children": [
+        1,
+        3
+      ],
+      "mesh": 1,
+      "name": "Cesium_Milk_Truck"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Yup2Zup",
+      "rotation": [
+        0.4999999701976776,
+        -0.5,
+        0.5,
+        0.4999999701976776
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 2,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Wheels",
+      "samplers": [
+        {
+          "input": 0,
+          "interpolation": "LINEAR",
+          "output": 1
+        },
+        {
+          "input": 0,
+          "interpolation": "LINEAR",
+          "output": 2
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "wheels",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "truck",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "glass",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0.04050629958510399,
+          0.021240700036287308,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "window_trim",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.06400000303983688,
+          0.06400000303983688,
+          0.06400000303983688,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Wheels",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 3,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cesium_Milk_Truck",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 4,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 5,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 16,
+            "NORMAL": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 15,
+          "material": 3,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 6,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "CesiumMilkTruck.jpg",
+      "uri": "CesiumMilkTruck.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 31,
+      "max": [
+        1.25
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR",
+      "byteOffset": 0
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 31,
+      "type": "VEC4",
+      "byteOffset": 0
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 31,
+      "type": "VEC4",
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5123,
+      "count": 2304,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 834,
+      "max": [
+        0.4291437950201832,
+        1.0590336763631676,
+        0.4291437950201832
+      ],
+      "min": [
+        -0.42883370754831757,
+        -1.0590336763631674,
+        -0.42883370754831757
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 834,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 834,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5123,
+      "count": 5232,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 2378,
+      "max": [
+        2.4403785226632753,
+        1.3988066832496298,
+        -0.2652749675159982
+      ],
+      "min": [
+        -2.4332886693765317,
+        -1.398378586559454,
+        -2.586748456745306
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 2378,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 2378,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5123,
+      "count": 168,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 152,
+      "max": [
+        1.6023449048101466,
+        1.39736397492344,
+        -1.63028411091859
+      ],
+      "min": [
+        0.22748605979030517,
+        -1.3973639749234399,
+        -2.3559040569012843
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 152,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 152,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5123,
+      "count": 864,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 664,
+      "max": [
+        1.62370809234959,
+        1.1010796525854567,
+        -1.5952339471696817
+      ],
+      "min": [
+        0.1921203783374329,
+        -1.1110796430487138,
+        -2.3930795886892775
+      ],
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 664,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 664,
+      "type": "VEC2"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 124,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 496,
+      "byteOffset": 124
+    },
+    {
+      "buffer": 0,
+      "byteLength": 496,
+      "byteOffset": 620
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1116,
+      "byteLength": 2435
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3552,
+      "byteLength": 6304
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9856,
+      "byteLength": 479
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10336,
+      "byteLength": 1116
+    }
+  ],
+  "buffers": [
+    {
+      "name": "CesiumMilkTruck_data",
+      "byteLength": 11452,
+      "uri": "CesiumMilkTruck_data.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

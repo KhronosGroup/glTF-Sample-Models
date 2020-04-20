@@ -23,17 +23,17 @@
     {
       "componentType": 5126,
       "count": 2549,
+      "type": "VEC3",
       "max": [
-        0.05445001,
-        0.130220339,
-        0.0544500239
+        0.054586463398143624,
+        0.13034756942403516,
+        0.054586449498143626
       ],
       "min": [
-        -0.05445001,
-        -0.130220339,
-        -0.0544500239
-      ],
-      "type": "VEC3"
+        -0.054577240424035174,
+        -0.13034756942403516,
+        -0.05457725432403517
+      ]
     }
   ],
   "asset": {
@@ -44,26 +44,31 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 20226
+      "byteLength": 49577
     }
   ],
   "buffers": [
     {
-      "byteLength": 20226,
-      "uri": "0.bin"
+      "name": "WaterBottle",
+      "byteLength": 49580,
+      "uri": "WaterBottle.bin"
     }
   ],
   "images": [
     {
+      "name": "WaterBottle_baseColor",
       "uri": "WaterBottle_baseColor.png"
     },
     {
+      "name": "WaterBottle_occlusionRoughnessMetallic",
       "uri": "WaterBottle_occlusionRoughnessMetallic.png"
     },
     {
+      "name": "WaterBottle_normal",
       "uri": "WaterBottle_normal.png"
     },
     {
+      "name": "WaterBottle_emissive",
       "uri": "WaterBottle_emissive.png"
     }
   ],
@@ -79,6 +84,7 @@
           },
           "indices": 0,
           "material": 0,
+          "mode": 4,
           "extensions": {
             "KHR_draco_mesh_compression": {
               "bufferView": 0,
@@ -99,17 +105,29 @@
     {
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 0
+          "index": 0,
+          "texCoord": 0
         },
         "metallicRoughnessTexture": {
-          "index": 1
-        }
+          "index": 1,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
       },
       "normalTexture": {
-        "index": 2
+        "index": 2,
+        "texCoord": 0
       },
       "occlusionTexture": {
-        "index": 1
+        "index": 1,
+        "texCoord": 0
       },
       "emissiveFactor": [
         1,
@@ -117,9 +135,12 @@
         1
       ],
       "emissiveTexture": {
-        "index": 3
+        "index": 3,
+        "texCoord": 0
       },
-      "name": "BottleMat"
+      "name": "BottleMat",
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
     }
   ],
   "nodes": [
@@ -131,7 +152,17 @@
         0,
         0
       ],
-      "name": "WaterBottle"
+      "name": "WaterBottle",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
     }
   ],
   "scene": 0,
