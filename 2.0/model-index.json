@@ -185,6 +185,7 @@
     "variants": {
       "glTF": "CesiumMan.gltf",
       "glTF-Binary": "CesiumMan.glb",
+      "glTF-Draco": "CesiumMan.gltf",
       "glTF-Embedded": "CesiumMan.gltf"
     }
   },
@@ -194,6 +195,7 @@
     "variants": {
       "glTF": "CesiumMilkTruck.gltf",
       "glTF-Binary": "CesiumMilkTruck.glb",
+      "glTF-Draco": "CesiumMilkTruck.gltf",
       "glTF-Embedded": "CesiumMilkTruck.gltf"
     }
   },
@@ -373,6 +375,7 @@
     "variants": {
       "glTF": "RiggedFigure.gltf",
       "glTF-Binary": "RiggedFigure.glb",
+      "glTF-Draco": "RiggedFigure.gltf",
       "glTF-Embedded": "RiggedFigure.gltf"
     }
   },
@@ -382,6 +385,7 @@
     "variants": {
       "glTF": "RiggedSimple.gltf",
       "glTF-Binary": "RiggedSimple.glb",
+      "glTF-Draco": "RiggedSimple.gltf",
       "glTF-Embedded": "RiggedSimple.gltf"
     }
   },
