@@ -320,7 +320,7 @@
     "variants": {
       "glTF": "MorphPrimitivesTest.gltf",
       "glTF-Binary": "MorphPrimitivesTest.glb",
-      "glTF-Draco": "MorphPrimitivesTest.glb"
+      "glTF-Draco": "MorphPrimitivesTest.gltf"
     }
   },
   {
