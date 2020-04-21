@@ -23,17 +23,17 @@
     {
       "componentType": 5126,
       "count": 3575,
+      "type": "VEC3",
       "max": [
-        0.009921154,
-        0.00977163,
-        0.0100762453
+        0.009926144998339033,
+        0.009780322287054225,
+        0.01008609019037616
       ],
       "min": [
-        -0.009921154,
-        -0.00977163,
-        -0.0100762453
-      ],
-      "type": "VEC3"
+        -0.00993099889037616,
+        -0.00978147489037616,
+        -0.01008609019037616
+      ]
     }
   ],
   "asset": {
@@ -44,26 +44,31 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 35867
+      "byteLength": 71141
     }
   ],
   "buffers": [
     {
-      "byteLength": 35867,
-      "uri": "0.bin"
+      "name": "BoomBox",
+      "byteLength": 71144,
+      "uri": "BoomBox.bin"
     }
   ],
   "images": [
     {
+      "name": "BoomBox_baseColor",
       "uri": "BoomBox_baseColor.png"
     },
     {
+      "name": "BoomBox_occlusionRoughnessMetallic",
       "uri": "BoomBox_occlusionRoughnessMetallic.png"
     },
     {
+      "name": "BoomBox_normal",
       "uri": "BoomBox_normal.png"
     },
     {
+      "name": "BoomBox_emissive",
       "uri": "BoomBox_emissive.png"
     }
   ],
@@ -79,6 +84,7 @@
           },
           "indices": 0,
           "material": 0,
+          "mode": 4,
           "extensions": {
             "KHR_draco_mesh_compression": {
               "bufferView": 0,
@@ -99,17 +105,29 @@
     {
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 0
+          "index": 0,
+          "texCoord": 0
         },
         "metallicRoughnessTexture": {
-          "index": 1
-        }
+          "index": 1,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
       },
       "normalTexture": {
-        "index": 2
+        "index": 2,
+        "texCoord": 0
       },
       "occlusionTexture": {
-        "index": 1
+        "index": 1,
+        "texCoord": 0
       },
       "emissiveFactor": [
         1,
@@ -117,9 +135,12 @@
         1
       ],
       "emissiveTexture": {
-        "index": 3
+        "index": 3,
+        "texCoord": 0
       },
-      "name": "BoomBox_Mat"
+      "name": "BoomBox_Mat",
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
     }
   ],
   "nodes": [
@@ -131,7 +152,17 @@
         0,
         0
       ],
-      "name": "BoomBox"
+      "name": "BoomBox",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
     }
   ],
   "scene": 0,

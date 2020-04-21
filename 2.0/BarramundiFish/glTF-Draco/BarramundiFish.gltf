@@ -23,17 +23,17 @@
     {
       "componentType": 5126,
       "count": 2188,
+      "type": "VEC3",
       "max": [
-        0.0690619648,
-        0.2866283,
-        0.3253729
+        0.06942106195212508,
+        0.28690360887690036,
+        0.32568707255691265
       ],
       "min": [
-        -0.073841624,
-        -0.000878453255,
-        -0.317738324
-      ],
-      "type": "VEC3"
+        -0.07415579655691255,
+        -0.001192625811912555,
+        -0.3180524965569126
+      ]
     }
   ],
   "asset": {
@@ -44,23 +44,27 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 22339
+      "byteLength": 43298
     }
   ],
   "buffers": [
     {
-      "byteLength": 22339,
-      "uri": "0.bin"
+      "name": "BarramundiFish",
+      "byteLength": 43300,
+      "uri": "BarramundiFish.bin"
     }
   ],
   "images": [
     {
+      "name": "BarramundiFish_baseColor",
       "uri": "BarramundiFish_baseColor.png"
     },
     {
+      "name": "BarramundiFish_occlusionRoughnessMetallic",
       "uri": "BarramundiFish_occlusionRoughnessMetallic.png"
     },
     {
+      "name": "BarramundiFish_normal",
       "uri": "BarramundiFish_normal.png"
     }
   ],
@@ -76,6 +80,7 @@
           },
           "indices": 0,
           "material": 0,
+          "mode": 4,
           "extensions": {
             "KHR_draco_mesh_compression": {
               "bufferView": 0,
@@ -96,19 +101,38 @@
     {
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 0
+          "index": 0,
+          "texCoord": 0
         },
         "metallicRoughnessTexture": {
-          "index": 1
-        }
+          "index": 1,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
       },
       "normalTexture": {
-        "index": 2
+        "index": 2,
+        "texCoord": 0
       },
       "occlusionTexture": {
-        "index": 1
+        "index": 1,
+        "texCoord": 0
       },
-      "name": "7288_barramundi fish_col"
+      "name": "7288_barramundi fish_col",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
     }
   ],
   "nodes": [
@@ -120,7 +144,17 @@
         0,
         0
       ],
-      "name": "BarramundiFish"
+      "name": "BarramundiFish",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
     }
   ],
   "scene": 0,

@@ -1,0 +1,297 @@
+{
+  "asset": {
+    "generator": "glTF Converter for Shade3D",
+    "version": "2.0",
+    "extras": {
+      "title": "multiple_primitives",
+      "author": "ft-lab",
+      "license": "CC BY-4.0 (https://creativecommons.org/licenses/by/4.0/)"
+    }
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 21,
+      "type": "VEC3",
+      "max": [
+        0,
+        0.20000000298023224,
+        0
+      ],
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "byteOffset": 0
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9,
+      "type": "VEC3",
+      "max": [
+        0,
+        0.20000000298023224,
+        0
+      ],
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5123,
+      "count": 72,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 21,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 21,
+      "type": "VEC3",
+      "max": [
+        0.5004885197850513,
+        0.0004885197850512946,
+        0.5004885197850513
+      ],
+      "min": [
+        -0.5004885197850513,
+        -0.0004885197850512946,
+        -0.5004885197850513
+      ]
+    },
+    {
+      "componentType": 5126,
+      "count": 21,
+      "type": "VEC2"
+    },
+    {
+      "componentType": 5123,
+      "count": 24,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 9,
+      "type": "VEC3",
+      "max": [
+        0.5002442598925256,
+        0.0002442598925256473,
+        0.0002442598925256334
+      ],
+      "min": [
+        -0.0002442598925256473,
+        -0.0002442598925256473,
+        -0.5002442598925256
+      ]
+    },
+    {
+      "componentType": 5126,
+      "count": 9,
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 9,
+      "type": "VEC2"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 252,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 252,
+      "byteLength": 108,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 360,
+      "byteLength": 310
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 672,
+      "byteLength": 208
+    }
+  ],
+  "buffers": [
+    {
+      "name": "MorphPrimitivesTest",
+      "byteLength": 880,
+      "uri": "MorphPrimitivesTest.bin"
+    }
+  ],
+  "images": [
+    {
+      "name": "uv_texture.jpg",
+      "mimeType": "image/jpeg",
+      "uri": "uv_texture.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "name": "red",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "name": "green",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "meshes": [
+    {
+      "weights": [
+        0.5
+      ],
+      "name": "mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 3,
+            "POSITION": 4,
+            "TEXCOORD_0": 5
+          },
+          "indices": 2,
+          "material": 0,
+          "targets": [
+            {
+              "POSITION": 0
+            }
+          ],
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "NORMAL": 0,
+                "POSITION": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 6,
+          "material": 1,
+          "targets": [
+            {
+              "POSITION": 1
+            }
+          ],
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 3,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "ルートパート"
+    },
+    {
+      "mesh": 0,
+      "name": "mesh"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Scene"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "scene": 0,
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}
