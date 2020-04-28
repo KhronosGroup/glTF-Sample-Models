@@ -30,7 +30,8 @@
     "screenshot": "screenshot/screenshot.gif",
     "variants": {
       "glTF": "AnimatedMorphCube.gltf",
-      "glTF-Binary": "AnimatedMorphCube.glb"
+      "glTF-Binary": "AnimatedMorphCube.glb",
+      "glTF-Quantized": "AnimatedMorphCube.gltf"
     }
   },
   {
@@ -64,6 +65,7 @@
       "glTF": "Avocado.gltf",
       "glTF-Binary": "Avocado.glb",
       "glTF-Draco": "Avocado.gltf",
+      "glTF-Quantized": "Avocado.gltf",
       "glTF-pbrSpecularGlossiness": "Avocado.gltf"
     }
   },
@@ -198,6 +200,14 @@
     }
   },
   {
+    "name": "ClearCoatTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "ClearCoatTest.gltf",
+      "glTF-Binary": "ClearCoatTest.glb"
+    }
+  },
+  {
     "name": "Corset",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
@@ -230,7 +240,8 @@
       "glTF": "Duck.gltf",
       "glTF-Binary": "Duck.glb",
       "glTF-Draco": "Duck.gltf",
-      "glTF-Embedded": "Duck.gltf"
+      "glTF-Embedded": "Duck.gltf",
+      "glTF-Quantized": "Duck.gltf"
     }
   },
   {
@@ -246,6 +257,15 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "FlightHelmet.gltf"
+    }
+  },
+  {
+    "name": "Fox",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "Fox.gltf",
+      "glTF-Binary": "Fox.glb",
+      "glTF-Embedded": "Fox.gltf"
     }
   },
   {
@@ -273,6 +293,7 @@
       "glTF": "Lantern.gltf",
       "glTF-Binary": "Lantern.glb",
       "glTF-Draco": "Lantern.gltf",
+      "glTF-Quantized": "Lantern.gltf",
       "glTF-pbrSpecularGlossiness": "Lantern.gltf"
     }
   },
@@ -294,22 +315,12 @@
     }
   },
   {
-    "name": "Monster",
-    "screenshot": "screenshot/screenshot.gif",
-    "variants": {
-      "glTF": "Monster.gltf",
-      "glTF-Binary": "Monster.glb",
-      "glTF-Draco": "Monster.gltf",
-      "glTF-Embedded": "Monster.gltf"
-    }
-  },
-  {
     "name": "MorphPrimitivesTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "MorphPrimitivesTest.gltf",
       "glTF-Binary": "MorphPrimitivesTest.glb",
-      "glTF-Draco": "MorphPrimitivesTest.glb"
+      "glTF-Draco": "MorphPrimitivesTest.gltf"
     }
   },
   {

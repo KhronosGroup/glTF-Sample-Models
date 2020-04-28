@@ -23,7 +23,6 @@ Sample models help the glTF ecosystem, if you are able to contribute a model, se
 ## Model Publishing Services with glTF Download Capability
 
 * [Sketchfab](https://sketchfab.com/features/gltf) offers auto-conversion of all of its downloadable models, including PBR models, to glTF format.
-* [Microsoft's Remix3D](https://www.remix3d.com/) can download 3D models into Paint3D, which offers a "Save As GLB" export (GLB is the binary form of glTF).
 * [Google's Poly](https://poly.google.com/) offers certain 3D assets for download in glTF format.
 
 ## Other glTF Models
@@ -34,6 +33,7 @@ For addition glTF models, see:
 * Cesium's [demo models](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Apps/SampleData/models) and [unit test models](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Specs/Data/Models).
 * Flightradar24's [GitHub repo](https://github.com/kalmykov/fr24-3d-models) of aircrafts.
 * [Kenney • Assets](https://kenney.nl/assets?q=3d) hundreds of themed low-poly assets (nature, space, castle, furniture, etc.) provided by Kenney under CC0 licenses, including [30+ pirate themed models](https://kenney.nl/assets/pirate-kit).
+* [Smithsonian open access 3D models](https://3d.si.edu/cc0?edan_q=*:*&edan_fq[]=online_media_type:%223D+Images%22)
 
 ## Contributing Sample Models
 

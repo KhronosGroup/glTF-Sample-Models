@@ -80,14 +80,14 @@
       "componentType": 5126,
       "count": 24,
       "max": [
-        1,
-        1,
-        1
+        1.007843137254902,
+        1.007843137254902,
+        1.007843137254902
       ],
       "min": [
-        -1,
-        -1,
-        -1
+        -1.007843137254902,
+        -1.007843137254902,
+        -1.007843137254902
       ],
       "type": "VEC3"
     },
@@ -95,14 +95,14 @@
       "componentType": 5126,
       "count": 24,
       "max": [
-        0.5,
-        0.5,
-        0.5
+        0.5004885197850513,
+        0.5004885197850513,
+        0.5004885197850513
       ],
       "min": [
-        -0.5,
-        -0.5,
-        -0.5
+        -0.5004885197850513,
+        -0.5004885197850513,
+        -0.5004885197850513
       ],
       "type": "VEC3"
     }
@@ -116,9 +116,17 @@
           0,
           1
         ],
-        "metallicFactor": 0
+        "metallicFactor": 0,
+        "roughnessFactor": 1
       },
-      "name": "Red"
+      "name": "Red",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
     }
   ],
   "bufferViews": [
@@ -130,8 +138,9 @@
   ],
   "buffers": [
     {
-      "byteLength": 118,
-      "uri": "0.bin"
+      "name": "Box",
+      "byteLength": 120,
+      "uri": "Box.bin"
     }
   ],
   "extensionsRequired": [

@@ -35,8 +35,8 @@
 | [Rigged Simple](RiggedSimple)                 | ![](RiggedSimple/screenshot/screenshot.gif)      | Animations. Skins. Start with this to test skinning. |
 | [Rigged Figure](RiggedFigure)                 | ![](RiggedFigure/screenshot/screenshot.gif)      | Animations. Skins. |
 | [Cesium Man](CesiumMan)                       | ![](CesiumMan/screenshot/screenshot.gif)         | Textured. Animations. Skins. |
-| [Monster](Monster)                            | ![](Monster/screenshot/screenshot.gif)           | Textured. Animations. Skins. |
 | [BrainStem](BrainStem)                        | ![](BrainStem/screenshot/screenshot.gif)         | Animations. Skins. |
+| [Fox](Fox)                                    | ![](Fox/screenshot/screenshot.jpg)               | Multiple animations cycles: Survey, Walk, Run. |
 | [Virtual City](VC)                            | ![](VC/screenshot/screenshot.gif)                | Textured. Animations. Skins. |
 | [Sponza](Sponza)                              | ![](Sponza/screenshot/screenshot.jpg)            | Building interior, often used to test lighting. |
 
@@ -85,6 +85,7 @@
 
 | Model                                                 | Screenshot                                                    | Description |
 |-------------------------------------------------------|---------------------------------------------------------------|-------------|
+| [Clearcoat Test](ClearCoatTest)                       | ![](ClearCoatTest/screenshot/screenshot.jpg)                  | Tests if the KHR_materials_clearcoat extension is supported properly. |
 | [Environment Test](EnvironmentTest)                   | ![](EnvironmentTest/screenshot/screenshot.png)                | A simple `scene` with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting. |
 | [SpecGloss Vs MetalRough](SpecGlossVsMetalRough)      | ![](SpecGlossVsMetalRough/screenshot/screenshot.jpg)          | Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly. |
 | [Texture Transform Test](TextureTransformTest)        | ![](TextureTransformTest/screenshot/screenshot.jpg)           | Tests if the KHR_texture_transform extension is supported properly. |
