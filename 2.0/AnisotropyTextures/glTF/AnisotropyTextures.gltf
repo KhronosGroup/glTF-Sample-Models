@@ -54,7 +54,7 @@
     ],
     "materials" : [
         {
-            "name": "textured anisotropy",
+            "name": "textured anisotropy factor",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
                 "metallicFactor" : 1,
@@ -63,7 +63,6 @@
             "extensions": {
                 "KHR_materials_anisotropy": {
                     "anisotropy": -0.75,
-                    "anisotropicRotation": 0.0,
                     "anisotropyTexture": {
                         "index": 0,
                         "texCoord": 0
@@ -72,7 +71,7 @@
             }
         },
         {
-            "name": "textured anisotropic rotation",
+            "name": "textured anisotropy direction",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
                 "metallicFactor" : 1,
@@ -81,8 +80,7 @@
             "extensions": {
                 "KHR_materials_anisotropy": {
                     "anisotropy": -0.75,
-                    "anisotropicRotation": 0.0,
-                    "anisotropyRotationTexture": {
+                    "anisotropyDirectionTexture": {
                         "index": 1,
                         "texCoord": 0
                     }
@@ -135,7 +133,7 @@
         },
         {
             "mimeType" : "image/png",
-            "uri" : "anisotropy_rotation.png"
+            "uri" : "anisotropy_direction.png"
         }
     ],
     "accessors" : [
