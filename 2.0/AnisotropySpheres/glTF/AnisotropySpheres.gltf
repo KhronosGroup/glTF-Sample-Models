@@ -290,10 +290,6 @@
             "extensions": {
                 "KHR_materials_anisotropy": {
                     "anisotropy": -0.99,
-                    "anisotropyTexture": {
-                        "index": 0,
-                        "texCoord": 0
-                    },
                     "anisotropicRotation": 0.0
                 }
             }
@@ -915,18 +911,6 @@
                     "material" : 26
                 }
             ]
-        }
-    ],
-    "textures" : [
-        {
-            "source" : 0
-        }
-    ],
-    "images" : [
-        {
-            "mimeType" : "image/png",
-            "name" : "Texture",
-            "uri" : "Texture.png"
         }
     ],
     "accessors" : [

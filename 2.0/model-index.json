@@ -57,6 +57,12 @@
     }
   },
   {
+    "name": "AnisotropyTextures",
+    "variants": {
+      "glTF": "AnisotropyTextures.gltf"
+    }
+  },
+  {
     "name": "AntiqueCamera",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
