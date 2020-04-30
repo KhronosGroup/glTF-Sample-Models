@@ -1,0 +1,214 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "extensionsUsed": [
+        "KHR_lights_punctual",
+        "KHR_materials_anisotropy"
+    ],
+    "extensionsRequired": [
+        "KHR_lights_punctual",
+        "KHR_materials_anisotropy"
+    ],
+    "extensions": {
+        "KHR_lights_punctual": {
+            "lights": [
+                {
+                    "color": [1.0, 1.0, 1.0],
+                    "type": "directional",
+                    "intensity": 100.0
+                }
+            ]
+        }
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "translation" : [2, 2, 5],
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 0
+                }
+            }
+        },
+        {
+            "mesh": 0,
+            "translation" : [-1.5, 0, 0]
+        },
+        {
+            "mesh": 1,
+            "translation" : [1.5, 0, 0]
+        }
+    ],
+    "materials" : [
+        {
+            "name": "textured anisotropy factor",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.125
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": -0.75,
+                    "anisotropyTexture": {
+                        "index": 0,
+                        "texCoord": 0
+                    }
+                }
+            }
+        },
+        {
+            "name": "textured anisotropy direction",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [1, 0.6866853833198547, 0.2831488251686096, 1],
+                "metallicFactor" : 1,
+                "roughnessFactor" : 0.125
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": -0.75,
+                    "anisotropyDirectionTexture": {
+                        "index": 1,
+                        "texCoord": 0
+                    }
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "uri" : "anisotropy.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "uri" : "anisotropy_direction.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1025,
+            "max" : [
+                1.000000238418579,
+                1,
+                1
+            ],
+            "min" : [
+                -1.0000005960464478,
+                -1,
+                -1.0832821999429143e-06
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1025,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1025,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1025,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 5952,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 12300,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12300,
+            "byteOffset" : 12300
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16400,
+            "byteOffset" : 24600
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8200,
+            "byteOffset" : 41000
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11904,
+            "byteOffset" : 49200
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 61104,
+            "uri" : "AnisotropyTextures.bin"
+        }
+    ]
+}
