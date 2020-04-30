@@ -21,8 +21,7 @@
         "JOINTS_0" : 2,
         "WEIGHTS_0" : 3
       },
-      "indices" : 0,
-      "material" : 0
+      "indices" : 0
     } ]
   } ],
 
@@ -124,10 +123,6 @@
     "type" : "VEC4",
     "max" : [ 0.0, 0.0, 0.707, 1.0 ],
     "min" : [ 0.0, 0.0, -0.707, 0.707 ]
-  } ],
- 
-  "materials" : [ {
-    "doubleSided" : true
   } ],
  
   "asset" : {
