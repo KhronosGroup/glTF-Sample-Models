@@ -5,11 +5,13 @@
     },
     "extensionsUsed": [
         "KHR_lights_punctual",
-        "KHR_materials_anisotropy"
+        "KHR_materials_anisotropy",
+        "KHR_materials_unlit"
     ],
     "extensionsRequired": [
         "KHR_lights_punctual",
-        "KHR_materials_anisotropy"
+        "KHR_materials_anisotropy",
+        "KHR_materials_unlit"
     ],
     "extensions": {
         "KHR_lights_punctual": {
@@ -30,7 +32,8 @@
                 0,
                 1, 2, 3, 4, 5, 6, 7, 8, 9,
                 10, 11, 12, 13, 14, 15, 16, 17, 18,
-                19, 20, 21, 22, 23, 24, 25, 26, 27
+                19, 20, 21, 22, 23, 24, 25, 26, 27,
+                28, 29, 30
             ]
         }
     ],
@@ -151,6 +154,48 @@
         {
             "mesh": 26,
             "translation" : [10.0, -2.5, 0]
+        },
+        {
+            "mesh" : 27,
+            "name" : "DescriptionAnisotropy",
+            "scale" : [
+                2.835505485534668,
+                0.41495203971862793,
+                0.06915867328643799
+            ],
+            "translation" : [
+                -15,
+                0,
+                0
+            ]
+        },
+        {
+            "mesh" : 28,
+            "name" : "DescriptionDirection",
+            "scale" : [
+                2.835505485534668,
+                0.66473788022995,
+                0.06
+            ],
+            "translation" : [
+                -15,
+                -2.5,
+                0
+            ]
+        },
+        {
+            "mesh" : 29,
+            "name" : "DescriptionRoughness",
+            "scale" : [
+                2.835505485534668,
+                0.41495203971862793,
+                0.06915867328643799
+            ],
+            "translation" : [
+                -15,
+                2.5,
+                0
+            ]
         }
     ],
     "materials" : [
@@ -512,6 +557,51 @@
                     "anisotropy": 0.75,
                     "anisotropyDirection": [-1.0, 0.0, 0.0]
                 }
+            }
+        },
+        {
+            "name" : "DescriptionAnisotropy",
+            "doubleSided" : true,
+            "extensions": {
+                "KHR_materials_unlit": {}
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "name" : "DescriptionDirection",
+            "doubleSided" : true,
+            "extensions": {
+                "KHR_materials_unlit": {}
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "name" : "DescriptionRoughness",
+            "doubleSided" : true,
+            "extensions": {
+                "KHR_materials_unlit": {}
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
             }
         }
     ],
@@ -893,6 +983,79 @@
                     "material" : 26
                 }
             ]
+        },
+        {
+            "name" : "DescriptionAnisotropy",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 5,
+                        "NORMAL" : 6,
+                        "TANGENT" : 7,
+                        "TEXCOORD_0" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 27
+                }
+            ]
+        },
+        {
+            "name" : "DescriptionDirection",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 10,
+                        "NORMAL" : 11,
+                        "TANGENT" : 12,
+                        "TEXCOORD_0" : 13
+                    },
+                    "indices" : 9,
+                    "material" : 28
+                }
+            ]
+        },
+        {
+            "name" : "DescriptionRoughness",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 14,
+                        "NORMAL" : 15,
+                        "TANGENT" : 16,
+                        "TEXCOORD_0" : 17
+                    },
+                    "indices" : 9,
+                    "material" : 29
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "description_anisotropy",
+            "uri" : "description_anisotropy.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "description_direction",
+            "uri" : "description_direction.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "description_roughness",
+            "uri" : "description_roughness.png"
         }
     ],
     "accessors" : [
@@ -935,6 +1098,114 @@
             "componentType" : 5123,
             "count" : 5952,
             "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                1.0000733137130737,
+                1.0000733137130737,
+                4.371138828673793e-08
+            ],
+            "min" : [
+                -1.0000733137130737,
+                -1.0000733137130737,
+                -4.371138828673793e-08
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 6,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                1.0000733137130737,
+                1.0000733137130737,
+                4.371138828673793e-08
+            ],
+            "min" : [
+                -1.0000733137130737,
+                -1.0000733137130737,
+                -4.371138828673793e-08
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                1.0000733137130737,
+                1.0000733137130737,
+                4.371138828673793e-08
+            ],
+            "min" : [
+                -1.0000733137130737,
+                -1.0000733137130737,
+                -4.371138828673793e-08
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 16,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 17,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC2"
         }
     ],
     "bufferViews" : [
@@ -962,11 +1233,76 @@
             "buffer" : 0,
             "byteLength" : 11904,
             "byteOffset" : 49200
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 61104
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 61152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64,
+            "byteOffset" : 61200
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 61264
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12,
+            "byteOffset" : 61296
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 61308
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 61356
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64,
+            "byteOffset" : 61404
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 61468
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 61500
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 61548
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64,
+            "byteOffset" : 61596
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 61660
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 61104,
+            "byteLength" : 61692,
             "uri" : "AnisotropySpheres.bin"
         }
     ]
