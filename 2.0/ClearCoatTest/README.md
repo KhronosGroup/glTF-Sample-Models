@@ -6,7 +6,7 @@
 
 ## Description
 
-This model tests various settings and textures from the `KHR_materials_clearcoat` draft extension.
+This model tests various settings and textures from the [`KHR_materials_clearcoat`](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_clearcoat) glTF extension.
 
 ### Columns
 
@@ -14,7 +14,7 @@ There are three columns:
 
 - **Base Layer** - A base material with no coating.
 
-- **Coated** - The combination of the outer two columns, using `KHR_materials_clearcoat`.
+- **Coated** - The combination of the outer two columns, using [`KHR_materials_clearcoat`](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_clearcoat).
 
 - **Coating Only** - This is a base material with settings copied from just the coating in the central column.
 
