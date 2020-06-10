@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "model3d": "https://schema.khronos.org/"
+  },
+  "packets": [
+    {
+      "dc:description": {
+        "en-us": "The original model was built on an early draft of glTF 2.0 that did not become final. This new model has been imported and re-exported from Blender to bring it into alignment with the final release glTF 2.0 specification."
+      },
+      "dc:language": ["en"],
+      "model3d:spdxLicense": "CC-BY-NC-4.0",
+      "dc:relation": [
+        "https://sketchfab.com/theblueturtle_",
+        "https://sketchfab.com/models/b81008d513954189a063ff901f7abfe4"
+      ],
+      "dc:rights": {
+        "en-us": "By theblueturtle_(https://sketchfab.com/theblueturtle_), published under a Creative Commons Attribution-NonCommercial license."
+      },
+      "dc:title": {
+        "en-us": "Battle Damaged Sci-fi Helmet - PBR"
+      }
+    }
+  ]
+}

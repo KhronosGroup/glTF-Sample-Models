@@ -13,27 +13,27 @@
   ],
   "accessors": [
     {
-      "type": "SCALAR",
-      "bufferView": 0,
       "min": [
         0
       ],
+      "type": "SCALAR",
       "componentType": 5123,
-      "count": 46356,
       "max": [
         14555
-      ]
+      ],
+      "count": 46356,
+      "bufferView": 0
     },
     {
-      "count": 14556,
+      "type": "VEC3",
       "bufferView": 1,
       "max": [
         0.9424954056739808,
         0.8128451108932495,
         0.900973916053772
       ],
-      "type": "VEC3",
       "componentType": 5126,
+      "count": 14556,
       "min": [
         -0.947458565235138,
         -1.18715500831604,
@@ -41,34 +41,34 @@
       ]
     },
     {
-      "max": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "type": "VEC3",
-      "bufferView": 2,
-      "componentType": 5126,
       "min": [
         -1.0,
         -1.0,
         -1.0
       ],
-      "count": 14556
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 14556,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bufferView": 2
     },
     {
+      "type": "VEC2",
+      "bufferView": 3,
       "max": [
         0.9999759793281556,
         1.998665988445282
       ],
-      "bufferView": 3,
+      "count": 14556,
       "min": [
         0.002448640065267682,
         1.0005531199858524
       ],
-      "count": 14556,
-      "componentType": 5126,
-      "type": "VEC2"
+      "componentType": 5126
     }
   ],
   "buffers": [
@@ -79,22 +79,22 @@
   ],
   "bufferViews": [
     {
-      "byteLength": 92712,
       "target": 34963,
       "buffer": 0,
-      "byteOffset": 0
+      "byteOffset": 0,
+      "byteLength": 92712
     },
     {
-      "target": 34962,
       "byteLength": 174672,
       "byteOffset": 92712,
+      "target": 34962,
       "buffer": 0
     },
     {
-      "buffer": 0,
-      "byteOffset": 267384,
       "byteLength": 174672,
-      "target": 34962
+      "target": 34962,
+      "byteOffset": 267384,
+      "buffer": 0
     },
     {
       "byteLength": 116448,
@@ -139,12 +139,12 @@
       "emissiveTexture": {
         "index": 2
       },
+      "name": "Material_MR",
       "emissiveFactor": [
         1.0,
         1.0,
         1.0
-      ],
-      "name": "Material_MR"
+      ]
     }
   ],
   "meshes": [
@@ -165,14 +165,14 @@
   ],
   "nodes": [
     {
+      "mesh": 0,
       "name": "node_damagedHelmet_-6514",
       "rotation": [
         0.7071068286895752,
         0.0,
         -0.0,
         0.7071068286895752
-      ],
-      "mesh": 0
+      ]
     }
   ],
   "samplers": [
@@ -181,10 +181,10 @@
   "scene": 0,
   "scenes": [
     {
+      "name": "Scene",
       "nodes": [
         0
-      ],
-      "name": "Scene"
+      ]
     }
   ],
   "textures": [
@@ -201,8 +201,8 @@
       "source": 2
     },
     {
-      "sampler": 0,
-      "source": 3
+      "source": 3,
+      "sampler": 0
     },
     {
       "source": 4,
@@ -220,19 +220,18 @@
           "dc:description": {
             "en-us": "The original model was built on an early draft of glTF 2.0 that did not become final. This new model has been imported and re-exported from Blender to bring it into alignment with the final release glTF 2.0 specification."
           },
-          "dc:format": "model/gltf-binary",
           "dc:language": [
             "en"
           ],
           "dc:relation": [
-            "https://www.khronos.org/",
+            "https://sketchfab.com/theblueturtle_",
             "https://sketchfab.com/models/b81008d513954189a063ff901f7abfe4"
           ],
           "dc:rights": {
-            "en-us": "Battle Damaged Sci-fi Helmet - PBR by theblueturtle_(https://sketchfab.com/theblueturtle_), published under a Creative Commons Attribution-NonCommercial license."
+            "en-us": "By theblueturtle_(https://sketchfab.com/theblueturtle_), published under a Creative Commons Attribution-NonCommercial license."
           },
           "dc:title": {
-            "en-us": "Damaged Helment"
+            "en-us": "Battle Damaged Sci-fi Helmet - PBR"
           },
           "model3d:spdxLicense": "CC-BY-NC-4.0"
         }
