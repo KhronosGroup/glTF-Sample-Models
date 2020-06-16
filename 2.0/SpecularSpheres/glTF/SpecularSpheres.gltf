@@ -31,7 +31,7 @@
             ]
         },
         {
-            "mesh" : 0,
+            "mesh" : 1,
             "name" : "Sphere 0.5",
 			"translation": [
                 0.0,
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "mesh" : 0,
+            "mesh" : 2,
             "name" : "Sphere 1.0",
 			"translation": [
                 2.5,
