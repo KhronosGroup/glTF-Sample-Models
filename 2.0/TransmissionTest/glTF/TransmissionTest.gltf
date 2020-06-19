@@ -203,7 +203,7 @@
     "buffers": [
         {
             "byteLength": 1439932,
-            "uri": "transmission_tests_binary.bin"
+            "uri": "TransmissionTest_binary.bin"
         }
     ],
     "cameras": [
@@ -221,37 +221,37 @@
     "images": [
         {
             "name": "texture2492",
-            "uri": "transmission_tests_images/texture2492.jpg",
+            "uri": "TransmissionTest_images/texture2492.jpg",
             "mimeType": "image/jpeg"
         },
         {
             "name": "texture14184",
-            "uri": "transmission_tests_images/texture14184.jpg",
+            "uri": "TransmissionTest_images/texture14184.jpg",
             "mimeType": "image/jpeg"
         },
         {
             "name": "texture11360",
-            "uri": "transmission_tests_images/texture11360.png",
+            "uri": "TransmissionTest_images/texture11360.png",
             "mimeType": "image/png"
         },
         {
             "name": "texture4086",
-            "uri": "transmission_tests_images/texture4086.png",
+            "uri": "TransmissionTest_images/texture4086.png",
             "mimeType": "image/png"
         },
         {
             "name": "texture5402",
-            "uri": "transmission_tests_images/texture5402.png",
+            "uri": "TransmissionTest_images/texture5402.png",
             "mimeType": "image/png"
         },
         {
             "name": "texture10557",
-            "uri": "transmission_tests_images/texture10557.png",
+            "uri": "TransmissionTest_images/texture10557.png",
             "mimeType": "image/png"
         },
         {
             "name": "texture37253",
-            "uri": "transmission_tests_images/texture37253.jpg",
+            "uri": "TransmissionTest_images/texture37253.jpg",
             "mimeType": "image/jpeg"
         }
     ],
