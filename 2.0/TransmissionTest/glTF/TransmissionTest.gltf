@@ -259,20 +259,7 @@
         {
             "pbrMetallicRoughness": {
                 "baseColorTexture": {
-                    "index": 0,
-                    "extensions": {
-                        "KHR_texture_transform": {
-                            "offset": [
-                                0,
-                                -5
-                            ],
-                            "rotation": 0,
-                            "scale": [
-                                6,
-                                6
-                            ]
-                        }
-                    }
+                    "index": 0
                 },
                 "metallicFactor": 0.0,
                 "roughnessFactor": 0.4934999942779541
@@ -290,7 +277,6 @@
                 "metallicFactor": 0.0,
                 "roughnessFactor": 0.0
             },
-            "alphaMode": "BLEND",
             "name": "RedTransTexture",
             "doubleSided": true,
             "extensions": {
@@ -313,7 +299,6 @@
                 "metallicFactor": 0.0,
                 "roughnessFactor": 0.0
             },
-            "alphaMode": "BLEND",
             "name": "YellowTrans",
             "doubleSided": true,
             "extensions": {
@@ -331,20 +316,7 @@
                     1.0
                 ],
                 "baseColorTexture": {
-                    "index": 2,
-                    "extensions": {
-                        "KHR_texture_transform": {
-                            "offset": [
-                                0,
-                                -2.1010000705718996
-                            ],
-                            "rotation": 0,
-                            "scale": [
-                                3.1010000705718996,
-                                3.1010000705718996
-                            ]
-                        }
-                    }
+                    "index": 2
                 },
                 "metallicFactor": 0.0,
                 "roughnessFactor": 0.0
@@ -394,23 +366,9 @@
                 ],
                 "metallicFactor": 0.0,
                 "metallicRoughnessTexture": {
-                    "index": 4,
-                    "extensions": {
-                        "KHR_texture_transform": {
-                            "offset": [
-                                -0.9999999403953552,
-                                0.9999996423721312
-                            ],
-                            "rotation": 1.570796012878418,
-                            "scale": [
-                                1,
-                                1
-                            ]
-                        }
-                    }
+                    "index": 4
                 }
             },
-            "alphaMode": "BLEND",
             "name": "RedTransTextureRough",
             "doubleSided": true,
             "extensions": {
@@ -435,7 +393,6 @@
                     "index": 4
                 }
             },
-            "alphaMode": "BLEND",
             "name": "YellowTransRough",
             "doubleSided": true,
             "extensions": {
@@ -453,37 +410,11 @@
                     1.0
                 ],
                 "baseColorTexture": {
-                    "index": 2,
-                    "extensions": {
-                        "KHR_texture_transform": {
-                            "offset": [
-                                0,
-                                -2.1010000705718996
-                            ],
-                            "rotation": 0,
-                            "scale": [
-                                3.1010000705718996,
-                                3.1010000705718996
-                            ]
-                        }
-                    }
+                    "index": 2
                 },
                 "metallicFactor": 0.0,
                 "metallicRoughnessTexture": {
-                    "index": 4,
-                    "extensions": {
-                        "KHR_texture_transform": {
-                            "offset": [
-                                -0.9999999403953552,
-                                0.9999996423721312
-                            ],
-                            "rotation": 1.570796012878418,
-                            "scale": [
-                                1,
-                                1
-                            ]
-                        }
-                    }
+                    "index": 4
                 }
             },
             "alphaMode": "BLEND",
@@ -531,23 +462,9 @@
                 ],
                 "roughnessFactor": 0.0,
                 "metallicRoughnessTexture": {
-                    "index": 5,
-                    "extensions": {
-                        "KHR_texture_transform": {
-                            "offset": [
-                                -0.9999999403953552,
-                                0.9999996423721312
-                            ],
-                            "rotation": 1.570796012878418,
-                            "scale": [
-                                1,
-                                1
-                            ]
-                        }
-                    }
+                    "index": 5
                 }
             },
-            "alphaMode": "BLEND",
             "name": "RedTransTextureMetal",
             "doubleSided": true,
             "extensions": {
@@ -572,7 +489,6 @@
                     "index": 5
                 }
             },
-            "alphaMode": "BLEND",
             "name": "YellowTransMetal",
             "doubleSided": true,
             "extensions": {
@@ -594,20 +510,7 @@
                 },
                 "roughnessFactor": 0.0,
                 "metallicRoughnessTexture": {
-                    "index": 5,
-                    "extensions": {
-                        "KHR_texture_transform": {
-                            "offset": [
-                                -0.9999999403953552,
-                                0.9999996423721312
-                            ],
-                            "rotation": 1.570796012878418,
-                            "scale": [
-                                1,
-                                1
-                            ]
-                        }
-                    }
+                    "index": 5
                 }
             },
             "alphaMode": "BLEND",
@@ -628,37 +531,11 @@
                     1.0
                 ],
                 "baseColorTexture": {
-                    "index": 2,
-                    "extensions": {
-                        "KHR_texture_transform": {
-                            "offset": [
-                                0,
-                                -2.1010000705718996
-                            ],
-                            "rotation": 0,
-                            "scale": [
-                                3.1010000705718996,
-                                3.1010000705718996
-                            ]
-                        }
-                    }
+                    "index": 2
                 },
                 "roughnessFactor": 0.0,
                 "metallicRoughnessTexture": {
-                    "index": 5,
-                    "extensions": {
-                        "KHR_texture_transform": {
-                            "offset": [
-                                -0.9999999403953552,
-                                0.9999996423721312
-                            ],
-                            "rotation": 1.570796012878418,
-                            "scale": [
-                                1,
-                                1
-                            ]
-                        }
-                    }
+                    "index": 5
                 }
             },
             "alphaMode": "BLEND",
@@ -705,7 +582,7 @@
                 1.0,
                 1.0
             ],
-            "name": "Default Material"
+            "name": "Label Material"
         },
         {
             "pbrMetallicRoughness": {
@@ -739,7 +616,7 @@
                 1.0,
                 1.0
             ],
-            "name": "Default Material"
+            "name": "Label Material"
         },
         {
             "pbrMetallicRoughness": {
@@ -773,7 +650,7 @@
                 1.0,
                 1.0
             ],
-            "name": "Default Material"
+            "name": "Label Material"
         },
         {
             "pbrMetallicRoughness": {
@@ -807,7 +684,7 @@
                 1.0,
                 1.0
             ],
-            "name": "Default Material"
+            "name": "Label Material"
         },
         {
             "pbrMetallicRoughness": {
@@ -841,7 +718,7 @@
                 1.0,
                 1.0
             ],
-            "name": "Default Material"
+            "name": "Label Material"
         },
         {
             "pbrMetallicRoughness": {
@@ -875,7 +752,7 @@
                 1.0,
                 1.0
             ],
-            "name": "Default Material"
+            "name": "Label Material"
         }
     ],
     "meshes": [
@@ -1590,8 +1467,5 @@
         "KHR_xmp",
         "KHR_texture_transform",
         "KHR_materials_transmission"
-    ],
-    "extensionsRequired": [
-        "KHR_texture_transform"
     ]
 }
