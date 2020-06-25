@@ -396,11 +396,6 @@
             "name": "texture927751",
             "uri": "TransmissionTest_images/texture927751.jpg",
             "mimeType": "image/jpeg"
-        },
-        {
-            "name": "texture927748",
-            "uri": "TransmissionTest_images/texture927748.jpg",
-            "mimeType": "image/jpeg"
         }
     ],
     "materials": [
