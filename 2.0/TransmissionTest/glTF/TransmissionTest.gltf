@@ -1513,14 +1513,6 @@
         }
     ],
     "samplers": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
         {}
     ],
     "scenes": [
@@ -1554,42 +1546,42 @@
         },
         {
             "name": "texture14184",
-            "sampler": 1,
+            "sampler": 0,
             "source": 1
         },
         {
             "name": "texture214190",
-            "sampler": 2,
+            "sampler": 0,
             "source": 2
         },
         {
             "name": "texture4086",
-            "sampler": 3,
+            "sampler": 0,
             "source": 3
         },
         {
             "name": "texture177328",
-            "sampler": 4,
+            "sampler": 0,
             "source": 4
         },
         {
             "name": "texture6807",
-            "sampler": 5,
+            "sampler": 0,
             "source": 5
         },
         {
             "name": "texture175763",
-            "sampler": 6,
+            "sampler": 0,
             "source": 6
         },
         {
             "name": "texture10487",
-            "sampler": 7,
+            "sampler": 0,
             "source": 7
         },
         {
             "name": "texture15366",
-            "sampler": 8,
+            "sampler": 0,
             "source": 8
         }
     ],
