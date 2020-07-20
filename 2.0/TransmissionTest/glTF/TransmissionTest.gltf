@@ -1,8 +1,13 @@
 {
     "asset": {
         "copyright": "2020 (c) Adobe Inc.",
-        "generator": "Adobe Dimension - 26f4c2b668c28b0a0ab2a12464c13e03cd76f13b",
-        "version": "2.0"
+        "generator": "Adobe Dimension - 63f6e07d31a7b4abc83cb799813e511e9e5587a5",
+        "version": "2.0",
+        "extensions": {
+            "KHR_xmp": {
+                "packet": 0
+            }
+        }
     },
     "accessors": [
         {
@@ -422,8 +427,8 @@
     ],
     "images": [
         {
-            "name": "checker_02",
-            "uri": "TransmissionTest_images/checker_02.jpg",
+            "name": "texture28577",
+            "uri": "TransmissionTest_images/texture28577.jpg",
             "mimeType": "image/jpeg"
         },
         {
@@ -493,6 +498,7 @@
             "doubleSided": true,
             "extensions": {
                 "KHR_materials_transmission": {
+                    "transmissionFactor": 1,
                     "transmissionTexture": {
                         "index": 1
                     }
@@ -537,6 +543,7 @@
             "doubleSided": true,
             "extensions": {
                 "KHR_materials_transmission": {
+                    "transmissionFactor": 1,
                     "transmissionTexture": {
                         "index": 1
                     }
@@ -583,6 +590,7 @@
             "doubleSided": true,
             "extensions": {
                 "KHR_materials_transmission": {
+                    "transmissionFactor": 1,
                     "transmissionTexture": {
                         "index": 1
                     }
@@ -602,7 +610,6 @@
                     "index": 5
                 }
             },
-            "alphaMode": "BLEND",
             "name": "YellowTransRough",
             "doubleSided": true,
             "extensions": {
@@ -632,6 +639,7 @@
             "doubleSided": true,
             "extensions": {
                 "KHR_materials_transmission": {
+                    "transmissionFactor": 1,
                     "transmissionTexture": {
                         "index": 1
                     }
@@ -674,11 +682,11 @@
                     "index": 6
                 }
             },
-            "alphaMode": "BLEND",
             "name": "RedTransTextureMetal",
             "doubleSided": true,
             "extensions": {
                 "KHR_materials_transmission": {
+                    "transmissionFactor": 1,
                     "transmissionTexture": {
                         "index": 1
                     }
@@ -698,7 +706,6 @@
                     "index": 7
                 }
             },
-            "alphaMode": "BLEND",
             "name": "YellowTransMetal",
             "doubleSided": true,
             "extensions": {
@@ -753,6 +760,7 @@
             "doubleSided": true,
             "extensions": {
                 "KHR_materials_transmission": {
+                    "transmissionFactor": 1,
                     "transmissionTexture": {
                         "index": 1
                     }
@@ -1094,15 +1102,20 @@
     "nodes": [
         {
             "translation": [
-                -0.10115476697683335,
-                0.3144303560256958,
-                1.630927562713623
+                -0.07675539702177048,
+                0.3394200801849365,
+                1.802846074104309
             ],
             "rotation": [
-                -0.07035517692565918,
-                0.01940322481095791,
+                -0.07035518437623978,
+                0.01940322108566761,
                 0.0013688141480088235,
                 0.9973323345184326
+            ],
+            "scale": [
+                1.0,
+                1.0000001192092896,
+                0.9999999403953552
             ],
             "camera": 0,
             "name": "render_camera_n3d"
@@ -1129,7 +1142,7 @@
                 0.026176994666457177
             ],
             "mesh": 1,
-            "name": "Sphere"
+            "name": "RedTransTexture"
         },
         {
             "translation": [
@@ -1144,7 +1157,7 @@
                 0.026176994666457177
             ],
             "mesh": 2,
-            "name": "Sphere"
+            "name": "YellowTrans"
         },
         {
             "translation": [
@@ -1159,7 +1172,7 @@
                 0.026176994666457177
             ],
             "mesh": 3,
-            "name": "Sphere"
+            "name": "BlueTransWithMask"
         },
         {
             "translation": [
@@ -1174,7 +1187,7 @@
                 0.026176994666457177
             ],
             "mesh": 4,
-            "name": "Sphere"
+            "name": "GreenMask"
         },
         {
             "translation": [
@@ -1189,7 +1202,7 @@
                 0.026176994666457177
             ],
             "mesh": 5,
-            "name": "Sphere"
+            "name": "RedTransTextureRough"
         },
         {
             "translation": [
@@ -1204,7 +1217,7 @@
                 0.026176994666457177
             ],
             "mesh": 6,
-            "name": "Sphere"
+            "name": "YellowTransRough"
         },
         {
             "translation": [
@@ -1219,7 +1232,7 @@
                 0.026176994666457177
             ],
             "mesh": 7,
-            "name": "Sphere"
+            "name": "BlueTransWithMask"
         },
         {
             "translation": [
@@ -1234,7 +1247,7 @@
                 0.026176994666457177
             ],
             "mesh": 8,
-            "name": "Sphere"
+            "name": "GreenMaskRough"
         },
         {
             "translation": [
@@ -1249,7 +1262,7 @@
                 0.026176994666457177
             ],
             "mesh": 9,
-            "name": "Sphere"
+            "name": "RedTransTextureMetal"
         },
         {
             "translation": [
@@ -1264,7 +1277,7 @@
                 0.026176994666457177
             ],
             "mesh": 10,
-            "name": "Sphere"
+            "name": "YellowTransMetal"
         },
         {
             "translation": [
@@ -1279,7 +1292,7 @@
                 0.026176994666457177
             ],
             "mesh": 11,
-            "name": "Sphere"
+            "name": "GreenMaskMetal"
         },
         {
             "translation": [
@@ -1294,7 +1307,7 @@
                 0.026176994666457177
             ],
             "mesh": 12,
-            "name": "Sphere"
+            "name": "BlueTransWithMask"
         },
         {
             "children": [
@@ -1513,6 +1526,14 @@
         }
     ],
     "samplers": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
         {}
     ],
     "scenes": [
@@ -1540,48 +1561,48 @@
     ],
     "textures": [
         {
-            "name": "texture19307",
+            "name": "texture28577",
             "sampler": 0,
             "source": 0
         },
         {
             "name": "texture14184",
-            "sampler": 0,
+            "sampler": 1,
             "source": 1
         },
         {
             "name": "texture214190",
-            "sampler": 0,
+            "sampler": 2,
             "source": 2
         },
         {
             "name": "texture4086",
-            "sampler": 0,
+            "sampler": 3,
             "source": 3
         },
         {
             "name": "texture177328",
-            "sampler": 0,
+            "sampler": 4,
             "source": 4
         },
         {
             "name": "texture6807",
-            "sampler": 0,
+            "sampler": 5,
             "source": 5
         },
         {
             "name": "texture175763",
-            "sampler": 0,
+            "sampler": 6,
             "source": 6
         },
         {
             "name": "texture10487",
-            "sampler": 0,
+            "sampler": 7,
             "source": 7
         },
         {
             "name": "texture15366",
-            "sampler": 0,
+            "sampler": 8,
             "source": 8
         }
     ],
@@ -1594,7 +1615,6 @@
             "packets": [
                 {
                     "dc:date": "2019-10-25T15:25:01.695-07:00",
-                    "dc:format": "model/gltf+json",
                     "dc:title": "ASM_transparency_labels.dn",
                     "xmp:CreatorTool": "Adobe Dimension"
                 }
@@ -1602,7 +1622,7 @@
         }
     },
     "extensionsUsed": [
-        "KHR_xmp",
-        "KHR_materials_transmission"
+        "KHR_materials_transmission",
+        "KHR_xmp"
     ]
 }
