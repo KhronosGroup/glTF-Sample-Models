@@ -11,7 +11,7 @@ To account for this, the material uses tiled textures to reduce the overall size
 
 The texture for the technical fabric was created in Substance Designer with a base color texture, packed ORM texture, normal texture, and sheen texture with sheen color in the RGB channels and sheen roughness in alpha. The image below shows the channels of the sheen texture with the left half of the image displaying the sheen color in the RGB channels and the right displaying the sheen roughness in the alpha channel.
 
- ![](screenshot\sheenTextureSample.jpg)
+ ![screenshot](screenshot/sheenTextureSample.jpg)
 
 ### License Information
 
