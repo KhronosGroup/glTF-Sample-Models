@@ -22,7 +22,7 @@
     "nodes": [
         {
             "mesh": 0,
-            "name": "sheenCloth_mesh"
+            "name": "SheenCloth_mesh"
         }
     ],
     "meshes": [
@@ -39,7 +39,7 @@
                     "material": 0
                 }
             ],
-            "name": "sheenCloth_mesh"
+            "name": "SheenCloth_mesh"
         }
     ],
     "accessors": [
@@ -120,7 +120,7 @@
     ],
     "buffers": [
         {
-            "uri": "sheenCloth.bin",
+            "uri": "SheenCloth.bin",
             "byteLength": 3479088
         }
     ],
@@ -219,7 +219,7 @@
                 }
             },
             "doubleSided": true,
-            "name": "sheenClothMat"
+            "name": "SheenClothMat"
         }
     ],
     "textures": [
