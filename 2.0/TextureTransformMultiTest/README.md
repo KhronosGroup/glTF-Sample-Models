@@ -34,17 +34,27 @@ The "Occlusion" row may appear blank when rendered in path tracers or ray tracer
 
 In the above test, the renderer has produced a "UV 1" column that is identical to "UV 0", indicating it has done a good job processing `TEXCOORD_0` and `TEXCOORD_1` the same way.  However, it displays crossed-out circles for the "Normal" and "Occlusion" inputs, indicating that KHR_texture_transform has not been applied to those two inputs.
 
+## Problem: Incorrect Application of Transforms
+
+![Wrong Math](screenshot/sample_wrongMath.jpg)
+
+If an "X" or other improper shape appears, it likely indicates that the KHR_texture_transform math has not been correctly applied.  Try the [TextureTransformTest](../TextureTransformTest) model, to test each piece of the transformation individually.
+
+If the crossed-out circle appears, it means that no transformation has been applied at all.
+
 ## Problem or Known Limitation: TEXCOORD_1 Not Fully Supported
 
 ![Occlusion only](screenshot/sample_occlusion.jpg)
 
 The renderer that produced this image has a known limitation, where `TEXCOORD_1` is only supported for the Occlusion input.  This manifests itself as blank boxes down most of the "UV 1" column, except for Occlusion.
 
-But an additional limitation is revealed here:  In the "Occlusion" "UV 0" test is also showing a blank box.  The mere presence of `TEXCOORD_1` in that test box has confused the renderer into using those coordinates, even though the model does not call for their use there.
+But an additional limitation is revealed here:  In the "Occlusion" "UV 0" test is also showing a blank box.  The mere presence of multiple UV sets in that box has caused this renderer to improperly use `TEXCOORD_1`, disregarding the model's UV index `0` selection.  But in the "Sample" column, only one set of UVs are available, so the checkmark is correctly rendered there.
 
 ## Problem: Clearcoat Not Transformed
 
 ![Occlusion only](screenshot/sample_clearcoat.jpg)
+
+The Clearcoat tests can be dark and low-contrast, an unfortunate consequence of the subtle nature of the clear coating.  Use a bright reflection environment, or possibly post-process the resulting image in a paint program to bring out more contrast, as shown here.  Two of the rows have curved test boxes, to help reflect more of the surrounding environment.
 
 The "UV 1" boxes shown here are blank due to a known limitation in this rendering engine, described above.  But the "UV 0" boxes are showing the crossed-out circle.  This indicates that KHR_texture_transform has not been applied to any of the Clearcoat inputs.
 
