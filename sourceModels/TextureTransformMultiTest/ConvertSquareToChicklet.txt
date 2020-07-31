@@ -1,0 +1,19 @@
+Convert square to chicklet
+
+1. Edit Mode on square, select all 4 vertices
+
+2. subdivide 17
+
+3. Select central vertex
+
+4. falloff sphere
+
+bpy.ops.transform.translate(value=(-0, -0.0493181, -0), orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL', constraint_axis=(False, True, False), mirror=True, use_proportional_edit=True, proportional_edit_falloff='SPHERE', proportional_size=0.13513, use_proportional_connected=False, use_proportional_projected=False)
+
+6. disable falloff
+
+7. select all vertices
+
+bpy.ops.transform.translate(value=(0, 0.0142665, 0), orient_type='GLOBAL', orient_matrix=((1, 0, 0), (0, 1, 0), (0, 0, 1)), orient_matrix_type='GLOBAL', constraint_axis=(False, True, False), mirror=True, use_proportional_edit=False, proportional_edit_falloff='SPHERE', proportional_size=0.13513, use_proportional_connected=False, use_proportional_projected=False)
+
+9. Object Mode, "Shade Smooth"

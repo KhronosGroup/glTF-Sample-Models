@@ -413,6 +413,14 @@
     }
   },
   {
+    "name": "SimpleSkin",
+    "screenshot": "screenshot/screenshot.gif",
+    "variants": {
+      "glTF": "SimpleSkin.gltf",
+      "glTF-Embedded": "SimpleSkin.gltf"
+    }
+  },
+  {
     "name": "SimpleSparseAccessor",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -458,6 +466,14 @@
       "glTF": "TextureSettingsTest.gltf",
       "glTF-Binary": "TextureSettingsTest.glb",
       "glTF-Embedded": "TextureSettingsTest.gltf"
+    }
+  },
+  {
+    "name": "TextureTransformMultiTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "TextureTransformMultiTest.gltf",
+      "glTF-Binary": "TextureTransformMultiTest.glb"
     }
   },
   {
