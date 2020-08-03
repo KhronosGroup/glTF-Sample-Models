@@ -484,6 +484,13 @@
     }
   },
   {
+    "name": "ToyCar",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "ToyCar.gltf",
+    }
+  },
+  {
     "name": "TransmissionTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {

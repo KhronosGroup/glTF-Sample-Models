@@ -1,0 +1,338 @@
+{
+    "asset" : {
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "ToyCar",
+            "scale" : [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "translation" : [
+                3.1585692340740934e-05,
+                -0.0001131248427554965,
+                -0.0006978416349738836
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Fabric",
+            "scale" : [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "translation" : [
+                0.018294677138328552,
+                -0.5772045254707336,
+                0.04263647645711899
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "ToyCar",
+            "normalTexture" : {
+                "index" : 0,
+                "scale" : 0.1400168091058731,
+                "texCoord" : 0
+            },
+            "emissiveTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "emissiveFactor": [1, 1, 1],
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 3,
+                    "texCoord" : 0
+                }
+            },
+            "extensions" : {
+                "KHR_materials_specular" : {
+                    "specularTexture" : {
+                        "index": 4,
+                        "texCoord": 0
+                    }
+                },
+                "KHR_materials_ior" : {
+                    "ior" : 6
+                },
+                "KHR_materials_transmission" : {
+                    "transmissionTexture" : {
+                        "index": 5,
+                        "texCoord": 0
+                    }
+                },
+                "KHR_materials_clearcoat" : {
+                    "clearcoatTexture" : {
+                        "index": 6,
+                        "texCoord": 0
+                    }
+                }                
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "fabric",
+            "normalTexture" : {
+                "index" : 7,
+                "scale" : 1.140016794204712,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 8,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.7960000038146973
+            },
+            "extensions" : {
+                "KHR_materials_specular" : {
+                    "specularColorFactor": [0.729, 0.071, 0.078],
+                    "specularTexture" : {
+                        "index": 9,
+                        "texCoord": 0
+                    }
+                }
+            }
+        }
+    ],
+    "textures" : [
+        { "source" : 0 },
+        { "source" : 1 },
+        { "source" : 2 },
+        { "source" : 3 },
+        { "source" : 4 },
+        { "source" : 5 },
+        { "source" : 6 },
+        { "source" : 7 },
+        { "source" : 8 },
+        { "source" : 9 }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "ToyCar_normal",
+            "uri" : "ToyCar_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "ToyCar_emissive",
+            "uri" : "ToyCar_emissive.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "ToyCar_baseColor",
+            "uri" : "ToyCar_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "ToyCar_roughness_metallic",
+            "uri" : "ToyCar_roughness_metallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "ToyCar_specular",
+            "uri" : "ToyCar_specular.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "ToyCar_transmission",
+            "uri" : "ToyCar_transmission.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "ToyCar_clearcoat",
+            "uri" : "ToyCar_clearcoat.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Fabric_normal",
+            "uri" : "Fabric_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Fabric_baseColor",
+            "uri" : "Fabric_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Fabric_specular",
+            "uri" : "Fabric_specular.png"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Mesh.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 62116,
+            "max" : [
+                9.353763580322266,
+                12.61662483215332,
+                18.974475860595703
+            ],
+            "min" : [
+                -9.353765487670898,
+                0.9924242496490479,
+                -19.404951095581055
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 62116,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 62116,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 273993,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 8986,
+            "max" : [
+                35.779388427734375,
+                58.98687744140625,
+                33.733585357666016
+            ],
+            "min" : [
+                -37.66353225708008,
+                41.76799011230469,
+                -40.22871398925781
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 8986,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 8986,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 52815,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 745392,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 745392,
+            "byteOffset" : 745392
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 496928,
+            "byteOffset" : 1490784
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 547986,
+            "byteOffset" : 1987712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 107832,
+            "byteOffset" : 2535700
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 107832,
+            "byteOffset" : 2643532
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 71888,
+            "byteOffset" : 2751364
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 105630,
+            "byteOffset" : 2823252
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2928884,
+            "uri" : "ToyCar.bin"
+        }
+    ],
+    "extensionsUsed": [
+        "KHR_materials_specular",
+        "KHR_materials_ior",
+        "KHR_materials_transmission",
+        "KHR_materials_clearcoat"
+    ]
+}
