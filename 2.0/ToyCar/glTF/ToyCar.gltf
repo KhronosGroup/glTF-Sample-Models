@@ -77,12 +77,14 @@
                     "ior" : 6
                 },
                 "KHR_materials_transmission" : {
+                    "transmissionFactor": 1,
                     "transmissionTexture" : {
                         "index": 5,
                         "texCoord": 0
                     }
                 },
                 "KHR_materials_clearcoat" : {
+                    "clearcoatFactor": 1,
                     "clearcoatTexture" : {
                         "index": 6,
                         "texCoord": 0
