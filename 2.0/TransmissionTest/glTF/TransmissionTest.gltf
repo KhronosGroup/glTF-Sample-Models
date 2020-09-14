@@ -538,7 +538,7 @@
                 "metallicFactor": 0.0,
                 "roughnessFactor": 0.0
             },
-            "alphaMode": "BLEND",
+            "alphaMode": "MASK",
             "name": "BlueTransWithMask",
             "doubleSided": true,
             "extensions": {
@@ -564,7 +564,7 @@
                 "metallicFactor": 0.0,
                 "roughnessFactor": 0.0
             },
-            "alphaMode": "BLEND",
+            "alphaMode": "MASK",
             "name": "GreenMask",
             "doubleSided": true,
             "extensions": {
@@ -634,7 +634,7 @@
                     "index": 4
                 }
             },
-            "alphaMode": "BLEND",
+            "alphaMode": "MASK",
             "name": "BlueTransWithMask",
             "doubleSided": true,
             "extensions": {
@@ -660,7 +660,7 @@
                 "metallicFactor": 0.0,
                 "roughnessFactor": 0.3199999928474426
             },
-            "alphaMode": "BLEND",
+            "alphaMode": "MASK",
             "name": "GreenMaskRough",
             "doubleSided": true,
             "extensions": {
@@ -730,7 +730,7 @@
                     "index": 6
                 }
             },
-            "alphaMode": "BLEND",
+            "alphaMode": "MASK",
             "name": "GreenMaskMetal",
             "doubleSided": true,
             "extensions": {
@@ -755,7 +755,7 @@
                     "index": 6
                 }
             },
-            "alphaMode": "BLEND",
+            "alphaMode": "MASK",
             "name": "BlueTransWithMask",
             "doubleSided": true,
             "extensions": {
