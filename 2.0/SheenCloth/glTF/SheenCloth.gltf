@@ -1,7 +1,7 @@
 {
     "asset": {
         "version": "2.0",
-        "generator": "babylon.js glTF exporter for Maya 2018 v20200617.6"
+        "generator": "babylon.js glTF exporter for Maya 2018 v20200617.6 with custom modifications for sheen"
     },
     "extensionsUsed": [
         "KHR_texture_transform",
@@ -131,15 +131,10 @@
                     "index": 2,
                     "extensions": {
                         "KHR_texture_transform": {
-                            "offset": [
-                                0.0,
-                                0.0
-                            ],
                             "scale": [
                                 30.0,
                                 -30.0
-                            ],
-                            "texCoord": 0
+                            ]
                         }
                     }
                 },
@@ -147,15 +142,10 @@
                     "index": 1,
                     "extensions": {
                         "KHR_texture_transform": {
-                            "offset": [
-                                0.0,
-                                0.0
-                            ],
                             "scale": [
                                 30.0,
                                 -30.0
-                            ],
-                            "texCoord": 0
+                            ]
                         }
                     }
                 }
@@ -164,15 +154,10 @@
                 "index": 0,
                 "extensions": {
                     "KHR_texture_transform": {
-                        "offset": [
-                            0.0,
-                            0.0
-                        ],
                         "scale": [
                             30.0,
                             -30.0
-                        ],
-                        "texCoord": 0
+                        ]
                     }
                 }
             },
@@ -180,15 +165,10 @@
                 "index": 1,
                 "extensions": {
                     "KHR_texture_transform": {
-                        "offset": [
-                            0.0,
-                            0.0
-                        ],
                         "scale": [
                             30.0,
                             -30.0
-                        ],
-                        "texCoord": 0
+                        ]
                     }
                 }
             },
@@ -200,21 +180,27 @@
                         1.0
                     ],
                     "sheenRoughnessFactor": 1.0,
-                    "sheenTexture": {
-                    "index": 3,
-                    "extensions": {
-                        "KHR_texture_transform": {
-                        "offset": [
-                            0.0,
-                            0.0
-                        ],
-                        "scale": [
-                            30.0,
-                            -30.0
-                        ],
-                        "texCoord": 0
+                    "sheenColorTexture": {
+                        "index": 3,
+                        "extensions": {
+                            "KHR_texture_transform": {
+                                "scale": [
+                                    30.0,
+                                    -30.0
+                                ]
+                            }
                         }
-                    }
+                    },
+                    "sheenRoughnessTexture": {
+                        "index": 3,
+                        "extensions": {
+                            "KHR_texture_transform": {
+                                "scale": [
+                                    30.0,
+                                    -30.0
+                                ]
+                            }
+                        }
                     }
                 }
             },
