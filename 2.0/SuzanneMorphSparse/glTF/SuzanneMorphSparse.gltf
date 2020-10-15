@@ -132,14 +132,12 @@
     {
       "buffer": 0,
       "byteLength": 2496,
-      "byteOffset": 75432,
-      "target": 34962
+      "byteOffset": 75432
     },
     {
       "buffer": 0,
       "byteLength": 2496,
-      "byteOffset": 77928,
-      "target": 34962
+      "byteOffset": 77928
     }
   ],
   "extensions": {
@@ -167,6 +165,11 @@
   ],
   "meshes": [
     {
+      "extras": {
+        "targetNames": [
+          "Key 1"
+        ]
+      },
       "name": "Basis",
       "primitives": [
         {
