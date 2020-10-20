@@ -90,4 +90,5 @@
 | [SpecGloss Vs MetalRough](SpecGlossVsMetalRough)          | ![](SpecGlossVsMetalRough/screenshot/screenshot.jpg)          | Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly. |
 | [Texture Transform Test](TextureTransformTest)            | ![](TextureTransformTest/screenshot/screenshot.jpg)           | Tests if the KHR_texture_transform extension is supported for BaseColor. |
 | [Texture Transform Multi Test](TextureTransformMultiTest) | ![](TextureTransformMultiTest/screenshot/screenshot.jpg)      | Tests if the KHR_texture_transform extension is supported for several inputs. |
+| [Transmission Test](TransmissionTest)                 | ![](TransmissionTest/screenshot/screenshot.jpg)               | Tests if the KHR_materials_transmission extension is supported properly. |
 | [Unlit Test](UnlitTest)                                   | ![](UnlitTest/screenshot/screenshot.png)                      | Tests if the KHR_materials_unlit extension is supported properly. |

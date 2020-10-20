@@ -484,6 +484,14 @@
     }
   },
   {
+    "name": "TransmissionTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "TransmissionTest.gltf",
+      "glTF-Binary": "TransmissionTest.glb"
+    }
+  },
+  {
     "name": "Triangle",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
