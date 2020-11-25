@@ -200,6 +200,13 @@
     }
   },
   {
+    "name": "ClearcoatRing",
+    "screenshot" : "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "PBR - Metallic Roughness Alpha-blend.gltf"
+    }
+  },
+  {
     "name": "ClearcoatSphere",
     "variants": {
       "glTF": "ClearcoatSphere.gltf"
@@ -393,12 +400,6 @@
       "glTF-Binary": "RiggedSimple.glb",
       "glTF-Draco": "RiggedSimple.gltf",
       "glTF-Embedded": "RiggedSimple.gltf"
-    }
-  },
-  {
-    "name": "Ring",
-    "variants": {
-      "glTF": "PBR - Metallic Roughness Alpha-blend.gltf"
     }
   },
   {
