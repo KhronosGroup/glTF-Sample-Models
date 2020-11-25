@@ -200,6 +200,12 @@
     }
   },
   {
+    "name": "ClearcoatSphere",
+    "variants": {
+      "glTF": "ClearcoatSphere.gltf"
+    }
+  },
+  {
     "name": "ClearCoatTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
@@ -276,6 +282,12 @@
       "glTF-Binary": "GearboxAssy.glb",
       "glTF-Draco": "GearboxAssy.gltf",
       "glTF-Embedded": "GearboxAssy.gltf"
+    }
+  },
+  {
+    "name": "HighHeel",
+    "variants": {
+      "glTF": "HighHeel.gltf"
     }
   },
   {
@@ -390,10 +402,22 @@
     }
   },
   {
+    "name": "Ring",
+    "variants": {
+      "glTF": "PBR - Metallic Roughness Alpha-blend.gltf"
+    }
+  },
+  {
     "name": "SciFiHelmet",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "SciFiHelmet.gltf"
+    }
+  },
+  {
+    "name": "SheenChair",
+    "variants": {
+      "glTF": "gltf_sheen_damask.gltf"
     }
   },
   {
@@ -481,6 +505,12 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "TextureTransformTest.gltf"
+    }
+  },
+  {
+    "name": "TransmissionSuzanne",
+    "variants": {
+      "glTF": "TransmissionSuzanne.gltf"
     }
   },
   {
