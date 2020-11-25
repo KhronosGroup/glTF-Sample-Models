@@ -285,12 +285,6 @@
     }
   },
   {
-    "name": "HighHeel",
-    "variants": {
-      "glTF": "HighHeel.gltf"
-    }
-  },
-  {
     "name": "InterpolationTest",
     "screenshot": "screenshot/screenshot.gif",
     "variants": {
@@ -418,6 +412,13 @@
     "name": "SheenChair",
     "variants": {
       "glTF": "gltf_sheen_damask.gltf"
+    }
+  },
+  {
+    "name": "SheenHighHeel",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "SheenHighHeel.gltf"
     }
   },
   {
