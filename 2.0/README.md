@@ -67,7 +67,8 @@
 | [Animated Cube](AnimatedCube)                          | ![](AnimatedCube/screenshot/screenshot.gif)                     | Same as previous cube having a linear rotation animation.      |
 | [Suzanne](Suzanne)                                     | ![](Suzanne/screenshot/screenshot.jpg)                          | Suzanne from Blender with smoothed faces.                      |
 | [Sci Fi Helmet](SciFiHelmet)                           | ![](SciFiHelmet/screenshot/screenshot.jpg)                      | Sci Fi Helmet having unsigned integer indices.                 |
-| [Antique Camera](AntiqueCamera)                        | ![](AntiqueCamera/screenshot/screenshot.png)                    | Old camera model having various materials.                       |
+| [Antique Camera](AntiqueCamera)                        | ![](AntiqueCamera/screenshot/screenshot.png)                    | Old camera model having various materials.                     |
+| [ToyCar](ToyCar)                                       | ![](ToyCar/screenshot/screenshot_thumbnail.jpg)                 | PBR Next Phase 1 extensions, transmission, clearcoat, and sheen.|
 
 ## Feature Test Models
 
