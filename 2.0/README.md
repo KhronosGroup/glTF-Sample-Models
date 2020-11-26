@@ -53,11 +53,6 @@
 | [Lantern](Lantern)                            | ![](Lantern/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Water Bottle](WaterBottle)                   | ![](WaterBottle/screenshot/screenshot.jpg)       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-## PBR Extension models
-| Model                                         | Screenshot                                       | Clearcoat          | Tranmission        | Sheen              |
-|-----------------------------------------------|:------------------------------------------------:|:------------------:|:------------------:|:------------------:|
-| [ToyCar](ToyCar)                              | ![](ToyCar/screenshot/screenshot_thumbnail.jpg)            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-
 ## Further PBR models
 
 | Model                                                  | Screenshot                                                      | Description |
