@@ -88,10 +88,12 @@
 
 ## Extension Test Models
 
-| Model                                                 | Screenshot                                                    | Description |
-|-------------------------------------------------------|---------------------------------------------------------------|-------------|
-| [Clearcoat Test](ClearCoatTest)                       | ![](ClearCoatTest/screenshot/screenshot.jpg)                  | Tests if the KHR_materials_clearcoat extension is supported properly. |
-| [Environment Test](EnvironmentTest)                   | ![](EnvironmentTest/screenshot/screenshot.png)                | A simple `scene` with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting. |
-| [SpecGloss Vs MetalRough](SpecGlossVsMetalRough)      | ![](SpecGlossVsMetalRough/screenshot/screenshot.jpg)          | Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly. |
-| [Texture Transform Test](TextureTransformTest)        | ![](TextureTransformTest/screenshot/screenshot.jpg)           | Tests if the KHR_texture_transform extension is supported properly. |
-| [Unlit Test](UnlitTest)                               | ![](UnlitTest/screenshot/screenshot.png)                      | Tests if the KHR_materials_unlit extension is supported properly. |
+| Model                                                     | Screenshot                                                    | Description |
+|-----------------------------------------------------------|---------------------------------------------------------------|-------------|
+| [Clearcoat Test](ClearCoatTest)                           | ![](ClearCoatTest/screenshot/screenshot.jpg)                  | Tests if the KHR_materials_clearcoat extension is supported properly. |
+| [Environment Test](EnvironmentTest)                       | ![](EnvironmentTest/screenshot/screenshot.png)                | A simple `scene` with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting. |
+| [SpecGloss Vs MetalRough](SpecGlossVsMetalRough)          | ![](SpecGlossVsMetalRough/screenshot/screenshot.jpg)          | Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly. |
+| [Texture Transform Test](TextureTransformTest)            | ![](TextureTransformTest/screenshot/screenshot.jpg)           | Tests if the KHR_texture_transform extension is supported for BaseColor. |
+| [Texture Transform Multi Test](TextureTransformMultiTest) | ![](TextureTransformMultiTest/screenshot/screenshot.jpg)      | Tests if the KHR_texture_transform extension is supported for several inputs. |
+| [Transmission Test](TransmissionTest)                 | ![](TransmissionTest/screenshot/screenshot.jpg)               | Tests if the KHR_materials_transmission extension is supported properly. |
+| [Unlit Test](UnlitTest)                                   | ![](UnlitTest/screenshot/screenshot.png)                      | Tests if the KHR_materials_unlit extension is supported properly. |

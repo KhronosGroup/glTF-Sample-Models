@@ -413,6 +413,14 @@
     }
   },
   {
+    "name": "SimpleSkin",
+    "screenshot": "screenshot/screenshot.gif",
+    "variants": {
+      "glTF": "SimpleSkin.gltf",
+      "glTF-Embedded": "SimpleSkin.gltf"
+    }
+  },
+  {
     "name": "SimpleSparseAccessor",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -461,10 +469,26 @@
     }
   },
   {
+    "name": "TextureTransformMultiTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "TextureTransformMultiTest.gltf",
+      "glTF-Binary": "TextureTransformMultiTest.glb"
+    }
+  },
+  {
     "name": "TextureTransformTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "TextureTransformTest.gltf"
+    }
+  },
+  {
+    "name": "TransmissionTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "TransmissionTest.gltf",
+      "glTF-Binary": "TransmissionTest.glb"
     }
   },
   {
