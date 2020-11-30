@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-![screenshot](screenshot/screenshot.jpg)
+![screenshot](screenshot/screenshot_large.jpg)
 
 ## Description
 

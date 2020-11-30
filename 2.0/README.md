@@ -63,7 +63,13 @@
 | [Suzanne](Suzanne)                                     | ![](Suzanne/screenshot/screenshot.jpg)                          | Suzanne from Blender with smoothed faces.                      |
 | [Sci Fi Helmet](SciFiHelmet)                           | ![](SciFiHelmet/screenshot/screenshot.jpg)                      | Sci Fi Helmet having unsigned integer indices.                 |
 | [Antique Camera](AntiqueCamera)                        | ![](AntiqueCamera/screenshot/screenshot.png)                    | Old camera model having various materials.                     |
-| [ToyCar](ToyCar)                                       | ![](ToyCar/screenshot/screenshot_thumbnail.jpg)                 | PBR Next Phase 1 extensions, transmission, clearcoat, and sheen.|
+
+## Extension Showcase Models
+
+| Model                                                  | Screenshot                                            | Description |
+|--------------------------------------------------------|-------------------------------------------------------|-------------|
+| [ToyCar](ToyCar)                                       | ![](ToyCar/screenshot/screenshot.jpg)                 | PBR Next Phase 1 extensions, transmission, clearcoat, and sheen.|
+
 
 ## Feature Test Models
 

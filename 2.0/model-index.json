@@ -484,19 +484,19 @@
     }
   },
   {
-    "name": "TransmissionTest",
-    "screenshot": "screenshot/screenshot.jpg",
-    "variants": {
-      "glTF": "TransmissionTest.gltf",
-      "glTF-Binary": "TransmissionTest.glb"
-    }
-  },
-  {
     "name": "ToyCar",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "ToyCar.gltf",
       "glTF-Binary": "ToyCar.glb"
+    }
+  },
+  {
+    "name": "TransmissionTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "TransmissionTest.gltf",
+      "glTF-Binary": "TransmissionTest.glb"
     }
   },
   {
