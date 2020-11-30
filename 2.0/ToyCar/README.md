@@ -6,7 +6,7 @@
 
 ## Description
 
-This model demonstrates the usage of `KHR_materials_sheen`, `KHR_materials_transmission` and `KHR_materials_clearcoat`.
+This model demonstrates the usage of [KHR_materials_sheen](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_sheen/README.md), [KHR_materials_transmission](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_transmission/README.md) and [KHR_materials_clearcoat](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_clearcoat/README.md).
 
 ## License Information
 
