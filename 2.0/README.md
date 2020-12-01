@@ -69,7 +69,7 @@
 | Model                                                  | Screenshot                                            | Description |
 |--------------------------------------------------------|-------------------------------------------------------|-------------|
 | [Sheen Cloth](SheenCloth)                              | ![](SheenCloth/screenshot/screenshot.jpg)             | Sheen cloth sample.|
-| [Toy Car](ToyCar)                                      | ![](ToyCar/screenshot/screenshot.jpg)                 | PBR extensions: transmission, clearcoat, and sheen.|
+| [Toy Car](ToyCar)                                      | ![](ToyCar/screenshot/screenshot.jpg)                 | Features PBR extensions for transmission, clearcoat, and sheen.|
 
 
 ## Feature Test Models
