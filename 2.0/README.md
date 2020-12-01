@@ -68,7 +68,7 @@
 
 | Model                                                  | Screenshot                                            | Description |
 |--------------------------------------------------------|-------------------------------------------------------|-------------|
-| [ToyCar](ToyCar)                                       | ![](ToyCar/screenshot/screenshot.jpg)                 | PBR Next Phase 1 extensions, transmission, clearcoat, and sheen.|
+| [ToyCar](ToyCar)                                       | ![](ToyCar/screenshot/screenshot.jpg)                 | Features PBR extensions for transmission, clearcoat, and sheen.|
 
 
 ## Feature Test Models
