@@ -397,6 +397,13 @@
     }
   },
   {
+    "name": "SheenCloth",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "SheenCloth.gltf"
+    }
+  },
+  {
     "name": "SimpleMeshes",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
