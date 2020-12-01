@@ -8,8 +8,7 @@
         "KHR_materials_sheen"
     ],
     "extensionsRequired": [
-        "KHR_texture_transform",
-        "KHR_materials_sheen"
+        "KHR_texture_transform"
     ],
     "scene": 0,
     "scenes": [
