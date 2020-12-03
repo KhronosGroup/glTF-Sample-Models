@@ -1,813 +1,726 @@
 {
     "asset": {
         "version": "2.0",
-        "generator": "babylon.js glTF exporter for 3dsmax 2020 v20200721.1, then hand-edited to add sheen parameters."
+        "generator": "babylon.js glTF exporter for 3dsmax 2020 v20201123.8, then manually edited to add Sheen and Variants"
     },
-    "extensionsUsed": ["KHR_texture_transform","KHR_materials_sheen"],
-    "extensionsRequired": ["KHR_texture_transform","KHR_materials_sheen"],
+    "extensionsUsed": [
+        "KHR_texture_transform", "KHR_materials_sheen", "KHR_materials_variants"
+    ],
+    "extensions": {
+      "KHR_materials_variants": {
+        "variants": [
+            {"name": "Mango Velvet"},
+            {"name": "Peacock Velvet"}
+          ]
+      }
+    },
+    "extensionsRequired": [
+        "KHR_texture_transform"
+    ],
     "scene": 0,
-    "scenes": [{
-        "nodes": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    }],
-    "nodes": [{
-        "mesh": 0,
-        "name": "SheenChair_seat-fabric"
-    }, {
-        "mesh": 1,
-        "name": "SheenChair_back-fabric"
-    }, {
-        "mesh": 2,
-        "name": "SheenChair_back-welt"
-    }, {
-        "mesh": 3,
-        "name": "SheenChair_seat-welt"
-    }, {
-        "mesh": 4,
-        "name": "SheenChair_seat-buttons"
-    }, {
-        "mesh": 5,
-        "name": "SheenChair_back-buttons"
-    }, {
-        "mesh": 6,
-        "name": "SheenChair_legs-frame"
-    }, {
-        "mesh": 7,
-        "name": "SheenChair_legs-hardware"
-    }, {
-        "mesh": 8,
-        "translation": [-0.0006629925, 0.239079013, 0.0596007444],
-        "rotation": [-0.04361938, 0.0, 0.0, 0.999048233],
-        "name": "SheenChair_seat-panel"
-    }, {
-        "mesh": 9,
-        "name": "SheenChair_back-panel"
-    }, {
-        "mesh": 10,
-        "translation": [-0.0006629925, 0.23622, 0.0596007444],
-        "rotation": [-0.0436193831, 0.0, 0.0, 0.999048233],
-        "name": "SheenChair_seat-label"
-    }],
-    "meshes": [{
-        "primitives": [{
-            "attributes": {
-                "POSITION": 1,
-                "NORMAL": 2,
-                "TEXCOORD_0": 3,
-                "TEXCOORD_1": 4
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "SheenChair_fabric"
+        },
+        {
+            "mesh": 1,
+            "name": "SheenChair_wood"
+        },
+        {
+            "mesh": 2,
+            "name": "SheenChair_metal"
+        },
+        {
+            "mesh": 3,
+            "translation": [
+                -0.0006629925,
+                0.23622,
+                0.0596007444
+            ],
+            "rotation": [
+                -0.0436193831,
+                0.0,
+                0.0,
+                0.999048233
+            ],
+            "name": "SheenChair_label"
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3,
+                        "TEXCOORD_1": 4
+                    },
+                    "extensions": {
+                      "KHR_materials_variants": {
+                        "mappings": [
+                          {
+                            "material": 0,
+                            "variants": [
+                              0
+                            ]
+                          },
+                          {
+                            "material": 4,
+                            "variants": [
+                              1
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "indices": 0,
+                    "material": 0
+                }
+            ],
+            "name": "SheenChair_fabric"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 6,
+                        "NORMAL": 7,
+                        "TEXCOORD_0": 8,
+                        "TEXCOORD_1": 9
+                    },
+                    "extensions": {
+                      "KHR_materials_variants": {
+                        "mappings": [
+                          {
+                            "material": 1,
+                            "variants": [
+                              0
+                            ]
+                          },
+                          {
+                            "material": 5,
+                            "variants": [
+                              1
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "indices": 5,
+                    "material": 1
+                }
+            ],
+            "name": "SheenChair_wood"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 11,
+                        "NORMAL": 12,
+                        "TEXCOORD_0": 13,
+                        "TEXCOORD_1": 14
+                    },
+                    "indices": 10,
+                    "material": 2
+                }
+            ],
+            "name": "SheenChair_metal"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 16,
+                        "NORMAL": 17,
+                        "TEXCOORD_0": 18,
+                        "TEXCOORD_1": 19
+                    },
+                    "indices": 15,
+                    "material": 3
+                }
+            ],
+            "name": "SheenChair_label"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5123,
+            "count": 78528,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 14350,
+            "max": [
+                0.412535578,
+                0.6861773,
+                0.293540359
+            ],
+            "min": [
+                -0.4140224,
+                0.226573884,
+                -0.2767251
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 172200,
+            "componentType": 5126,
+            "count": 14350,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 14350,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 114800,
+            "componentType": 5126,
+            "count": 14350,
+            "type": "VEC2",
+            "name": "accessorUV2s"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 157056,
+            "componentType": 5123,
+            "count": 29376,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 344400,
+            "componentType": 5126,
+            "count": 5508,
+            "max": [
+                0.390372425,
+                0.640484333,
+                0.2655284
+            ],
+            "min": [
+                -0.39169845,
+                0.005148451,
+                -0.275435269
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 410496,
+            "componentType": 5126,
+            "count": 5508,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 229600,
+            "componentType": 5126,
+            "count": 5508,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 273664,
+            "componentType": 5126,
+            "count": 5508,
+            "type": "VEC2",
+            "name": "accessorUV2s"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 215808,
+            "componentType": 5123,
+            "count": 11520,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 476592,
+            "componentType": 5126,
+            "count": 2520,
+            "max": [
+                0.3399512,
+                0.501481354,
+                0.220822945
+            ],
+            "min": [
+                -0.3399512,
+                -6.977785E-05,
+                -0.239334568
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 506832,
+            "componentType": 5126,
+            "count": 2520,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 317728,
+            "componentType": 5126,
+            "count": 2520,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 337888,
+            "componentType": 5126,
+            "count": 2520,
+            "type": "VEC2",
+            "name": "accessorUV2s"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 238848,
+            "componentType": 5123,
+            "count": 384,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 537072,
+            "componentType": 5126,
+            "count": 81,
+            "max": [
+                0.136181846,
+                0.0100558968,
+                0.0467727147
+            ],
+            "min": [
+                -0.135885492,
+                0.005801852,
+                -0.110709868
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 538044,
+            "componentType": 5126,
+            "count": 81,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 358048,
+            "componentType": 5126,
+            "count": 81,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 358696,
+            "componentType": 5126,
+            "count": 81,
+            "type": "VEC2",
+            "name": "accessorUV2s"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 239616,
+            "name": "bufferViewScalar"
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 239616,
+            "byteLength": 539016,
+            "byteStride": 12,
+            "name": "bufferViewFloatVec3"
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 778632,
+            "byteLength": 359344,
+            "byteStride": 8,
+            "name": "bufferViewFloatVec2"
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "SheenChair.bin",
+            "byteLength": 1137976
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.883,
+                    0.035,
+                    0.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 2,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "offset": [
+                                -3.0,
+                                3.0
+                            ],
+                            "scale": [
+                                7.0,
+                                7.0
+                            ],
+                            "texCoord": 0
+                        }
+                    }
+                },
+            "metallicFactor": 0.0,
+            "roughnessFactor": 0.8
             },
-            "indices": 0,
-            "material": 0
-        }],
-        "name": "SheenChair_seat-fabric"
-    }, {
-        "primitives": [{
-            "attributes": {
-                "POSITION": 6,
-                "NORMAL": 7,
-                "TEXCOORD_0": 8,
-                "TEXCOORD_1": 9
-            },
-            "indices": 5,
-            "material": 0
-        }],
-        "name": "SheenChair_back-fabric"
-    }, {
-        "primitives": [{
-            "attributes": {
-                "POSITION": 11,
-                "NORMAL": 12,
-                "TEXCOORD_0": 13,
-                "TEXCOORD_1": 14
-            },
-            "indices": 10,
-            "material": 0
-        }],
-        "name": "SheenChair_back-welt"
-    }, {
-        "primitives": [{
-            "attributes": {
-                "POSITION": 16,
-                "NORMAL": 17,
-                "TEXCOORD_0": 18,
-                "TEXCOORD_1": 19
-            },
-            "indices": 15,
-            "material": 0
-        }],
-        "name": "SheenChair_seat-welt"
-    }, {
-        "primitives": [{
-            "attributes": {
-                "POSITION": 21,
-                "NORMAL": 22,
-                "TEXCOORD_0": 23,
-                "TEXCOORD_1": 24
-            },
-            "indices": 20,
-            "material": 0
-        }],
-        "name": "SheenChair_seat-buttons"
-    }, {
-        "primitives": [{
-            "attributes": {
-                "POSITION": 26,
-                "NORMAL": 27,
-                "TEXCOORD_0": 28,
-                "TEXCOORD_1": 29
-            },
-            "indices": 25,
-            "material": 0
-        }],
-        "name": "SheenChair_back-buttons"
-    }, {
-        "primitives": [{
-            "attributes": {
-                "POSITION": 31,
-                "NORMAL": 32,
-                "TEXCOORD_0": 33,
-                "TEXCOORD_1": 34
-            },
-            "indices": 30,
-            "material": 1
-        }],
-        "name": "SheenChair_legs-frame"
-    }, {
-        "primitives": [{
-            "attributes": {
-                "POSITION": 36,
-                "NORMAL": 37,
-                "TEXCOORD_0": 38,
-                "TEXCOORD_1": 39
-            },
-            "indices": 35,
-            "material": 2
-        }],
-        "name": "SheenChair_legs-hardware"
-    }, {
-        "primitives": [{
-            "attributes": {
-                "POSITION": 41,
-                "NORMAL": 42,
-                "TEXCOORD_0": 43,
-                "TEXCOORD_1": 44
-            },
-            "indices": 40,
-            "material": 1
-        }],
-        "name": "SheenChair_seat-panel"
-    }, {
-        "primitives": [{
-            "attributes": {
-                "POSITION": 46,
-                "NORMAL": 47,
-                "TEXCOORD_0": 48,
-                "TEXCOORD_1": 49
-            },
-            "indices": 45,
-            "material": 1
-        }],
-        "name": "SheenChair_back-panel"
-    }, {
-        "primitives": [{
-            "attributes": {
-                "POSITION": 51,
-                "NORMAL": 52,
-                "TEXCOORD_0": 53,
-                "TEXCOORD_1": 54
-            },
-            "indices": 50,
-            "material": 3
-        }],
-        "name": "SheenChair_seat-label"
-    }],
-    "accessors": [{
-        "bufferView": 0,
-        "componentType": 5123,
-        "count": 36288,
-        "type": "SCALAR",
-        "name": "accessorIndices"
-    }, {
-        "bufferView": 1,
-        "componentType": 5126,
-        "count": 6507,
-        "max": [0.412535548, 0.38491255, 0.293540359],
-        "min": [-0.414022356, 0.229452133, -0.185218364],
-        "type": "VEC3",
-        "name": "accessorPositions"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 78084,
-        "componentType": 5126,
-        "count": 6507,
-        "type": "VEC3",
-        "name": "accessorNormals"
-    }, {
-        "bufferView": 2,
-        "componentType": 5126,
-        "count": 6507,
-        "type": "VEC2",
-        "name": "accessorUVs"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 52056,
-        "componentType": 5126,
-        "count": 6507,
-        "type": "VEC2",
-        "name": "accessorUV2s"
-    }, {
-        "bufferView": 0,
-        "byteOffset": 72576,
-        "componentType": 5123,
-        "count": 18048,
-        "type": "SCALAR",
-        "name": "accessorIndices"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 156168,
-        "componentType": 5126,
-        "count": 3285,
-        "max": [0.3483423, 0.6861773, -0.106615238],
-        "min": [-0.3483423, 0.445931971, -0.275398254],
-        "type": "VEC3",
-        "name": "accessorPositions"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 195588,
-        "componentType": 5126,
-        "count": 3285,
-        "type": "VEC3",
-        "name": "accessorNormals"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 104112,
-        "componentType": 5126,
-        "count": 3285,
-        "type": "VEC2",
-        "name": "accessorUVs"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 130392,
-        "componentType": 5126,
-        "count": 3285,
-        "type": "VEC2",
-        "name": "accessorUV2s"
-    }, {
-        "bufferView": 0,
-        "byteOffset": 108672,
-        "componentType": 5123,
-        "count": 9216,
-        "type": "SCALAR",
-        "name": "accessorIndices"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 235008,
-        "componentType": 5126,
-        "count": 1649,
-        "max": [0.332597345, 0.64261353, -0.19498767],
-        "min": [-0.332597375, 0.462867618, -0.276725143],
-        "type": "VEC3",
-        "name": "accessorPositions"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 254796,
-        "componentType": 5126,
-        "count": 1649,
-        "type": "VEC3",
-        "name": "accessorNormals"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 156672,
-        "componentType": 5126,
-        "count": 1649,
-        "type": "VEC2",
-        "name": "accessorUVs"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 169864,
-        "componentType": 5126,
-        "count": 1649,
-        "type": "VEC2",
-        "name": "accessorUV2s"
-    }, {
-        "bufferView": 0,
-        "byteOffset": 127104,
-        "componentType": 5123,
-        "count": 9216,
-        "type": "SCALAR",
-        "name": "accessorIndices"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 274584,
-        "componentType": 5126,
-        "count": 1649,
-        "max": [0.393490672, 0.294263065, 0.268929422],
-        "min": [-0.3948167, 0.2265739, -0.1528117],
-        "type": "VEC3",
-        "name": "accessorPositions"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 294372,
-        "componentType": 5126,
-        "count": 1649,
-        "type": "VEC3",
-        "name": "accessorNormals"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 183056,
-        "componentType": 5126,
-        "count": 1649,
-        "type": "VEC2",
-        "name": "accessorUVs"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 196248,
-        "componentType": 5126,
-        "count": 1649,
-        "type": "VEC2",
-        "name": "accessorUV2s"
-    }, {
-        "bufferView": 0,
-        "byteOffset": 145536,
-        "componentType": 5123,
-        "count": 4800,
-        "type": "SCALAR",
-        "name": "accessorIndices"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 314160,
-        "componentType": 5126,
-        "count": 1050,
-        "max": [0.3019131, 0.3621235, 0.177325651],
-        "min": [-0.303165078, 0.323800057, -0.08488091],
-        "type": "VEC3",
-        "name": "accessorPositions"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 326760,
-        "componentType": 5126,
-        "count": 1050,
-        "type": "VEC3",
-        "name": "accessorNormals"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 209440,
-        "componentType": 5126,
-        "count": 1050,
-        "type": "VEC2",
-        "name": "accessorUVs"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 217840,
-        "componentType": 5126,
-        "count": 1050,
-        "type": "VEC2",
-        "name": "accessorUV2s"
-    }, {
-        "bufferView": 0,
-        "byteOffset": 155136,
-        "componentType": 5123,
-        "count": 960,
-        "type": "SCALAR",
-        "name": "accessorIndices"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 339360,
-        "componentType": 5126,
-        "count": 210,
-        "max": [0.151866376, 0.5824146, -0.1450788],
-        "min": [-0.151907548, 0.566547, -0.1549894],
-        "type": "VEC3",
-        "name": "accessorPositions"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 341880,
-        "componentType": 5126,
-        "count": 210,
-        "type": "VEC3",
-        "name": "accessorNormals"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 226240,
-        "componentType": 5126,
-        "count": 210,
-        "type": "VEC2",
-        "name": "accessorUVs"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 227920,
-        "componentType": 5126,
-        "count": 210,
-        "type": "VEC2",
-        "name": "accessorUV2s"
-    }, {
-        "bufferView": 0,
-        "byteOffset": 157056,
-        "componentType": 5123,
-        "count": 17280,
-        "type": "SCALAR",
-        "name": "accessorIndices"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 344400,
-        "componentType": 5126,
-        "count": 3252,
-        "max": [0.343869984, 0.5170473, 0.224805474],
-        "min": [-0.3438699, 0.00514845131, -0.2356262],
-        "type": "VEC3",
-        "name": "accessorPositions"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 383424,
-        "componentType": 5126,
-        "count": 3252,
-        "type": "VEC3",
-        "name": "accessorNormals"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 229600,
-        "componentType": 5126,
-        "count": 3252,
-        "type": "VEC2",
-        "name": "accessorUVs"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 255616,
-        "componentType": 5126,
-        "count": 3252,
-        "type": "VEC2",
-        "name": "accessorUV2s"
-    }, {
-        "bufferView": 0,
-        "byteOffset": 191616,
-        "componentType": 5123,
-        "count": 11520,
-        "type": "SCALAR",
-        "name": "accessorIndices"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 422448,
-        "componentType": 5126,
-        "count": 2520,
-        "max": [0.339951217, 0.5014813, 0.22082296],
-        "min": [-0.339951217, -6.977785E-05, -0.239334568],
-        "type": "VEC3",
-        "name": "accessorPositions"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 452688,
-        "componentType": 5126,
-        "count": 2520,
-        "type": "VEC3",
-        "name": "accessorNormals"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 281632,
-        "componentType": 5126,
-        "count": 2520,
-        "type": "VEC2",
-        "name": "accessorUVs"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 301792,
-        "componentType": 5126,
-        "count": 2520,
-        "type": "VEC2",
-        "name": "accessorUV2s"
-    }, {
-        "bufferView": 0,
-        "byteOffset": 214656,
-        "componentType": 5123,
-        "count": 5376,
-        "type": "SCALAR",
-        "name": "accessorIndices"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 482928,
-        "componentType": 5126,
-        "count": 961,
-        "max": [0.391035438, 0.0462863445, 0.207841784],
-        "min": [-0.391035467, 0.00421718461, -0.209373519],
-        "type": "VEC3",
-        "name": "accessorPositions"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 494460,
-        "componentType": 5126,
-        "count": 961,
-        "type": "VEC3",
-        "name": "accessorNormals"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 321952,
-        "componentType": 5126,
-        "count": 961,
-        "type": "VEC2",
-        "name": "accessorUVs"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 329640,
-        "componentType": 5126,
-        "count": 961,
-        "type": "VEC2",
-        "name": "accessorUV2s"
-    }, {
-        "bufferView": 0,
-        "byteOffset": 225408,
-        "componentType": 5123,
-        "count": 6720,
-        "type": "SCALAR",
-        "name": "accessorIndices"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 505992,
-        "componentType": 5126,
-        "count": 1295,
-        "max": [0.3303861, 0.640484333, -0.19720912],
-        "min": [-0.3303861, 0.4650248, -0.275435239],
-        "type": "VEC3",
-        "name": "accessorPositions"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 521532,
-        "componentType": 5126,
-        "count": 1295,
-        "type": "VEC3",
-        "name": "accessorNormals"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 337328,
-        "componentType": 5126,
-        "count": 1295,
-        "type": "VEC2",
-        "name": "accessorUVs"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 347688,
-        "componentType": 5126,
-        "count": 1295,
-        "type": "VEC2",
-        "name": "accessorUV2s"
-    }, {
-        "bufferView": 0,
-        "byteOffset": 238848,
-        "componentType": 5123,
-        "count": 384,
-        "type": "SCALAR",
-        "name": "accessorIndices"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 537072,
-        "componentType": 5126,
-        "count": 81,
-        "max": [0.136181861, 0.0100558968, 0.0467727147],
-        "min": [-0.135885492, 0.0058018514, -0.110709868],
-        "type": "VEC3",
-        "name": "accessorPositions"
-    }, {
-        "bufferView": 1,
-        "byteOffset": 538044,
-        "componentType": 5126,
-        "count": 81,
-        "type": "VEC3",
-        "name": "accessorNormals"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 358048,
-        "componentType": 5126,
-        "count": 81,
-        "type": "VEC2",
-        "name": "accessorUVs"
-    }, {
-        "bufferView": 2,
-        "byteOffset": 358696,
-        "componentType": 5126,
-        "count": 81,
-        "type": "VEC2",
-        "name": "accessorUV2s"
-    }],
-    "bufferViews": [{
-        "buffer": 0,
-        "byteLength": 239616,
-        "name": "bufferViewScalar"
-    }, {
-        "buffer": 0,
-        "byteOffset": 239616,
-        "byteLength": 539016,
-        "byteStride": 12,
-        "name": "bufferViewFloatVec3"
-    }, {
-        "buffer": 0,
-        "byteOffset": 778632,
-        "byteLength": 359344,
-        "byteStride": 8,
-        "name": "bufferViewFloatVec2"
-    }],
-    "buffers": [{
-        "uri": "SheenChair.bin",
-        "byteLength": 1137976
-    }],
-    "materials": [{
-        "pbrMetallicRoughness": {
-            "baseColorFactor": [0.09803922, 0.0, 0.2, 1.0],
-            "baseColorTexture": {
-                "index": 2,
+            "normalTexture": {
+                "index": 0,
+                "scale": 0.6,
                 "extensions": {
                     "KHR_texture_transform": {
-                        "offset": [-1.0, 1.0],
-                        "scale": [3.0, 3.0],
+                        "offset": [
+                            -0.5,
+                            0.5
+                        ],
+                        "scale": [
+                            2.0,
+                            2.0
+                        ],
                         "texCoord": 0
                     }
                 }
             },
-            "roughnessFactor": 0.6
-        },
-        "normalTexture": {
-            "index": 0,
-            "extensions": {
-                "KHR_texture_transform": {
-                    "offset": [-1.0, 1.0],
-                    "scale": [3.0, 3.0],
-                    "texCoord": 0
-                }
-            }
-        },
-        "occlusionTexture": {
-            "index": 1,
-            "texCoord": 1,
-            "extensions": {
-                "KHR_texture_transform": {
-                    "offset": [0.0, 0.0],
-                    "scale": [1.0, 1.0],
-                    "texCoord": 1
-                }
-            }
-        },
-       "alphaMode": "OPAQUE",
-			"extensions": {
-				"KHR_materials_sheen": {
-					"sheenRoughnessFactor": 0.5,
-					"sheenColorFactor": [
-						1.0,
-						0.0,
-						0.75
-					]
-				}
-			},
-        "name": "SheenChair_fabric"
-    }, {
-        "pbrMetallicRoughness": {
-            "baseColorFactor": [0.247058824, 0.109803922, 0.03529412, 1.0],
-            "baseColorTexture": {
-                "index": 4,
+            "occlusionTexture": {
+                "index": 1,
+                "texCoord": 1,
                 "extensions": {
                     "KHR_texture_transform": {
-                        "offset": [-0.8635584, 1.12502563],
-                        "rotation": 0.08726647,
-                        "scale": [3.0, 3.0],
+                        "texCoord": 1
+                    }
+                }
+            },
+            "extensions": {
+                "KHR_materials_sheen": {
+                    "sheenColorFactor": [1.0, 0.329, 0.1],
+                    "sheenRoughnessFactor": 0.8
+                }
+            },
+            "name": "fabric Mystere Mango Velvet"
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.14,
+                    0.07,
+                    0.01,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 3,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "offset": [
+                                -0.8635584,
+                                1.12502563
+                            ],
+                            "rotation": 0.08726647,
+                            "scale": [
+                                3.0,
+                                3.0
+                            ],
+                            "texCoord": 0
+                        }
+                    }
+                },
+                "metallicRoughnessTexture": {
+                    "index": 4,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "offset": [
+                                -0.8635584,
+                                1.12502563
+                            ],
+                            "rotation": 0.08726647,
+                            "scale": [
+                                3.0,
+                                3.0
+                            ],
+                            "texCoord": 0
+                        }
+                    }
+                }
+            },
+            "occlusionTexture": {
+                "index": 1,
+                "texCoord": 1,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "texCoord": 1
+                    }
+                }
+            },
+            "name": "wood Brown"
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.28,
+                    0.26,
+                    0.23,
+                    1.0
+                ],
+                "roughnessFactor": 0.3
+            },
+            "occlusionTexture": {
+                "index": 1,
+                "texCoord": 1,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "texCoord": 1
+                    }
+                }
+            },
+            "name": "metal"
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 5,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "texCoord": 0
+                        }
+                    }
+                },
+                "metallicFactor": 0.0
+            },
+            "occlusionTexture": {
+                "index": 1,
+                "texCoord": 1,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "texCoord": 1
+                    }
+                }
+            },
+            "name": "label"
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.094,
+                    0.099,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 2,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "offset": [
+                                -3.0,
+                                3.0
+                            ],
+                            "scale": [
+                                7.0,
+                                7.0
+                            ],
+                            "texCoord": 0
+                        }
+                    }
+                },
+                "metallicFactor": 1.0,
+                "roughnessFactor": 0.8
+            },
+            "normalTexture": {
+                "index": 0,
+                "scale": 0.6,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "offset": [
+                            -0.5,
+                            0.5
+                        ],
+                        "scale": [
+                            2.0,
+                            2.0
+                        ],
                         "texCoord": 0
                     }
                 }
             },
-            "metallicRoughnessTexture": {
-                "index": 5,
+            "occlusionTexture": {
+                "index": 1,
+                "texCoord": 1,
                 "extensions": {
                     "KHR_texture_transform": {
-                        "offset": [-0.8635584, 1.12502563],
-                        "rotation": 0.08726647,
-                        "scale": [3.0, 3.0],
-                        "texCoord": 0
-                    }
-                }
-            }
-        },
-        "normalTexture": {
-            "index": 3,
-            "extensions": {
-                "KHR_texture_transform": {
-                    "offset": [-0.8635584, 1.12502563],
-                    "rotation": 0.08726647,
-                    "scale": [3.0, 3.0],
-                    "texCoord": 0
-                }
-            }
-        },
-        "occlusionTexture": {
-            "index": 1,
-            "texCoord": 1,
-            "extensions": {
-                "KHR_texture_transform": {
-                    "offset": [0.0, 0.0],
-                    "scale": [1.0, 1.0],
-                    "texCoord": 1
-                }
-            }
-        },
-        "name": "SheenChair_wood"
-    }, {
-        "pbrMetallicRoughness": {
-            "baseColorFactor": [0.2509804, 0.2509804, 0.2509804, 1.0],
-            "metallicRoughnessTexture": {
-                "index": 6,
-                "extensions": {
-                    "KHR_texture_transform": {
-                        "offset": [-2.5, 2.5],
-                        "scale": [6.0, 6.0],
-                        "texCoord": 0
-                    }
-                }
-            }
-        },
-        "occlusionTexture": {
-            "index": 1,
-            "texCoord": 1,
-            "extensions": {
-                "KHR_texture_transform": {
-                    "offset": [0.0, 0.0],
-                    "scale": [1.0, 1.0],
-                    "texCoord": 1
-                }
-            }
-        },
-        "name": "SheenChair_metal"
-    }, {
-        "pbrMetallicRoughness": {
-            "baseColorTexture": {
-                "index": 7,
-                "extensions": {
-                    "KHR_texture_transform": {
-                        "offset": [0.0, 0.0],
-                        "scale": [1.0, 1.0],
-                        "texCoord": 0
+                        "texCoord": 1
                     }
                 }
             },
-            "metallicFactor": 0.0
-        },
-        "occlusionTexture": {
-            "index": 1,
-            "texCoord": 1,
             "extensions": {
-                "KHR_texture_transform": {
-                    "offset": [0.0, 0.0],
-                    "scale": [1.0, 1.0],
-                    "texCoord": 1
+                "KHR_materials_sheen": {
+                    "sheenColorFactor": [0.013, 0.284, 0.298],
+                    "sheenRoughnessFactor": 0.8
                 }
-            }
+            },
+            "name": "fabric Mystere Peacock Velvet"
         },
-        "name": "SheenChair_label"
-    }],
-    "textures": [{
-        "sampler": 0,
-        "source": 0,
-        "name": "SheenChair_fabric_normal.png"
-    }, {
-        "sampler": 0,
-        "source": 1,
-        "name": "SheenChair_occlusion.jpg"
-    }, {
-        "sampler": 0,
-        "source": 2,
-        "name": "SheenChair_fabric_basecolor.jpg"
-    }, {
-        "sampler": 0,
-        "source": 3,
-        "name": "SheenChair_wood_normal.png"
-    }, {
-        "sampler": 0,
-        "source": 4,
-        "name": "SheenChair_wood_basecolor.jpg"
-    }, {
-        "sampler": 0,
-        "source": 5,
-        "name": "SheenChair_wood_roughness0.jpg"
-    }, {
-        "sampler": 0,
-        "source": 6,
-        "name": "SheenChair_metal_roughness255.jpg"
-    }, {
-        "sampler": 0,
-        "source": 7,
-        "name": "SheenChair_label_basecolor.jpg"
-    }],
-    "images": [{
-        "uri": "SheenChair_fabric_normal.png"
-    }, {
-        "uri": "SheenChair_occlusion.jpg"
-    }, {
-        "uri": "SheenChair_fabric_basecolor.jpg"
-    }, {
-        "uri": "SheenChair_wood_normal.png"
-    }, {
-        "uri": "SheenChair_wood_basecolor.jpg"
-    }, {
-        "uri": "SheenChair_wood_roughness0.jpg"
-    }, {
-        "uri": "SheenChair_metal_roughness255.jpg"
-    }, {
-        "uri": "SheenChair_label_basecolor.jpg"
-    }],
-    "samplers": [{
-        "magFilter": 9729,
-        "minFilter": 9987
-    }]
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.036,
+                    0.036,
+                    0.036,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 3,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "offset": [
+                                -0.8635584,
+                                1.12502563
+                            ],
+                            "rotation": 0.08726647,
+                            "scale": [
+                                3.0,
+                                3.0
+                            ],
+                            "texCoord": 0
+                        }
+                    }
+                },
+                "metallicRoughnessTexture": {
+                    "index": 6,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "offset": [
+                                -0.8635584,
+                                1.12502563
+                            ],
+                            "rotation": 0.08726647,
+                            "scale": [
+                                3.0,
+                                3.0
+                            ],
+                            "texCoord": 0
+                        }
+                    }
+                }
+            },
+            "occlusionTexture": {
+                "index": 1,
+                "texCoord": 1,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "texCoord": 1
+                    }
+                }
+            },
+            "name": "wood Black"
+        }
+  ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0,
+            "name": "chair_fabric_normal.png"
+        },
+        {
+            "sampler": 0,
+            "source": 1,
+            "name": "chair_occlusion.png"
+        },
+        {
+            "sampler": 0,
+            "source": 2,
+            "name": "chair_fabric_albedo.png"
+        },
+        {
+            "sampler": 0,
+            "source": 3,
+            "name": "chair_wood_albedo.png"
+        },
+        {
+            "sampler": 0,
+            "source": 4,
+            "name": "chair_woodbrown_roughnessmetallic.png"
+        },
+        {
+            "sampler": 0,
+            "source": 5,
+            "name": "chair_label.png"
+        },
+        {
+            "sampler": 0,
+            "source": 6,
+            "name": "chair_woodblack_roughnessmetallic.png"
+        }
+    ],
+    "images": [
+        {
+            "uri": "./chair_fabric_normal.png"
+        },
+        {
+            "uri": "./chair_occlusion.png"
+        },
+        {
+            "uri": "./chair_fabric_albedo.png"
+        },
+        {
+            "uri": "./chair_wood_albedo.png"
+        },
+        {
+            "uri": "./chair_woodbrown_roughnessmetallic.png"
+        },
+        {
+            "uri": "./chair_label.png"
+        },
+        {
+            "uri": "./chair_woodblack_roughnessmetallic.png"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ]
 }
