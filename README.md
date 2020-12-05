@@ -4,7 +4,7 @@
 
 # glTF Sample Models
 
-[![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Models/workflows/glTF%20Validation/badge.svg)](https://github.com/KhronosGroup/glTF-Sample-Models/actions)
+[![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Models/workflows/glTF%20Validation/badge.svg?branch=master)](https://github.com/KhronosGroup/glTF-Sample-Models/actions)
 
 - [glTF 1.0](1.0)
 - [glTF 2.0](2.0) - Click for full list.
