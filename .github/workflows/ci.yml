@@ -19,3 +19,10 @@ jobs:
     - name: Validate glTF samples
       run: |
         ./gltf_validator -r -a ./2.0/
+
+    - name: Upload Validation Reports
+      uses: actions/upload-artifact@v2
+      with:
+        name: validation-reports
+        path: |
+          **/*.report.json
