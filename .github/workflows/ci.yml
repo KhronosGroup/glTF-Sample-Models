@@ -1,4 +1,4 @@
-name: CI
+name: glTF Validation
 
 on: [push, pull_request]
 
