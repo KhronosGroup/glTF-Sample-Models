@@ -397,6 +397,14 @@
     }
   },
   {
+    "name": "SheenChair",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "SheenChair.gltf",
+      "glTF-Binary": "SheenChair.glb"
+    }
+  },
+  {
     "name": "SheenCloth",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
