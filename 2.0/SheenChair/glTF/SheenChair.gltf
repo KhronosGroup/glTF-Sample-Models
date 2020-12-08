@@ -4,15 +4,21 @@
         "generator": "babylon.js glTF exporter for 3dsmax 2020 v20201123.8, then manually edited to add Sheen and Variants"
     },
     "extensionsUsed": [
-        "KHR_texture_transform", "KHR_materials_sheen", "KHR_materials_variants"
+        "KHR_texture_transform",
+        "KHR_materials_sheen",
+        "KHR_materials_variants"
     ],
     "extensions": {
-      "KHR_materials_variants": {
-        "variants": [
-            {"name": "Mango Velvet"},
-            {"name": "Peacock Velvet"}
-          ]
-      }
+        "KHR_materials_variants": {
+            "variants": [
+                {
+                    "name": "Mango Velvet"
+                },
+                {
+                    "name": "Peacock Velvet"
+                }
+            ]
+        }
     },
     "extensionsRequired": [
         "KHR_texture_transform"
@@ -68,22 +74,22 @@
                         "TEXCOORD_1": 4
                     },
                     "extensions": {
-                      "KHR_materials_variants": {
-                        "mappings": [
-                          {
-                            "material": 0,
-                            "variants": [
-                              0
+                        "KHR_materials_variants": {
+                            "mappings": [
+                                {
+                                    "material": 0,
+                                    "variants": [
+                                        0
+                                    ]
+                                },
+                                {
+                                    "material": 4,
+                                    "variants": [
+                                        1
+                                    ]
+                                }
                             ]
-                          },
-                          {
-                            "material": 4,
-                            "variants": [
-                              1
-                            ]
-                          }
-                        ]
-                      }
+                        }
                     },
                     "indices": 0,
                     "material": 0
@@ -101,22 +107,22 @@
                         "TEXCOORD_1": 9
                     },
                     "extensions": {
-                      "KHR_materials_variants": {
-                        "mappings": [
-                          {
-                            "material": 1,
-                            "variants": [
-                              0
+                        "KHR_materials_variants": {
+                            "mappings": [
+                                {
+                                    "material": 1,
+                                    "variants": [
+                                        0
+                                    ]
+                                },
+                                {
+                                    "material": 5,
+                                    "variants": [
+                                        1
+                                    ]
+                                }
                             ]
-                          },
-                          {
-                            "material": 5,
-                            "variants": [
-                              1
-                            ]
-                          }
-                        ]
-                      }
+                        }
                     },
                     "indices": 5,
                     "material": 1
@@ -406,8 +412,8 @@
                         }
                     }
                 },
-            "metallicFactor": 0.0,
-            "roughnessFactor": 0.8
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.8
             },
             "normalTexture": {
                 "index": 0,
@@ -437,7 +443,11 @@
             },
             "extensions": {
                 "KHR_materials_sheen": {
-                    "sheenColorFactor": [1.0, 0.329, 0.1],
+                    "sheenColorFactor": [
+                        1.0,
+                        0.329,
+                        0.1
+                    ],
                     "sheenRoughnessFactor": 0.8
                 }
             },
@@ -596,7 +606,11 @@
             },
             "extensions": {
                 "KHR_materials_sheen": {
-                    "sheenColorFactor": [0.013, 0.284, 0.298],
+                    "sheenColorFactor": [
+                        0.013,
+                        0.284,
+                        0.298
+                    ],
                     "sheenRoughnessFactor": 0.8
                 }
             },
@@ -656,7 +670,7 @@
             },
             "name": "wood Black"
         }
-  ],
+    ],
     "textures": [
         {
             "sampler": 0,
