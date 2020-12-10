@@ -1268,8 +1268,7 @@
         {
             "buffer": 0,
             "byteOffset": 76032,
-            "byteLength": 1536,
-            "byteStride": 64
+            "byteLength": 1536
         },
         {
             "buffer": 0,

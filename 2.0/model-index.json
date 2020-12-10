@@ -397,6 +397,21 @@
     }
   },
   {
+    "name": "SheenChair",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "SheenChair.gltf",
+      "glTF-Binary": "SheenChair.glb"
+    }
+  },
+  {
+    "name": "SheenCloth",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "SheenCloth.gltf"
+    }
+  },
+  {
     "name": "SimpleMeshes",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -481,6 +496,14 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "TextureTransformTest.gltf"
+    }
+  },
+  {
+    "name": "ToyCar",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "ToyCar.gltf",
+      "glTF-Binary": "ToyCar.glb"
     }
   },
   {
