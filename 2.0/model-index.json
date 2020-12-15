@@ -298,6 +298,14 @@
     }
   },
   {
+    "name": "MaterialsVariantsShoe",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "MaterialsVariantsShoe.gltf",
+      "glTF-Binary": "MaterialsVariantsShoe.glb"
+    }
+  },
+  {
     "name": "MetalRoughSpheres",
     "screenshot": "screenshot/screenshot.png",
     "variants": {

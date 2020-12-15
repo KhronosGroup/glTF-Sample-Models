@@ -103,6 +103,7 @@ Models demonstrating features of extensions to the glTF specification. See glTF 
 
 | Model                              | Screenshot                                            | Description |
 |------------------------------------|-------------------------------------------------------|-------------|
+| [Materials Variants Shoe](MaterialsVariantsShoe) | ![](MaterialsVariantsShoe/screenshot/screenshot.jpg) | Shoe using [material variants](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_variants). |
 | [Sheen Chair](SheenChair)          | ![](SheenChair/screenshot/screenshot.jpg)             | Chair using [material variants](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_variants) and [sheen](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_sheen). |
 | [Sheen Cloth](SheenCloth)          | ![](SheenCloth/screenshot/screenshot.jpg)             | Fabric example using [sheen](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_sheen). |
 | [Toy Car](ToyCar)                  | ![](ToyCar/screenshot/screenshot.jpg)                 | Toy car example using [transmission](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_transmission), [clearcoat](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_clearcoat), and [sheen](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_sheen). |
