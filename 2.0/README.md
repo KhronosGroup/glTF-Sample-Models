@@ -39,6 +39,7 @@ Standard models demonstrating multiple features of the core specification.
 | [Box Interleaved](BoxInterleaved)             | ![](BoxInterleaved/screenshot/screenshot.png)    | Box example with interleaved position and normal attributes. |
 | [Box Textured](BoxTextured)                   | ![](BoxTextured/screenshot/screenshot.png)       | Box with one texture. Start with this to test textures. |
 | [Box Textured NPOT](BoxTexturedNonPowerOfTwo) | ![](BoxTexturedNonPowerOfTwo/screenshot/screenshot.png) | Box with a non-power-of-2 (NPOT) texture.  Not all implementations support NPOT textures. |
+| [Box With Spaces](Box%20With%20Spaces)        | ![](Box%20With%20Spaces/screenshot/screenshot.png) | Box with URI-encoded spaces in the texture names used by a simple PBR material. |
 | [Box Vertex Colors](BoxVertexColors)          | ![](BoxVertexColors/screenshot/screenshot.png)   | Box with vertex colors applied. |
 | [Cube](Cube)                                  | ![](Cube/screenshot/screenshot.jpg)              | A cube with non-smoothed faces. |
 | [Animated Cube](AnimatedCube)                 | ![](AnimatedCube/screenshot/screenshot.gif)      | Same as previous cube having a linear rotation animation. |
