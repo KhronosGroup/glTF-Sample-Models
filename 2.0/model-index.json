@@ -107,6 +107,13 @@
     }
   },
   {
+    "name": "Box With Spaces",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "Box With Spaces.gltf"
+    }
+  },
+  {
     "name": "BoxAnimated",
     "screenshot": "screenshot/screenshot.gif",
     "variants": {
