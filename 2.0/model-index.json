@@ -332,6 +332,13 @@
     }
   },
   {
+    "name": "MorphStressTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "MorphStressTest.gltf"
+    }
+  },
+  {
     "name": "MultiUVTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
