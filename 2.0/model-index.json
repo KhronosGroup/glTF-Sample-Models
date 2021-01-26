@@ -107,6 +107,13 @@
     }
   },
   {
+    "name": "Box With Spaces",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "Box With Spaces.gltf"
+    }
+  },
+  {
     "name": "BoxAnimated",
     "screenshot": "screenshot/screenshot.gif",
     "variants": {
@@ -311,6 +318,14 @@
     }
   },
   {
+    "name": "MaterialsVariantsShoe",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "MaterialsVariantsShoe.gltf",
+      "glTF-Binary": "MaterialsVariantsShoe.glb"
+    }
+  },
+  {
     "name": "MetalRoughSpheres",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -411,16 +426,25 @@
   },
   {
     "name": "SheenChair",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "gltf_sheen_damask.gltf"
+      "glTF": "SheenChair.gltf",
+      "glTF-Binary": "SheenChair.glb"
     }
   },
   {
-    "name": "SheenHighHeel",
+    "name": "SheenCloth",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "SheenHighHeel.gltf"
+      "glTF": "SheenCloth.gltf"
     }
+  },
+  {
+      "name": "SheenHighHeel",
+      "screenshot": "screenshot/screenshot.jpg",
+      "variants": {
+          "glTF": "SheenHighHeel.gltf"
+      }
   },
   {
     "name": "SimpleMeshes",
@@ -507,6 +531,14 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "TextureTransformTest.gltf"
+    }
+  },
+  {
+    "name": "ToyCar",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "ToyCar.gltf",
+      "glTF-Binary": "ToyCar.glb"
     }
   },
   {
