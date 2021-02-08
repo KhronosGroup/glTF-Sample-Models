@@ -33,9 +33,17 @@ Below: More reference photos of the real product.
 
 ![photo reference 2](screenshot/photo2.jpg)![photo reference 3](screenshot/photo3.jpg)
 
+## KHR_materials_variants
+
+The model in `\glTF` uses the extension [KHR_materials_variants](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_variants/README.md) to add two variants: one using emissive textures to simulate the lights being turned on, and another with the emissives disabled to simulate the lights being turned off. 
+
+![animated screenshot of variants](screenshot/screenshot_variants_on-off.gif)
+
+Above: Animated GIF showing variants "Lamp on" and "Lamp off".
+
 ## KHR_materials_transmission
 
-The models in `\glTF` and `\glTF-Binary` use the extension [KHR_materials_transmission](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_transmission/README.md) for the stained glass, the red embedded glass gems, and the amber hanging plastic beads to show colored translucency and specular reflection.
+The model in `\glTF` uses the extension [KHR_materials_transmission](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_transmission/README.md) for the stained glass, the red embedded glass gems, and the amber hanging plastic beads to show colored translucency and specular reflection.
 
 The stained glass material uses roughness to simulate the microfacet scattering of light through the thin surface, effectively blurring the transmitted light. Behind the glass you should be able to see blurry hints of opaque surfaces like the bright lamp bulbs and the dark hardware. 
 
@@ -49,7 +57,7 @@ Above: Animated GIF showing transmission enabled and disabled.
 
 ## KHR_materials_clearcoat
 
-The models in `\glTF` and `\glTF-Binary` use the extension [KHR_texture_clearcoat](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_clearcoat/README.md) on the multicolored stained glass to add smooth reflections on top of the glass. The glass material must be rough for `KHR_materials_transmission` to create microsurface refractions, so clearcoat restores shiny surface reflections to the smooth outer surfaces of the stained glass.
+The model in `\glTF` uses the extension [KHR_texture_clearcoat](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_clearcoat/README.md) on the multicolored stained glass to add smooth reflections on top of the glass. The glass material must be rough for `KHR_materials_transmission` to create microsurface refractions, so clearcoat restores shiny surface reflections to the smooth outer surfaces of the stained glass.
 
 The two textures for transmissionTexture and clearcoatTexture have been packed together into a single bitmap `FDLV3095_glass_transmission-clearcoat.png` using the red and green channels, to help optimize the asset. 
 
@@ -59,7 +67,7 @@ Above: Animated GIF showing clearcoat enabled and disabled.
 
 ## KHR_materials_translucency
 
-The model in the `\glTF-Translucency` folder uses the extension [KHR_materials_translucency](https://github.com/KhronosGroup/glTF/pull/1825) for the stained glass instead of `KHR_materials_transmission`. Translucency emulates the microfacet scattering of the light bulbs shining light through to the outside surface of the stained glass. 
+The model in `\glTF-Translucency` uses the extension [KHR_materials_translucency](https://github.com/KhronosGroup/glTF/pull/1825) for the stained glass instead of `KHR_materials_transmission`. Translucency emulates the microfacet scattering of the light bulbs shining light through to the outside surface of the stained glass. 
 
 `KHR_materials_transmission` remains on the red embedded glass gems and the amber hanging plastic beads to show colored translucency and specular reflection. `KHR_materials_ior` and `KHR_materials_volume` have been added to these materials to enable refraction. The red glass gems use IOR 1.52 and the amber plastic beads use IOR 1.46.
 
@@ -73,28 +81,19 @@ Clearcoat is not needed on the stained glass because translucency does not use s
 
 Above: Animated GIF showing translucency enabled and disabled.
 
-## KHR_materials_variants
-
-The model in the `\glTF-Variants` folder uses the extension [KHR_materials_variants](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_materials_variants/README.md) is used to add a variant with all the emissive textures disabled, to simulate the lights being turned off. The default variant has the emissive textures enabled, so the lights appear to be on by default.
-
-![animated screenshot of variants](screenshot/screenshot_variants_on-off.gif)
-
-Above: Animated GIF showing variants "Lamp on" and "Lamp off".
-
 ## KHR_textures_basisu
 
-The model in the `\glTF-KTX` folder uses [Basis Universal](https://github.com/KhronosGroup/KTX-Software) texture compression and the extension [KHR_texture_basisu](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_texture_basisu/) to compress from 27.9 MB down to 11.8 MB.
+The model in `\glTF-KTX` uses [Basis Universal](https://github.com/KhronosGroup/KTX-Software) texture compression and the extension [KHR_texture_basisu](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_texture_basisu/).
 
-[glTF-Transform](https://gltf-transform.donmccurdy.com/cli.html) was used to compress the original glTF with the commands:
+The PNG textures were first downsampled to decrease overall file size. Most of the textures were 2048x2048; they were downsized into five 2048x2048 PNG textures, seven 1024x1024 PNGs, five 512x512 PNGs, and two 256x256 PNGs. Then [glTF-Transform](https://gltf-transform.donmccurdy.com/cli.html) was used to compress the PNG textures into KTX using ETC1S compression, using the command:
 
 ```
-gltf-transform etc1s StainedGlassLamp.glb StainedGlassLamp_2.glb --slots "!{clearcoatNormalTexture,normalTexture}" --quality 255
-gltf-transform uastc StainedGlassLamp_2.glb StainedGlassLamp_ktx.glb
+gltf-transform etc1s StainedGlassLamp.gltf StainedGlassLamp_ktx.gltf --quality 255
 ```
 
 ![screenshots of png versus ktx](screenshot/screenshot_ktx.jpg)
 
-Above: (left) 27.9MB with all PNG textures, (right) 11.8MB with all KTX textures.
+Above left: 26.8 MB with all PNG textures (120.5 MB on GPU), above right: 6 MB with all KTX textures (5.5 MB on GPU)
 
 ## Path Traced Render Examples ##
 
@@ -110,12 +109,10 @@ Below: Path-traced render in Dassault Systèmes [Enterprise PBR Sample Renderer]
 
 ## Authoring Details ##
 
-The model was created with [Autodesk 3ds Max](https://www.autodesk.com/products/3ds-max/) and exported to glTF via the [Max2Babylon](https://github.com/BabylonJS/Exporters/tree/master/3ds%20Max) exporter. The glTF file was then edited manually in [Visual Studio Code](https://code.visualstudio.com) with the [glTF Tools](https://github.com/AnalyticalGraphicsInc/gltf-vscode) extension to add KHR extensions. 
+The model was created with [Autodesk 3ds Max](https://www.autodesk.com/products/3ds-max/) and exported to glTF via the [Max2Babylon](https://github.com/BabylonJS/Exporters/tree/master/3ds%20Max) exporter. The glTF file was then edited manually in [Visual Studio Code](https://code.visualstudio.com) with the [glTF Tools](https://github.com/AnalyticalGraphicsInc/gltf-vscode) extension to add KHR extensions. [glTF-Transform](https://gltf-transform.donmccurdy.com/cli.html) was used to compress the PNG textures into KTX using ETC1S compression. 
 
 The textures were created from photo reference, then augmented with procedural textures and hand-painted detail. The emissive textures were pre-rendered in 3ds Max using the V-Ray renderer and sphere lights, and the textures were hand-tuned to look better in Babylon.js. Because the emissives do not represent physically-accurate lighting, they can only simulate diffuse lighting not reflection/refraction, so the pure-metal and plastic-bead materials do not have emissive textures.
 
-The asset passes [glTF Validation](http://github.khronos.org/glTF-Validator/) except the variants model has an UNSUPPORTED_EXTENSION warning and five UNUSED_OBJECT infos for `KHR_materials_variants` which is not yet supported by the validator. The KTX model also has several warnings for `KHR_textures_basisu` which is also not yet supported. The translucency model also has a validation warning for an unsupported `KHR_materials_translucency`.
-
 ## License Information
 
-(C) 2020, Wayfair LLC. CC-BY 4.0 International https://creativecommons.org/licenses/by/4.0/. 
+(C) 2021, Wayfair LLC. CC-BY 4.0 International https://creativecommons.org/licenses/by/4.0/. 

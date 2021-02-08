@@ -1,6 +1,6 @@
 {
   "asset": {
-    "generator": "glTF-Transform v0.8.4",
+    "generator": "(C) 2021, Wayfair LLC. License: CC BY 4.0 International. Generated with babylon.js glTF exporter for 3dsmax 2020 v20201223.2, then hand-edited with glTF Tools for VSCode to add extensions, then glTF-Transform v0.8.4 to compress to KTX with basisu ETC1S",
     "version": "2.0"
   },
   "accessors": [
@@ -759,72 +759,91 @@
   ],
   "images": [
     {
-      "uri": "StainedGlassLamp_ktx_img0.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_grill_normal.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img1.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_grill_occlusion-rough-metal.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img2.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_grill_emissive.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img3.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_grill_basecolor-alpha.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img4.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_steel_occlusion-rough-metal.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img5.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_hardware_normal.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img6.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_hardware_occlusion-rough-metal.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img7.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_hardware_emissive.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img8.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_hardware_basecolor.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img9.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_base_normal.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img10.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_base_occlusion-rough-metal.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img11.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_base_emissive.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img12.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_base_basecolor.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img13.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_glass_normal.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img14.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_glass_occlusion-rough-metal.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img15.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_glass_emissive.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img16.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_glass_basecolor-alpha.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img17.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_bulbs_occlusion-rough-metal.ktx2"
     },
     {
-      "uri": "StainedGlassLamp_ktx_img18.ktx2"
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_glass_transmission-clearcoat.ktx2"
     }
   ],
   "buffers": [
     {
-      "uri": "StainedGlassLamp_ktx_data.bin",
+      "uri": "StainedGlassLamp.bin",
       "byteLength": 1545632
     }
   ],
   "materials": [
     {
-      "name": "FDLV3095_grill",
+      "name": "StainedGlassLamp_grill",
       "alphaMode": "MASK",
       "alphaCutoff": 0.5,
       "doubleSided": false,
@@ -866,7 +885,7 @@
       }
     },
     {
-      "name": "FDLV3095_steel",
+      "name": "StainedGlassLamp_steel",
       "alphaMode": "OPAQUE",
       "doubleSided": false,
       "pbrMetallicRoughness": {
@@ -890,7 +909,7 @@
       }
     },
     {
-      "name": "FDLV3095_beads",
+      "name": "StainedGlassLamp_beads",
       "alphaMode": "OPAQUE",
       "doubleSided": false,
       "pbrMetallicRoughness": {
@@ -900,7 +919,7 @@
           0,
           1
         ],
-        "roughnessFactor": 0.2,
+        "roughnessFactor": 0.1,
         "metallicFactor": 0
       },
       "emissiveFactor": [
@@ -915,7 +934,7 @@
       }
     },
     {
-      "name": "FDLV3095_gems",
+      "name": "StainedGlassLamp_gems",
       "alphaMode": "OPAQUE",
       "doubleSided": false,
       "pbrMetallicRoughness": {
@@ -925,7 +944,7 @@
           0,
           1
         ],
-        "roughnessFactor": 0.25,
+        "roughnessFactor": 0.1,
         "metallicFactor": 0
       },
       "emissiveFactor": [
@@ -940,7 +959,7 @@
       }
     },
     {
-      "name": "FDLV3095_hardware",
+      "name": "StainedGlassLamp_hardware",
       "alphaMode": "OPAQUE",
       "doubleSided": false,
       "pbrMetallicRoughness": {
@@ -981,7 +1000,7 @@
       }
     },
     {
-      "name": "FDLV3095_base",
+      "name": "StainedGlassLamp_base",
       "alphaMode": "OPAQUE",
       "doubleSided": false,
       "pbrMetallicRoughness": {
@@ -1022,7 +1041,7 @@
       }
     },
     {
-      "name": "FDLV3095_glass",
+      "name": "StainedGlassLamp_glass",
       "alphaMode": "MASK",
       "alphaCutoff": 0.5,
       "doubleSided": false,
@@ -1084,7 +1103,7 @@
       }
     },
     {
-      "name": "FDLV3095_bulbs",
+      "name": "StainedGlassLamp_bulbs",
       "alphaMode": "OPAQUE",
       "doubleSided": false,
       "pbrMetallicRoughness": {
@@ -1114,7 +1133,7 @@
   ],
   "meshes": [
     {
-      "name": "FDLV3095_grill",
+      "name": "StainedGlassLamp_grill",
       "primitives": [
         {
           "attributes": {
@@ -1129,7 +1148,7 @@
       ]
     },
     {
-      "name": "FDLV3095_steel",
+      "name": "StainedGlassLamp_steel",
       "primitives": [
         {
           "attributes": {
@@ -1144,7 +1163,7 @@
       ]
     },
     {
-      "name": "FDLV3095_beads",
+      "name": "StainedGlassLamp_beads",
       "primitives": [
         {
           "attributes": {
@@ -1158,7 +1177,7 @@
       ]
     },
     {
-      "name": "FDLV3095_gems",
+      "name": "StainedGlassLamp_gems",
       "primitives": [
         {
           "attributes": {
@@ -1172,7 +1191,7 @@
       ]
     },
     {
-      "name": "FDLV3095_hardware",
+      "name": "StainedGlassLamp_hardware",
       "primitives": [
         {
           "attributes": {
@@ -1187,7 +1206,7 @@
       ]
     },
     {
-      "name": "FDLV3095_base",
+      "name": "StainedGlassLamp_base",
       "primitives": [
         {
           "attributes": {
@@ -1202,7 +1221,7 @@
       ]
     },
     {
-      "name": "FDLV3095_glass",
+      "name": "StainedGlassLamp_glass",
       "primitives": [
         {
           "attributes": {
@@ -1217,7 +1236,7 @@
       ]
     },
     {
-      "name": "FDLV3095_bulbs",
+      "name": "StainedGlassLamp_bulbs",
       "primitives": [
         {
           "attributes": {
@@ -1234,7 +1253,7 @@
   ],
   "nodes": [
     {
-      "name": "FDLV3095_grill",
+      "name": "StainedGlassLamp_grill",
       "translation": [
         0,
         0,
@@ -1254,7 +1273,7 @@
       "mesh": 0
     },
     {
-      "name": "FDLV3095_steel",
+      "name": "StainedGlassLamp_steel",
       "translation": [
         0,
         0,
@@ -1274,7 +1293,7 @@
       "mesh": 1
     },
     {
-      "name": "FDLV3095_beads",
+      "name": "StainedGlassLamp_beads",
       "translation": [
         0,
         0,
@@ -1294,7 +1313,7 @@
       "mesh": 2
     },
     {
-      "name": "FDLV3095_gems",
+      "name": "StainedGlassLamp_gems",
       "translation": [
         0,
         0,
@@ -1314,7 +1333,7 @@
       "mesh": 3
     },
     {
-      "name": "FDLV3095_hardware",
+      "name": "StainedGlassLamp_hardware",
       "translation": [
         0,
         0,
@@ -1334,7 +1353,7 @@
       "mesh": 4
     },
     {
-      "name": "FDLV3095_base",
+      "name": "StainedGlassLamp_base",
       "translation": [
         0,
         0,
@@ -1354,7 +1373,7 @@
       "mesh": 5
     },
     {
-      "name": "FDLV3095_glass",
+      "name": "StainedGlassLamp_glass",
       "translation": [
         0,
         0,
@@ -1374,7 +1393,7 @@
       "mesh": 6
     },
     {
-      "name": "FDLV3095_bulbs",
+      "name": "StainedGlassLamp_bulbs",
       "translation": [
         0,
         0,
