@@ -490,6 +490,14 @@
     }
   },
   {
+    "name": "TextureEncodingTest",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "TextureEncodingTest.gltf",
+      "glTF-Binary": "TextureEncodingTest.glb"
+    }
+  },
+  {
     "name": "TextureSettingsTest",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
