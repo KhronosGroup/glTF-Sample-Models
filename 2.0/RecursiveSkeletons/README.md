@@ -22,7 +22,7 @@ Each skin attaches *the same mesh* to different lengths of the skeletons, so we 
 bound to multiple lengths of each skeleton.
 
 Using skinning in this way might be seen by some as _abusing_ the glTF format, but it's
-actually very useful in some circunstances, and can be used by game engines as a stress
+actually very useful in some circumstances, and can be used by game engines as a stress
 test on how to handle uncommon, -but valid- skinned meshes.
 
 ## Animations
