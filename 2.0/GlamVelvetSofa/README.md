@@ -23,7 +23,7 @@ The model uses several extensions:
 
 The use of real-world photographic reference is meant to help glTF developers with calibrating material features and renderer behavior, so we can more accurately represent e-commerce products. Additional photo reference is available [on the Wayfair website](https://www.wayfair.com/furniture/pdp/mercer41-frankie-velvet-86-recessed-arm-sofa-bed-mcrf6337.html).
 
-The official photos of the product are retouched to emphasize materials and finishes, a common practice in retail photography. This can make the materials difficult to reproduce in the glTF model, as it's tricky to isolate accurate base colors, roughness, specular color, etc. Sometimes a physical sample of the surface is difficult to obtain, and proscribing controlled photography is often onerous for manufacturers.
+The official photos of the product are retouched to emphasize materials and finishes, a common practice in retail photography. This can make the materials difficult to reproduce in the glTF model, as it's tricky to isolate accurate base colors, roughness, specular color, etc. Sometimes a physical sample of the surface is difficult to obtain, and prescribing controlled photography is often onerous for manufacturers.
 
 Fortunately, we can rely customer-uploaded photos on the Wayfair website to provide alternative material references. Although lighting can be poor, customer photos are usually minimally-processed which can offer a less-biased view of the surface materials. The ground truth is usually somewhere in the middle, since the official photography provides higher resolution and controlled lighting, while the customer imagery provides little or no retouching.
 
