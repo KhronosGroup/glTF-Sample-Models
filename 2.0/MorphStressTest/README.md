@@ -57,6 +57,11 @@ of whether they are active or not.  In this case, only the first N blocks will m
 and the remainder will be frozen the entire time.
 
 ---
+## Implementation Notes
+
+BabylonJS has shared some technical details of their "Infinite Morph Targets" implementation
+in [this YouTube video](https://www.youtube.com/watch?v=LBPRmGgU0PE).
+
 ## License Information
 
 Copyright 2021 Analytical Graphics, Inc.
