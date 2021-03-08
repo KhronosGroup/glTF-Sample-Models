@@ -1,0 +1,1394 @@
+{
+  "asset": {
+    "copyright": "(C) 2021, Wayfair LLC. License: CC BY 4.0 International",
+    "generator": "Generated with babylon.js glTF exporter for 3dsmax 2020 v20201223.2, hand-edited with glTF Tools for VSCode, KTX compressed with toktx and glTF-Transform",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "name": "accessorIndices",
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 2880,
+      "max": [
+        923
+      ],
+      "min": [
+        0
+      ],
+      "normalized": false,
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "name": "accessorIndices",
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 14760,
+      "max": [
+        8109
+      ],
+      "min": [
+        0
+      ],
+      "normalized": false,
+      "bufferView": 0,
+      "byteOffset": 5760
+    },
+    {
+      "name": "accessorIndices",
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 29820,
+      "max": [
+        25985
+      ],
+      "min": [
+        0
+      ],
+      "normalized": false,
+      "bufferView": 0,
+      "byteOffset": 35280
+    },
+    {
+      "name": "accessorIndices",
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 3168,
+      "max": [
+        593
+      ],
+      "min": [
+        0
+      ],
+      "normalized": false,
+      "bufferView": 0,
+      "byteOffset": 94920
+    },
+    {
+      "name": "accessorIndices",
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 26010,
+      "max": [
+        6859
+      ],
+      "min": [
+        0
+      ],
+      "normalized": false,
+      "bufferView": 0,
+      "byteOffset": 101256
+    },
+    {
+      "name": "accessorIndices",
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 14754,
+      "max": [
+        3398
+      ],
+      "min": [
+        0
+      ],
+      "normalized": false,
+      "bufferView": 0,
+      "byteOffset": 153276
+    },
+    {
+      "name": "accessorIndices",
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 10584,
+      "max": [
+        2403
+      ],
+      "min": [
+        0
+      ],
+      "normalized": false,
+      "bufferView": 0,
+      "byteOffset": 182784
+    },
+    {
+      "name": "accessorIndices",
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1032,
+      "max": [
+        230
+      ],
+      "min": [
+        0
+      ],
+      "normalized": false,
+      "bufferView": 0,
+      "byteOffset": 203952
+    },
+    {
+      "name": "accessorPositions",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 924,
+      "max": [
+        0.12187245488166809,
+        0.6357736587524414,
+        0.12160224467515945
+      ],
+      "min": [
+        -0.12204650044441223,
+        0.537143349647522,
+        -0.12187687307596207
+      ],
+      "normalized": false,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "name": "accessorNormals",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 924,
+      "max": [
+        0.9999678134918213,
+        1,
+        0.9995766282081604
+      ],
+      "min": [
+        -0.9999682903289795,
+        -1,
+        -0.9995765089988708
+      ],
+      "normalized": false,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "name": "accessorUVs",
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 924,
+      "max": [
+        0.9604799151420593,
+        0.9800000190734863
+      ],
+      "min": [
+        0.019999999552965164,
+        0.020000040531158447
+      ],
+      "normalized": false,
+      "bufferView": 1,
+      "byteOffset": 24
+    },
+    {
+      "name": "accessorPositions",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 8110,
+      "max": [
+        0.18624243140220642,
+        0.4542723596096039,
+        0.18624667823314667
+      ],
+      "min": [
+        -0.18610259890556335,
+        0.36798837780952454,
+        -0.1860683709383011
+      ],
+      "normalized": false,
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "name": "accessorNormals",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 8110,
+      "max": [
+        0.9999940395355225,
+        0.9866456389427185,
+        0.9999958276748657
+      ],
+      "min": [
+        -0.9999847412109375,
+        -0.9866421222686768,
+        -0.9999752640724182
+      ],
+      "normalized": false,
+      "bufferView": 2,
+      "byteOffset": 12
+    },
+    {
+      "name": "accessorUVs",
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 8110,
+      "max": [
+        1.9755258560180664,
+        0.9781280755996704
+      ],
+      "min": [
+        0.02843146026134491,
+        0.02372753620147705
+      ],
+      "normalized": false,
+      "bufferView": 2,
+      "byteOffset": 24
+    },
+    {
+      "name": "accessorPositions",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 25986,
+      "max": [
+        0.19147244095802307,
+        0.4155220687389374,
+        0.190018892288208
+      ],
+      "min": [
+        -0.19139601290225983,
+        0.37920859456062317,
+        -0.192233145236969
+      ],
+      "normalized": false,
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "name": "accessorNormals",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 25986,
+      "max": [
+        0.9998994469642639,
+        0.9553593993186951,
+        0.9999859929084778
+      ],
+      "min": [
+        -0.9998995065689087,
+        -0.9553542733192444,
+        -0.9999859929084778
+      ],
+      "normalized": false,
+      "bufferView": 3,
+      "byteOffset": 12
+    },
+    {
+      "name": "accessorPositions",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 594,
+      "max": [
+        0.2136460393667221,
+        0.46521544456481934,
+        0.21332627534866333
+      ],
+      "min": [
+        -0.21356236934661865,
+        0.26288965344429016,
+        -0.21336035430431366
+      ],
+      "normalized": false,
+      "bufferView": 4,
+      "byteOffset": 0
+    },
+    {
+      "name": "accessorNormals",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 594,
+      "max": [
+        0.9989618062973022,
+        0.9934245347976685,
+        0.9993316531181335
+      ],
+      "min": [
+        -0.9989616870880127,
+        -0.9934245944023132,
+        -0.9993314146995544
+      ],
+      "normalized": false,
+      "bufferView": 4,
+      "byteOffset": 12
+    },
+    {
+      "name": "accessorPositions",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 6860,
+      "max": [
+        0.19045424461364746,
+        0.6888952255249023,
+        0.1903558224439621
+      ],
+      "min": [
+        -0.19038373231887817,
+        0.225237175822258,
+        -0.1903638243675232
+      ],
+      "normalized": false,
+      "bufferView": 5,
+      "byteOffset": 0
+    },
+    {
+      "name": "accessorNormals",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 6860,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "normalized": false,
+      "bufferView": 5,
+      "byteOffset": 12
+    },
+    {
+      "name": "accessorUVs",
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 6860,
+      "max": [
+        0.9915416240692139,
+        0.9883118867874146
+      ],
+      "min": [
+        0.014286068268120289,
+        0.014064490795135498
+      ],
+      "normalized": false,
+      "bufferView": 5,
+      "byteOffset": 24
+    },
+    {
+      "name": "accessorPositions",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3399,
+      "max": [
+        0.08423550426959991,
+        0.41555678844451904,
+        0.0861719399690628
+      ],
+      "min": [
+        -0.0861719399690628,
+        0,
+        -0.08423550426959991
+      ],
+      "normalized": false,
+      "bufferView": 6,
+      "byteOffset": 0
+    },
+    {
+      "name": "accessorNormals",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3399,
+      "max": [
+        0.9991286993026733,
+        1,
+        0.999374508857727
+      ],
+      "min": [
+        -0.9993937611579895,
+        -1,
+        -0.9991618394851685
+      ],
+      "normalized": false,
+      "bufferView": 6,
+      "byteOffset": 12
+    },
+    {
+      "name": "accessorUVs",
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 3399,
+      "max": [
+        1.3876216411590576,
+        0.9800000190734863
+      ],
+      "min": [
+        0.019999999552965164,
+        0.03818464279174805
+      ],
+      "normalized": false,
+      "bufferView": 6,
+      "byteOffset": 24
+    },
+    {
+      "name": "accessorPositions",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2404,
+      "max": [
+        0.22124014794826508,
+        0.5995059609413147,
+        0.22096391022205353
+      ],
+      "min": [
+        -0.22129511833190918,
+        0.24802909791469574,
+        -0.22103607654571533
+      ],
+      "normalized": false,
+      "bufferView": 7,
+      "byteOffset": 0
+    },
+    {
+      "name": "accessorNormals",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2404,
+      "max": [
+        0.9997190833091736,
+        0.9917677640914917,
+        0.9997184872627258
+      ],
+      "min": [
+        -0.9997191429138184,
+        -1,
+        -0.9997184872627258
+      ],
+      "normalized": false,
+      "bufferView": 7,
+      "byteOffset": 12
+    },
+    {
+      "name": "accessorUVs",
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2404,
+      "max": [
+        0.9619383811950684,
+        0.9800000190734863
+      ],
+      "min": [
+        0.019999999552965164,
+        0.020000040531158447
+      ],
+      "normalized": false,
+      "bufferView": 7,
+      "byteOffset": 24
+    },
+    {
+      "name": "accessorPositions",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 231,
+      "max": [
+        0.043507032096385956,
+        0.5029491782188416,
+        0.1315072923898697
+      ],
+      "min": [
+        -0.04247421398758888,
+        0.27213960886001587,
+        -0.12916222214698792
+      ],
+      "normalized": false,
+      "bufferView": 8,
+      "byteOffset": 0
+    },
+    {
+      "name": "accessorNormals",
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 231,
+      "max": [
+        0.9904745817184448,
+        1,
+        0.9904746413230896
+      ],
+      "min": [
+        -0.9969694018363953,
+        -1,
+        -0.9986265897750854
+      ],
+      "normalized": false,
+      "bufferView": 8,
+      "byteOffset": 12
+    },
+    {
+      "name": "accessorUVs",
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 231,
+      "max": [
+        1.9616436958312988,
+        0.9800000190734863
+      ],
+      "min": [
+        0.019999999552965164,
+        0.020000040531158447
+      ],
+      "normalized": false,
+      "bufferView": 8,
+      "byteOffset": 24
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 206016,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 206016,
+      "byteLength": 29568,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 235584,
+      "byteLength": 259520,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 495104,
+      "byteLength": 623664,
+      "byteStride": 24,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1118768,
+      "byteLength": 14256,
+      "byteStride": 24,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1133024,
+      "byteLength": 219520,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1352544,
+      "byteLength": 108768,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1461312,
+      "byteLength": 76928,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1538240,
+      "byteLength": 7392,
+      "byteStride": 32,
+      "target": 34962
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 3
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 2
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 4
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 8
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 7
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 5
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 6
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 12
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 11
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 9
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 10
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 16
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 15
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 13
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 14
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 17
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_grill_normal.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_grill_occlusion-rough-metal.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_grill_emissive.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_grill_basecolor-alpha.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_steel_occlusion-rough-metal.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_hardware_normal.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_hardware_occlusion-rough-metal.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_hardware_emissive.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_hardware_basecolor.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_base_normal.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_base_occlusion-rough-metal.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_base_emissive.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_base_basecolor.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_glass_normal.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_glass_occlusion-rough-metal.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_glass_emissive.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_glass_basecolor-alpha.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "StainedGlassLamp_bulbs_occlusion-rough-metal.ktx2"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "StainedGlassLamp.bin",
+      "byteLength": 1545632
+    }
+  ],
+  "materials": [
+    {
+      "name": "StainedGlassLamp_grill",
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughnessFactor": 1,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 3,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.3
+      },
+      "occlusionTexture": {
+        "index": 3,
+        "texCoord": 0
+      }
+    },
+    {
+      "name": "StainedGlassLamp_steel",
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.95,
+          0.95,
+          0.95,
+          1
+        ],
+        "roughnessFactor": 0.1,
+        "metallicFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "occlusionTexture": {
+        "index": 4,
+        "texCoord": 0
+      }
+    },
+    {
+      "name": "StainedGlassLamp_beads",
+      "alphaMode": "BLEND",
+      "doubleSided": false,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0.4,
+          0,
+          0.75
+        ],
+        "roughnessFactor": 0.1,
+        "metallicFactor": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "StainedGlassLamp_gems",
+      "alphaMode": "BLEND",
+      "doubleSided": false,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0,
+          0,
+          0.75
+        ],
+        "roughnessFactor": 0.1,
+        "metallicFactor": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "StainedGlassLamp_hardware",
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughnessFactor": 1,
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 5,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 8,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 6,
+        "texCoord": 0
+      },
+      "normalTexture": {
+        "index": 7,
+        "texCoord": 0,
+        "scale": 0.3
+      },
+      "occlusionTexture": {
+        "index": 8,
+        "texCoord": 0
+      }
+    },
+    {
+      "name": "StainedGlassLamp_base",
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughnessFactor": 1,
+        "metallicFactor": 1,
+        "baseColorTexture": {
+          "index": 9,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 12,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 10,
+        "texCoord": 0
+      },
+      "normalTexture": {
+        "index": 11,
+        "texCoord": 0,
+        "scale": 0.3
+      },
+      "occlusionTexture": {
+        "index": 12,
+        "texCoord": 0
+      }
+    },
+    {
+      "name": "StainedGlassLamp_glass",
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.5,
+      "doubleSided": false,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughnessFactor": 1,
+        "metallicFactor": 1,
+        "baseColorTexture": {
+          "index": 13,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 16,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 14,
+        "texCoord": 0
+      },
+      "normalTexture": {
+        "index": 15,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 16,
+        "texCoord": 0
+      }
+    },
+    {
+      "name": "StainedGlassLamp_bulbs",
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "roughnessFactor": 1,
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 17,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "occlusionTexture": {
+        "index": 17,
+        "texCoord": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "StainedGlassLamp_grill",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        }
+      ]
+    },
+    {
+      "name": "StainedGlassLamp_steel",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 1
+        }
+      ]
+    },
+    {
+      "name": "StainedGlassLamp_beads",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 14,
+            "NORMAL": 15
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 2
+        }
+      ]
+    },
+    {
+      "name": "StainedGlassLamp_gems",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 16,
+            "NORMAL": 17
+          },
+          "mode": 4,
+          "material": 3,
+          "indices": 3
+        }
+      ]
+    },
+    {
+      "name": "StainedGlassLamp_hardware",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 18,
+            "NORMAL": 19,
+            "TEXCOORD_0": 20
+          },
+          "mode": 4,
+          "material": 4,
+          "indices": 4
+        }
+      ]
+    },
+    {
+      "name": "StainedGlassLamp_base",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21,
+            "NORMAL": 22,
+            "TEXCOORD_0": 23
+          },
+          "mode": 4,
+          "material": 5,
+          "indices": 5
+        }
+      ]
+    },
+    {
+      "name": "StainedGlassLamp_glass",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 24,
+            "NORMAL": 25,
+            "TEXCOORD_0": 26
+          },
+          "mode": 4,
+          "material": 6,
+          "indices": 6
+        }
+      ]
+    },
+    {
+      "name": "StainedGlassLamp_bulbs",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 27,
+            "NORMAL": 28,
+            "TEXCOORD_0": 29
+          },
+          "mode": 4,
+          "material": 7,
+          "indices": 7
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "StainedGlassLamp_grill",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "StainedGlassLamp_steel",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "StainedGlassLamp_beads",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 2
+    },
+    {
+      "name": "StainedGlassLamp_gems",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 3
+    },
+    {
+      "name": "StainedGlassLamp_hardware",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 4
+    },
+    {
+      "name": "StainedGlassLamp_base",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 5
+    },
+    {
+      "name": "StainedGlassLamp_glass",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 6
+    },
+    {
+      "name": "StainedGlassLamp_bulbs",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 7
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_texture_basisu"
+  ],
+  "extensionsRequired": [
+    "KHR_texture_basisu"
+  ]
+}

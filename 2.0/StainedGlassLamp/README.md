@@ -24,9 +24,9 @@ The use of real-world photographic reference is meant to help glTF developers wi
 
 ![photo reference next to screenshot](screenshot/photo_and_screenshot.jpg)
 
-Above: Photo of the real product (left) next to a screenshot of the glTF model (right).
+Above: photo of the real product (left) next to a screenshot of the glTF model (right).
 
-Below: More reference photos of the real product.
+Below: more reference photos of the real product.
 
 ![photo reference 2](screenshot/photo2.jpg)![photo reference 3](screenshot/photo3.jpg)
 
@@ -36,7 +36,7 @@ The model in `\glTF` uses the extension [KHR_materials_variants](https://github.
 
 ![animated screenshot of variants](screenshot/screenshot_variants_on-off.gif)
 
-Above: Animated GIF showing variants "Lamp on" and "Lamp off".
+Above: animated GIF showing variants "Lamp on" and "Lamp off".
 
 ## KHR_materials_transmission
 
@@ -50,7 +50,7 @@ The stained glass material uses alpha-as-coverge in alpha-test mode to cut out h
 
 ![animated screenshot of transmission](screenshot/screenshot_transmission_on-off.gif)
 
-Above: Animated GIF showing transmission enabled and disabled.
+Above: animated GIF showing transmission enabled and disabled.
 
 ## KHR_materials_clearcoat
 
@@ -60,31 +60,55 @@ The two textures for transmissionTexture and clearcoatTexture have been packed t
 
 ![animated screenshot of clearcoat](screenshot/screenshot_clearcoat_on-off.gif)
 
-Above: Animated GIF showing clearcoat enabled and disabled.
+Above: animated GIF showing clearcoat enabled and disabled.
 
 ## glTF-JPG-PNG
 
-The model in `\glTF-JPG-PNG` uses no extensions. Normal maps and baseColor with alpha were kept in PNG format, while the rest were converted into JPG. The textures were downsized from 2048x2048 to various sizes, based on importance and their size on the model. The JPGs were saved from Photoshop, using Baseline Optimized format and Quality 9. 
+The model in `\glTF-JPG-PNG` uses no extensions. Normal maps and baseColor with alpha were kept in PNG format, while the rest were converted into JPG. The textures were downsized from 2048x2048 to various sizes, based on importance and their size on the model. The JPGs were saved from Photoshop, using Baseline Optimized format and Quality 12. 
 
 The red embedded glass gems and the amber hanging plastic beads were set to Alpha Coverage in Blend mode, at 0.75. This approximates a transparent surface without requiring extensions. Real-world transparent surfaces often both reflect and transmit light, and completely clear glass transmits light from behind it but it is also very reflective. Alpha Coverage does not represent this behavior correctly, it simply controls the visibility of the surface; Alpha Coverage dims all surface characteristics at once. Partial alpha allows the Base Color and reflections to be partially seen, for a rough approximation of clear surfaces. This is better than no transparency at all but is not physically correct.
 
 ![screenshot of JPG-PNG model](screenshot/screenshot_jpg-png.jpg)
 
-Above: Screenshot from [\<model-viewer>](https://modelviewer.dev/examples/tester.html) of model with JPG and PNG textures.
+Above: screenshot from [Babylon.js](https://sandbox.babylonjs.com/) of model with JPG and PNG textures.
 
 ## KHR_textures_basisu
 
-The model in `\glTF-KTX` uses [Basis Universal](https://github.com/KhronosGroup/KTX-Software) texture compression and the extension [KHR_texture_basisu](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_texture_basisu/).
+The model in `\glTF-KTX-BasisU` uses [Basis Universal](https://github.com/KhronosGroup/KTX-Software) texture compression and the extension [KHR_texture_basisu](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_texture_basisu/).
 
-[glTF-Transform](https://gltf-transform.donmccurdy.com/cli.html) was used to compress the textures into KTX using ETC1S compression with the command:
+The aim was to achieve as close as possible the same visual quality as the original JPG/PNG textures, while compressing both file size and GPU memory size. The textures were compressed from PNG source into KTX2, using [toktx](https://github.com/KhronosGroup/KTX-Software) to apply a combination of compression settings. UASTC was used mostly for linear textures and ETCS1 mostly for sRGB textures. Normal map textures were compressed using higher quality (less postprocessing compression) to retain visual fidelity for specular. RGBA Textures were compressed using higher quality to avoid visual artifacts. 
 
+toktx compression settings:
 ```
-gltf-transform etc1s StainedGlassLamp.gltf StainedGlassLamp-ktx.gltf --quality 255
+set mipmap=--genmipmap
+set uastc=--uastc 4 --uastc_rdo_q 3.2 --uastc_rdo_d 65536 --zcmp 22
+set uastchq=--uastc 4 --uastc_rdo_q 0.05 --uastc_rdo_d 65536 --zcmp 22
+set etcs1=--bcmp --clevel 4 --qlevel 255
+set folder=
+toktx %mipmap% %etcs1%  ..\%folder%\StainedGlassLamp_base_basecolor.ktx2 StainedGlassLamp_base_basecolor.png
+toktx %mipmap% %etcs1%  ..\%folder%\StainedGlassLamp_base_emissive.ktx2 StainedGlassLamp_base_emissive.png
+toktx %mipmap% %uastc% ..\%folder%\StainedGlassLamp_glass_basecolor-alpha.ktx2 StainedGlassLamp_glass_basecolor-alpha.png
+toktx %mipmap% %uastc%  ..\%folder%\StainedGlassLamp_glass_emissive.ktx2 StainedGlassLamp_glass_emissive.png
+toktx %mipmap% %etcs1%  ..\%folder%\StainedGlassLamp_grill_basecolor-alpha.ktx2 StainedGlassLamp_grill_basecolor-alpha.png
+toktx %mipmap% %etcs1%  ..\%folder%\StainedGlassLamp_grill_emissive.ktx2 StainedGlassLamp_grill_emissive.png
+toktx %mipmap% %etcs1%  ..\%folder%\StainedGlassLamp_hardware_basecolor.ktx2 StainedGlassLamp_hardware_basecolor.png
+toktx %mipmap% %etcs1%  ..\%folder%\StainedGlassLamp_hardware_emissive.ktx2 StainedGlassLamp_hardware_emissive.png
+
+toktx %mipmap% %uastchq% --linear  ..\%folder%\StainedGlassLamp_base_normal.ktx2 StainedGlassLamp_base_normal.png
+toktx %mipmap% %uastchq% --linear  ..\%folder%\StainedGlassLamp_base_occlusion-rough-metal.ktx2 StainedGlassLamp_base_occlusion-rough-metal.png
+toktx %mipmap% %uastc% --linear  ..\%folder%\StainedGlassLamp_bulbs_occlusion-rough-metal.ktx2 StainedGlassLamp_bulbs_occlusion-rough-metal.png
+toktx %mipmap% %uastchq% --linear  ..\%folder%\StainedGlassLamp_glass_normal.ktx2 StainedGlassLamp_glass_normal.png
+toktx %mipmap% %uastc% --linear  ..\%folder%\StainedGlassLamp_glass_occlusion-rough-metal.ktx2 StainedGlassLamp_glass_occlusion-rough-metal.png
+toktx %mipmap% %uastchq% --linear  ..\%folder%\StainedGlassLamp_grill_normal.ktx2 StainedGlassLamp_grill_normal.png
+toktx %mipmap% %uastc% --linear  ..\%folder%\StainedGlassLamp_grill_occlusion-rough-metal.ktx2 StainedGlassLamp_grill_occlusion-rough-metal.png
+toktx %mipmap% %uastchq% --linear  ..\%folder%\StainedGlassLamp_hardware_normal.ktx2 StainedGlassLamp_hardware_normal.png
+toktx %mipmap% %uastc% --linear  ..\%folder%\StainedGlassLamp_hardware_occlusion-rough-metal.ktx2 StainedGlassLamp_hardware_occlusion-rough-metal.png
+toktx %mipmap% %uastc% --linear  ..\%folder%\StainedGlassLamp_steel_occlusion-rough-metal.ktx2 StainedGlassLamp_steel_occlusion-rough-metal.png
 ```
 
-![screenshots of png versus ktx](screenshot/screenshot_ktx.jpg)
+![screenshots of jpg/png versus ktx](screenshot/screenshot_ktx.jpg)
 
-Screenshots from [\<model-viewer>](https://modelviewer.dev/examples/tester.html): JPG and PNG textures (left), KTX textures (right).
+Above: screenshots from [\<model-viewer>](https://modelviewer.dev/examples/tester.html): JPG and PNG textures (left), KTX textures (right), with size information from [glTF-Transform](https://github.com/donmccurdy/glTF-Transform).
 
 ## Path Traced Render Examples ##
 
@@ -92,9 +116,9 @@ This model has been tested in a few other non-rasterized renderers, which often 
 
 ![model rendered in OSPRay Studio](screenshot/render_ospray.jpg)
 
-Above: Ray-traced render in Intel [OSPRay Studio](https://github.com/ospray/ospray_studio).
+Above: ray-traced render in Intel [OSPRay Studio](https://github.com/ospray/ospray_studio).
 
-Below: Path-traced render in Dassault Systèmes [Enterprise PBR Sample Renderer](https://github.com/DassaultSystemes-Technology/dspbr-pt).
+Below: path-traced render in Dassault Systèmes [Enterprise PBR Sample Renderer](https://github.com/DassaultSystemes-Technology/dspbr-pt).
 
 ![model rendered in OSPRay Studio](screenshot/render_enterprisepbr.jpg)
 

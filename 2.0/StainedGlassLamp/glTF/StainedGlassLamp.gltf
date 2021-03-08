@@ -1,7 +1,8 @@
 {
   "asset": {
     "version": "2.0",
-    "generator": "(C) 2021, Wayfair LLC. License: CC BY 4.0 International. Generated with babylon.js glTF exporter for 3dsmax 2020 v20201223.2, then hand-edited with glTF Tools for VSCode to add extensions"
+    "copyright": "(C) 2021, Wayfair LLC. License: CC BY 4.0 International",
+    "generator": "Generated with babylon.js glTF exporter for 3dsmax 2020 v20201223.2, then hand-edited with glTF Tools for VSCode to add extensions"
   },
   "extensionsUsed": [
     "KHR_materials_transmission",
