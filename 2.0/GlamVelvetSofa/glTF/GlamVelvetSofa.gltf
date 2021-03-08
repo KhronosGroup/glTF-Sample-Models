@@ -1,7 +1,8 @@
 {
     "asset": {
         "version": "2.0",
-        "generator": "(c) 2021 Wayfair, CC BY 4.0. Generated with babylon.js glTF exporter for 3dsmax 2020 v20210115.1, hand-edited in VSCade with glTF Tools extension."
+        "generator": "(c) 2021 Wayfair, CC BY 4.0.",
+        "copyright": "Generated with babylon.js glTF exporter for 3dsmax 2020 v20210115.1, hand-edited in VSCade with glTF Tools extension."
     },
     "extensionsUsed": [
         "KHR_texture_transform",
