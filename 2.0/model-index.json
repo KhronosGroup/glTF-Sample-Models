@@ -342,7 +342,8 @@
     "name": "MorphStressTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "MorphStressTest.gltf"
+      "glTF": "MorphStressTest.gltf",
+      "glTF-Binary": "MorphStressTest.glb"
     }
   },
   {
@@ -534,6 +535,14 @@
     "variants": {
       "glTF": "ToyCar.gltf",
       "glTF-Binary": "ToyCar.glb"
+    }
+  },
+  {
+    "name": "TransmissionRoughnessTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "TransmissionRoughnessTest.gltf",
+      "glTF-Binary": "TransmissionRoughnessTest.glb"
     }
   },
   {
