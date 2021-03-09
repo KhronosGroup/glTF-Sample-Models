@@ -64,7 +64,11 @@ Above: animated GIF showing clearcoat enabled and disabled.
 
 ## glTF-JPG-PNG
 
-The model in `\glTF-JPG-PNG` uses no extensions. Normal maps and baseColor with alpha were kept in PNG format, while the rest were converted into JPG. The textures were downsized from 2048x2048 to various sizes, based on importance and their size on the model. The JPGs were saved from Photoshop, using Baseline Optimized format and Quality 12. 
+The model in `\glTF-JPG-PNG` uses no extensions. 
+
+As many textures as possible were converted into JPG. The baseColor textures with alpha were kept in PNG format because texture-based transparency must be stored in the alpha channel of the baseColorTexture, and JPG does not support alpha.  
+
+Textures were downsized from 2048x2048 to various sizes, based on importance and their size on the model. The JPGs were saved from Photoshop, using Baseline Optimized format and Quality 12. 
 
 The red embedded glass gems and the amber hanging plastic beads were set to Alpha Coverage in Blend mode, at 0.75. This approximates a transparent surface without requiring extensions. Real-world transparent surfaces often both reflect and transmit light, and completely clear glass transmits light from behind it but it is also very reflective. Alpha Coverage does not represent this behavior correctly, it simply controls the visibility of the surface; Alpha Coverage dims all surface characteristics at once. Partial alpha allows the Base Color and reflections to be partially seen, for a rough approximation of clear surfaces. This is better than no transparency at all but is not physically correct.
 
