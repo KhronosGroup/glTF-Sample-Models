@@ -1,8 +1,8 @@
 {
     "asset": {
         "version": "2.0",
-        "generator": "Generated with babylon.js glTF exporter for 3dsmax 2020 v20210115.1, hand-edited in VSCade with glTF Tools extension.",
-        "copyright": "(c) 2021 Wayfair, CC BY 4.0."
+        "copyright": "(c) 2021 Wayfair, CC BY 4.0.",
+        "generator": "Created in 3ds Max, exported with babylon.js glTF exporter, and hand-edited in VSCode with glTF Tools"
     },
     "extensionsUsed": [
         "KHR_texture_transform",
@@ -366,13 +366,14 @@
                     1
                 ],
                 "metallicFactor": 0,
-                "roughnessFactor": 0.8
+                "roughnessFactor": 0.7
             },
             "normalTexture": {
                 "index": 1,
-                "scale": 1.5,
+                "scale": 0.5,
                 "extensions": {
                     "KHR_texture_transform": {
+                        "rotation": 0,
                         "scale": [
                             5,
                             5
@@ -412,13 +413,14 @@
                     1
                 ],
                 "metallicFactor": 0,
-                "roughnessFactor": 0.8
+                "roughnessFactor": 0.7
             },
             "normalTexture": {
                 "index": 1,
-                "scale": 3,
+                "scale": 0.75,
                 "extensions": {
                     "KHR_texture_transform": {
+                        "rotation": 0.36,
                         "scale": [
                             5,
                             5
@@ -462,9 +464,10 @@
             },
             "normalTexture": {
                 "index": 1,
-                "scale": 1.2,
+                "scale": 0.3,
                 "extensions": {
                     "KHR_texture_transform": {
+                        "rotation": 1.5,
                         "scale": [
                             5,
                             5
@@ -504,13 +507,14 @@
                     1
                 ],
                 "metallicFactor": 0,
-                "roughnessFactor": 0.55
+                "roughnessFactor": 0.5
             },
             "normalTexture": {
                 "index": 1,
-                "scale": 2,
+                "scale": 0.4,
                 "extensions": {
                     "KHR_texture_transform": {
+                        "rotation": 2,
                         "scale": [
                             5,
                             5
@@ -525,18 +529,18 @@
             "extensions": {
                 "KHR_materials_specular": {
                     "specularColorFactor": [
-                        0,
-                        0,
-                        0
+                        0.12,
+                        0.12,
+                        0.13
                     ]
                 },
                 "KHR_materials_sheen": {
                     "sheenColorFactor": [
-                        0.1,
-                        0.1,
-                        0.1
+                        0.12,
+                        0.12,
+                        0.13
                     ],
-                    "sheenRoughnessFactor": 0.4
+                    "sheenRoughnessFactor": 0.3
                 }
             }
         },
@@ -550,13 +554,14 @@
                     1
                 ],
                 "metallicFactor": 0,
-                "roughnessFactor": 0.5
+                "roughnessFactor": 0.75
             },
             "normalTexture": {
                 "index": 1,
-                "scale": 1,
+                "scale": 0.2,
                 "extensions": {
                     "KHR_texture_transform": {
+                        "rotation": 2.5,
                         "scale": [
                             5,
                             5
@@ -601,10 +606,10 @@
     ],
     "images": [
         {
-            "uri": "./GlamVelvetSofa_occlusion.png"
+            "uri": "GlamVelvetSofa_occlusion.png"
         },
         {
-            "uri": "./GlamVelvetSofa_normal.png"
+            "uri": "GlamVelvetSofa_normal.png"
         }
     ],
     "samplers": [
