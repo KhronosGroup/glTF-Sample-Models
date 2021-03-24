@@ -4,7 +4,7 @@
 
 ![screenshot](screenshot/screenshot_large.jpg)
 
-Above: screenshot from [Babylon.js](https://sandbox.babylonjs.com/)
+Above: screenshot from [glTF Sample Viewer](http://gltf.ux3d.io/)
 
 ## Description
 
@@ -24,7 +24,7 @@ The use of real-world photographic reference is meant to help glTF developers wi
 
 ![photo reference next to screenshot](screenshot/photo_and_screenshot.jpg)
 
-Above: photo of the real product (left) next to a screenshot of the glTF model (right).
+Above: photo of the real product (left) next to a path-traced render in Dassault Systèmes [Enterprise PBR Sample Renderer](https://github.com/DassaultSystemes-Technology/dspbr-pt).
 
 Below: more reference photos of the real product.
 
@@ -44,13 +44,16 @@ The model in `\glTF` uses the extension [KHR_materials_transmission](https://git
 
 The stained glass material uses roughness to simulate the microfacet scattering of light through the thin surface, effectively blurring the transmitted light. Behind the glass you should be able to see blurry hints of opaque surfaces like the bright lamp bulbs and the dark hardware. 
 
-`KHR_materials_transmission` does not accurately portray the refraction that should occur on the red and amber beads. This extension offers an incremental improvement over alpha-as-coverage for glass-like transparency, by coloring the transmitted light, and allowing accurate specular reflections. These surfaces could be further improved with future extensions [KHR_materials_ior](https://github.com/KhronosGroup/glTF/pull/1718) and [KHR_materials_volume](https://github.com/KhronosGroup/glTF/pull/1726). Transmission works fine for the stained glass because the glass is thin enough and rough enough that refraction would not be that obvious.
+![animated screenshot of transmission](screenshot/screenshot_transmission_rotation.gif)
 
-The stained glass material uses alpha-as-coverge in alpha-test mode to cut out holes where the red beads are present. This is meant to prevent the stained glass geometry from interfering with the transmission of the red beads.
+`KHR_materials_transmission` does not accurately portray the refraction that should occur on the red and amber beads. This extension offers an incremental improvement over alpha-as-coverage for glass-like transparency, by coloring the transmitted light and allowing accurate specular reflections. These surfaces could be further improved with future extensions [KHR_materials_ior](https://github.com/KhronosGroup/glTF/pull/1718) and [KHR_materials_volume](https://github.com/KhronosGroup/glTF/pull/1726). Transmission works well for the stained glass because the glass is thin enough and rough enough that refraction would not be that obvious.
+
+The stained glass material uses alpha-as-coverge in MASK mode to cut out holes where the red beads are present. This is meant to prevent the stained glass geometry from interfering with the transmission of the red beads. 
 
 ![animated screenshot of transmission](screenshot/screenshot_transmission_on-off.gif)
 
 Above: animated GIF showing transmission enabled and disabled.
+
 
 ## KHR_materials_clearcoat
 
@@ -64,11 +67,7 @@ Above: animated GIF showing clearcoat enabled and disabled.
 
 ## glTF-JPG-PNG
 
-The model in `\glTF-JPG-PNG` uses no extensions. 
-
-As many textures as possible were converted into JPG. The baseColor textures with alpha were kept in PNG format because texture-based transparency must be stored in the alpha channel of the baseColorTexture, and JPG does not support alpha.  
-
-Textures were downsized from 2048x2048 to various sizes, based on importance and their size on the model. The JPGs were saved from Photoshop, using Baseline Optimized format and Quality 12. 
+The model in `\glTF-JPG-PNG` uses no extensions, for the widest compatibility. Normal maps and baseColor with alpha were kept in PNG format, while the rest were converted into JPG. The textures were downsized from 2048x2048 to various sizes, based on importance and their size on the model. The JPGs were saved from Photoshop, using Baseline Optimized format and Quality 12. 
 
 The red embedded glass gems and the amber hanging plastic beads were set to Alpha Coverage in Blend mode, at 0.75. This approximates a transparent surface without requiring extensions. Real-world transparent surfaces often both reflect and transmit light, and completely clear glass transmits light from behind it but it is also very reflective. Alpha Coverage does not represent this behavior correctly, it simply controls the visibility of the surface; Alpha Coverage dims all surface characteristics at once. Partial alpha allows the Base Color and reflections to be partially seen, for a rough approximation of clear surfaces. This is better than no transparency at all but is not physically correct.
 
@@ -78,9 +77,11 @@ Above: screenshot from [Babylon.js](https://sandbox.babylonjs.com/) of model wit
 
 ## KHR_textures_basisu
 
-The model in `\glTF-KTX-BasisU` uses [Basis Universal](https://github.com/KhronosGroup/KTX-Software) texture compression and the extension [KHR_texture_basisu](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_texture_basisu/).
+The model in `\glTF-KTX-BasisU` uses [Basis Universal](https://github.com/KhronosGroup/KTX-Software) texture compression and the extension [KHR_texture_basisu](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/KHR_texture_basisu/). This model uses no other extensions. This was done to simplify the comparison, however KTX2 can certainly be used alongside other extensions if desired. 
 
-The aim was to achieve as close as possible the same visual quality as the original JPG/PNG textures, while compressing both file size and GPU memory size. The textures were compressed from PNG source into KTX2, using [toktx](https://github.com/KhronosGroup/KTX-Software) to apply a combination of compression settings. UASTC was used mostly for linear textures and ETCS1 mostly for sRGB textures. Normal map textures were compressed using higher quality (less postprocessing compression) to retain visual fidelity for specular. RGBA Textures were compressed using higher quality to avoid visual artifacts. 
+The aim was to achieve as close as possible the same visual quality as the original JPG/PNG textures, while compressing both file size and GPU memory size. 
+
+The textures were compressed from PNG source into KTX2 using [toktx](https://github.com/KhronosGroup/KTX-Software) via a combination of compression settings. UASTC was used for linear textures and ETCS1 mostly for sRGB textures, however exceptions were made based on analyzing results... the `glass_basecolor-alpha` and `glass_emissive` textures were changed from ETC1S to UASTC since these were prominently displayed on the model and contained a lot of color variation. 
 
 toktx compression settings:
 ```
@@ -112,7 +113,10 @@ toktx %mipmap% %uastc% --linear  ..\%folder%\StainedGlassLamp_steel_occlusion-ro
 
 ![screenshots of jpg/png versus ktx](screenshot/screenshot_ktx.jpg)
 
-Above: screenshots from [\<model-viewer>](https://modelviewer.dev/examples/tester.html): JPG and PNG textures (left), KTX textures (right), with size information from [glTF-Transform](https://github.com/donmccurdy/glTF-Transform).
+Above: screenshots from [\<model-viewer>](https://modelviewer.dev/examples/tester.html): JPG and PNG textures (left), KTX textures (right), with size information from [glTF-Transform](https://github.com/donmccurdy/glTF-Transform). Below: chart comparing the sizes.
+
+![chart comparing file and GPU sizes](screenshot/chart_jpg-ktx.jpg)
+
 
 ## Path Traced Render Examples ##
 
@@ -128,9 +132,9 @@ Below: path-traced render in Dassault Systèmes [Enterprise PBR Sample Renderer]
 
 ## Authoring Details ##
 
-The model was created with [3ds Max](https://www.autodesk.com/products/3ds-max/) and exported to glTF via the [Max2Babylon](https://github.com/BabylonJS/Exporters/tree/master/3ds%20Max) exporter. The glTF file was then edited manually in [Visual Studio Code](https://code.visualstudio.com) with the [glTF Tools](https://github.com/AnalyticalGraphicsInc/gltf-vscode) extension to add KHR extensions. [glTF-Transform](https://gltf-transform.donmccurdy.com/cli.html) was used to compress the PNG textures into KTX using ETC1S compression. 
+The model was created with [3ds Max](https://www.autodesk.com/products/3ds-max/) and exported to glTF via the [Max2Babylon](https://github.com/BabylonJS/Exporters/tree/master/3ds%20Max) exporter. The glTF file was then edited manually in [Visual Studio Code](https://code.visualstudio.com) with the [glTF Tools](https://github.com/AnalyticalGraphicsInc/gltf-vscode) extension to add KHR extensions. [KTX Software](https://gltf-transform.donmccurdy.com/cli.html) was used to compress the PNG textures into KTX using ETC1S compression. 
 
-The textures were created from photo reference, then augmented with procedural textures and hand-painted detail. The emissive textures were pre-rendered in 3ds Max using the V-Ray renderer and sphere lights, and the textures were hand-tuned to look better in Babylon.js. Because the emissives do not represent physically-accurate lighting, they can only simulate diffuse lighting not reflection/refraction, so the pure-metal and plastic-bead materials do not have emissive textures.
+The textures were created from photo reference, then augmented with procedural textures and hand-painted detail. The emissive textures were pre-rendered in 3ds Max using the V-Ray renderer and sphere lights, and the textures were hand-tuned to work with baseColor and transmission.
 
 ## License Information
 
