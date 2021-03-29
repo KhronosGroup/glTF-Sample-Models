@@ -342,7 +342,8 @@
     "name": "MorphStressTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "MorphStressTest.gltf"
+      "glTF": "MorphStressTest.gltf",
+      "glTF-Binary": "MorphStressTest.glb"
     }
   },
   {
@@ -565,6 +566,14 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "TwoSidedPlane.gltf"
+    }
+  },
+  {
+    "name": "UnicodeTest",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "model-\u2764\u267b-model.gltf",
+      "glTF-Binary": "model-\u2764\u267b-model.glb"
     }
   },
   {
