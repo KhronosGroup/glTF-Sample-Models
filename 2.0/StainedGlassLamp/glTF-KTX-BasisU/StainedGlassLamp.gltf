@@ -2,8 +2,14 @@
     "asset": {
         "version": "2.0",
         "copyright": "(C) 2021, Wayfair LLC. License: CC BY 4.0 International",
-        "generator": "Generated with 3ds Max, exported with babylon.js glTF exporter, hand-edited in VSCode with glTF Tools, compressed with toktx"
+        "generator": "Generated with 3ds Max, exported with babylon.js glTF exporter, hand-edited in VSCode with glTF Tools"
     },
+    "extensionsUsed": [
+        "KHR_texture_basisu"
+      ],
+      "extensionsRequired": [
+        "KHR_texture_basisu"
+      ],
     "scene": 0,
     "scenes": [
         {
@@ -693,97 +699,151 @@
     ],
     "textures": [
         {
-            "sampler": 0,
-            "source": 0,
-            "name": "StainedGlassLamp_grill_normal.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 0
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 1,
-            "name": "StainedGlassLamp_grill_occlusion-rough-metal.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 1
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 2,
-            "name": "StainedGlassLamp_grill_emissive.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 2
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 3,
-            "name": "StainedGlassLamp_grill_basecolor-alpha.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 3
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 4,
-            "name": "StainedGlassLamp_steel_occlusion.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 4
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 5,
-            "name": "StainedGlassLamp_hardware_normal.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 5
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 6,
-            "name": "StainedGlassLamp_hardware_occlusion-rough-metal.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 6
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 7,
-            "name": "StainedGlassLamp_hardware_emissive.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 7
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 8,
-            "name": "StainedGlassLamp_hardware_basecolor.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 8
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 9,
-            "name": "StainedGlassLamp_base_normal.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 9
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 10,
-            "name": "StainedGlassLamp_base_occlusion-rough-metal.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 10
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 11,
-            "name": "StainedGlassLamp_base_emissive.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 11
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 12,
-            "name": "StainedGlassLamp_base_basecolor.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 12
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 13,
-            "name": "StainedGlassLamp_bulbs_occlusion.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 13
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 14,
-            "name": "StainedGlassLamp_glass_normal.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 14
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 15,
-            "name": "StainedGlassLamp_glass_occlusion-rough-metal.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 15
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 16,
-            "name": "StainedGlassLamp_glass_emissive.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 16
+            }
+          }
         },
         {
-            "sampler": 0,
-            "source": 17,
-            "name": "StainedGlassLamp_glass_basecolor-alpha.ktx2"
+          "sampler": 0,
+          "extensions": {
+            "KHR_texture_basisu": {
+              "source": 17
+            }
+          }
         }
-    ],
-    "images": [
+      ],
+        "images": [
         {
             "uri": "StainedGlassLamp_grill_normal.ktx2"
         },
