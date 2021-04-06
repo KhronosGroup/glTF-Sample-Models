@@ -17,7 +17,7 @@
     ],
     "materials": [
         {
-            "name": "material-❤♻-material",
+            "name": "Unicode❤♻Material",
             "pbrMetallicRoughness": {
                 "baseColorFactor": [
                     1,
@@ -35,7 +35,7 @@
     ],
     "meshes": [
         {
-            "name": "mesh-❤♻-mesh",
+            "name": "Unicode❤♻Mesh",
             "primitives": [
                 {
                     "attributes": {
@@ -52,7 +52,7 @@
     ],
     "buffers": [
         {
-            "uri": "bin-❤♻-bin.bin",
+            "uri": "Unicode❤♻Binary.bin",
             "byteLength": 152
         }
     ],
@@ -120,7 +120,7 @@
     ],
     "images": [
         {
-            "uri": "tex-❤♻-tex.png"
+            "uri": "Unicode❤♻Texture.png"
         }
     ],
     "textures": [

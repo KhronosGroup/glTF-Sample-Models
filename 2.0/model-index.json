@@ -569,11 +569,11 @@
     }
   },
   {
-    "name": "UnicodeTest",
+    "name": "Unicode\u2764\u267bTest",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
-      "glTF": "model-\u2764\u267b-model.gltf",
-      "glTF-Binary": "model-\u2764\u267b-model.glb"
+      "glTF": "Unicode\u2764\u267bTest.gltf",
+      "glTF-Binary": "Unicode\u2764\u267bTest.glb"
     }
   },
   {
