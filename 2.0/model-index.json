@@ -241,6 +241,14 @@
     }
   },
   {
+    "name": "DragonAttenuation",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "DragonAttenuation.gltf",
+      "glTF-Binary": "DragonAttenuation.glb"
+    }
+  },
+  {
     "name": "Duck",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -342,7 +350,8 @@
     "name": "MorphStressTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "MorphStressTest.gltf"
+      "glTF": "MorphStressTest.gltf",
+      "glTF-Binary": "MorphStressTest.glb"
     }
   },
   {
