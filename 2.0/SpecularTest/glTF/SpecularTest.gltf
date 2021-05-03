@@ -306,7 +306,7 @@
             },
             "extensions": {
                 "KHR_materials_specular": {
-                    "specularFactor": 0.25
+                    "specularFactor": 0.051269
                 }
             }
         },
@@ -324,7 +324,7 @@
             },
             "extensions": {
                 "KHR_materials_specular": {
-                    "specularFactor": 0.5
+                    "specularFactor": 0.212231
                 }
             }
         },
@@ -342,7 +342,7 @@
             },
             "extensions": {
                 "KHR_materials_specular": {
-                    "specularFactor": 0.75
+                    "specularFactor": 0.520996
                 }
             }
         },
