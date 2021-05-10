@@ -1,0 +1,271 @@
+{
+    "asset": {
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                -1.5,
+                -1,
+                0
+            ],
+            "mesh": 0
+        },
+        {
+            "translation": [
+                1.5,
+                -1,
+                0
+            ],
+            "mesh": 1
+        },
+        {
+            "translation": [
+                -3,
+                0,
+                0
+            ],
+            "scale": [
+                6,
+                3,
+                1
+            ],
+            "mesh": 2
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "TEXCOORD_0": 5
+                    },
+                    "indices": 6,
+                    "material": 2
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "emissiveFactor": [
+                0,
+                0.5,
+                0
+            ],
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            }
+        },
+        {
+            "emissiveTexture": {
+                "index": 0
+            },
+            "emissiveFactor": [
+                1,
+                1,
+                1
+            ],
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            }
+        },
+        {
+            "alphaMode": "MASK",
+            "doubleSided": true,
+            "emissiveFactor": [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture": {
+                "index": 1
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1
+                }
+            }
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 205,
+            "max": [
+                1,
+                1,
+                0.9999999403953552
+            ],
+            "min": [
+                -0.9999999403953552,
+                -1,
+                -0.9999999403953552
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 205,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 205,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5123,
+            "count": 960,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                1,
+                1,
+                0
+            ],
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5123,
+            "count": 6,
+            "type": "SCALAR"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 2460,
+            "byteOffset": 0
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2460,
+            "byteOffset": 2460
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1640,
+            "byteOffset": 4920
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1920,
+            "byteOffset": 6560
+        },
+        {
+            "buffer": 1,
+            "byteLength": 48,
+            "byteOffset": 0
+        },
+        {
+            "buffer": 1,
+            "byteLength": 32,
+            "byteOffset": 48
+        },
+        {
+            "buffer": 1,
+            "byteLength": 12,
+            "byteOffset": 80
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 8480,
+            "uri": "Sphere.bin"
+        },
+        {
+            "byteLength": 92,
+            "uri": "Plane.bin"
+        }
+    ],
+    "images": [
+        {
+            "uri": "0_0_0-0_255_0.png"
+        },
+        {
+            "uri": "TestLabels.png"
+        }
+    ],
+    "samplers": [
+        {
+            "minFilter": 9729,
+            "magFilter": 9729
+        }
+    ]
+}
