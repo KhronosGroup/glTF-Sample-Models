@@ -394,9 +394,10 @@
   },
   {
     "name": "RecursiveSkeletons",
-    "screenshot": "screenshot/screenshot.png",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "RecursiveSkeletons.gltf"
+      "glTF": "RecursiveSkeletons.gltf",
+      "glTF-Binary": "RecursiveSkeletons.glb"
     }
   },
   {
@@ -482,6 +483,14 @@
     }
   },
   {
+    "name": "SpecularTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "SpecularTest.gltf",
+      "glTF-Binary": "SpecularTest.glb"
+    }
+  },
+  {
     "name": "Sponza",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
@@ -510,6 +519,14 @@
     "variants": {
       "glTF": "TextureEncodingTest.gltf",
       "glTF-Binary": "TextureEncodingTest.glb"
+    }
+  },
+  {
+    "name": "TextureLinearInterpolationTest",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "TextureLinearInterpolationTest.gltf",
+      "glTF-Binary": "TextureLinearInterpolationTest.glb"
     }
   },
   {

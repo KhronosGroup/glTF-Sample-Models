@@ -75,7 +75,9 @@ Models meant to easily illustrate and test specific features of the core specifi
 | [Normal Tangent Test](NormalTangentTest)              | ![](NormalTangentTest/screenshot/screenshot.png)              | Tests an engine's ability to automatically generate tangent vectors for a normal map. |
 | [Normal Tangent Mirror Test](NormalTangentMirrorTest) | ![](NormalTangentMirrorTest/screenshot/screenshot.png)        | Tests an engine's ability to load supplied tangent vectors for a normal map. |
 | [Orientation Test](OrientationTest)                   | ![](OrientationTest/screenshot/screenshot.png)                | Tests node translations and rotations. |
+| [Recursive Skeletons](RecursiveSkeletons)             | ![](RecursiveSkeletons/screenshot/screenshot.jpg)             | Tests unusual skinning cases with reused meshes and recursive skeletons. |
 | [Texture Coordinate Test](TextureCoordinateTest)      | ![](TextureCoordinateTest/screenshot/screenshot.png)          | Shows how XYZ and UV positions relate to displayed geometry. |
+| [Texture Linear Interpolation Test](TextureLinearInterpolationTest) | ![](TextureLinearInterpolationTest/screenshot/screenshot.png) | Tests that linear texture interpolation is performed on linear values, i.e. after sRGB decoding. |
 | [Texture Settings Test](TextureSettingsTest)          | ![](TextureSettingsTest/screenshot/screenshot.png)            | Tests single/double-sided and various texturing modes. |
 | [Vertex Color Test](VertexColorTest)                  | ![](VertexColorTest/screenshot/screenshot.png)                | Tests if vertex colors are supported. |
 
