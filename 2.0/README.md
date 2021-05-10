@@ -75,7 +75,9 @@ Models meant to easily illustrate and test specific features of the core specifi
 | [Normal Tangent Test](NormalTangentTest)              | ![](NormalTangentTest/screenshot/screenshot.png)              | Tests an engine's ability to automatically generate tangent vectors for a normal map. |
 | [Normal Tangent Mirror Test](NormalTangentMirrorTest) | ![](NormalTangentMirrorTest/screenshot/screenshot.png)        | Tests an engine's ability to load supplied tangent vectors for a normal map. |
 | [Orientation Test](OrientationTest)                   | ![](OrientationTest/screenshot/screenshot.png)                | Tests node translations and rotations. |
+| [Recursive Skeletons](RecursiveSkeletons)             | ![](RecursiveSkeletons/screenshot/screenshot.jpg)             | Tests unusual skinning cases with reused meshes and recursive skeletons. |
 | [Texture Coordinate Test](TextureCoordinateTest)      | ![](TextureCoordinateTest/screenshot/screenshot.png)          | Shows how XYZ and UV positions relate to displayed geometry. |
+| [Texture Linear Interpolation Test](TextureLinearInterpolationTest) | ![](TextureLinearInterpolationTest/screenshot/screenshot.png) | Tests that linear texture interpolation is performed on linear values, i.e. after sRGB decoding. |
 | [Texture Settings Test](TextureSettingsTest)          | ![](TextureSettingsTest/screenshot/screenshot.png)            | Tests single/double-sided and various texturing modes. |
 | [Vertex Color Test](VertexColorTest)                  | ![](VertexColorTest/screenshot/screenshot.png)                | Tests if vertex colors are supported. |
 
@@ -110,6 +112,7 @@ Models demonstrating features of extensions to the glTF specification. See glTF 
 | [Sheen Chair](SheenChair)          | ![](SheenChair/screenshot/screenshot.jpg)             | Chair using [material variants](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_variants) and [sheen](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_sheen). |
 | [Sheen Cloth](SheenCloth)          | ![](SheenCloth/screenshot/screenshot.jpg)             | Fabric example using [sheen](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_sheen). |
 | [Toy Car](ToyCar)                  | ![](ToyCar/screenshot/screenshot.jpg)                 | Toy car example using [transmission](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_transmission), [clearcoat](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_clearcoat), and [sheen](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_sheen). |
+| [Transmission Roughness Test](TransmissionRoughnessTest) | ![](TransmissionRoughnessTest/screenshot/screenshot.jpg) | Interaction of transmission and IOR example, using [transmission](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_transmission), IOR (draft), and Volume (draft). |
 
 ### Feature Tests
 
@@ -120,6 +123,7 @@ Models meant to easily illustrate and test specific features of extensions to th
 | [Clearcoat Test](ClearCoatTest)                           | ![](ClearCoatTest/screenshot/screenshot.jpg)                  | Tests if the KHR_materials_clearcoat extension is supported properly. |
 | [Environment Test](EnvironmentTest)                       | ![](EnvironmentTest/screenshot/screenshot.png)                | A simple `scene` with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting. |
 | [SpecGloss Vs MetalRough](SpecGlossVsMetalRough)          | ![](SpecGlossVsMetalRough/screenshot/screenshot.jpg)          | Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly. |
+| [Specular Test](SpecularTest)                             | ![](SpecularTest/screenshot/screenshot.jpg)                   | Tests if the KHR_materials_specular extension is supported correctly. |
 | [Texture Transform Test](TextureTransformTest)            | ![](TextureTransformTest/screenshot/screenshot.jpg)           | Tests if the KHR_texture_transform extension is supported for BaseColor. |
 | [Texture Transform Multi Test](TextureTransformMultiTest) | ![](TextureTransformMultiTest/screenshot/screenshot.jpg)      | Tests if the KHR_texture_transform extension is supported for several inputs. |
 | [Transmission Test](TransmissionTest)                     | ![](TransmissionTest/screenshot/screenshot.jpg)               | Tests if the KHR_materials_transmission extension is supported properly. |

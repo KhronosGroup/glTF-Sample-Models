@@ -401,6 +401,14 @@
     }
   },
   {
+    "name": "RecursiveSkeletons",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "RecursiveSkeletons.gltf",
+      "glTF-Binary": "RecursiveSkeletons.glb"
+    }
+  },
+  {
     "name": "RiggedFigure",
     "screenshot": "screenshot/screenshot.gif",
     "variants": {
@@ -483,6 +491,14 @@
     }
   },
   {
+    "name": "SpecularTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "SpecularTest.gltf",
+      "glTF-Binary": "SpecularTest.glb"
+    }
+  },
+  {
     "name": "Sponza",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
@@ -511,6 +527,14 @@
     "variants": {
       "glTF": "TextureEncodingTest.gltf",
       "glTF-Binary": "TextureEncodingTest.glb"
+    }
+  },
+  {
+    "name": "TextureLinearInterpolationTest",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "TextureLinearInterpolationTest.gltf",
+      "glTF-Binary": "TextureLinearInterpolationTest.glb"
     }
   },
   {
@@ -543,6 +567,14 @@
     "variants": {
       "glTF": "ToyCar.gltf",
       "glTF-Binary": "ToyCar.glb"
+    }
+  },
+  {
+    "name": "TransmissionRoughnessTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "TransmissionRoughnessTest.gltf",
+      "glTF-Binary": "TransmissionRoughnessTest.glb"
     }
   },
   {
