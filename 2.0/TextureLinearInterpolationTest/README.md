@@ -14,7 +14,7 @@ This asset tests that linear texture interpolation is performed on linear values
 
   ![incorrect](screenshot/incorrect.png)
   
-> ⚠️ _**WARNING**: For technical and historical reasons, some engines — particularly those using WebGL 1.0 — apply sRGB decoding in the fragment shader. Such engines will "fail" this test, which is designed specifically to highlight a difference that is generally quite subtle. Engines are encouraged to use features like [EXT_sRGB](https://developer.mozilla.org/en-US/docs/Web/API/EXT_sRGB) (or equivalent) moving forward._
+> ⚠️ _**WARNING**: For technical and historical reasons, some engines — particularly those using WebGL 1.0 — apply sRGB decoding in the fragment shader. Such engines will "fail" this test, which is designed specifically to highlight a difference that is generally quite subtle. Modern APIs like WebGL 2.0 and WebGPU provide effective ways to avoid this issue._
 
 ## License Information
 
