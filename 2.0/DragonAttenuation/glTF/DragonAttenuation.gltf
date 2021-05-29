@@ -99,8 +99,8 @@
                         0.640,
                         0.064
                     ],
-                    "attenuationDistance": 0.239015,
-                    "thicknessFactor": 3.5,
+                    "attenuationDistance": 0.155,
+                    "thicknessFactor": 2.27,
                     "thicknessTexture": {
                         "index": 1,
                         "texCoord": 0
@@ -125,7 +125,7 @@
                     "transmissionFactor": 1
                 },
                 "KHR_materials_volume": {
-                    "thicknessFactor": 3.5,
+                    "thicknessFactor": 2.27,
                     "thicknessTexture": {
                         "index": 1,
                         "texCoord": 0
