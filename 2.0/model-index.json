@@ -59,6 +59,14 @@
     }
   },
   {
+    "name": "AttenuationTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "AttenuationTest.gltf",
+      "glTF-Binary": "AttenuationTest.glb"
+    }
+  },
+  {
     "name": "Avocado",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {

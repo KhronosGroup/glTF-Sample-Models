@@ -112,7 +112,6 @@ Models demonstrating features of extensions to the glTF specification. See glTF 
 | [Sheen Chair](SheenChair)          | ![](SheenChair/screenshot/screenshot.jpg)             | Chair using [material variants](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_variants) and [sheen](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_sheen). |
 | [Sheen Cloth](SheenCloth)          | ![](SheenCloth/screenshot/screenshot.jpg)             | Fabric example using [sheen](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_sheen). |
 | [Toy Car](ToyCar)                  | ![](ToyCar/screenshot/screenshot.jpg)                 | Toy car example using [transmission](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_transmission), [clearcoat](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_clearcoat), and [sheen](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_sheen). |
-| [Transmission Roughness Test](TransmissionRoughnessTest) | ![](TransmissionRoughnessTest/screenshot/screenshot.jpg) | Interaction of transmission and IOR example, using [transmission](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_transmission), IOR (draft), and Volume (draft). |
 
 ### Feature Tests
 
@@ -120,11 +119,13 @@ Models meant to easily illustrate and test specific features of extensions to th
 
 | Model                                                     | Screenshot                                                    | Description |
 |-----------------------------------------------------------|---------------------------------------------------------------|-------------|
+| [Attenuation Test](AttenuationTest)                       | ![](AttenuationTest/screenshot/screenshot.jpg)                | Tests the interactions between attenuation, thickness, and scale. |
 | [Clearcoat Test](ClearCoatTest)                           | ![](ClearCoatTest/screenshot/screenshot.jpg)                  | Tests if the KHR_materials_clearcoat extension is supported properly. |
 | [Environment Test](EnvironmentTest)                       | ![](EnvironmentTest/screenshot/screenshot.png)                | A simple `scene` with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting. |
 | [SpecGloss Vs MetalRough](SpecGlossVsMetalRough)          | ![](SpecGlossVsMetalRough/screenshot/screenshot.jpg)          | Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly. |
 | [Specular Test](SpecularTest)                             | ![](SpecularTest/screenshot/screenshot.jpg)                   | Tests if the KHR_materials_specular extension is supported correctly. |
 | [Texture Transform Test](TextureTransformTest)            | ![](TextureTransformTest/screenshot/screenshot.jpg)           | Tests if the KHR_texture_transform extension is supported for BaseColor. |
 | [Texture Transform Multi Test](TextureTransformMultiTest) | ![](TextureTransformMultiTest/screenshot/screenshot.jpg)      | Tests if the KHR_texture_transform extension is supported for several inputs. |
+| [Transmission Roughness Test](TransmissionRoughnessTest)  | ![](TransmissionRoughnessTest/screenshot/screenshot.jpg)      | Tests the interaction between roughness and IOR. |
 | [Transmission Test](TransmissionTest)                     | ![](TransmissionTest/screenshot/screenshot.jpg)               | Tests if the KHR_materials_transmission extension is supported properly. |
 | [Unlit Test](UnlitTest)                                   | ![](UnlitTest/screenshot/screenshot.png)                      | Tests if the KHR_materials_unlit extension is supported properly. |
