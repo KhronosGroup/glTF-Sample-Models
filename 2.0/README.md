@@ -53,6 +53,7 @@
 | [Lantern](Lantern)                            | ![](Lantern/screenshot/screenshot.jpg)           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Water Bottle](WaterBottle)                   | ![](WaterBottle/screenshot/screenshot.jpg)       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [Toy Car](ToyCar)                             | ![](ToyCar/screenshot/screenshot.jpg)            | :white_check_mark: |                    | :white_check_mark: |
+| [Toy Car (Specular version)](ToyCarSpecular)  | ![](ToyCarSpecular/screenshot/screenshot.jpg)    | :white_check_mark: |                    | :white_check_mark: |
 
 ## Further PBR models
 
