@@ -491,6 +491,13 @@
     }
   },
   {
+    "name": "ToyCar (Specular version)",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "ToyCarSpecular.gltf",
+    }
+  },
+  {
     "name": "TransmissionTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
