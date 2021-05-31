@@ -71,6 +71,10 @@
                     "specularTexture" : {
                         "index": 4,
                         "texCoord": 0
+                    },
+                    "specularColorTexture" : {
+                        "index": 4,
+                        "texCoord": 0
                     }
                 },
                 "KHR_materials_ior" : {
@@ -104,6 +108,10 @@
             "extensions" : {
                 "KHR_materials_specular" : {
                     "specularColorFactor": [0.729, 0.071, 0.078],
+                    "specularTexture" : {
+                        "index": 8,
+                        "texCoord": 0
+                    },
                     "specularTexture" : {
                         "index": 8,
                         "texCoord": 0

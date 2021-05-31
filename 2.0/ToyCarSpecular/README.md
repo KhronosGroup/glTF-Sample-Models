@@ -1,4 +1,4 @@
-# Toy Car
+# Toy Car (Specular version)
 
 ## Screenshot
 
