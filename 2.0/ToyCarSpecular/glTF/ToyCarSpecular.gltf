@@ -112,7 +112,7 @@
                         "index": 8,
                         "texCoord": 0
                     },
-                    "specularTexture" : {
+                    "specularColorTexture" : {
                         "index": 8,
                         "texCoord": 0
                     }
