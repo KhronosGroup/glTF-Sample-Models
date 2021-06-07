@@ -302,6 +302,14 @@
     }
   },
   {
+    "name": "GlamVelvetSofa",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "GlamVelvetSofa.gltf",
+      "glTF-Binary": "GlamVelvetSofa.glb"
+    }
+  },
+  {
     "name": "InterpolationTest",
     "screenshot": "screenshot/screenshot.gif",
     "variants": {
