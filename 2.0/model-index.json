@@ -59,6 +59,14 @@
     }
   },
   {
+    "name": "AttenuationTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "AttenuationTest.gltf",
+      "glTF-Binary": "AttenuationTest.glb"
+    }
+  },
+  {
     "name": "Avocado",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
@@ -339,6 +347,14 @@
     }
   },
   {
+    "name": "MorphStressTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "MorphStressTest.gltf",
+      "glTF-Binary": "MorphStressTest.glb"
+    }
+  },
+  {
     "name": "MultiUVTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
@@ -382,6 +398,14 @@
       "glTF-Binary": "ReciprocatingSaw.glb",
       "glTF-Draco": "ReciprocatingSaw.gltf",
       "glTF-Embedded": "ReciprocatingSaw.gltf"
+    }
+  },
+  {
+    "name": "RecursiveSkeletons",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "RecursiveSkeletons.gltf",
+      "glTF-Binary": "RecursiveSkeletons.glb"
     }
   },
   {
@@ -467,6 +491,14 @@
     }
   },
   {
+    "name": "SpecularTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "SpecularTest.gltf",
+      "glTF-Binary": "SpecularTest.glb"
+    }
+  },
+  {
     "name": "Sponza",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
@@ -487,6 +519,22 @@
       "glTF": "TextureCoordinateTest.gltf",
       "glTF-Binary": "TextureCoordinateTest.glb",
       "glTF-Embedded": "TextureCoordinateTest.gltf"
+    }
+  },
+  {
+    "name": "TextureEncodingTest",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "TextureEncodingTest.gltf",
+      "glTF-Binary": "TextureEncodingTest.glb"
+    }
+  },
+  {
+    "name": "TextureLinearInterpolationTest",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "TextureLinearInterpolationTest.gltf",
+      "glTF-Binary": "TextureLinearInterpolationTest.glb"
     }
   },
   {
@@ -519,6 +567,14 @@
     "variants": {
       "glTF": "ToyCar.gltf",
       "glTF-Binary": "ToyCar.glb"
+    }
+  },
+  {
+    "name": "TransmissionRoughnessTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "TransmissionRoughnessTest.gltf",
+      "glTF-Binary": "TransmissionRoughnessTest.glb"
     }
   },
   {

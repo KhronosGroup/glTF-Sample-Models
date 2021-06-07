@@ -70,11 +70,14 @@ Models meant to easily illustrate and test specific features of the core specifi
 | [Metal Rough Spheres](MetalRoughSpheres)              | ![](MetalRoughSpheres/screenshot/screenshot.png)              | Tests various metal and roughness values (texture mapped). |
 | [Metal Rough Spheres (Textureless)](MetalRoughSpheresNoTextures) | ![](MetalRoughSpheresNoTextures/screenshot/screenshot.png) | Tests various metal and roughness values (textureless). |
 | [Morph Primitives Test](MorphPrimitivesTest)          | ![](MorphPrimitivesTest/screenshot/screenshot.jpg)            | Tests a morph target on multiple primitives. |
+| [Morph Stress Test](MorphStressTest)                  | ![](MorphStressTest/screenshot/screenshot.jpg)                | Tests up to 8 morph targets. |
 | [Multi UV Test](MultiUVTest)                          | ![](MultiUVTest/screenshot/screenshot.jpg)                    | Tests a second set of texture coordinates. |
 | [Normal Tangent Test](NormalTangentTest)              | ![](NormalTangentTest/screenshot/screenshot.png)              | Tests an engine's ability to automatically generate tangent vectors for a normal map. |
 | [Normal Tangent Mirror Test](NormalTangentMirrorTest) | ![](NormalTangentMirrorTest/screenshot/screenshot.png)        | Tests an engine's ability to load supplied tangent vectors for a normal map. |
 | [Orientation Test](OrientationTest)                   | ![](OrientationTest/screenshot/screenshot.png)                | Tests node translations and rotations. |
+| [Recursive Skeletons](RecursiveSkeletons)             | ![](RecursiveSkeletons/screenshot/screenshot.jpg)             | Tests unusual skinning cases with reused meshes and recursive skeletons. |
 | [Texture Coordinate Test](TextureCoordinateTest)      | ![](TextureCoordinateTest/screenshot/screenshot.png)          | Shows how XYZ and UV positions relate to displayed geometry. |
+| [Texture Linear Interpolation Test](TextureLinearInterpolationTest) | ![](TextureLinearInterpolationTest/screenshot/screenshot.png) | Tests that linear texture interpolation is performed on linear values, i.e. after sRGB decoding. |
 | [Texture Settings Test](TextureSettingsTest)          | ![](TextureSettingsTest/screenshot/screenshot.png)            | Tests single/double-sided and various texturing modes. |
 | [Vertex Color Test](VertexColorTest)                  | ![](VertexColorTest/screenshot/screenshot.png)                | Tests if vertex colors are supported. |
 
@@ -115,10 +118,13 @@ Models meant to easily illustrate and test specific features of extensions to th
 
 | Model                                                     | Screenshot                                                    | Description |
 |-----------------------------------------------------------|---------------------------------------------------------------|-------------|
+| [Attenuation Test](AttenuationTest)                       | ![](AttenuationTest/screenshot/screenshot.jpg)                | Tests the interactions between attenuation, thickness, and scale. |
 | [Clearcoat Test](ClearCoatTest)                           | ![](ClearCoatTest/screenshot/screenshot.jpg)                  | Tests if the KHR_materials_clearcoat extension is supported properly. |
 | [Environment Test](EnvironmentTest)                       | ![](EnvironmentTest/screenshot/screenshot.png)                | A simple `scene` with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting. |
 | [SpecGloss Vs MetalRough](SpecGlossVsMetalRough)          | ![](SpecGlossVsMetalRough/screenshot/screenshot.jpg)          | Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly. |
+| [Specular Test](SpecularTest)                             | ![](SpecularTest/screenshot/screenshot.jpg)                   | Tests if the KHR_materials_specular extension is supported correctly. |
 | [Texture Transform Test](TextureTransformTest)            | ![](TextureTransformTest/screenshot/screenshot.jpg)           | Tests if the KHR_texture_transform extension is supported for BaseColor. |
 | [Texture Transform Multi Test](TextureTransformMultiTest) | ![](TextureTransformMultiTest/screenshot/screenshot.jpg)      | Tests if the KHR_texture_transform extension is supported for several inputs. |
+| [Transmission Roughness Test](TransmissionRoughnessTest)  | ![](TransmissionRoughnessTest/screenshot/screenshot.jpg)      | Tests the interaction between roughness and IOR. |
 | [Transmission Test](TransmissionTest)                     | ![](TransmissionTest/screenshot/screenshot.jpg)               | Tests if the KHR_materials_transmission extension is supported properly. |
 | [Unlit Test](UnlitTest)                                   | ![](UnlitTest/screenshot/screenshot.png)                      | Tests if the KHR_materials_unlit extension is supported properly. |
