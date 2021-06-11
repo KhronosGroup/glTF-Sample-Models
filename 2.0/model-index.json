@@ -249,6 +249,14 @@
     }
   },
   {
+    "name": "DragonAttenuation",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "DragonAttenuation.gltf",
+      "glTF-Binary": "DragonAttenuation.glb"
+    }
+  },
+  {
     "name": "Duck",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
