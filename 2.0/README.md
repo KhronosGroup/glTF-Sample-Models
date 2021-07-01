@@ -98,6 +98,7 @@ Minimal models testing very narrow pieces of the core specification.
 | [Simple Skin](SimpleSkin)                              | ![](SimpleSkin/screenshot/screenshot.gif)                       | A simple example of vertex skinning in glTF
 | [Cameras](Cameras)                                     | ![](Cameras/screenshot/screenshot.png)                          | A sample with two different `camera` objects |
 | [Interpolation Test](InterpolationTest)                | ![](InterpolationTest/screenshot/screenshot.gif)                | A sample with three different `animation` interpolations |
+| [Unicode Test](Unicode❤♻Test)                          | ![](Unicode❤♻Test/screenshot/screenshot.png)                      | A sample with unicode characters in file, material and mesh names |
 
 ## Extensions
 
