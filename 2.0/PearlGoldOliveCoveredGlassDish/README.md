@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-![screenshot Babylon.js](screenshot/screenshot_large.jpg)
+![screenshot Babylon.js](screenshot/screenshot_Large.jpg)
 
 (above) [Babylon.js Sandbox](https://sandbox.babylonjs.com/) screenshot.
 
