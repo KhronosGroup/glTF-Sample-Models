@@ -4,7 +4,7 @@
 
 ![screenshot Babylon.js](screenshot/screenshot_Large.jpg)
 
-(above) [Babylon.js Sandbox](https://sandbox.babylonjs.com/) screenshot, with the [Artist Workshop HDRI](https://hdrihaven.com/hdri/?h=artist_workshop) from [HDRI Haven](https://hdrihaven.com/).
+(above) [Babylon.js Sandbox](https://sandbox.babylonjs.com/) screenshot, with the [Artist Workshop HDRI](https://polyhaven.com/a/artist_workshop) from [Poly Haven](https://polyhaven.com/).
 
 ![screenshot](screenshot/glTFSampleViewer.jpg)
 
