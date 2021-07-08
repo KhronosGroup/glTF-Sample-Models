@@ -49,10 +49,10 @@
                 -0.0969580561
             ],
             "rotation": [
-                -0.212631062,
-                -0.674379647,
-                0.6743798,
-                -0.212631017
+                -0.091,
+                -0.627,
+                0.701,
+                -0.328
             ],
             "name": "glassCover_animationIOR"
         },
@@ -357,26 +357,6 @@
             "count": 924,
             "type": "VEC2",
             "name": "accessorUVs"
-        },
-        {
-            "bufferView": 4,
-            "componentType": 5126,
-            "count": 30,
-            "max": [
-                6.66666651
-            ],
-            "min": [
-                0.0
-            ],
-            "type": "SCALAR",
-            "name": "accessorAnimationInput"
-        },
-        {
-            "bufferView": 5,
-            "componentType": 5126,
-            "count": 30,
-            "type": "VEC4",
-            "name": "accessorAnimationRotations"
         }
     ],
     "bufferViews": [
@@ -405,18 +385,6 @@
             "byteLength": 119424,
             "byteStride": 8,
             "name": "bufferViewFloatVec2"
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 834272,
-            "byteLength": 120,
-            "name": "bufferViewAnimationFloatScalar"
-        },
-        {
-            "buffer": 0,
-            "byteOffset": 834392,
-            "byteLength": 480,
-            "name": "bufferViewAnimationFloatVec4"
         }
     ],
     "buffers": [
@@ -436,7 +404,7 @@
                     1
                 ],
                 "metallicFactor": 0,
-                "roughnessFactor": 1
+                "roughnessFactor": 0.035
             },
             "occlusionTexture": {
                 "index": 0
@@ -488,11 +456,11 @@
                     1
                 ],
                 "metallicFactor": 0,
-                "roughnessFactor": 0.2
+                "roughnessFactor": 0.035
             },
             "normalTexture": {
                 "index": 5,
-                "scale": 2
+                "scale": 1
             },
             "extensions": {
                 "KHR_materials_ior": {
@@ -532,7 +500,7 @@
             },
             "normalTexture": {
                 "index": 8,
-                "scale": 1
+                "scale": 1.0
             },
             "occlusionTexture": {
                 "index": 9
@@ -636,26 +604,6 @@
         {
             "magFilter": 9729,
             "minFilter": 9987
-        }
-    ],
-    "animations": [
-        {
-            "channels": [
-                {
-                    "sampler": 0,
-                    "target": {
-                        "node": 2,
-                        "path": "rotation"
-                    }
-                }
-            ],
-            "samplers": [
-                {
-                    "input": 19,
-                    "output": 20
-                }
-            ],
-            "name": "All Animations"
         }
     ]
 }
