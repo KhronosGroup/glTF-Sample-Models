@@ -4,11 +4,7 @@
 
 ![screenshot Babylon.js](screenshot/screenshot_Large.jpg)
 
-(above) [Babylon.js Sandbox](https://sandbox.babylonjs.com/) screenshot, with the [Artist Workshop HDRI](https://polyhaven.com/a/artist_workshop) from [Poly Haven](https://polyhaven.com/).
-
-![screenshot](screenshot/glTFSampleViewer.jpg)
-
-(above) [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/) screenshot.
+(above) [glTF Sample Viewer](https://github.khronos.org/glTF-Sample-Viewer-Release/) screenshot, with the [Artist Workshop HDRI](https://polyhaven.com/a/artist_workshop) from [Poly Haven](https://polyhaven.com/).
 
 ![screenshot](screenshot/DassaultPBRSampleRenderer.jpg)
 
@@ -26,7 +22,7 @@ The use of real-world photographic reference is meant to help glTF developers wi
 
 ## Animation
 
-The glassCover has an animation to rotate upward and back, revealing the olives inside, showcasing the refraction and specular effects on the glass.
+The glassCover has an animation to rotate downward and back up, revealing the olives inside and showcasing the refraction and specular effects on the glass.
 
 ![screenshot](screenshot/glassCover_animation.gif)
 
@@ -59,20 +55,6 @@ The upper surfaces of the glassDish and goldLeaf use a precomputed ambient occlu
 ![screenshot](screenshot/glassDish_occlusion.jpg)
 
 (above) Olives on the plate, olives hidden, and the ambient occlusion texture alone.
-
-## glTF-Pathtracer
-
-A variation has been added for use with pathtracers, with adjusted materials. 
-
-* glassCover roughnessFactor reduced.
-* normalTextures adjusted to use "scale":1
-* Animation removed, and glassCover rotated upwards slightly.
-
-In most rasterizers the roughness is applied only once. However in a pathtracer when a light ray is traced between a light source and the camera, the ray crosses four boundaries between air and glass; it is essentially hitting the glass four times. This increases the apparent roughness of the glass, making the glass more blurry than intended. 
-
-Additionally, pathtracers usually ignore the scale parameter for normalTextures, so the textures have been adjusted to work well with the default strength value. The same textures are reused for the rasterizer version so scale values have been adjusted in the rasterizer glTF to look good in those types of renderers. 
-
-![screenshot](screenshot/Pathtracer_Roughness.png) 
 
 ## Creation Details
 
