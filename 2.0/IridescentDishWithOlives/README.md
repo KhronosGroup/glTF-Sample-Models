@@ -8,7 +8,7 @@
 
 ![screenshot](screenshot/DassaultPBRSampleRenderer.jpg)
 
-(above) Pathtraced render using the [Dassault PBR Sample Renderer](https://dassaultsystemes-technology.github.io/dspbr-pt/).
+(above) Pathtraced render using the [Dassault Systèmes Enterprise PBR Sample Renderer](https://dassaultsystemes-technology.github.io/dspbr-pt/).
 
 ## Description
 
@@ -30,7 +30,7 @@ The glassCover has an animation to rotate downward and back up, revealing the ol
 
 The glassCover material uses [KHR_materials_specular](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_specular) to reproduce the colored specularity of the glaze, and [KHR_materials_ior](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_ior) and [KHR_materials_transmission](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_transmission) and [KHR_materials_volume](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_volume) for refraction. 
 
-The specular colors are caused by a type of glaze called [carnival glass](http://www.ddoty.com/newcomers.html). On the real product the glaze is applied to the inside of the glass cover rather than the outside. However because most rasterizers render only a single layer of transmission, the specular colors were applied to both inside and outside of the cover rather than only on the inside.
+The colors are caused by a type of glaze called [carnival glass](http://www.ddoty.com/newcomers.html). On the real product the glaze is applied to the inside of the glass cover rather than the outside. However because most rasterizers render only a single layer of transmission, the specular colors were applied to both inside and outside of the cover rather than only on the inside.
 
 Refraction is simulated using a `thicknessTexture` that guides rasterizers to render the top part of the glass cover with a deeper refraction. This texture is ignored by pathtracers which use the actual thickness of the geometry rather than the thickness texture. A noise pattern has been added to the thickness to reproduce the wavy refractions seen in photos.
 
@@ -38,11 +38,11 @@ Refraction is simulated using a `thicknessTexture` that guides rasterizers to re
 
 (above) Textures for the glassCover material: normalTexture, thicknessTexture, specularColorTexture.
 
+To improve the overall dispersion in pathtracers, the inside surface of the glassCover has been assigned a separate material from the outside. On the outside the roughnessFactor is 0.1 while on the inside it is 0.0. This helps renderers to avoid over-roughening the glass, because pathtracers calculate the roughness on each boundary between glass and air, while rasterizers typically only calculate the roughness for a single surface (whatever is nearest to the camera). 
+
 ## glassDish and goldLeaf Materials
 
 The glass dish uses a glass material with `KHR_materials_specular` for the colored glaze, and the bottom of the dish has gold leaf applied. Both surfaces use explicit geometry for front and back faces because the back side of each surface is visible behind the other material: from above the gold leaf is visible under the glass, and from below the glass can be seen through cracks in the goldleaf.
-
-The dish glass material omits `KHR_materials_ior` or `KHR_materials_volume` because it was preferred to have less distortion of the gold leaf visible underneath the glass. 
 
 The gold leaf uses `"alphaMode":"MASK"` for the cracks instead of `KHR_materials_transmission` because most rasterizers render only a single layer of transmission. If transmission was used, the gold leaf would be invisible under the glass when viewed from above. 
 
@@ -50,7 +50,7 @@ The gold leaf uses `"alphaMode":"MASK"` for the cracks instead of `KHR_materials
 
 Olives have been added to assist in judging refraction and occlusion. 
 
-The upper surfaces of the glassDish and goldLeaf use a precomputed ambient occlusion texture which simulates how the olives occlude lighting on the surfaces below them. Rasterizers may use this texture to occlude the IBL, while pathtracers will calculate the occlusion themselves.
+The upper surfaces of the glassDish and goldLeaf use a texture for precomputed ambient occlusion which simulates how the olives occlude lighting on the surfaces below them. Rasterizers may use this texture to occlude the IBL, while pathtracers will ignore the texture and calculate the occlusion themselves.
 
 ![screenshot](screenshot/glassDish_occlusion.jpg)
 

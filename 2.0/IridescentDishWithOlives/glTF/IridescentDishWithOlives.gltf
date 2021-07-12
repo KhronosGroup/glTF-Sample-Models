@@ -159,15 +159,6 @@
                     },
                     "indices": 10,
                     "material": 2
-                },
-                {
-                    "attributes": {
-                        "POSITION": 15,
-                        "NORMAL": 16,
-                        "TEXCOORD_0": 17
-                    },
-                    "indices": 14,
-                    "material": 3
                 }
             ],
             "name": "glassCover"
@@ -176,13 +167,13 @@
             "primitives": [
                 {
                     "attributes": {
-                        "POSITION": 19,
-                        "NORMAL": 20,
-                        "COLOR_0": 21,
-                        "TEXCOORD_0": 22
+                        "POSITION": 15,
+                        "NORMAL": 16,
+                        "COLOR_0": 17,
+                        "TEXCOORD_0": 18
                     },
-                    "indices": 18,
-                    "material": 4
+                    "indices": 14,
+                    "material": 3
                 }
             ],
             "name": "goldLeaf"
@@ -289,7 +280,7 @@
             "bufferView": 0,
             "byteOffset": 115968,
             "componentType": 5123,
-            "count": 6720,
+            "count": 10752,
             "type": "SCALAR",
             "name": "accessorIndices"
         },
@@ -297,7 +288,7 @@
             "bufferView": 1,
             "byteOffset": 289968,
             "componentType": 5126,
-            "count": 1153,
+            "count": 1857,
             "max": [
                 0.178074539,
                 0.238563627,
@@ -313,9 +304,9 @@
         },
         {
             "bufferView": 1,
-            "byteOffset": 303804,
+            "byteOffset": 312252,
             "componentType": 5126,
-            "count": 1153,
+            "count": 1857,
             "type": "VEC3",
             "name": "accessorNormals"
         },
@@ -323,49 +314,7 @@
             "bufferView": 3,
             "byteOffset": 96656,
             "componentType": 5126,
-            "count": 1153,
-            "type": "VEC2",
-            "name": "accessorUVs"
-        },
-        {
-            "bufferView": 0,
-            "byteOffset": 129408,
-            "componentType": 5123,
-            "count": 4032,
-            "type": "SCALAR",
-            "name": "accessorIndices"
-        },
-        {
-            "bufferView": 1,
-            "byteOffset": 317640,
-            "componentType": 5126,
-            "count": 1759,
-            "max": [
-                0.1772159,
-                0.238396153,
-                0.178035244
-            ],
-            "min": [
-                -0.178035259,
-                0.0312417466,
-                -0.178074539
-            ],
-            "type": "VEC3",
-            "name": "accessorPositions"
-        },
-        {
-            "bufferView": 1,
-            "byteOffset": 338748,
-            "componentType": 5126,
-            "count": 1759,
-            "type": "VEC3",
-            "name": "accessorNormals"
-        },
-        {
-            "bufferView": 3,
-            "byteOffset": 105880,
-            "componentType": 5126,
-            "count": 1759,
+            "count": 1857,
             "type": "VEC2",
             "name": "accessorUVs"
         },
@@ -379,7 +328,7 @@
         },
         {
             "bufferView": 1,
-            "byteOffset": 359856,
+            "byteOffset": 334536,
             "componentType": 5126,
             "count": 924,
             "max": [
@@ -397,7 +346,7 @@
         },
         {
             "bufferView": 1,
-            "byteOffset": 370944,
+            "byteOffset": 345624,
             "componentType": 5126,
             "count": 924,
             "type": "VEC3",
@@ -413,7 +362,7 @@
         },
         {
             "bufferView": 3,
-            "byteOffset": 119952,
+            "byteOffset": 111512,
             "componentType": 5126,
             "count": 924,
             "type": "VEC2",
@@ -449,33 +398,33 @@
         {
             "buffer": 0,
             "byteOffset": 146688,
-            "byteLength": 382032,
+            "byteLength": 356712,
             "byteStride": 12,
             "name": "bufferViewFloatVec3"
         },
         {
             "buffer": 0,
-            "byteOffset": 528720,
+            "byteOffset": 503400,
             "byteLength": 208096,
             "byteStride": 16,
             "name": "bufferViewFloatVec4"
         },
         {
             "buffer": 0,
-            "byteOffset": 736816,
-            "byteLength": 127344,
+            "byteOffset": 711496,
+            "byteLength": 118904,
             "byteStride": 8,
             "name": "bufferViewFloatVec2"
         },
         {
             "buffer": 0,
-            "byteOffset": 864160,
+            "byteOffset": 830400,
             "byteLength": 56,
             "name": "bufferViewAnimationFloatScalar"
         },
         {
             "buffer": 0,
-            "byteOffset": 864216,
+            "byteOffset": 830456,
             "byteLength": 224,
             "name": "bufferViewAnimationFloatVec4"
         }
@@ -483,7 +432,7 @@
     "buffers": [
         {
             "uri": "IridescentDishWithOlives.bin",
-            "byteLength": 864440
+            "byteLength": 830680
         }
     ],
     "materials": [
@@ -541,7 +490,7 @@
             }
         },
         {
-            "name": "glassCoverOutside",
+            "name": "glassCover",
             "pbrMetallicRoughness": {
                 "baseColorFactor": [
                     1,
@@ -549,8 +498,9 @@
                     1,
                     1
                 ],
-                "metallicFactor": 0,
-                "roughnessFactor": 0.07
+                "metallicRoughnessTexture": {
+                    "index": 10
+                }
             },
             "normalTexture": {
                 "index": 4,
@@ -563,40 +513,13 @@
                 "KHR_materials_specular": {
                     "specularFactor": 1,
                     "specularColorFactor": [
-                        2,
-                        2,
-                        2
+                        3,
+                        3,
+                        3
                     ],
                     "specularColorTexture": {
                         "index": 6
                     }
-                },
-                "KHR_materials_transmission": {
-                    "transmissionFactor": 1
-                },
-                "KHR_materials_volume": {
-                    "thicknessFactor": 0.1,
-                    "thicknessTexture": {
-                        "index": 5
-                    }
-                }
-            }
-        },
-        {
-            "name": "glassCoverInside",
-            "pbrMetallicRoughness": {
-                "baseColorFactor": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "metallicFactor": 0,
-                "roughnessFactor": 0
-            },
-            "extensions": {
-                "KHR_materials_ior": {
-                    "ior": 1.5
                 },
                 "KHR_materials_transmission": {
                     "transmissionFactor": 1
@@ -679,6 +602,11 @@
             "sampler": 0,
             "source": 9,
             "name": "goldleaf_col.png"
+        },
+        {
+            "sampler": 0,
+            "source": 10,
+            "name": "glasscover_orm.png"
         }
     ],
     "images": [
@@ -711,6 +639,9 @@
         },
         {
             "uri": "./goldleaf_col.png"
+        },
+        {
+            "uri": "./glasscover_orm.png"
         }
     ],
     "samplers": [
@@ -732,11 +663,11 @@
             ],
             "samplers": [
                 {
-                    "input": 23,
-                    "output": 24
+                    "input": 19,
+                    "output": 20
                 }
             ],
-            "name": "All Animations"
+            "name": "glassCover rotation"
         }
     ]
 }
