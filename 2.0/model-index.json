@@ -73,8 +73,7 @@
       "glTF": "Avocado.gltf",
       "glTF-Binary": "Avocado.glb",
       "glTF-Draco": "Avocado.gltf",
-      "glTF-Quantized": "Avocado.gltf",
-      "glTF-pbrSpecularGlossiness": "Avocado.gltf"
+      "glTF-Quantized": "Avocado.gltf"
     }
   },
   {
@@ -83,8 +82,7 @@
     "variants": {
       "glTF": "BarramundiFish.gltf",
       "glTF-Binary": "BarramundiFish.glb",
-      "glTF-Draco": "BarramundiFish.gltf",
-      "glTF-pbrSpecularGlossiness": "BarramundiFish.gltf"
+      "glTF-Draco": "BarramundiFish.gltf"
     }
   },
   {
@@ -93,8 +91,7 @@
     "variants": {
       "glTF": "BoomBox.gltf",
       "glTF-Binary": "BoomBox.glb",
-      "glTF-Draco": "BoomBox.gltf",
-      "glTF-pbrSpecularGlossiness": "BoomBox.gltf"
+      "glTF-Draco": "BoomBox.gltf"
     }
   },
   {
@@ -228,8 +225,7 @@
     "variants": {
       "glTF": "Corset.gltf",
       "glTF-Binary": "Corset.glb",
-      "glTF-Draco": "Corset.gltf",
-      "glTF-pbrSpecularGlossiness": "Corset.gltf"
+      "glTF-Draco": "Corset.gltf"
     }
   },
   {
@@ -324,8 +320,7 @@
       "glTF": "Lantern.gltf",
       "glTF-Binary": "Lantern.glb",
       "glTF-Draco": "Lantern.gltf",
-      "glTF-Quantized": "Lantern.gltf",
-      "glTF-pbrSpecularGlossiness": "Lantern.gltf"
+      "glTF-Quantized": "Lantern.gltf"
     }
   },
   {
@@ -657,8 +652,7 @@
     "variants": {
       "glTF": "WaterBottle.gltf",
       "glTF-Binary": "WaterBottle.glb",
-      "glTF-Draco": "WaterBottle.gltf",
-      "glTF-pbrSpecularGlossiness": "WaterBottle.gltf"
+      "glTF-Draco": "WaterBottle.gltf"
     }
   }
 ]
