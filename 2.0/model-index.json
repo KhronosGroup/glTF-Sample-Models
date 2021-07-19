@@ -318,6 +318,14 @@
     }
   },
   {
+    "name": "IridescentDishWithOlives",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "IridescentDishWithOlives.gltf",
+      "glTF-Binary": "IridescentDishWithOlives.glb"
+    }
+  },
+  {
     "name": "Lantern",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
