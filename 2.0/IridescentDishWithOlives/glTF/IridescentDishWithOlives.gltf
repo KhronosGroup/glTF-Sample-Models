@@ -611,37 +611,37 @@
     ],
     "images": [
         {
-            "uri": "./glassdish_spec.png"
+            "uri": "glassdish_spec.png"
         },
         {
-            "uri": "./olives_nrm.png"
+            "uri": "olives_nrm.png"
         },
         {
-            "uri": "./olives_orm.png"
+            "uri": "olives_orm.png"
         },
         {
-            "uri": "./olives_col.png"
+            "uri": "olives_col.png"
         },
         {
-            "uri": "./glasscover_nrm.png"
+            "uri": "glasscover_nrm.png"
         },
         {
-            "uri": "./glasscover_thick.png"
+            "uri": "glasscover_thick.png"
         },
         {
-            "uri": "./glasscover_spec.png"
+            "uri": "glasscover_spec.png"
         },
         {
-            "uri": "./goldleaf_nrm.png"
+            "uri": "goldleaf_nrm.png"
         },
         {
-            "uri": "./goldleaf_orm.png"
+            "uri": "goldleaf_orm.png"
         },
         {
-            "uri": "./goldleaf_col.png"
+            "uri": "goldleaf_col.png"
         },
         {
-            "uri": "./glasscover_orm.png"
+            "uri": "glasscover_orm.png"
         }
     ],
     "samplers": [
