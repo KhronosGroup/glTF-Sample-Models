@@ -24,6 +24,7 @@ Sample models help the glTF ecosystem, if you are able to contribute a model, se
 
 * [Sketchfab](https://sketchfab.com/features/gltf) offers auto-conversion of all of its downloadable models, including PBR models, to glTF format.
 * [Poimandres Market](https://market.pmnd.rs/) offers 3D assets for download in glTF format.
+* [Poly Haven](https://polyhaven.com/) offers CC0 (public domain equivalent) HDRIs, PBR textures, and glTF models.
 
 ## Other glTF Models
 
