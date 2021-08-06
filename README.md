@@ -23,7 +23,7 @@ Sample models help the glTF ecosystem, if you are able to contribute a model, se
 ## Model Publishing Services with glTF Download Capability
 
 * [Sketchfab](https://sketchfab.com/features/gltf) offers auto-conversion of all of its downloadable models, including PBR models, to glTF format.
-* [Google's Poly](https://poly.google.com/) offers certain 3D assets for download in glTF format.
+* [Poimandres Market](https://market.pmnd.rs/) offers 3D assets for download in glTF format.
 
 ## Other glTF Models
 
