@@ -374,6 +374,14 @@
     }
   },
   {
+    "name": "MosquitoInAmber",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "MosquitoInAmber.gltf",
+      "glTF-Binary": "MosquitoInAmber.glb"
+    }
+  },
+  {
     "name": "MultiUVTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
