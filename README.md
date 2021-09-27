@@ -14,7 +14,6 @@ Sample glTF 2.0 models are provided in one or more of the following forms of glT
 * glTF (`.gltf`) with separate resources: `.bin` (geometry, animation, skins) and `.jpg` or `.png` image files.  The supporting files are easily examined when separated like this, but must be kept together with the parent glTF file for the model to work.
 * glTF (`.gltf`) with embedded resources (as Data URIs).  This form tends to be larger than the others, but Data URIs do have their uses.
 * Binary glTF (`.glb`) using the [binary container format](https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#glb-file-format-specification).  These are easily shared due to the bundling of all the textures and mesh data into a single file.
-* glTF (`.gltf`) using the [KHR_materials_pbrSpecularGlossiness](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_pbrSpecularGlossiness) extension.  This is an alternate PBR (Physically Based Rendering) workflow that gives model artists an extra degree of freedom over glTF's core metallic/roughness PBR workflow.
 
 See the `README.md` in each model's directory for license information.
 
