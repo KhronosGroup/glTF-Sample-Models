@@ -314,6 +314,13 @@
     }
   },
   {
+    "name": "IridescenceSuzanne",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "IridescenceSuzanne.gltf"
+    }
+  },
+  {
     "name": "IridescentDishWithOlives",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
