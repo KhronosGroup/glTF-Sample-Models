@@ -1,7 +1,7 @@
 {
     "asset" : {
         "copyright" : "CC-BY 4.0 Copyright 2021 Analytical Graphics, Inc. Model and Textures by Ed Mackey.",
-        "generator" : "Khronos glTF Blender I/O v1.5.1",
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -373,8 +373,7 @@
             "name" : "LabelMaterial",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 0,
-                    "texCoord" : 0
+                    "index" : 0
                 },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.8
@@ -513,14 +512,14 @@
             "name" : "FlatBackdrop",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
-                    "index" : 2,
-                    "texCoord" : 0
+                    "index" : 2
                 },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
             }
         },
         {
+            "doubleSided" : true,
             "extensions" : {
                 "KHR_materials_transmission" : {
                     "transmissionFactor" : 1
@@ -539,6 +538,7 @@
             }
         },
         {
+            "doubleSided" : true,
             "extensions" : {
                 "KHR_materials_transmission" : {
                     "transmissionFactor" : 1
@@ -557,6 +557,7 @@
             }
         },
         {
+            "doubleSided" : true,
             "extensions" : {
                 "KHR_materials_transmission" : {
                     "transmissionFactor" : 1
@@ -575,6 +576,7 @@
             }
         },
         {
+            "doubleSided" : true,
             "extensions" : {
                 "KHR_materials_transmission" : {
                     "transmissionFactor" : 1
@@ -593,6 +595,7 @@
             }
         },
         {
+            "doubleSided" : true,
             "extensions" : {
                 "KHR_materials_transmission" : {
                     "transmissionFactor" : 1
@@ -785,66 +788,66 @@
             ]
         },
         {
-            "name" : "Block_1.0",
+            "name" : "Quad_1.0",
             "primitives" : [
                 {
                     "attributes" : {
-                        "POSITION" : 0,
-                        "NORMAL" : 1
+                        "POSITION" : 23,
+                        "NORMAL" : 24
                     },
-                    "indices" : 2,
+                    "indices" : 25,
                     "material" : 13
                 }
             ]
         },
         {
-            "name" : "Block_1.5",
+            "name" : "Quad_1.5",
             "primitives" : [
                 {
                     "attributes" : {
-                        "POSITION" : 3,
-                        "NORMAL" : 4
+                        "POSITION" : 26,
+                        "NORMAL" : 27
                     },
-                    "indices" : 2,
+                    "indices" : 25,
                     "material" : 14
                 }
             ]
         },
         {
-            "name" : "Block_2.0",
+            "name" : "Quad_2.0",
             "primitives" : [
                 {
                     "attributes" : {
-                        "POSITION" : 5,
-                        "NORMAL" : 6
+                        "POSITION" : 28,
+                        "NORMAL" : 29
                     },
-                    "indices" : 2,
+                    "indices" : 25,
                     "material" : 15
                 }
             ]
         },
         {
-            "name" : "Block_0.50",
+            "name" : "Quad_0.5",
             "primitives" : [
                 {
                     "attributes" : {
-                        "POSITION" : 7,
-                        "NORMAL" : 8
+                        "POSITION" : 30,
+                        "NORMAL" : 31
                     },
-                    "indices" : 2,
+                    "indices" : 25,
                     "material" : 16
                 }
             ]
         },
         {
-            "name" : "Block_0.25",
+            "name" : "Quad_0.25",
             "primitives" : [
                 {
                     "attributes" : {
-                        "POSITION" : 9,
-                        "NORMAL" : 10
+                        "POSITION" : 32,
+                        "NORMAL" : 33
                     },
-                    "indices" : 2,
+                    "indices" : 25,
                     "material" : 17
                 }
             ]
@@ -1099,6 +1102,122 @@
             "componentType" : 5123,
             "count" : 6,
             "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 23,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                0.5,
+                0.5,
+                0
+            ],
+            "min" : [
+                -0.5,
+                -0.5,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 24,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 25,
+            "componentType" : 5123,
+            "count" : 6,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 26,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                0.75,
+                0.75,
+                0
+            ],
+            "min" : [
+                -0.75,
+                -0.75,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 27,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 28,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                1,
+                1,
+                0
+            ],
+            "min" : [
+                -1,
+                -1,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 29,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 30,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                0.25,
+                0.25,
+                0
+            ],
+            "min" : [
+                -0.25,
+                -0.25,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 31,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 32,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                0.125,
+                0.125,
+                0
+            ],
+            "min" : [
+                -0.125,
+                -0.125,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 33,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
         }
     ],
     "bufferViews" : [
@@ -1216,17 +1335,72 @@
             "buffer" : 0,
             "byteLength" : 12,
             "byteOffset" : 10080
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 10092
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 10140
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12,
+            "byteOffset" : 10188
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 10200
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 10248
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 10296
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 10344
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 10392
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 10440
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 10488
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 10536
         }
     ],
     "samplers" : [
         {
             "magFilter" : 9729,
-            "minFilter" : 9986
+            "minFilter" : 9987
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 10092,
+            "byteLength" : 10584,
             "uri" : "AttenuationTest.bin"
         }
     ]
