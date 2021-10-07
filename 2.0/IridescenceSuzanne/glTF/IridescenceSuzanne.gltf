@@ -43,13 +43,18 @@
     "nodes" : [
         {
             "name" : "Suzanne1",
-            "mesh" : 0
+            "mesh" : 0,
+            "translation": [
+                -3.0,
+                0.0,
+                0.0
+            ]
         },
         {
             "name" : "Suzanne2",
             "mesh" : 1,
             "translation": [
-                3.0,
+                0.0,
                 0.0,
                 0.0
             ]
@@ -58,7 +63,7 @@
             "name" : "Suzanne3",
             "mesh" : 2,
             "translation": [
-                6.0,
+                3.0,
                 0.0,
                 0.0
             ]
@@ -141,9 +146,6 @@
                 "roughnessFactor": 0.1
             },
             "extensions": {
-                "KHR_materials_ior": {
-                    "ior": 2.0
-                },
                 "KHR_materials_transmission": {
                     "transmissionFactor": 0.0
                 },
