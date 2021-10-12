@@ -19,6 +19,9 @@
         "KHR_materials_variants": {
             "variants": [
                 {
+                    "name": "Lamp on"
+                },
+                {
                     "name": "Lamp off"
                 }
             ]
@@ -86,9 +89,15 @@
                         "KHR_materials_variants": {
                             "mappings": [
                                 {
-                                    "material": 8,
+                                    "material": 0,
                                     "variants": [
                                         0
+                                    ]
+                                },
+                                {
+                                    "material": 8,
+                                    "variants": [
+                                        1
                                     ]
                                 }
                             ]
@@ -154,9 +163,15 @@
                         "KHR_materials_variants": {
                             "mappings": [
                                 {
-                                    "material": 9,
+                                    "material": 4,
                                     "variants": [
                                         0
+                                    ]
+                                },
+                                {
+                                    "material": 9,
+                                    "variants": [
+                                        1
                                     ]
                                 }
                             ]
@@ -180,9 +195,15 @@
                         "KHR_materials_variants": {
                             "mappings": [
                                 {
-                                    "material": 10,
+                                    "material": 5,
                                     "variants": [
                                         0
+                                    ]
+                                },
+                                {
+                                    "material": 10,
+                                    "variants": [
+                                        1
                                     ]
                                 }
                             ]
@@ -206,9 +227,15 @@
                         "KHR_materials_variants": {
                             "mappings": [
                                 {
-                                    "material": 12,
+                                    "material": 7,
                                     "variants": [
                                         0
+                                    ]
+                                },
+                                {
+                                    "material": 12,
+                                    "variants": [
+                                        1
                                     ]
                                 }
                             ]
@@ -232,9 +259,15 @@
                         "KHR_materials_variants": {
                             "mappings": [
                                 {
-                                    "material": 11,
+                                    "material": 6,
                                     "variants": [
                                         0
+                                    ]
+                                },
+                                {
+                                    "material": 11,
+                                    "variants": [
+                                        1
                                     ]
                                 }
                             ]

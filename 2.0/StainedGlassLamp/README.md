@@ -8,7 +8,7 @@ Above:  screenshot from [Babylon.js](https://sandbox.babylonjs.com/).
 
 ## Description
 
-This model represents a real product, a Tiffany-style stained glass table lamp being sold on [the Wayfair website](https://www.wayfair.com/lighting/pdp/fleur-de-lis-living-credle-275-table-lamp-fdlv3095.html). 
+This model represents a real product, a Tiffany-style stained glass table lamp sold on [the Wayfair website](https://www.wayfair.com/). 
 
 The model is made of eight parts, each with their own materials and using PNG textures, mostly 2048x2048. All UVs are arranged between 0 and 1, except for a few overlapping parts which have been offset 1 UV unit to avoid texture baking errors. The model uses 55,428 triangles and 51,174 vertices.
 
@@ -22,7 +22,7 @@ The model demonstrates the following extensions:
 
 ## Reference Photos
 
-The use of real-world photographic reference is meant to help glTF developers with calibrating material features and renderer behavior, to more accurately represent e-commerce products. Additional photo reference is available [on the Wayfair website](https://www.wayfair.com/lighting/pdp/fleur-de-lis-living-credle-275-table-lamp-fdlv3095.html).
+The use of real-world photographic reference is meant to help glTF developers with calibrating material features and renderer behavior, to more accurately represent e-commerce products. 
 
 ![photo reference next to screenshot](screenshot/photo_and_screenshot.jpg)
 
