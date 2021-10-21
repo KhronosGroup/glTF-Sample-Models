@@ -119,11 +119,7 @@
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
                     "iridescenceIOR": 1.33,
-                    "iridescenceThicknessMinimum": 400,
-                    "iridescenceThicknessMaximum": 400,
-                    "iridescenceThicknessTexture": {
-                        "index": 0
-                    }
+                    "iridescenceThicknessMaximum": 400
                 }
             }
         },
@@ -155,11 +151,7 @@
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
                     "iridescenceIOR": 1.33,
-                    "iridescenceThicknessMinimum": 400,
-                    "iridescenceThicknessMaximum": 400,
-                    "iridescenceThicknessTexture": {
-                        "index": 0
-                    }
+                    "iridescenceThicknessMaximum": 400
                 }
             }
         },
