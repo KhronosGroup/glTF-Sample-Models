@@ -533,6 +533,15 @@
     }
   },
   {
+    "name": "StainedGlassLamp",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "StainedGlassLamp.gltf",
+      "glTF-JPG-PNG": "StainedGlassLamp.gltf",
+      "glTF-KTX-BasisU": "StainedGlassLamp.gltf"
+    }
+  },
+  {
     "name": "Suzanne",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
