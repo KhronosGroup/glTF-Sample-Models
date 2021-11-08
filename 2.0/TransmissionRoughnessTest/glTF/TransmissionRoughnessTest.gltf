@@ -1,0 +1,716 @@
+{
+    "asset" : {
+        "copyright" : "CC-BY 4.0 Copyright 2021 Analytical Graphics, Inc. Model and Textures by Ed Mackey.",
+        "generator" : "Khronos glTF Blender I/O v1.5.1",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_transmission",
+        "KHR_materials_ior",
+        "KHR_materials_volume"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                7,
+                8,
+                9
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Labels",
+            "translation" : [
+                -0.550000011920929,
+                0,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "IOR_1.0",
+            "translation" : [
+                0,
+                -0.2199999988079071,
+                0
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "IOR_1.33",
+            "translation" : [
+                0,
+                -0.10999999940395355,
+                0
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "IOR_1.50"
+        },
+        {
+            "mesh" : 4,
+            "name" : "IOR_1.76",
+            "translation" : [
+                0,
+                0.10999999940395355,
+                0
+            ]
+        },
+        {
+            "mesh" : 5,
+            "name" : "IOR_2.42",
+            "translation" : [
+                0,
+                0.2199999988079071,
+                0
+            ]
+        },
+        {
+            "mesh" : 6,
+            "name" : "Opaque",
+            "translation" : [
+                0,
+                -0.33000001311302185,
+                0
+            ]
+        },
+        {
+            "children" : [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "name" : "SampleRoot",
+            "translation" : [
+                0.20000000298023224,
+                0,
+                0
+            ]
+        },
+        {
+            "mesh" : 7,
+            "name" : "Flat Backdrop",
+            "translation" : [
+                0,
+                0,
+                0.10000000149011612
+            ]
+        },
+        {
+            "mesh" : 8,
+            "name" : "SmoothRoughLabels"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "LabelMat",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.800000011920929
+            }
+        },
+        {
+            "extensions" : {
+                "KHR_materials_transmission" : {
+                    "transmissionFactor" : 1
+                },
+                "KHR_materials_ior": {
+                    "ior": 1.0
+                },
+                "KHR_materials_volume": {
+                    "thicknessFactor": 0.005
+                }
+            },
+            "name" : "Mat_IOR_1.0",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5,
+                    0.699999988079071,
+                    0.8999999761581421,
+                    1
+                ],
+                "metallicRoughnessTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "extensions" : {
+                "KHR_materials_transmission" : {
+                    "transmissionFactor" : 1
+                },
+                "KHR_materials_ior": {
+                    "ior": 1.33
+                },
+                "KHR_materials_volume": {
+                    "thicknessFactor": 0.005
+                }
+            },
+            "name" : "Mat_IOR_1.33",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5,
+                    0.699999988079071,
+                    0.8999999761581421,
+                    1
+                ],
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "extensions" : {
+                "KHR_materials_transmission" : {
+                    "transmissionFactor" : 1
+                },
+                "KHR_materials_volume": {
+                    "thicknessFactor": 0.005
+                }
+            },
+            "name" : "Mat_IOR_1.50",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5,
+                    0.699999988079071,
+                    0.8999999761581421,
+                    1
+                ],
+                "metallicRoughnessTexture" : {
+                    "index" : 3,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "extensions" : {
+                "KHR_materials_transmission" : {
+                    "transmissionFactor" : 1
+                },
+                "KHR_materials_ior": {
+                    "ior": 1.76
+                },
+                "KHR_materials_volume": {
+                    "thicknessFactor": 0.005
+                }
+            },
+            "name" : "Mat_IOR_1.76",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5,
+                    0.699999988079071,
+                    0.8999999761581421,
+                    1
+                ],
+                "metallicRoughnessTexture" : {
+                    "index" : 4,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "extensions" : {
+                "KHR_materials_transmission" : {
+                    "transmissionFactor" : 1
+                },
+                "KHR_materials_ior": {
+                    "ior": 2.42
+                },
+                "KHR_materials_volume": {
+                    "thicknessFactor": 0.005
+                }
+            },
+            "name" : "Mat_IOR_2.42",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5,
+                    0.699999988079071,
+                    0.8999999761581421,
+                    1
+                ],
+                "metallicRoughnessTexture" : {
+                    "index" : 5,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "name" : "Mat_Opaque",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicRoughnessTexture" : {
+                    "index" : 6,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "name" : "FlatBackdrop",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 7,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "SmoothVsRough",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 8,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.800000011920929
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Labels",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "RoughnessSamples",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "RoughnessSamples",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "RoughnessSamples",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 3
+                }
+            ]
+        },
+        {
+            "name" : "RoughnessSamples",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 4
+                }
+            ]
+        },
+        {
+            "name" : "RoughnessSamples",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 5
+                }
+            ]
+        },
+        {
+            "name" : "RoughnessSamples",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 6
+                }
+            ]
+        },
+        {
+            "name" : "Flat Backdrop Mesh",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 7
+                }
+            ]
+        },
+        {
+            "name" : "SmoothRoughLabels",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "indices" : 15,
+                    "material" : 8
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "IOR_Labels",
+            "uri" : "IOR_Labels.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "RoughnessGrid",
+            "uri" : "RoughnessGrid.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "RoughnessGrid",
+            "uri" : "RoughnessGrid-1.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "GridWithDetails",
+            "uri" : "GridWithDetails.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "SmoothVsRough",
+            "uri" : "SmoothVsRough.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 40,
+            "max" : [
+                0.2536306083202362,
+                0.2532276511192322,
+                0
+            ],
+            "min" : [
+                -0.2536306083202362,
+                -0.2545476257801056,
+                -0.0010000221664085984
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 40,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 40,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 60,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 7866,
+            "max" : [
+                0.49000006914138794,
+                0.050000011920928955,
+                0.02252579852938652
+            ],
+            "min" : [
+                -0.49000000953674316,
+                -0.050000011920928955,
+                -0.0071332501247525215
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 7866,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 7866,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 38880,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 8,
+            "max" : [
+                1,
+                0.44999998807907104,
+                0.25
+            ],
+            "min" : [
+                -1,
+                -0.44999998807907104,
+                -0.25
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 8,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 8,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 12,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 16,
+            "max" : [
+                0.6876577734947205,
+                0.3463990092277527,
+                -0.004254668951034546
+            ],
+            "min" : [
+                -0.2854940891265869,
+                0.28022873401641846,
+                -0.005745113827288151
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 16,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 16,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5123,
+            "count" : 24,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 480,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 480,
+            "byteOffset" : 480
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 320,
+            "byteOffset" : 960
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 120,
+            "byteOffset" : 1280
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 94392,
+            "byteOffset" : 1400
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 94392,
+            "byteOffset" : 95792
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 62928,
+            "byteOffset" : 190184
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 77760,
+            "byteOffset" : 253112
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 96,
+            "byteOffset" : 330872
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 96,
+            "byteOffset" : 330968
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64,
+            "byteOffset" : 331064
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 331128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 331152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 331344
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 128,
+            "byteOffset" : 331536
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 331664
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 331712,
+            "uri" : "TransmissionRoughnessTest.bin"
+        }
+    ]
+}
