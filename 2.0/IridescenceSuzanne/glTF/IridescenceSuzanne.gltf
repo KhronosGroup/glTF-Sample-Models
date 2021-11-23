@@ -3,13 +3,6 @@
         "generator" : "Khronos glTF Blender I/O v1.1.45",
         "version" : "2.0"
     },
-    "extensionsRequired": [
-        "KHR_lights_punctual",
-        "KHR_materials_ior",
-        "KHR_materials_transmission",
-        "KHR_materials_volume",
-        "KHR_materials_iridescence"
-    ],
     "extensionsUsed": [
         "KHR_lights_punctual",
         "KHR_materials_ior",
