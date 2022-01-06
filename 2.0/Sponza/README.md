@@ -10,7 +10,6 @@ Lights are shown here, they are not part of the model.
 
 Tangents have been computed using MikkTSpace, as the original OBJ model did not have them.
 I have manually inspected the normals, and it looks correct to me.
-Be aware that W is -1.0 for most of the tangent signs, you will need to handle tangent W for correct results.
 
 
 ## Sources
