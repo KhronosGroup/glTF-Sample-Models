@@ -55,7 +55,7 @@ Standard models demonstrating multiple features of the core specification.
 | [Cesium Man](CesiumMan)                       | ![](CesiumMan/screenshot/screenshot.gif)         | Textured. Animations. Skins. |
 | [BrainStem](BrainStem)                        | ![](BrainStem/screenshot/screenshot.gif)         | Animations. Skins. |
 | [Fox](Fox)                                    | ![](Fox/screenshot/screenshot.jpg)               | Multiple animations cycles: Survey, Walk, Run. |
-| [Virtual City](VC)                            | ![](VC/screenshot/screenshot.gif)                | Textured. Animations. Skins. |
+| [Virtual City](VC)                            | ![](VC/screenshot/screenshot.gif)                | Textured. Animations. |
 | [Sponza](Sponza)                              | ![](Sponza/screenshot/screenshot.jpg)            | Building interior, often used to test lighting. |
 | [Two Sided Plane](TwoSidedPlane)              | ![](TwoSidedPlane/screenshot/screenshot.jpg)     | A plane having the two sided material parameter enabled. |
 
