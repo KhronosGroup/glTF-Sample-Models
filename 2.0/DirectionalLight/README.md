@@ -18,14 +18,20 @@ Material basecolor =  [0.6, 0.6, 0.6]
 Material roughess:
 Left = 0, Middle = 0.16, Right = 0.33
 
+This means that the color of the specular highlight shall retain the same hue as the lightsource.  
+Where hue is the color without reference to how dull or satururated the color is.  
+This value can be calculated by dividing each RGB component by the total:  
+redHue = R / R + G + B  
+greenHue = G / R + G + B  
+blueHue = B / R + G + B  
 
+Lightsource color = RGB[0.9, 0.8, 0.1]  
+Hue of the lightsource = [0.9 / 1.8, 0.8 / 1.8, 0.1 / 1.8] = [0.5, 0.444, 0.0555]  
 
-This means that the color of the specular highlight shall retain the same chromaticity as: RGB[0.9, 0.8, 0.1] * [0.6, 0.6, 0.6] = [0.54, 0.48, 0.06] = Chroma [0.48, 0.42, 0.09]
+The displayed (concentrated) specuar highlight shall retain this hue.  
 
-
-
-
-
+This will of course not be an exact measure since values are read and written with different precision.  
+There will also be a mix of with basecolor as the material changes roughness.
 
 
 
