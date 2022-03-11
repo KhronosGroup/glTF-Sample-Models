@@ -124,6 +124,7 @@ Models meant to easily illustrate and test specific features of extensions to th
 |-----------------------------------------------------------|---------------------------------------------------------------|-------------|
 | [Attenuation Test](AttenuationTest)                       | ![](AttenuationTest/screenshot/screenshot.jpg)                | Tests the interactions between attenuation, thickness, and scale. |
 | [Clearcoat Test](ClearCoatTest)                           | ![](ClearCoatTest/screenshot/screenshot.jpg)                  | Tests if the KHR_materials_clearcoat extension is supported properly. |
+| [Emissive Strength Test](EmissiveStrengthTest)            | ![](EmissiveStrengthTest/screenshot/screenshot.jpg)           | Tests if the KHR_materials_emissive_strength extension is supported properly. |
 | [Environment Test](EnvironmentTest)                       | ![](EnvironmentTest/screenshot/screenshot.png)                | A simple `scene` with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting. |
 | [SpecGloss Vs MetalRough](SpecGlossVsMetalRough)          | ![](SpecGlossVsMetalRough/screenshot/screenshot.jpg)          | Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly. |
 | [Specular Test](SpecularTest)                             | ![](SpecularTest/screenshot/screenshot.jpg)                   | Tests if the KHR_materials_specular extension is supported correctly. |

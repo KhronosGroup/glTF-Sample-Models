@@ -264,6 +264,14 @@
     }
   },
   {
+    "name": "EmissiveStrengthTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "EmissiveStrengthTest.gltf",
+      "glTF-Binary": "EmissiveStrengthTest.glb"
+    }
+  },
+  {
     "name": "EnvironmentTest",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
