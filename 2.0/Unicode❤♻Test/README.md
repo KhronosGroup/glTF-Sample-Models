@@ -6,7 +6,8 @@
 
 ## Description
 
-Sample glTF model where everything contains unicode characters:
+Sample glTF model where everything contains Unicode characters:
+
 - Main file name.
 - Binary file name.
 - Texture file name.
