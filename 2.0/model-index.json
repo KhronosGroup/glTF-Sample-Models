@@ -323,12 +323,14 @@
   },
   {
     "name": "IridescenceDielectricSpheres",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "IridescenceDielectricSpheres.gltf"
     }
   },
   {
     "name": "IridescenceMetallicSpheres",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "IridescenceMetallicSpheres.gltf"
     }
@@ -669,6 +671,14 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "TwoSidedPlane.gltf"
+    }
+  },
+  {
+    "name": "Unicode\u2764\u267bTest",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "Unicode\u2764\u267bTest.gltf",
+      "glTF-Binary": "Unicode\u2764\u267bTest.glb"
     }
   },
   {
