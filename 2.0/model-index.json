@@ -314,6 +314,25 @@
     }
   },
   {
+    "name": "IridescenceDielectricSpheres",
+    "variants": {
+      "glTF": "IridescenceDielectricSpheres.gltf"
+    }
+  },
+  {
+    "name": "IridescenceMetallicSpheres",
+    "variants": {
+      "glTF": "IridescenceMetallicSpheres.gltf"
+    }
+  },
+  {
+    "name": "IridescenceSuzanne",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "IridescenceSuzanne.gltf"
+    }
+  },
+  {
     "name": "IridescentDishWithOlives",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
