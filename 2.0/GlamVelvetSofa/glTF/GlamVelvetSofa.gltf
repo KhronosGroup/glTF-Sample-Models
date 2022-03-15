@@ -1,0 +1,621 @@
+{
+    "asset": {
+        "version": "2.0",
+        "copyright": "(c) 2021 Wayfair, CC BY 4.0.",
+        "generator": "Created in 3ds Max, exported with babylon.js glTF exporter, and hand-edited in VSCode with glTF Tools"
+    },
+    "extensionsUsed": [
+        "KHR_texture_transform",
+        "KHR_materials_sheen",
+        "KHR_materials_specular",
+        "KHR_materials_variants",
+        "KHR_lights_punctual"
+    ],
+    "extensionsRequired": [
+        "KHR_texture_transform"
+    ],
+    "extensions": {
+        "KHR_lights_punctual": {
+            "lights": [
+                {
+                    "type": "directional",
+                    "intensity": 3
+                }
+            ]
+        },
+        "KHR_materials_variants": {
+            "variants": [
+                {
+                    "name": "Champagne"
+                },
+                {
+                    "name": "Navy"
+                },
+                {
+                    "name": "Gray"
+                },
+                {
+                    "name": "Black"
+                },
+                {
+                    "name": "Pale Pink"
+                }
+            ]
+        }
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "GlamVelvetSofa_legs"
+        },
+        {
+            "mesh": 1,
+            "name": "GlamVelvetSofa_fabric"
+        },
+        {
+            "mesh": 2,
+            "name": "GlamVelvetSofa_feet"
+        },
+        {
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                -0.13959079166529637,
+                -0.6590063691119785,
+                -0.12632793024247307,
+                0.7281938412213848
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "name": "Key Light",
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 0
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0,
+                    "material": 0
+                }
+            ],
+            "name": "GlamVelvetSofa_legs"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TEXCOORD_0": 7
+                    },
+                    "extensions": {
+                        "KHR_materials_variants": {
+                            "mappings": [
+                                {
+                                    "material": 2,
+                                    "variants": [
+                                        0
+                                    ]
+                                },
+                                {
+                                    "material": 3,
+                                    "variants": [
+                                        1
+                                    ]
+                                },
+                                {
+                                    "material": 4,
+                                    "variants": [
+                                        2
+                                    ]
+                                },
+                                {
+                                    "material": 5,
+                                    "variants": [
+                                        3
+                                    ]
+                                },
+                                {
+                                    "material": 6,
+                                    "variants": [
+                                        4
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "indices": 4,
+                    "material": 3
+                }
+            ],
+            "name": "GlamVelvetSofa_fabric"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 9,
+                        "NORMAL": 10,
+                        "TEXCOORD_0": 11
+                    },
+                    "indices": 8,
+                    "material": 1
+                }
+            ],
+            "name": "GlamVelvetSofa_feet"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5123,
+            "count": 918,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 342,
+            "max": [
+                0.967309833,
+                0.228355348,
+                0.392912269
+            ],
+            "min": [
+                -1.07995892,
+                4.544779E-05,
+                -0.62551266
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 4104,
+            "componentType": 5126,
+            "count": 342,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 342,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 1836,
+            "componentType": 5123,
+            "count": 9726,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 8208,
+            "componentType": 5126,
+            "count": 2092,
+            "max": [
+                1.07446992,
+                0.7875869,
+                0.382825553
+            ],
+            "min": [
+                -1.11397314,
+                0.211583689,
+                -0.6070921
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 33312,
+            "componentType": 5126,
+            "count": 2092,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 2736,
+            "componentType": 5126,
+            "count": 2092,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 21288,
+            "componentType": 5123,
+            "count": 1944,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 58416,
+            "componentType": 5126,
+            "count": 684,
+            "max": [
+                0.969506,
+                0.0342675373,
+                0.3951283
+            ],
+            "min": [
+                -1.08214879,
+                4.544779E-05,
+                -0.627700269
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 66624,
+            "componentType": 5126,
+            "count": 684,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 19472,
+            "componentType": 5126,
+            "count": 684,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 25176,
+            "name": "bufferViewScalar"
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 25176,
+            "byteLength": 74832,
+            "byteStride": 12,
+            "name": "bufferViewFloatVec3"
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 100008,
+            "byteLength": 24944,
+            "byteStride": 8,
+            "name": "bufferViewFloatVec2"
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "GlamVelvetSofa.bin",
+            "byteLength": 124952
+        }
+    ],
+    "materials": [
+        {
+            "name": "GlamVelvetSofa_legs",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.02,
+                    0.02,
+                    0.02,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.4
+            },
+            "occlusionTexture": {
+                "index": 0
+            }
+        },
+        {
+            "name": "GlamVelvetSofa_feet",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    0.8,
+                    0.7,
+                    1.0
+                ],
+                "roughnessFactor": 0.4
+            },
+            "occlusionTexture": {
+                "index": 0
+            }
+        },
+        {
+            "name": "GlamVelvetSofa_fabric_champagne",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.075,
+                    0.06,
+                    0.04,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.7
+            },
+            "normalTexture": {
+                "index": 1,
+                "scale": 0.5,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "rotation": 0,
+                        "scale": [
+                            5,
+                            5
+                        ],
+                        "texCoord": 0
+                    }
+                }
+            },
+            "occlusionTexture": {
+                "index": 0
+            },
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularColorFactor": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "KHR_materials_sheen": {
+                    "sheenColorFactor": [
+                        0.9,
+                        0.7,
+                        0.6
+                    ],
+                    "sheenRoughnessFactor": 0.6
+                }
+            }
+        },
+        {
+            "name": "GlamVelvetSofa_fabric_navy",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.01,
+                    0.01,
+                    0.01,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.7
+            },
+            "normalTexture": {
+                "index": 1,
+                "scale": 0.75,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "rotation": 0.36,
+                        "scale": [
+                            5,
+                            5
+                        ],
+                        "texCoord": 0
+                    }
+                }
+            },
+            "occlusionTexture": {
+                "index": 0
+            },
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularColorFactor": [
+                        0.1,
+                        0.34,
+                        1
+                    ]
+                },
+                "KHR_materials_sheen": {
+                    "sheenColorFactor": [
+                        0.05,
+                        0.17,
+                        0.5
+                    ],
+                    "sheenRoughnessFactor": 0.6
+                }
+            }
+        },
+        {
+            "name": "GlamVelvetSofa_fabric_gray",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.25,
+                    0.25,
+                    0.225,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            },
+            "normalTexture": {
+                "index": 1,
+                "scale": 0.3,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "rotation": 1.5,
+                        "scale": [
+                            5,
+                            5
+                        ],
+                        "texCoord": 0
+                    }
+                }
+            },
+            "occlusionTexture": {
+                "index": 0
+            },
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularColorFactor": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "KHR_materials_sheen": {
+                    "sheenColorFactor": [
+                        0.85,
+                        0.9,
+                        1
+                    ],
+                    "sheenRoughnessFactor": 1
+                }
+            }
+        },
+        {
+            "name": "GlamVelvetSofa_fabric_black",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.01,
+                    0.01,
+                    0.01,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            },
+            "normalTexture": {
+                "index": 1,
+                "scale": 0.4,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "rotation": 2,
+                        "scale": [
+                            5,
+                            5
+                        ],
+                        "texCoord": 0
+                    }
+                }
+            },
+            "occlusionTexture": {
+                "index": 0
+            },
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularColorFactor": [
+                        0.12,
+                        0.12,
+                        0.13
+                    ]
+                },
+                "KHR_materials_sheen": {
+                    "sheenColorFactor": [
+                        0.12,
+                        0.12,
+                        0.13
+                    ],
+                    "sheenRoughnessFactor": 0.3
+                }
+            }
+        },
+        {
+            "name": "GlamVelvetSofa_fabric_palepink",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.76,
+                    0.53,
+                    0.54,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.75
+            },
+            "normalTexture": {
+                "index": 1,
+                "scale": 0.2,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "rotation": 2.5,
+                        "scale": [
+                            5,
+                            5
+                        ],
+                        "texCoord": 0
+                    }
+                }
+            },
+            "occlusionTexture": {
+                "index": 0
+            },
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularColorFactor": [
+                        1,
+                        0.9,
+                        0.9
+                    ]
+                },
+                "KHR_materials_sheen": {
+                    "sheenColorFactor": [
+                        1,
+                        0.9,
+                        0.9
+                    ],
+                    "sheenRoughnessFactor": 0.85
+                }
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0,
+            "name": "GlamVelvetSofa_occlusion.png"
+        },
+        {
+            "sampler": 0,
+            "source": 1,
+            "name": "GlamVelvetSofa_normal.png"
+        }
+    ],
+    "images": [
+        {
+            "uri": "GlamVelvetSofa_occlusion.png"
+        },
+        {
+            "uri": "GlamVelvetSofa_normal.png"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ]
+}
