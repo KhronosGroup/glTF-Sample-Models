@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-![screenshot](screenshot/screenshot.png)
+![screenshot](screenshot/screenshot_large.png)
 
 ## License Information
 
