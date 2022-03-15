@@ -675,6 +675,14 @@
     }
   },
   {
+    "name": "Unicode\u2764\u267bTest",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "Unicode\u2764\u267bTest.gltf",
+      "glTF-Binary": "Unicode\u2764\u267bTest.glb"
+    }
+  },
+  {
     "name": "UnlitTest",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
