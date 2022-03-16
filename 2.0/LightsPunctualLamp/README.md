@@ -3,7 +3,7 @@
 
 ## Screenshots
 
-...
+![screenshot](images/lamp_white_bg.png)
 
 
 ## Description
