@@ -273,7 +273,7 @@
   },
   {
     "name": "EnvironmentTest",
-    "screenshot": "screenshot/screenshot.png",
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "EnvironmentTest.gltf",
       "glTF-IBL": "EnvironmentTest.gltf"
@@ -339,7 +339,8 @@
     "name": "IridescenceSuzanne",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "IridescenceSuzanne.gltf"
+      "glTF": "IridescenceSuzanne.gltf",
+      "glTF-Binary": "IridescenceSuzanne.glb"
     }
   },
   {
