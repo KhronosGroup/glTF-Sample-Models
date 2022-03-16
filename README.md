@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/KhronosGroup/glTF/master/specification/figures/gltf.png">
+<img src="2.0/glTF_RGB_June16.svg" height="100">
 </p>
 
 # glTF Sample Models
@@ -7,7 +7,7 @@
 [![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Models/workflows/glTF%20Validation/badge.svg?branch=master)](https://github.com/KhronosGroup/glTF-Sample-Models/actions)
 
 - [glTF 1.0](1.0)
-- [glTF 2.0](2.0) - Click for full list.
+- [glTF 2.0](2.0) - See [the full list](2.0).
 
 Sample glTF 2.0 models are provided in one or more of the following forms of glTF:
 
@@ -29,7 +29,7 @@ Sample models help the glTF ecosystem, if you are able to contribute a model, se
 
 For addition glTF models, see:
 
-* [Khronos glTF Asset Generator](https://github.com/KhronosGroup/glTF-Asset-Generator) offers an extensive suite of test models to excersise each part of the glTF specification.
+* [Khronos glTF Asset Generator](https://github.com/KhronosGroup/glTF-Asset-Generator) offers an extensive suite of test models to exercise each part of the glTF specification.
 * Cesium's [demo models](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Apps/SampleData/models) and [unit test models](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Specs/Data/Models).
 * Flightradar24's [GitHub repo](https://github.com/kalmykov/fr24-3d-models) of aircrafts.
 * [Kenney • Assets](https://kenney.nl/assets?q=3d) hundreds of themed low-poly assets (nature, space, castle, furniture, etc.) provided by Kenney under CC0 licenses, including [30+ pirate themed models](https://kenney.nl/assets/pirate-kit).

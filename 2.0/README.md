@@ -55,7 +55,7 @@ Standard models demonstrating multiple features of the core specification.
 | [Cesium Man](CesiumMan)                       | ![](CesiumMan/screenshot/screenshot.gif)         | Textured. Animations. Skins. |
 | [BrainStem](BrainStem)                        | ![](BrainStem/screenshot/screenshot.gif)         | Animations. Skins. |
 | [Fox](Fox)                                    | ![](Fox/screenshot/screenshot.jpg)               | Multiple animations cycles: Survey, Walk, Run. |
-| [Virtual City](VC)                            | ![](VC/screenshot/screenshot.gif)                | Textured. Animations. Skins. |
+| [Virtual City](VC)                            | ![](VC/screenshot/screenshot.gif)                | Textured. Animations. |
 | [Sponza](Sponza)                              | ![](Sponza/screenshot/screenshot.jpg)            | Building interior, often used to test lighting. |
 | [Two Sided Plane](TwoSidedPlane)              | ![](TwoSidedPlane/screenshot/screenshot.jpg)     | A plane having the two sided material parameter enabled. |
 
@@ -98,6 +98,7 @@ Minimal models testing very narrow pieces of the core specification.
 | [Simple Skin](SimpleSkin)                              | ![](SimpleSkin/screenshot/screenshot.gif)                       | A simple example of vertex skinning in glTF
 | [Cameras](Cameras)                                     | ![](Cameras/screenshot/screenshot.png)                          | A sample with two different `camera` objects |
 | [Interpolation Test](InterpolationTest)                | ![](InterpolationTest/screenshot/screenshot.gif)                | A sample with three different `animation` interpolations |
+| [Unicode Test](Unicode❤♻Test)                         | ![](Unicode❤♻Test/screenshot/screenshot.png)                   | A sample with Unicode characters in file, material, and mesh names |
 
 ## Extensions
 
@@ -124,7 +125,11 @@ Models meant to easily illustrate and test specific features of extensions to th
 |-----------------------------------------------------------|---------------------------------------------------------------|-------------|
 | [Attenuation Test](AttenuationTest)                       | ![](AttenuationTest/screenshot/screenshot.jpg)                | Tests the interactions between attenuation, thickness, and scale. |
 | [Clearcoat Test](ClearCoatTest)                           | ![](ClearCoatTest/screenshot/screenshot.jpg)                  | Tests if the KHR_materials_clearcoat extension is supported properly. |
-| [Environment Test](EnvironmentTest)                       | ![](EnvironmentTest/screenshot/screenshot.png)                | A simple `scene` with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting. |
+| [Emissive Strength Test](EmissiveStrengthTest)            | ![](EmissiveStrengthTest/screenshot/screenshot.jpg)           | Tests if the KHR_materials_emissive_strength extension is supported properly. |
+| [Environment Test](EnvironmentTest)                       | ![](EnvironmentTest/screenshot/screenshot.jpg)                | A simple `scene` with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting. |
+| [Iridescence Dielectric Spheres](IridescenceDielectricSpheres) | ![](IridescenceDielectricSpheres/screenshot/screenshot.jpg) | Tests KHR_materials_iridescence on a non-metallic material. |
+| [Iridescence Metallic Spheres](IridescenceMetallicSpheres) | ![](IridescenceMetallicSpheres/screenshot/screenshot.jpg)    | Tests KHR_materials_iridescence on a metallic material. |
+| [Iridescence Suzanne](IridescenceSuzanne)                 | ![](IridescenceSuzanne/screenshot/screenshot.jpg)             | Further tests KHR_materials_iridescence. |
 | [SpecGloss Vs MetalRough](SpecGlossVsMetalRough)          | ![](SpecGlossVsMetalRough/screenshot/screenshot.jpg)          | Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly. |
 | [Specular Test](SpecularTest)                             | ![](SpecularTest/screenshot/screenshot.jpg)                   | Tests if the KHR_materials_specular extension is supported correctly. |
 | [Texture Transform Test](TextureTransformTest)            | ![](TextureTransformTest/screenshot/screenshot.jpg)           | Tests if the KHR_texture_transform extension is supported for BaseColor. |
