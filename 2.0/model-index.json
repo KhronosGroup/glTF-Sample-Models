@@ -223,7 +223,7 @@
     "name": "ClearcoatRing",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "PBR - Metallic Roughness Alpha-blend.gltf"
+      "glTF": "ClearcoatRing.gltf"
     }
   },
   {
@@ -510,7 +510,7 @@
     "name": "SheenChair",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "gltf_sheen_damask.gltf",
+      "glTF": "SheenChair.gltf",
       "glTF-Binary": "SheenChair.glb"
     }
   },
@@ -519,6 +519,13 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "SheenCloth.gltf"
+    }
+  },
+  {
+    "name": "SheenDamask",
+    "screenshot": null,
+    "variants": {
+      "glTF": "SheenDamask.gltf"
     }
   },
   {
