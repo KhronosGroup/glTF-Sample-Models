@@ -2,6 +2,7 @@
 	"accessors": [
 		{
 			"bufferView": 0,
+			"byteOffset": 0,
 			"componentType": 5125,
 			"count": 23760,
 			"name": "",
@@ -9,6 +10,7 @@
 		},
 		{
 			"bufferView": 1,
+			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 4617,
 			"max": [
@@ -26,6 +28,7 @@
 		},
 		{
 			"bufferView": 2,
+			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 4617,
 			"name": "",
@@ -33,6 +36,7 @@
 		},
 		{
 			"bufferView": 3,
+			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 4617,
 			"name": "",
@@ -40,6 +44,7 @@
 		},
 		{
 			"bufferView": 4,
+			"byteOffset": 0,
 			"componentType": 5125,
 			"count": 2160,
 			"name": "",
@@ -47,6 +52,7 @@
 		},
 		{
 			"bufferView": 5,
+			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 455,
 			"max": [
@@ -64,6 +70,7 @@
 		},
 		{
 			"bufferView": 6,
+			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 455,
 			"name": "",
@@ -71,6 +78,7 @@
 		},
 		{
 			"bufferView": 7,
+			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 455,
 			"name": "",
@@ -78,71 +86,66 @@
 		}
 	],
 	"asset": {
-		"generator": "UX3D Gestaltor",
+		"extras": {
+			"created": "Thu Mar 17 14:39:00 2022"
+		},
+		"generator": "Gestaltor 2022.1.0 Bavette Professional",
 		"version": "2.0"
 	},
 	"bufferViews": [
 		{
 			"buffer": 0,
 			"byteLength": 95040,
-			"name": "",
+			"byteOffset": 0,
 			"target": 34963
 		},
 		{
 			"buffer": 0,
 			"byteLength": 55404,
 			"byteOffset": 95040,
-			"name": "",
 			"target": 34962
 		},
 		{
 			"buffer": 0,
 			"byteLength": 55404,
 			"byteOffset": 150444,
-			"name": "",
 			"target": 34962
 		},
 		{
 			"buffer": 0,
 			"byteLength": 36936,
 			"byteOffset": 205848,
-			"name": "",
 			"target": 34962
 		},
 		{
 			"buffer": 0,
 			"byteLength": 8640,
 			"byteOffset": 242784,
-			"name": "",
 			"target": 34963
 		},
 		{
 			"buffer": 0,
 			"byteLength": 5460,
 			"byteOffset": 251424,
-			"name": "",
 			"target": 34962
 		},
 		{
 			"buffer": 0,
 			"byteLength": 5460,
 			"byteOffset": 256884,
-			"name": "",
 			"target": 34962
 		},
 		{
 			"buffer": 0,
 			"byteLength": 3640,
 			"byteOffset": 262344,
-			"name": "",
 			"target": 34962
 		}
 	],
 	"buffers": [
 		{
 			"byteLength": 265984,
-			"name": "",
-			"uri": "PBR - Metallic Roughness Alpha-blend.bin"
+			"uri": "ClearcoatRing.bin"
 		}
 	],
 	"extensions": {
@@ -173,22 +176,11 @@
 			]
 		}
 	},
-	"extensionsRequired": [
-		"KHR_lights_punctual",
-		"KHR_texture_transform",
-		"KHR_materials_clearcoat"
-	],
 	"extensionsUsed": [
 		"KHR_lights_punctual",
-		"KHR_texture_transform",
 		"KHR_materials_clearcoat"
 	],
 	"images": [
-		{
-			"mimeType": "image/png",
-			"name": "",
-			"uri": "Carbon_baseColor.png"
-		},
 		{
 			"mimeType": "image/png",
 			"name": "",
@@ -202,54 +194,22 @@
 		{
 			"mimeType": "image/png",
 			"name": "",
-			"uri": "Carbon_emissive.png"
-		},
-		{
-			"mimeType": "image/png",
-			"name": "",
-			"uri": "Titan_baseColor.png"
-		},
-		{
-			"mimeType": "image/png",
-			"name": "",
 			"uri": "Titan_occlusionRoughnessMetallic.png"
 		},
 		{
 			"mimeType": "image/png",
 			"name": "",
 			"uri": "Titan_normal.png"
-		},
-		{
-			"mimeType": "image/png",
-			"name": "",
-			"uri": "Titan_emissive.png"
 		}
 	],
 	"materials": [
 		{
 			"alphaMode": "BLEND",
 			"emissiveFactor": [
-				1.0,
-				1.0,
-				1.0
+				0.0,
+				0.0,
+				0.0
 			],
-			"emissiveTexture": {
-				"extensions": {
-					"KHR_texture_transform": {
-						"offset": [
-							0.0,
-							0.0
-						],
-						"rotation": 0.0,
-						"scale": [
-							1.0,
-							1.0
-						]
-					}
-				},
-				"index": 3,
-				"texCoord": 0
-			},
 			"extensions": {
 				"KHR_materials_clearcoat": {
 					"clearcoatFactor": 1.0,
@@ -258,74 +218,24 @@
 			},
 			"name": "Carbon",
 			"normalTexture": {
-				"extensions": {
-					"KHR_texture_transform": {
-						"offset": [
-							0.0,
-							0.0
-						],
-						"rotation": 0.0,
-						"scale": [
-							1.0,
-							1.0
-						]
-					}
-				},
-				"index": 2,
+				"index": 1,
 				"scale": 1.0,
 				"texCoord": 0
 			},
 			"occlusionTexture": {
-				"extensions": {
-					"KHR_texture_transform": {
-						"offset": [
-							0.0,
-							0.0
-						],
-						"rotation": 0.0,
-						"scale": [
-							1.0,
-							1.0
-						]
-					}
-				},
-				"index": 1,
+				"index": 0,
 				"strength": 1.0,
 				"texCoord": 0
 			},
 			"pbrMetallicRoughness": {
-				"baseColorTexture": {
-					"extensions": {
-						"KHR_texture_transform": {
-							"offset": [
-								0.0,
-								0.0
-							],
-							"rotation": 0.0,
-							"scale": [
-								1.0,
-								1.0
-							]
-						}
-					},
-					"index": 0,
-					"texCoord": 0
-				},
+				"baseColorFactor": [
+					0.07804989814758301,
+					0.07804989814758301,
+					0.07804989814758301,
+					1.0
+				],
 				"metallicRoughnessTexture": {
-					"extensions": {
-						"KHR_texture_transform": {
-							"offset": [
-								0.0,
-								0.0
-							],
-							"rotation": 0.0,
-							"scale": [
-								1.0,
-								1.0
-							]
-						}
-					},
-					"index": 1,
+					"index": 0,
 					"texCoord": 0
 				}
 			}
@@ -333,98 +243,30 @@
 		{
 			"alphaMode": "BLEND",
 			"emissiveFactor": [
-				1.0,
-				1.0,
-				1.0
+				0.0,
+				0.0,
+				0.0
 			],
-			"emissiveTexture": {
-				"extensions": {
-					"KHR_texture_transform": {
-						"offset": [
-							0.0,
-							0.0
-						],
-						"rotation": 0.0,
-						"scale": [
-							1.0,
-							1.0
-						]
-					}
-				},
-				"index": 7,
-				"texCoord": 0
-			},
 			"name": "Titan",
 			"normalTexture": {
-				"extensions": {
-					"KHR_texture_transform": {
-						"offset": [
-							0.0,
-							0.0
-						],
-						"rotation": 0.0,
-						"scale": [
-							1.0,
-							1.0
-						]
-					}
-				},
-				"index": 6,
+				"index": 3,
 				"scale": 1.0,
 				"texCoord": 0
 			},
 			"occlusionTexture": {
-				"extensions": {
-					"KHR_texture_transform": {
-						"offset": [
-							0.0,
-							0.0
-						],
-						"rotation": 0.0,
-						"scale": [
-							1.0,
-							1.0
-						]
-					}
-				},
-				"index": 5,
+				"index": 2,
 				"strength": 1.0,
 				"texCoord": 0
 			},
 			"pbrMetallicRoughness": {
-				"baseColorTexture": {
-					"extensions": {
-						"KHR_texture_transform": {
-							"offset": [
-								0.0,
-								0.0
-							],
-							"rotation": 0.0,
-							"scale": [
-								1.0,
-								1.0
-							]
-						}
-					},
-					"index": 4,
-					"texCoord": 0
-				},
+				"baseColorFactor": [
+					0.5418021082878113,
+					0.49950408935546875,
+					0.4478675425052643,
+					1.0
+				],
 				"metallicRoughnessTexture": {
-					"extensions": {
-						"KHR_texture_transform": {
-							"offset": [
-								0.0,
-								0.0
-							],
-							"rotation": 0.0,
-							"scale": [
-								1.0,
-								1.0
-							]
-						}
-					},
-					"index": 5,
-					"texCoord": 0
+					"index": 2
 				}
 			}
 		}
@@ -566,26 +408,6 @@
 			"name": "",
 			"sampler": 0,
 			"source": 3
-		},
-		{
-			"name": "",
-			"sampler": 0,
-			"source": 4
-		},
-		{
-			"name": "",
-			"sampler": 0,
-			"source": 5
-		},
-		{
-			"name": "",
-			"sampler": 0,
-			"source": 6
-		},
-		{
-			"name": "",
-			"sampler": 0,
-			"source": 7
 		}
 	]
 }
