@@ -22,7 +22,7 @@ The addition of lights into the scene through the KHR_lights_punctual extension 
 
 ## Creation Details
 
-Model created using (Blender)[https://www.blender.org/] and (Gestaltor){https://gestaltor.io/] (by [Teresa González Viegas](https://www.artstation.com/teresagviegas). Optimized version created with [RapidCompact](https://rapidcompact.com/)
+Model created using [Blender](https://www.blender.org/) and [Gestaltor](https://gestaltor.io/) by [Teresa González Viegas](https://www.artstation.com/teresagviegas). Optimized version created with [RapidCompact](https://rapidcompact.com/)
 
 
 ## License Information
