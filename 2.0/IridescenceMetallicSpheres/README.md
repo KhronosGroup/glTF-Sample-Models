@@ -1,4 +1,4 @@
-# Iridescence Suzanne
+# Iridescence Metallic Spheres
 
 ## Screenshot
 
