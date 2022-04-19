@@ -3499,7 +3499,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3525,7 +3525,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3551,7 +3551,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3577,7 +3577,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3603,7 +3603,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3629,7 +3629,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3655,7 +3655,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3681,7 +3681,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3707,7 +3707,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3733,7 +3733,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3759,7 +3759,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3785,7 +3785,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3811,7 +3811,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3837,7 +3837,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3863,7 +3863,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3889,7 +3889,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3915,7 +3915,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3941,7 +3941,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3967,7 +3967,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -3993,7 +3993,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4019,7 +4019,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4045,7 +4045,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4071,7 +4071,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4097,7 +4097,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4123,7 +4123,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4149,7 +4149,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4175,7 +4175,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4201,7 +4201,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4227,7 +4227,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4253,7 +4253,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4279,7 +4279,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4305,7 +4305,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4331,7 +4331,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4357,7 +4357,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4383,7 +4383,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4409,7 +4409,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4435,7 +4435,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4461,7 +4461,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4487,7 +4487,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4513,7 +4513,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4539,7 +4539,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4565,7 +4565,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4591,7 +4591,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4617,7 +4617,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4643,7 +4643,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4669,7 +4669,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4695,7 +4695,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4721,7 +4721,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4747,7 +4747,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 100
                 }
             },
@@ -4773,7 +4773,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -4799,7 +4799,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -4825,7 +4825,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -4851,7 +4851,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -4877,7 +4877,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -4903,7 +4903,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -4929,7 +4929,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -4955,7 +4955,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -4981,7 +4981,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5007,7 +5007,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5033,7 +5033,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5059,7 +5059,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5085,7 +5085,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5111,7 +5111,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5137,7 +5137,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5163,7 +5163,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5189,7 +5189,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5215,7 +5215,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5241,7 +5241,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5267,7 +5267,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5293,7 +5293,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5319,7 +5319,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5345,7 +5345,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5371,7 +5371,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5397,7 +5397,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5423,7 +5423,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5449,7 +5449,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5475,7 +5475,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5501,7 +5501,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5527,7 +5527,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5553,7 +5553,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5579,7 +5579,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5605,7 +5605,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5631,7 +5631,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5657,7 +5657,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5683,7 +5683,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5709,7 +5709,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5735,7 +5735,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5761,7 +5761,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5787,7 +5787,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5813,7 +5813,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5839,7 +5839,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5865,7 +5865,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5891,7 +5891,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5917,7 +5917,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5943,7 +5943,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5969,7 +5969,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -5995,7 +5995,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -6021,7 +6021,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 200
                 }
             },
@@ -6047,7 +6047,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6073,7 +6073,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6099,7 +6099,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6125,7 +6125,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6151,7 +6151,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6177,7 +6177,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6203,7 +6203,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6229,7 +6229,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6255,7 +6255,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6281,7 +6281,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6307,7 +6307,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6333,7 +6333,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6359,7 +6359,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6385,7 +6385,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6411,7 +6411,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6437,7 +6437,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6463,7 +6463,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6489,7 +6489,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6515,7 +6515,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6541,7 +6541,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6567,7 +6567,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6593,7 +6593,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6619,7 +6619,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6645,7 +6645,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6671,7 +6671,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6697,7 +6697,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6723,7 +6723,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6749,7 +6749,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6775,7 +6775,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6801,7 +6801,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6827,7 +6827,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6853,7 +6853,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6879,7 +6879,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6905,7 +6905,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6931,7 +6931,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6957,7 +6957,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -6983,7 +6983,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -7009,7 +7009,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -7035,7 +7035,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -7061,7 +7061,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -7087,7 +7087,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -7113,7 +7113,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -7139,7 +7139,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -7165,7 +7165,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -7191,7 +7191,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -7217,7 +7217,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -7243,7 +7243,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -7269,7 +7269,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -7295,7 +7295,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 300
                 }
             },
@@ -7321,7 +7321,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7347,7 +7347,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7373,7 +7373,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7399,7 +7399,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7425,7 +7425,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7451,7 +7451,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7477,7 +7477,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7503,7 +7503,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7529,7 +7529,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7555,7 +7555,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7581,7 +7581,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7607,7 +7607,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7633,7 +7633,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7659,7 +7659,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7685,7 +7685,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7711,7 +7711,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7737,7 +7737,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7763,7 +7763,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7789,7 +7789,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7815,7 +7815,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7841,7 +7841,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7867,7 +7867,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7893,7 +7893,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7919,7 +7919,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7945,7 +7945,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7971,7 +7971,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -7997,7 +7997,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8023,7 +8023,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8049,7 +8049,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8075,7 +8075,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8101,7 +8101,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8127,7 +8127,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8153,7 +8153,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8179,7 +8179,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8205,7 +8205,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8231,7 +8231,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8257,7 +8257,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8283,7 +8283,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8309,7 +8309,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8335,7 +8335,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8361,7 +8361,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8387,7 +8387,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8413,7 +8413,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8439,7 +8439,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8465,7 +8465,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8491,7 +8491,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8517,7 +8517,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8543,7 +8543,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8569,7 +8569,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 400
                 }
             },
@@ -8595,7 +8595,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8621,7 +8621,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8647,7 +8647,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8673,7 +8673,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8699,7 +8699,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8725,7 +8725,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8751,7 +8751,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8777,7 +8777,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8803,7 +8803,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8829,7 +8829,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8855,7 +8855,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8881,7 +8881,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8907,7 +8907,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8933,7 +8933,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8959,7 +8959,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -8985,7 +8985,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9011,7 +9011,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9037,7 +9037,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9063,7 +9063,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9089,7 +9089,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9115,7 +9115,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9141,7 +9141,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9167,7 +9167,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9193,7 +9193,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9219,7 +9219,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9245,7 +9245,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9271,7 +9271,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9297,7 +9297,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9323,7 +9323,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9349,7 +9349,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9375,7 +9375,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9401,7 +9401,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9427,7 +9427,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9453,7 +9453,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9479,7 +9479,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9505,7 +9505,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9531,7 +9531,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9557,7 +9557,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9583,7 +9583,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9609,7 +9609,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9635,7 +9635,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9661,7 +9661,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9687,7 +9687,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9713,7 +9713,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9739,7 +9739,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9765,7 +9765,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9791,7 +9791,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9817,7 +9817,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9843,7 +9843,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 500
                 }
             },
@@ -9869,7 +9869,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -9895,7 +9895,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -9921,7 +9921,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -9947,7 +9947,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -9973,7 +9973,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -9999,7 +9999,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10025,7 +10025,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10051,7 +10051,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10077,7 +10077,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10103,7 +10103,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10129,7 +10129,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10155,7 +10155,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10181,7 +10181,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10207,7 +10207,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10233,7 +10233,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10259,7 +10259,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10285,7 +10285,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10311,7 +10311,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10337,7 +10337,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10363,7 +10363,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10389,7 +10389,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10415,7 +10415,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10441,7 +10441,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10467,7 +10467,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10493,7 +10493,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10519,7 +10519,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10545,7 +10545,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10571,7 +10571,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10597,7 +10597,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10623,7 +10623,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10649,7 +10649,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10675,7 +10675,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10701,7 +10701,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10727,7 +10727,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10753,7 +10753,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10779,7 +10779,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10805,7 +10805,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10831,7 +10831,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10857,7 +10857,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10883,7 +10883,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10909,7 +10909,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10935,7 +10935,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10961,7 +10961,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -10987,7 +10987,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -11013,7 +11013,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -11039,7 +11039,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -11065,7 +11065,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -11091,7 +11091,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -11117,7 +11117,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 600
                 }
             },
@@ -11143,7 +11143,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11169,7 +11169,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11195,7 +11195,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11221,7 +11221,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11247,7 +11247,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11273,7 +11273,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11299,7 +11299,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11325,7 +11325,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11351,7 +11351,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11377,7 +11377,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11403,7 +11403,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11429,7 +11429,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11455,7 +11455,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11481,7 +11481,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11507,7 +11507,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11533,7 +11533,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11559,7 +11559,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11585,7 +11585,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11611,7 +11611,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11637,7 +11637,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11663,7 +11663,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11689,7 +11689,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11715,7 +11715,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11741,7 +11741,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11767,7 +11767,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11793,7 +11793,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11819,7 +11819,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11845,7 +11845,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11871,7 +11871,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11897,7 +11897,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11923,7 +11923,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11949,7 +11949,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -11975,7 +11975,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12001,7 +12001,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12027,7 +12027,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12053,7 +12053,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12079,7 +12079,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12105,7 +12105,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12131,7 +12131,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12157,7 +12157,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12183,7 +12183,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12209,7 +12209,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12235,7 +12235,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.00,
+                    "iridescenceIor": 1.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12261,7 +12261,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.17,
+                    "iridescenceIor": 1.17,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12287,7 +12287,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.33,
+                    "iridescenceIor": 1.33,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12313,7 +12313,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.50,
+                    "iridescenceIor": 1.50,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12339,7 +12339,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.67,
+                    "iridescenceIor": 1.67,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12365,7 +12365,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 1.83,
+                    "iridescenceIor": 1.83,
                     "iridescenceThicknessMaximum": 700
                 }
             },
@@ -12391,7 +12391,7 @@
             "extensions": {
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
-                    "iridescenceIOR": 2.00,
+                    "iridescenceIor": 2.00,
                     "iridescenceThicknessMaximum": 700
                 }
             },
