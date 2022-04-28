@@ -291,8 +291,7 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "Fox.gltf",
-      "glTF-Binary": "Fox.glb",
-      "glTF-Embedded": "Fox.gltf"
+      "glTF-Binary": "Fox.glb"
     }
   },
   {
