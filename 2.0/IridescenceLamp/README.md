@@ -31,7 +31,7 @@ The inner surface of the lamp shade uses a fully-metallic material with iridesce
 
 The iridescence on the lamp shade uses a thickness range from 485 to 515 nanometers and a thickness texture for surface variation, which seems to match the iridescent colors in the reference photography.
 
-![screenshot](screenshot/Textures.jpg)
+![screenshot](screenshot/textures.jpg)
 
 (above) Material ingredients for the model. Top row: occlusion, roughness, metalness. Bottom row: base color, iridescence, iridescence thickness.
 
