@@ -455,7 +455,6 @@
                 "KHR_materials_transmission": {
                     "transmissionFactor": 1
                 },
-                    "specularFactor": 1,
                 "KHR_materials_iridescence": {
                     "iridescenceFactor": 1,
                     "iridescenceTexture": {
