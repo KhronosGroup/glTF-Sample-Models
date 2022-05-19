@@ -328,6 +328,14 @@
     }
   },
   {
+    "name": "IridescenceLamp",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "IridescenceLamp.gltf",
+      "glTF-Binary": "IridescenceLamp.glb"
+    }
+  },
+  {
     "name": "IridescenceMetallicSpheres",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
