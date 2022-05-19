@@ -1,0 +1,724 @@
+{
+  "asset": {
+    "generator": "UnityGLTF",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_animation_pointer"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Fireflies"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.34614646434783936
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 284,
+      "type": "SCALAR",
+      "max": [
+        9.4167251586914063
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 284,
+      "type": "VEC4",
+      "max": [
+        0.668789803981781,
+        0.668789803981781,
+        0.668789803981781,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 284,
+      "type": "SCALAR",
+      "max": [
+        9.4167251586914063
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 284,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.30528604984283447,
+        0.026387134566903114,
+        0.99999994039535522
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0,
+        0.99999994039535522
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 284,
+      "type": "SCALAR",
+      "max": [
+        25.664810180664063
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 284,
+      "type": "SCALAR",
+      "max": [
+        9.4167251586914063
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 284,
+      "type": "VEC4",
+      "max": [
+        0.35848712921142578,
+        0.35848712921142578,
+        0.35848712921142578,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 284,
+      "type": "SCALAR",
+      "max": [
+        9.4167251586914063
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 284,
+      "type": "VEC4",
+      "max": [
+        0.090410351753234863,
+        0.82675200700759888,
+        1.0,
+        0.99999994039535522
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0,
+        0.99999994039535522
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 284,
+      "type": "SCALAR",
+      "max": [
+        19.46783447265625
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 284,
+      "type": "SCALAR",
+      "max": [
+        9.4167251586914063
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 284,
+      "type": "VEC4",
+      "max": [
+        0.63205283880233765,
+        0.63205283880233765,
+        0.63205283880233765,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 284,
+      "type": "SCALAR",
+      "max": [
+        9.4167251586914063
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5126,
+      "count": 284,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.051870055496692657,
+        0.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 284,
+      "type": "SCALAR",
+      "max": [
+        6.4206829071044922
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "path": "/materials/0/baseColorFactor"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "path": "/materials/0/emissiveFactor"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "path": "/materials/0/extensions/KHR_materials_emissive_strength/emissiveStrength"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 3,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "path": "/materials/1/baseColorFactor"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 4,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "path": "/materials/1/emissiveFactor"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 5,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "path": "/materials/1/extensions/KHR_materials_emissive_strength/emissiveStrength"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 6,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "path": "/materials/2/baseColorFactor"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 7,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "path": "/materials/2/emissiveFactor"
+              }
+            }
+          }
+        },
+        {
+          "sampler": 8,
+          "target": {
+            "path": "pointer",
+            "extensions": {
+              "KHR_animation_pointer": {
+                "path": "/materials/2/extensions/KHR_materials_emissive_strength/emissiveStrength"
+              }
+            }
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 6,
+          "interpolation": "LINEAR",
+          "output": 7
+        },
+        {
+          "input": 8,
+          "interpolation": "LINEAR",
+          "output": 9
+        },
+        {
+          "input": 8,
+          "interpolation": "LINEAR",
+          "output": 10
+        },
+        {
+          "input": 11,
+          "interpolation": "LINEAR",
+          "output": 12
+        },
+        {
+          "input": 13,
+          "interpolation": "LINEAR",
+          "output": 14
+        },
+        {
+          "input": 13,
+          "interpolation": "LINEAR",
+          "output": 15
+        },
+        {
+          "input": 16,
+          "interpolation": "LINEAR",
+          "output": 17
+        },
+        {
+          "input": 18,
+          "interpolation": "LINEAR",
+          "output": 19
+        },
+        {
+          "input": 18,
+          "interpolation": "LINEAR",
+          "output": 20
+        }
+      ],
+      "name": "FirefliesBlink"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "Fireflies.bin",
+      "byteLength": 70936
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6180,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6180,
+      "byteLength": 6180,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12360,
+      "byteLength": 8240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20600,
+      "byteLength": 4120,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24720,
+      "byteLength": 4120,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28840,
+      "byteLength": 4608,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 33448,
+      "byteLength": 1136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 34584,
+      "byteLength": 4544
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 39128,
+      "byteLength": 1136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 40264,
+      "byteLength": 4544
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 44808,
+      "byteLength": 1136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 45944,
+      "byteLength": 1136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 47080,
+      "byteLength": 4544
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 51624,
+      "byteLength": 1136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 52760,
+      "byteLength": 4544
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 57304,
+      "byteLength": 1136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 58440,
+      "byteLength": 1136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 59576,
+      "byteLength": 4544
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 64120,
+      "byteLength": 1136
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 65256,
+      "byteLength": 4544
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 69800,
+      "byteLength": 1136
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0567263253,
+        0.0567263253,
+        0.0567263253
+      ],
+      "name": "FireflyA"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0244656969,
+        0.0244656969,
+        0.0244656969
+      ],
+      "name": "FireflyB"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0244656969,
+        0.0244656969,
+        0.0244656969
+      ],
+      "name": "FireflyC"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "A"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ],
+      "name": "B"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 2
+        }
+      ],
+      "name": "C"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3
+      ],
+      "name": "Fireflies"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0.02,
+        0.51,
+        -0.86
+      ],
+      "name": "A"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        0.7145257,
+        0.51,
+        0.7025626
+      ],
+      "name": "B"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -0.8404741,
+        0.51,
+        0.630562544
+      ],
+      "name": "C"
+    }
+  ]
+}
