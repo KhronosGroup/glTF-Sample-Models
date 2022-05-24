@@ -369,6 +369,14 @@
     }
   },
   {
+    "name": "LightsPunctualLamp",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "LightsPunctualLamp.gltf",
+      "glTF-Binary": "LightsPunctualLamp.glb"
+    }
+  },
+  {
     "name": "MaterialsVariantsShoe",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
