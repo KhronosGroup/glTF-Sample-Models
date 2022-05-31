@@ -1,0 +1,366 @@
+{
+  "asset": {
+    "generator": "UnityGLTF",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_texture_transform",
+    "KHR_materials_volume",
+    "KHR_materials_ior",
+    "KHR_materials_transmission",
+    "KHR_materials_iridescence",
+    "KHR_materials_specular"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "DragonAttenuation-MaterialAnimation"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 62570,
+      "type": "VEC3",
+      "max": [
+        0.98094433546066284,
+        1.0221298933029175,
+        1.4283748865127563
+      ],
+      "min": [
+        -0.82166594266891479,
+        0.0015843699220567942,
+        -0.46063709259033203
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 62570,
+      "type": "VEC3",
+      "max": [
+        0.90256166458129883,
+        1.0,
+        0.99997919797897339
+      ],
+      "min": [
+        -0.9306495189666748,
+        -1.0,
+        -0.97392123937606812
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 62570,
+      "type": "VEC2",
+      "max": [
+        0.66259652376174927,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 131337,
+      "type": "SCALAR",
+      "max": [
+        62569.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 76809,
+      "type": "VEC3",
+      "max": [
+        7.0467000007629395,
+        3.1512999534606934,
+        0.0
+      ],
+      "min": [
+        -7.0467000007629395,
+        -3.1512999534606934,
+        -9.9399003982543945
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 76809,
+      "type": "VEC3",
+      "max": [
+        0.999977171421051,
+        0.9999968409538269,
+        0.99999988079071045
+      ],
+      "min": [
+        -0.99998939037323,
+        -0.99999672174453735,
+        -0.99998819828033447
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 76809,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 273648,
+      "type": "SCALAR",
+      "max": [
+        76808.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "DragonAttenuation-MaterialAnimation.bin",
+      "byteLength": 5817396
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 750840,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 750840,
+      "byteLength": 750840,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1501680,
+      "byteLength": 500560,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2002240,
+      "byteLength": 262676,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2264916,
+      "byteLength": 921708,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3186624,
+      "byteLength": 921708,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4108332,
+      "byteLength": 614472,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4722804,
+      "byteLength": 1094592,
+      "target": 34963
+    }
+  ],
+  "images": [
+    {
+      "uri": "DragonAttenuation-DragonAttenuation%20Base%20Color%20Texture.jpg",
+      "name": "DragonAttenuation Base Color Texture"
+    },
+    {
+      "uri": "DragonAttenuation-DragonAttenuation%20Thickness%20Texture.jpg",
+      "name": "DragonAttenuation Thickness Texture"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0,
+          "extensions": {
+            "KHR_texture_transform": {}
+          }
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.4934999942779541
+      },
+      "name": "Cloth Backdrop",
+      "extensions": {
+        "KHR_materials_volume": {
+          "attenuationDistance": 0.001,
+          "attenuationColor": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "KHR_materials_ior": {
+          "ior": 1.5
+        },
+        "KHR_materials_transmission": {},
+        "KHR_materials_iridescence": {},
+        "KHR_materials_specular": {}
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "name": "Dragon with Attenuation",
+      "extensions": {
+        "KHR_materials_volume": {
+          "thicknessFactor": 2.27,
+          "attenuationDistance": 0.155,
+          "attenuationColor": [
+            0.921,
+            0.6399999,
+            0.06399998
+          ],
+          "thicknessTexture": {
+            "index": 1,
+            "texCoord": 0
+          }
+        },
+        "KHR_materials_ior": {
+          "ior": 1.5
+        },
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1.0
+        },
+        "KHR_materials_iridescence": {},
+        "KHR_materials_specular": {}
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ],
+      "name": "Cloth Backdrop"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ],
+      "name": "Dragon"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ],
+      "translation": [
+        6.386,
+        0.0,
+        0.0
+      ],
+      "name": "DragonAttenuation-MaterialAnimation"
+    },
+    {
+      "mesh": 0,
+      "scale": [
+        3.5,
+        3.5,
+        3.5
+      ],
+      "translation": [
+        -0.154701293,
+        -0.8415843,
+        -0.170368731
+      ],
+      "name": "Cloth Backdrop"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "translation": [
+        0.0,
+        -0.730648,
+        0.0
+      ],
+      "name": "Dragon"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9987
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "DragonAttenuation Base Color Texture"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "DragonAttenuation Thickness Texture"
+    }
+  ]
+}

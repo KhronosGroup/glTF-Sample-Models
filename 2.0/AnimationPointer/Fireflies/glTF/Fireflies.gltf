@@ -196,9 +196,9 @@
       "count": 284,
       "type": "VEC4",
       "max": [
-        0.35848712921142578,
-        0.35848712921142578,
-        0.35848712921142578,
+        0.35848718881607056,
+        0.35848718881607056,
+        0.35848718881607056,
         1.0
       ],
       "min": [
@@ -332,7 +332,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "path": "/materials/0/baseColorFactor"
+                "pointer": "/materials/0/baseColorFactor"
               }
             }
           }
@@ -343,7 +343,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "path": "/materials/0/emissiveFactor"
+                "pointer": "/materials/0/emissiveFactor"
               }
             }
           }
@@ -354,7 +354,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "path": "/materials/0/extensions/KHR_materials_emissive_strength/emissiveStrength"
+                "pointer": "/materials/0/extensions/KHR_materials_emissive_strength/emissiveStrength"
               }
             }
           }
@@ -365,7 +365,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "path": "/materials/1/baseColorFactor"
+                "pointer": "/materials/1/baseColorFactor"
               }
             }
           }
@@ -376,7 +376,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "path": "/materials/1/emissiveFactor"
+                "pointer": "/materials/1/emissiveFactor"
               }
             }
           }
@@ -387,7 +387,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "path": "/materials/1/extensions/KHR_materials_emissive_strength/emissiveStrength"
+                "pointer": "/materials/1/extensions/KHR_materials_emissive_strength/emissiveStrength"
               }
             }
           }
@@ -398,7 +398,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "path": "/materials/2/baseColorFactor"
+                "pointer": "/materials/2/baseColorFactor"
               }
             }
           }
@@ -409,7 +409,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "path": "/materials/2/emissiveFactor"
+                "pointer": "/materials/2/emissiveFactor"
               }
             }
           }
@@ -420,7 +420,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "path": "/materials/2/extensions/KHR_materials_emissive_strength/emissiveStrength"
+                "pointer": "/materials/2/extensions/KHR_materials_emissive_strength/emissiveStrength"
               }
             }
           }
