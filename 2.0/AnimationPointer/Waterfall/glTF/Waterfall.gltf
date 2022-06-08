@@ -716,7 +716,7 @@
       "count": 450,
       "type": "SCALAR",
       "max": [
-        17.278573989868164
+        17.278572082519531
       ],
       "min": [
         9.42477798461914
@@ -1071,7 +1071,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/2/baseColorTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/2/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/scale"
               }
             }
           }
@@ -1082,7 +1082,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/2/baseColorTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/2/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/offset"
               }
             }
           }
@@ -1093,7 +1093,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/3/baseColorTexture/extensions/KHR_texture_transform/scale"
+                "pointer": "/materials/3/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/scale"
               }
             }
           }
@@ -1104,7 +1104,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/3/baseColorTexture/extensions/KHR_texture_transform/offset"
+                "pointer": "/materials/3/pbrMetallicRoughness/baseColorTexture/extensions/KHR_texture_transform/offset"
               }
             }
           }
