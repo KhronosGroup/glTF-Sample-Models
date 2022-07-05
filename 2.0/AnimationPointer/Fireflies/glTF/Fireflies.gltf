@@ -4,7 +4,8 @@
     "version": "2.0"
   },
   "extensionsUsed": [
-    "KHR_animation_pointer"
+    "KHR_animation_pointer",
+    "KHR_materials_emissive_strength"
   ],
   "scene": 0,
   "scenes": [
@@ -152,18 +153,16 @@
       "bufferView": 9,
       "componentType": 5126,
       "count": 284,
-      "type": "VEC4",
+      "type": "VEC3",
       "max": [
         1.0,
         0.30528604984283447,
-        0.026387134566903114,
-        0.99999994039535522
+        0.026387134566903114
       ],
       "min": [
         0.0,
         0.0,
-        0.0,
-        0.99999994039535522
+        0.0
       ]
     },
     {
@@ -224,18 +223,16 @@
       "bufferView": 14,
       "componentType": 5126,
       "count": 284,
-      "type": "VEC4",
+      "type": "VEC3",
       "max": [
         0.090410351753234863,
         0.82675200700759888,
-        1.0,
-        0.99999994039535522
+        1.0
       ],
       "min": [
         0.0,
         0.0,
-        0.0,
-        0.99999994039535522
+        0.0
       ]
     },
     {
@@ -296,18 +293,16 @@
       "bufferView": 19,
       "componentType": 5126,
       "count": 284,
-      "type": "VEC4",
+      "type": "VEC3",
       "max": [
         1.0,
         0.051870055496692657,
-        0.0,
-        1.0
+        0.0
       ],
       "min": [
         0.0,
         0.0,
-        0.0,
-        1.0
+        0.0
       ]
     },
     {
@@ -479,7 +474,7 @@
   "buffers": [
     {
       "uri": "Fireflies.bin",
-      "byteLength": 70936
+      "byteLength": 67528
     }
   ],
   "bufferViews": [
@@ -538,7 +533,12 @@
     {
       "buffer": 0,
       "byteOffset": 40264,
-      "byteLength": 4544
+      "byteLength": 3408
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 43672,
+      "byteLength": 1136
     },
     {
       "buffer": 0,
@@ -548,51 +548,46 @@
     {
       "buffer": 0,
       "byteOffset": 45944,
-      "byteLength": 1136
+      "byteLength": 4544
     },
     {
       "buffer": 0,
-      "byteOffset": 47080,
-      "byteLength": 4544
+      "byteOffset": 50488,
+      "byteLength": 1136
     },
     {
       "buffer": 0,
       "byteOffset": 51624,
+      "byteLength": 3408
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 55032,
       "byteLength": 1136
     },
     {
       "buffer": 0,
-      "byteOffset": 52760,
-      "byteLength": 4544
+      "byteOffset": 56168,
+      "byteLength": 1136
     },
     {
       "buffer": 0,
       "byteOffset": 57304,
-      "byteLength": 1136
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 58440,
-      "byteLength": 1136
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 59576,
       "byteLength": 4544
     },
     {
       "buffer": 0,
-      "byteOffset": 64120,
+      "byteOffset": 61848,
       "byteLength": 1136
     },
     {
       "buffer": 0,
-      "byteOffset": 65256,
-      "byteLength": 4544
+      "byteOffset": 62984,
+      "byteLength": 3408
     },
     {
       "buffer": 0,
-      "byteOffset": 69800,
+      "byteOffset": 66392,
       "byteLength": 1136
     }
   ],
@@ -607,7 +602,10 @@
         0.0567263253,
         0.0567263253
       ],
-      "name": "FireflyA"
+      "name": "FireflyA",
+      "extensions": {
+        "KHR_materials_emissive_strength": {}
+      }
     },
     {
       "pbrMetallicRoughness": {
@@ -619,7 +617,10 @@
         0.0244656969,
         0.0244656969
       ],
-      "name": "FireflyB"
+      "name": "FireflyB",
+      "extensions": {
+        "KHR_materials_emissive_strength": {}
+      }
     },
     {
       "pbrMetallicRoughness": {
@@ -631,7 +632,10 @@
         0.0244656969,
         0.0244656969
       ],
-      "name": "FireflyC"
+      "name": "FireflyC",
+      "extensions": {
+        "KHR_materials_emissive_strength": {}
+      }
     }
   ],
   "meshes": [

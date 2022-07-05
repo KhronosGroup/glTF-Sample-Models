@@ -4,13 +4,11 @@
     "version": "2.0"
   },
   "extensionsUsed": [
-    "KHR_texture_transform",
     "KHR_materials_volume",
     "KHR_materials_ior",
     "KHR_materials_transmission",
-    "KHR_materials_iridescence",
-    "KHR_materials_specular",
-    "KHR_animation_pointer"
+    "KHR_animation_pointer",
+    "KHR_materials_iridescence"
   ],
   "scene": 0,
   "scenes": [
@@ -178,18 +176,12 @@
       "bufferView": 11,
       "componentType": 5126,
       "count": 581,
-      "type": "VEC4",
+      "type": "SCALAR",
       "max": [
-        1.0,
-        1.0,
-        1.0,
         1.0
       ],
       "min": [
-        0.22641506791114807,
-        0.22641506791114807,
-        0.22641506791114807,
-        1.0
+        0.0
       ]
     },
     {
@@ -210,10 +202,10 @@
       "count": 581,
       "type": "SCALAR",
       "max": [
-        1.0
+        4.7300000190734863
       ],
       "min": [
-        0.0
+        0.51999998092651367
       ]
     },
     {
@@ -234,10 +226,10 @@
       "count": 581,
       "type": "SCALAR",
       "max": [
-        1.0
+        0.33998763561248779
       ],
       "min": [
-        0.0
+        0.019999999552965164
       ]
     },
     {
@@ -258,10 +250,10 @@
       "count": 581,
       "type": "SCALAR",
       "max": [
-        0.33998763561248779
+        1.0
       ],
       "min": [
-        0.019999999552965164
+        0.0
       ]
     },
     {
@@ -280,18 +272,12 @@
       "bufferView": 19,
       "componentType": 5126,
       "count": 581,
-      "type": "VEC4",
+      "type": "SCALAR",
       "max": [
-        0.92156863212585449,
-        0.70784455537796021,
-        0.92156863212585449,
-        1.0
+        2.1109795570373535
       ],
       "min": [
-        0.062745027244091034,
-        0.062745049595832825,
-        0.062788568437099457,
-        1.0
+        1.3480000495910645
       ]
     },
     {
@@ -312,10 +298,10 @@
       "count": 581,
       "type": "SCALAR",
       "max": [
-        4.7300000190734863
+        1.0
       ],
       "min": [
-        0.51999998092651367
+        0.0
       ]
     },
     {
@@ -334,12 +320,18 @@
       "bufferView": 23,
       "componentType": 5126,
       "count": 581,
-      "type": "SCALAR",
+      "type": "VEC4",
       "max": [
+        1.0,
+        1.0,
+        1.0,
         1.0
       ],
       "min": [
-        0.0
+        0.22641506791114807,
+        0.22641506791114807,
+        0.22641506791114807,
+        1.0
       ]
     },
     {
@@ -358,12 +350,16 @@
       "bufferView": 25,
       "componentType": 5126,
       "count": 581,
-      "type": "SCALAR",
+      "type": "VEC3",
       "max": [
-        2.1109795570373535
+        0.92156863212585449,
+        0.70784455537796021,
+        0.92156863212585449
       ],
       "min": [
-        1.3480000495910645
+        0.062745027244091034,
+        0.062745049595832825,
+        0.062788568437099457
       ]
     }
   ],
@@ -376,7 +372,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/1/extensions/KHR_materials_transmission/transmissionFactor"
+                "pointer": "/materials/1/pbrMetallicRoughness/metallicFactor"
               }
             }
           }
@@ -387,7 +383,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/1/pbrMetallicRoughness/baseColorFactor"
+                "pointer": "/materials/1/pbrMetallicRoughness/roughnessFactor"
               }
             }
           }
@@ -398,7 +394,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/1/pbrMetallicRoughness/roughnessFactor"
+                "pointer": "/materials/1/extensions/KHR_materials_volume/thicknessFactor"
               }
             }
           }
@@ -409,7 +405,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/1/pbrMetallicRoughness/metallicFactor"
+                "pointer": "/materials/1/extensions/KHR_materials_volume/attenuationDistance"
               }
             }
           }
@@ -420,7 +416,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/1/extensions/KHR_materials_volume/attenuationDistance"
+                "pointer": "/materials/1/extensions/KHR_materials_iridescence/iridescenceFactor"
               }
             }
           }
@@ -431,7 +427,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/1/extensions/KHR_materials_volume/attenuationColor"
+                "pointer": "/materials/1/extensions/KHR_materials_iridescence/iridescenceIor"
               }
             }
           }
@@ -442,7 +438,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/1/extensions/KHR_materials_volume/thicknessFactor"
+                "pointer": "/materials/1/extensions/KHR_materials_transmission/transmissionFactor"
               }
             }
           }
@@ -453,7 +449,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/1/extensions/KHR_materials_iridescence/iridescenceFactor"
+                "pointer": "/materials/1/pbrMetallicRoughness/baseColorFactor"
               }
             }
           }
@@ -464,7 +460,7 @@
             "path": "pointer",
             "extensions": {
               "KHR_animation_pointer": {
-                "pointer": "/materials/1/extensions/KHR_materials_iridescence/iridescenceIor"
+                "pointer": "/materials/1/extensions/KHR_materials_volume/attenuationColor"
               }
             }
           }
@@ -517,13 +513,13 @@
           "output": 25
         }
       ],
-      "name": "New Animation"
+      "name": "DragonMaterialAnim"
     }
   ],
   "buffers": [
     {
       "uri": "DragonAttenuation-MaterialAnimation.bin",
-      "byteLength": 5873172
+      "byteLength": 5870848
     }
   ],
   "bufferViews": [
@@ -596,7 +592,22 @@
     {
       "buffer": 0,
       "byteOffset": 5824368,
-      "byteLength": 9296
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5826692,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5829016,
+      "byteLength": 2324
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5831340,
+      "byteLength": 2324
     },
     {
       "buffer": 0,
@@ -636,12 +647,12 @@
     {
       "buffer": 0,
       "byteOffset": 5849932,
-      "byteLength": 9296
+      "byteLength": 2324
     },
     {
       "buffer": 0,
-      "byteOffset": 5859228,
-      "byteLength": 2324
+      "byteOffset": 5852256,
+      "byteLength": 9296
     },
     {
       "buffer": 0,
@@ -651,42 +662,24 @@
     {
       "buffer": 0,
       "byteOffset": 5863876,
-      "byteLength": 2324
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 5866200,
-      "byteLength": 2324
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 5868524,
-      "byteLength": 2324
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 5870848,
-      "byteLength": 2324
+      "byteLength": 6972
     }
   ],
   "images": [
     {
-      "uri": "DragonAttenuation-DragonAttenuation%20Base%20Color%20Texture.jpg",
-      "name": "DragonAttenuation Base Color Texture"
+      "uri": "DragonAttenuation-1.jpg",
+      "name": "1"
     },
     {
-      "uri": "DragonAttenuation-DragonAttenuation%20Thickness%20Texture.jpg",
-      "name": "DragonAttenuation Thickness Texture"
+      "uri": "DragonAttenuation-2.jpg",
+      "name": "2"
     }
   ],
   "materials": [
     {
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 0,
-          "extensions": {
-            "KHR_texture_transform": {}
-          }
+          "index": 0
         },
         "metallicFactor": 0.0,
         "roughnessFactor": 0.4934999942779541
@@ -719,8 +712,7 @@
         "KHR_materials_transmission": {
           "transmissionFactor": 1.0
         },
-        "KHR_materials_iridescence": {},
-        "KHR_materials_specular": {}
+        "KHR_materials_iridescence": {}
       }
     }
   ],
@@ -806,12 +798,12 @@
     {
       "sampler": 0,
       "source": 0,
-      "name": "DragonAttenuation Base Color Texture"
+      "name": "1"
     },
     {
       "sampler": 0,
       "source": 1,
-      "name": "DragonAttenuation Thickness Texture"
+      "name": "2"
     }
   ]
 }
