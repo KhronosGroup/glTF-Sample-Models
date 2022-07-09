@@ -2,7 +2,7 @@
 
 ## Video
 
----
+https://user-images.githubusercontent.com/2693840/178115484-82ace076-0a34-4635-8ec7-e9dd89e26dbd.mp4
 
 _Explosion View Loop_
 
@@ -22,7 +22,16 @@ _Top View_
 This is an animated production model of a mountain bike.  
 It contains lots of animated parts and skinned meshes for the wires.  
 
-A matching USDZ file is also available: 
+A matching USDZ file is available on the USD Working Group's usd-wg/assets repository:  
+https://github.com/prefrontalcortex/usd-wg-assets/tree/carbon-frame-bike/full_assets/CarbonFrameBike
+
+_Link will be updated once the PR to include the asset has been merged_
+
+## Interactive / Augmented Reality
+
+[Link to Interactive Web Player](https://prefrontalcortex.de/labs/model-viewer/upload/CarbonFrameBike/) – Browser uses glTF, iOS AR uses USDZ  
+
+<a href="https://prefrontalcortex.de/labs/model-viewer/upload/CarbonFrameBike/"><img src="screenshots/20220617-interactive-preview.png"/></a>
 
 ## License Information
 
