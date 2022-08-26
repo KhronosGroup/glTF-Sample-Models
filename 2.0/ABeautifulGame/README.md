@@ -1,12 +1,17 @@
 # A Beautiful Game
 
-## Screenshot
+## Screenshots
 
-![screenshot](screenshot/screenshot-large.jpg)
+![screenshot](screenshot/screenshot-babylonjs.jpg)
 
 _Real-time rendered using [Babylon Sandbox](https://sandbox.babylonjs.com/) with Poly Haven's
 [Aerodynamics Workshop HDRI](https://polyhaven.com/a/aerodynamics_workshop),
 ACES tone-mapping, and Exposure +2EV._
+
+![screenshot](screenshot/screenshot-threejs.jpg)
+
+_Real-time rendered using ThreeJS [glTF Viewer](https://gltf-viewer.donmccurdy.com/) with the
+default view settings and neutral lighting._
 
 ## Description
 
