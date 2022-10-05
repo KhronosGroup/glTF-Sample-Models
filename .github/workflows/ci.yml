@@ -1,0 +1,28 @@
+name: glTF Validation
+
+on: [push, pull_request]
+
+env:
+  CI: true
+  LINK: "https://github.com/KhronosGroup/glTF-Validator/releases/download/2.0.0-dev.3.8/gltf_validator-2.0.0-dev.3.8-linux64.tar.xz"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install glTF Validator
+      run: |
+        curl -sL $LINK | tar xJ
+
+    - name: Validate glTF samples
+      run: |
+        ./gltf_validator -r -a ./2.0/
+
+    - name: Upload Validation Reports
+      uses: actions/upload-artifact@v2
+      with:
+        name: validation-reports
+        path: |
+          **/*.report.json

@@ -23,17 +23,17 @@
     {
       "componentType": 5126,
       "count": 11505,
+      "type": "VEC3",
       "max": [
-        0.019474864,
-        0.05784153,
-        0.019474864
+        0.019491157955837814,
+        0.05786978673180264,
+        0.019491165455837813
       ],
       "min": [
-        -0.0194748752,
-        0,
-        -0.0194748677
-      ],
-      "type": "VEC3"
+        -0.019503131931802635,
+        -0.000028256731802638007,
+        -0.019503124431802635
+      ]
     }
   ],
   "asset": {
@@ -44,23 +44,27 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 112594
+      "byteLength": 230113
     }
   ],
   "buffers": [
     {
-      "byteLength": 112594,
-      "uri": "0.bin"
+      "name": "Corset",
+      "byteLength": 230116,
+      "uri": "Corset.bin"
     }
   ],
   "images": [
     {
+      "name": "Corset_baseColor",
       "uri": "Corset_baseColor.png"
     },
     {
+      "name": "Corset_occlusionRoughnessMetallic",
       "uri": "Corset_occlusionRoughnessMetallic.png"
     },
     {
+      "name": "Corset_normal",
       "uri": "Corset_normal.png"
     }
   ],
@@ -76,6 +80,7 @@
           },
           "indices": 0,
           "material": 0,
+          "mode": 4,
           "extensions": {
             "KHR_draco_mesh_compression": {
               "bufferView": 0,
@@ -96,19 +101,38 @@
     {
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 0
+          "index": 0,
+          "texCoord": 0
         },
         "metallicRoughnessTexture": {
-          "index": 1
-        }
+          "index": 1,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
       },
       "normalTexture": {
-        "index": 2
+        "index": 2,
+        "texCoord": 0
       },
       "occlusionTexture": {
-        "index": 1
+        "index": 1,
+        "texCoord": 0
       },
-      "name": "Corset_O"
+      "name": "Corset_O",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
     }
   ],
   "nodes": [
@@ -120,7 +144,17 @@
         0,
         0
       ],
-      "name": "Corset"
+      "name": "Corset",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
     }
   ],
   "scene": 0,

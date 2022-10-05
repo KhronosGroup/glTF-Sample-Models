@@ -1,0 +1,27 @@
+attenuation color = (R) 0.1, (G) 0.5, (B) 0.9
+attenuation distance = 1
+
+attenuationCoefficient = -LN(attenuationColor) / attenuationDistance
+transmittance = EXP(-attenuationCoefficient * thickness)
+
+                (R)             (G)             (B)
+thickness 0.25: 0.5623413252    0.8408964153    0.9740037464
+thickness 0.5:  0.316227766     0.7071067812    0.9486832981
+thickness 1.0:  0.1             0.5             0.9
+thickness 1.5:  0.0316227766    0.3535533906    0.8538149682
+thickness 2.0:  0.01            0.25            0.81
+
+
+
+
+Last row, reverse-engineer attenuation distance from transmittance for unit thickness:
+
+attenuationDistance = LN(attenuationColor) * thickness / LN(transmittance)
+
+              attenuationDistance
+column 0.25:  4
+column 0.5:   2
+column 1.0:   1
+column 1.5:   0.6666667
+column 2.0:   0.5
+
