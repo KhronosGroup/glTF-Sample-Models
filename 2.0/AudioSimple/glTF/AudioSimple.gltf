@@ -1,0 +1,381 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.8.19",
+    "version": "2.0"
+  },
+  "extensionsUsed": ["KHR_audio"],
+  "extensions": {
+    "KHR_audio": {
+      "emitters": [
+        {
+            "name": "Global Emitter",
+            "type": "global",
+            "gain": 0.5,
+            "sources": [0]
+          },
+        {
+          "name": "Positional Emitter",
+          "type": "positional",
+          "gain": 1,
+          "sources": [1],
+          "positional": {
+            "coneInnerAngle": 6.283185307179586,
+            "coneOuterAngle": 6.283185307179586,
+            "coneOuterGain": 0.0,
+            "distanceModel": "inverse",
+            "maxDistance": 10.0,
+            "refDistance": 1.0,
+            "rolloffFactor": 0.8
+          }
+        }
+      ],
+      "sources": [
+        {
+          "name": "Ambient Audio Source",
+          "gain": 1,
+          "autoPlay": true,
+          "loop": true,
+          "audio": 0
+        },
+        {
+          "name": "Talking Audio Source",
+          "gain": 1,
+          "autoPlay": true,
+          "loop": true,
+          "audio": 1
+        }
+      ],
+      "audio": [
+        {
+          "uri": "ambient.mp3"
+        },
+        {
+          "uri": "talking.mp3"
+        }
+      ]
+    }
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [0, 2],
+      "extensions": {
+        "KHR_audio": {
+            "emitters": [
+                0
+            ]
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Plane",
+      "scale": [10, 10, 10]
+    },
+    {
+      "mesh": 1,
+      "name": "Sphere",
+      "scale": [0.5, 0.5, 0.5],
+      "translation": [5.605831146240234, 1.0160478353500366, 0],
+      "extensions": {
+        "KHR_audio": {
+            "emitter": 1
+        }
+      }
+    },
+    {
+      "children": [1],
+      "name": "Rotation"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 1,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 1,
+            "path": "scale"
+          }
+        }
+      ],
+      "name": "SphereAction",
+      "samplers": [
+        {
+          "input": 8,
+          "interpolation": "STEP",
+          "output": 9
+        },
+        {
+          "input": 8,
+          "interpolation": "STEP",
+          "output": 10
+        },
+        {
+          "input": 8,
+          "interpolation": "STEP",
+          "output": 11
+        }
+      ]
+    },
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 2,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "RotationAction",
+      "samplers": [
+        {
+          "input": 12,
+          "interpolation": "LINEAR",
+          "output": 13
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material.002",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929, 0.800000011920929, 0.800000011920929, 1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0, 0.0025671632029116154, 1, 1],
+        "metallicFactor": 0.5
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Sphere",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 4,
+      "max": [1, 0, 1],
+      "min": [-1, 0, -1],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1984,
+      "max": [1.000000238418579, 1, 1.0000003576278687],
+      "min": [-0.9999998211860657, -1, -1],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 1984,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 1984,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 2880,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 1,
+      "max": [0],
+      "min": [0],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 1,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 121,
+      "max": [5],
+      "min": [0],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC4"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 48
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32,
+      "byteOffset": 96
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 128
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23808,
+      "byteOffset": 140
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23808,
+      "byteOffset": 23948
+    },
+    {
+      "buffer": 0,
+      "byteLength": 15872,
+      "byteOffset": 47756
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5760,
+      "byteOffset": 63628
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 69388
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 69392
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 69404
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 69420
+    },
+    {
+      "buffer": 0,
+      "byteLength": 484,
+      "byteOffset": 69432
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1936,
+      "byteOffset": 69916
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 71852,
+      "uri": "AudioSimple.bin"
+    }
+  ]
+}
