@@ -23,17 +23,17 @@
     {
       "componentType": 5126,
       "count": 406,
+      "type": "VEC3",
       "max": [
-        0.02128091,
-        0.06284806,
-        0.0138090011
+        0.021305106995749876,
+        0.06287878584198828,
+        0.013844257789447973
       ],
       "min": [
-        -0.02128091,
-        -0.00004773855,
-        -0.013809
-      ],
-      "type": "VEC3"
+        -0.021311635841988277,
+        -0.00007846439198827552,
+        -0.013839725841988275
+      ]
     }
   ],
   "asset": {
@@ -44,23 +44,27 @@
     {
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 4935
+      "byteLength": 8722
     }
   ],
   "buffers": [
     {
-      "byteLength": 4935,
-      "uri": "0.bin"
+      "name": "Avocado",
+      "byteLength": 8724,
+      "uri": "Avocado.bin"
     }
   ],
   "images": [
     {
+      "name": "Avocado_baseColor",
       "uri": "Avocado_baseColor.png"
     },
     {
+      "name": "Avocado_roughnessMetallic",
       "uri": "Avocado_roughnessMetallic.png"
     },
     {
+      "name": "Avocado_normal",
       "uri": "Avocado_normal.png"
     }
   ],
@@ -76,6 +80,7 @@
           },
           "indices": 0,
           "material": 0,
+          "mode": 4,
           "extensions": {
             "KHR_draco_mesh_compression": {
               "bufferView": 0,
@@ -96,16 +101,34 @@
     {
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 0
+          "index": 0,
+          "texCoord": 0
         },
         "metallicRoughnessTexture": {
-          "index": 1
-        }
+          "index": 1,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
       },
       "normalTexture": {
-        "index": 2
+        "index": 2,
+        "texCoord": 0
       },
-      "name": "2256_Avocado_d"
+      "name": "2256_Avocado_d",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
     }
   ],
   "nodes": [
@@ -117,7 +140,17 @@
         0,
         0
       ],
-      "name": "Avocado"
+      "name": "Avocado",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
     }
   ],
   "scene": 0,

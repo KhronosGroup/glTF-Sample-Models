@@ -1,0 +1,338 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "3ds Max, Max2Babylon, Visual Studio Code, glTF Tools",
+        "copyright": "Copyright 2022 Wayfair LLC. CC BY 4.0 International https://creativecommons.org/licenses/by/4.0/"
+    },
+    "extensionsUsed": [
+        "KHR_materials_transmission",
+        "KHR_materials_volume",
+        "KHR_materials_iridescence"
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "lamp"
+        },
+        {
+            "mesh": 1,
+            "name": "lamp_transmission"
+        },
+        {
+            "mesh": 2,
+            "name": "lamp_iridescence"
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0,
+                    "material": 0
+                }
+            ],
+            "name": "lamp"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TEXCOORD_0": 7
+                    },
+                    "indices": 4,
+                    "material": 1
+                }
+            ],
+            "name": "lamp_transmission"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 9,
+                        "NORMAL": 10,
+                        "TEXCOORD_0": 11
+                    },
+                    "indices": 8,
+                    "material": 2
+                }
+            ],
+            "name": "lamp_iridescence"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5123,
+            "count": 36246,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 7036,
+            "max": [
+                0.14865604,
+                0.476097584,
+                0.1509395
+            ],
+            "min": [
+                -0.14865604,
+                0.0,
+                -0.1509395
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 84432,
+            "componentType": 5126,
+            "count": 7036,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 7036,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 72492,
+            "componentType": 5123,
+            "count": 16896,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 168864,
+            "componentType": 5126,
+            "count": 2990,
+            "max": [
+                0.09652254,
+                0.20118323,
+                0.09652254
+            ],
+            "min": [
+                -0.09652254,
+                0.05125974,
+                -0.09652254
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 204744,
+            "componentType": 5126,
+            "count": 2990,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 56288,
+            "componentType": 5126,
+            "count": 2990,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 106284,
+            "componentType": 5123,
+            "count": 3456,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 240624,
+            "componentType": 5126,
+            "count": 657,
+            "max": [
+                0.14623034,
+                0.472099632,
+                0.148518875
+            ],
+            "min": [
+                -0.14623034,
+                0.243182123,
+                -0.148518875
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 248508,
+            "componentType": 5126,
+            "count": 657,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 80208,
+            "componentType": 5126,
+            "count": 657,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 113196,
+            "name": "bufferViewScalar"
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 113196,
+            "byteLength": 256392,
+            "byteStride": 12,
+            "name": "bufferViewFloatVec3"
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 369588,
+            "byteLength": 85464,
+            "byteStride": 8,
+            "name": "bufferViewFloatVec2"
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "IridescenceLamp.bin",
+            "byteLength": 455052
+        }
+    ],
+    "materials": [
+        {
+            "name": "IridescenceLamp",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "occlusionTexture": {
+                "index": 1
+            }
+        },
+        {
+            "name": "IridescenceLampTransmissionIridescence",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "occlusionTexture": {
+                "index": 1
+            },
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "thicknessFactor": 0.005
+                },
+                "KHR_materials_iridescence": {
+                    "iridescenceFactor": 1,
+                    "iridescenceIor": 1.67,
+                    "iridescenceThicknessMaximum": 405,
+                    "iridescenceThicknessMinimum": 395,
+                    "iridescenceThicknessTexture": {
+                        "index": 2
+                    }
+                }
+            }
+        },
+        {
+            "name": "IridescenceLampIridescence",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "occlusionTexture": {
+                "index": 1
+            },
+            "extensions": {
+                "KHR_materials_iridescence": {
+                    "iridescenceFactor": 1,
+                    "iridescenceIor": 1.8,
+                    "iridescenceThicknessMaximum": 515,
+                    "iridescenceThicknessMinimum": 485,
+                    "iridescenceThicknessTexture": {
+                        "index": 2
+                    }
+                }
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0,
+            "name": "IridescenceLamp_BaseColor.png"
+        },
+        {
+            "sampler": 0,
+            "source": 1,
+            "name": "IridescenceLamp_OcclusionRoughnessMetalness.png"
+        },
+        {
+            "sampler": 0,
+            "source": 2,
+            "name": "IridescenceLamp_Iridescence.png"
+        }
+    ],
+    "images": [
+        {
+            "uri": "IridescenceLamp_BaseColor.png"
+        },
+        {
+            "uri": "IridescenceLamp_OcclusionRoughnessMetalness.png"
+        },
+        {
+            "uri": "IridescenceLamp_Iridescence.png"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ]
+}

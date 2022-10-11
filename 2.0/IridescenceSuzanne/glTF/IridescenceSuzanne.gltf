@@ -1,0 +1,308 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "extensionsUsed": [
+        "KHR_lights_punctual",
+        "KHR_materials_ior",
+        "KHR_materials_transmission",
+        "KHR_materials_volume",
+        "KHR_materials_iridescence"
+    ],
+    "extensions": {
+        "KHR_lights_punctual": {
+            "lights": [
+                {
+                    "color": [1.0, 1.0, 1.0],
+                    "type": "directional",
+                    "intensity": 2.0
+                }
+            ]
+        }
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Suzanne1",
+            "mesh" : 0,
+            "translation": [
+                -3.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name" : "Suzanne2",
+            "mesh" : 1,
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name" : "Suzanne3",
+            "mesh" : 2,
+            "translation": [
+                3.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "Light",
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 0
+                }
+            },
+            "translation": [
+                5.0,
+                5.0,
+                5.0
+            ]
+        }
+    ],
+    "images" : [
+        {
+            "uri" : "noise.png"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : false,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.4,
+                    0.4,
+                    0.4,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.1
+            },
+            "extensions": {
+                "KHR_materials_ior": {
+                    "ior": 2.0
+                },
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 0.0
+                },
+                "KHR_materials_volume": {
+                    "thicknessFactor": 2.0
+                },
+                "KHR_materials_iridescence": {
+                    "iridescenceFactor": 1,
+                    "iridescenceIor": 1.33,
+                    "iridescenceThicknessMaximum": 400
+                }
+            }
+        },
+        {
+            "doubleSided" : false,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.4,
+                    0.4,
+                    0.4,
+                    1.0
+                ],
+                "metallicFactor": 1.0,
+                "roughnessFactor": 0.1
+            },
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 0.0
+                },
+                "KHR_materials_volume": {
+                    "thicknessFactor": 2.0
+                },
+                "KHR_materials_iridescence": {
+                    "iridescenceFactor": 1,
+                    "iridescenceIor": 1.33,
+                    "iridescenceThicknessMaximum": 400
+                }
+            }
+        },
+        {
+            "doubleSided" : false,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.1
+            },
+            "extensions": {
+                "KHR_materials_ior": {
+                    "ior": 1.5
+                },
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1.0
+                },
+                "KHR_materials_volume": {
+                    "thicknessFactor": 2.0
+                },
+                "KHR_materials_iridescence": {
+                    "iridescenceFactor": 1,
+                    "iridescenceIor": 1.8,
+                    "iridescenceThicknessMinimum": 200,
+                    "iridescenceThicknessMaximum": 600,
+                    "iridescenceThicknessTexture": {
+                        "index": 0
+                    }
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Suzanne1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name" : "Suzanne2",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices": 3,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name" : "Suzanne3",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices": 3,
+                    "material": 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3321,
+            "max" : [
+                1.325934886932373,
+                0.9392361640930176,
+                0.8223199844360352
+            ],
+            "min" : [
+                -1.325934886932373,
+                -0.9704862236976624,
+                -0.7782661318778992
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3321,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3321,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 11808,
+            "type" : "SCALAR"
+        }
+    ],
+    "samplers" : [
+        {}
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 39852,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 39852,
+            "byteOffset" : 39852
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 26568,
+            "byteOffset" : 79704
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23616,
+            "byteOffset" : 106272
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 129888,
+            "uri" : "IridescenceSuzanne.bin"
+        }
+    ]
+}
