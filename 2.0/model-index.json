@@ -10,6 +10,13 @@
     }
   },
   {
+    "name": "ABeautifulGame",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "ABeautifulGame.gltf"
+    }
+  },
+  {
     "name": "AlphaBlendModeTest",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
