@@ -6,7 +6,7 @@ In a correct implementation of KHR_audio, you should hear the talking audio comi
 
 ## Screenshot
 
-![screenshot](screenshot/screenshot.jpg)
+![screenshot](screenshot/screenshot.png)
 
 ## License Information
 
