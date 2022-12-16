@@ -1,0 +1,350 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "3ds Max, Max2Babylon, Visual Studio Code, glTF Tools",
+        "copyright": "(c) 2022 Wayfair LLC. CC BY 4.0 International https://creativecommons.org/licenses/by/4.0/"
+    },
+    "extensionsUsed": [
+        "KHR_materials_transmission",
+        "KHR_materials_volume",
+        "KHR_materials_clearcoat",
+        "KHR_materials_anisotropy"
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "lamp"
+        },
+        {
+            "mesh": 1,
+            "name": "lamp filament"
+        },
+        {
+            "mesh": 2,
+            "name": "lamp glass"
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "TANGENT": 2,
+                        "NORMAL": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "material": 0
+                }
+            ],
+            "name": "lamp"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 6,
+                        "NORMAL": 7
+                    },
+                    "indices": 5,
+                    "material": 1
+                }
+            ],
+            "name": "lamp filament"
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 9,
+                        "NORMAL": 10
+                    },
+                    "indices": 8,
+                    "material": 2
+                }
+            ],
+            "name": "lamp glass"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5123,
+            "count": 25257,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 6807,
+            "max": [
+                0.08619007,
+                0.056946706,
+                0.226538792
+            ],
+            "min": [
+                -0.104619145,
+                -0.172301471,
+                -2.43595832E-06
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 6807,
+            "type": "VEC4",
+            "name": "accessorTangents"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 81684,
+            "componentType": 5126,
+            "count": 6807,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 6807,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 50516,
+            "componentType": 5123,
+            "count": 840,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 163368,
+            "componentType": 5126,
+            "count": 140,
+            "max": [
+                8.701398E-05,
+                -0.12128906,
+                0.142439723
+            ],
+            "min": [
+                -0.0193775147,
+                -0.170719177,
+                0.122564256
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 165048,
+            "componentType": 5126,
+            "count": 140,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 52196,
+            "componentType": 5123,
+            "count": 4512,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 166728,
+            "componentType": 5126,
+            "count": 769,
+            "max": [
+                0.01725974,
+                -0.0980222151,
+                0.15841879
+            ],
+            "min": [
+                -0.03568878,
+                -0.198292032,
+                0.106095724
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 175956,
+            "componentType": 5126,
+            "count": 769,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 61220,
+            "name": "bufferViewScalar",
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 61220,
+            "byteLength": 185184,
+            "byteStride": 12,
+            "name": "bufferViewFloatVec3",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 246404,
+            "byteLength": 108912,
+            "byteStride": 16,
+            "name": "bufferViewFloatVec4",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 355316,
+            "byteLength": 54456,
+            "byteStride": 8,
+            "name": "bufferViewFloatVec2",
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "AnisotropyBarnLamp.bin",
+            "byteLength": 409772
+        }
+    ],
+    "materials": [
+        {
+            "name": "lamp metal",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "normalTexture": {
+                "index": 0,
+                "scale": 2
+            },
+            "occlusionTexture": {
+                "index": 1
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropy": 0.75,
+                    "anisotropyDirection": [
+                        1,
+                        1,
+                        0
+                    ],
+                    "anisotropyDirectionTexture": {
+                        "index": 3
+                    }
+                },
+                "KHR_materials_clearcoat": {
+                    "clearcoatFactor": 0.25,
+                    "clearcoatRoughnessFactor": 0.15,
+                    "clearcoatNormalTexture": {
+                        "index": 0,
+                        "scale": 2
+                    }
+                }
+            }
+        },
+        {
+            "name": "lamp filament",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.09,
+                    0.09,
+                    0.09,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            },
+            "emissiveFactor": [
+                1.0,
+                0.5,
+                0.25
+            ]
+        },
+        {
+            "name": "lamp glass",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "thicknessFactor": 0.01
+                }
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0,
+            "name": "AnisotropyBarnLamp_normalbump.png"
+        },
+        {
+            "sampler": 0,
+            "source": 1,
+            "name": "AnisotropyBarnLamp_occlusionroughnessmetal.png"
+        },
+        {
+            "sampler": 0,
+            "source": 2,
+            "name": "AnisotropyBarnLamp_basecolor.png"
+        },
+        {
+            "sampler": 0,
+            "source": 3,
+            "name": "AnisotropyBarnLamp_anisotropy.png"
+        }
+    ],
+    "images": [
+        {
+            "uri": "AnisotropyBarnLamp_normalbump.png"
+        },
+        {
+            "uri": "AnisotropyBarnLamp_occlusionroughnessmetal.png"
+        },
+        {
+            "uri": "AnisotropyBarnLamp_basecolor.png"
+        },
+        {
+            "uri": "AnisotropyBarnLamp_anisotropy.png"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ]
+}
