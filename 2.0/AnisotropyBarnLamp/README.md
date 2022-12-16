@@ -18,11 +18,11 @@ The use of real-world photographic reference is meant to help glTF developers wi
 
 The asset has three meshes, each using its own material. 
 
-The incandescent filament inside the light bulb uses a simple materiwl with an emissive color.
+The incandescent filament inside the light bulb uses a simple material with an emissive color.
 
 The light bulb glass uses [KHR_materials_transmission](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_transmission) and [KHR_materials_volume](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_volume) for clear glass with reflection and refraction. 
 
-The metal parts use [KHR_materials_anisotropy](https://github.com/KhronosGroup/glTF/pull/1798) to reproduce the stretched anisrotropic reflections from the brushed-metal surfaces, and [KHR_materials_clearcoat](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_clearcoat) for the clear finish on top of the metal. 
+The metal parts use [KHR_materials_anisotropy](https://github.com/KhronosGroup/glTF/pull/1798) to reproduce the stretched anisotropic reflections from the brushed-metal surfaces, and [KHR_materials_clearcoat](https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_clearcoat) for the clear finish on top of the metal. 
 
 ![screenshot](screenshot/anisotropy_WithWithout.jpg)
 Anisotropy enabled (above left), compared with disabled (above right).
@@ -35,7 +35,7 @@ The anisotropy direction is controlled with an anisotropyDirectionTexture. The r
 There is a close correlation between the texture coordinates and the anisotropyDirection, because the surface tangents are calculated from the UVs and the surface normals of the model. This is explained in a video from Babylon js [Unraveling Advanced Anisotropic Reflections](https://www.youtube.com/watch?v=Zk0A5UzNLNw) on Youtube.
 
 ![screenshot](screenshot/anisotropy_TextureCoordinates.jpg)
-(above) Texture coordinates for the metal material. The parts with vertical UV strips are assined a pink color to stretch the anisotropy in a horizontal direction (perpendicular to the brushed pattern) while the horizontal UV strips use a cyan color to stretch the anisotropy in a vertical direction.
+(above) Texture coordinates for the metal material. The parts with vertical UV strips are assigned a pink color to stretch the anisotropy in a horizontal direction (perpendicular to the brushed pattern) while the horizontal UV strips use a cyan color to stretch the anisotropy in a vertical direction.
 
 ![screenshot](screenshot/anisotropy_RemovingChannels.jpg)
 (above) The affect of each color channel in the anisotropyDirectionTexture. Left to right: the full anisotropy texture, filling the red channel with black, filling the green channel with black, filling the blue channel with black. 
