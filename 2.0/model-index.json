@@ -443,6 +443,14 @@
     }
   },
   {
+    "name": "MultipleScenes",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "MultipleScenes.gltf",
+      "glTF-Embedded": "MultipleScenes.gltf"
+    }
+  },
+  {
     "name": "NormalTangentMirrorTest",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
