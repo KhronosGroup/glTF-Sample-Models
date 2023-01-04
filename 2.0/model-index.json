@@ -177,7 +177,8 @@
       "glTF": "BrainStem.gltf",
       "glTF-Binary": "BrainStem.glb",
       "glTF-Draco": "BrainStem.gltf",
-      "glTF-Embedded": "BrainStem.gltf"
+      "glTF-Embedded": "BrainStem.gltf",
+      "glTF-Meshopt": "BrainStem.gltf"
     }
   },
   {
@@ -256,7 +257,8 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "DragonAttenuation.gltf",
-      "glTF-Binary": "DragonAttenuation.glb"
+      "glTF-Binary": "DragonAttenuation.glb",
+      "glTF-Meshopt": "DragonAttenuation.gltf"
     }
   },
   {
