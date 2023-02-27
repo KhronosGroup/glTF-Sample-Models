@@ -12,4 +12,4 @@ This model also includes eight sample cameras, featuring different angles on the
 
 ## License Information
 
-Toy car model created by Guido Odendahl. Public domain ([CC0](http://creativecommons.org/publicdomain/zero/1.0/)).
+Toy car model created by Guido Odendahl. Materials adjusted by Eric Chadwick. Public domain ([CC0](http://creativecommons.org/publicdomain/zero/1.0/)).
