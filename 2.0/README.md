@@ -42,6 +42,7 @@ Standard models demonstrating multiple features of the core specification.
 | [Box With Spaces](Box%20With%20Spaces)        | ![](Box%20With%20Spaces/screenshot/screenshot.png) | Box with URI-encoded spaces in the texture names used by a simple PBR material. |
 | [Box Vertex Colors](BoxVertexColors)          | ![](BoxVertexColors/screenshot/screenshot.png)   | Box with vertex colors applied. |
 | [Cube](Cube)                                  | ![](Cube/screenshot/screenshot.jpg)              | A cube with non-smoothed faces. |
+| [CubeDDS](CubeDDS)                            | ![](CubeDDS/screenshot/screenshot.jpg)           | A cube with non-smoothed faces, using DDS textures. |
 | [Animated Cube](AnimatedCube)                 | ![](AnimatedCube/screenshot/screenshot.gif)      | Same as previous cube having a linear rotation animation. |
 | [Duck](Duck)                                  | ![](Duck/screenshot/screenshot.png)              | The COLLADA duck. One texture. |
 | [2 Cylinder Engine](2CylinderEngine)          | ![](2CylinderEngine/screenshot/screenshot.png)   | Small CAD data set, including hierarchy. |
