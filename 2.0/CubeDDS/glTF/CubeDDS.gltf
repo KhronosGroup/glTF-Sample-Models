@@ -159,5 +159,8 @@
       ]
     }
   ],
-  "scene": 0
+  "scene": 0,
+  "extensionsUsed": [
+    "MSFT_texture_dds"
+  ]
 }
