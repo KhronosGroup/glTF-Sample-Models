@@ -72,6 +72,7 @@ Models meant to easily illustrate and test specific features of the core specifi
 | [Morph Primitives Test](MorphPrimitivesTest)          | ![](MorphPrimitivesTest/screenshot/screenshot.jpg)            | Tests a morph target on multiple primitives. |
 | [Morph Stress Test](MorphStressTest)                  | ![](MorphStressTest/screenshot/screenshot.jpg)                | Tests up to 8 morph targets. |
 | [Multi UV Test](MultiUVTest)                          | ![](MultiUVTest/screenshot/screenshot.jpg)                    | Tests a second set of texture coordinates. |
+| [Negative Scale Test](NegativeScaleTest)              | ![](NegativeScaleTest/screenshot/screenshot.jpg)              | Tests what happens when geometry is mirrored. |
 | [Normal Tangent Test](NormalTangentTest)              | ![](NormalTangentTest/screenshot/screenshot.png)              | Tests an engine's ability to automatically generate tangent vectors for a normal map. |
 | [Normal Tangent Mirror Test](NormalTangentMirrorTest) | ![](NormalTangentMirrorTest/screenshot/screenshot.png)        | Tests an engine's ability to load supplied tangent vectors for a normal map. |
 | [Orientation Test](OrientationTest)                   | ![](OrientationTest/screenshot/screenshot.png)                | Tests node translations and rotations. |
