@@ -17,6 +17,8 @@ https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html#instantiation):
 
 This means that when a mesh flips inside-out due to its hierarchy of transforms, the winding order is expected to become reversed (clockwise instead of counterclockwise), and features such as back-face culling and lighting need to account for this change.
 
+Some additional test assets revealing this condition are available from the [glTF Asset Generator](https://github.com/KhronosGroup/glTF-Asset-Generator/blob/master/Output/Positive/Node_NegativeScale/README.md).
+
 ## PROBLEM: Negative Scale with Back-Face Culling
 
 ![screenshot](screenshot/negative-scale-fail.jpg)

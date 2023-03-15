@@ -453,6 +453,14 @@
     }
   },
   {
+    "name": "NegativeScaleTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "NegativeScaleTest.gltf",
+      "glTF-Binary": "NegativeScaleTest.glb"
+    }
+  },
+  {
     "name": "NormalTangentMirrorTest",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
