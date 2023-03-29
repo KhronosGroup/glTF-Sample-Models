@@ -393,28 +393,32 @@
         {
             "buffer": 0,
             "byteLength": 146688,
-            "name": "bufferViewScalar"
+            "name": "bufferViewScalar",
+            "target": 34963
         },
         {
             "buffer": 0,
             "byteOffset": 146688,
             "byteLength": 356712,
             "byteStride": 12,
-            "name": "bufferViewFloatVec3"
+            "name": "bufferViewFloatVec3",
+            "target": 34962
         },
         {
             "buffer": 0,
             "byteOffset": 503400,
             "byteLength": 208096,
             "byteStride": 16,
-            "name": "bufferViewFloatVec4"
+            "name": "bufferViewFloatVec4",
+            "target": 34962
         },
         {
             "buffer": 0,
             "byteOffset": 711496,
             "byteLength": 118904,
             "byteStride": 8,
-            "name": "bufferViewFloatVec2"
+            "name": "bufferViewFloatVec2",
+            "target": 34962
         },
         {
             "buffer": 0,
