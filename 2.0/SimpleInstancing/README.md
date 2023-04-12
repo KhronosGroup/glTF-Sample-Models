@@ -1,4 +1,4 @@
-# SimpleSkin
+# SimpleInstancing
 
 A simple example for the `EXT_mesh_gpu_instancing` extension.
 
