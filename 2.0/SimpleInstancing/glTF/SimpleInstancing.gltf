@@ -6,11 +6,11 @@
     {
       "bufferView": 0,
       "byteOffset": 0,
-      "componentType": 5123,
-      "count": 6,
+      "componentType": 5125,
+      "count": 36,
       "type": "SCALAR",
       "max": [
-        3
+        23
       ],
       "min": [
         0
@@ -20,12 +20,12 @@
       "bufferView": 1,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 4,
+      "count": 24,
       "type": "VEC3",
       "max": [
         1,
         1,
-        0
+        1
       ],
       "min": [
         0,
@@ -37,33 +37,33 @@
       "bufferView": 2,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 4,
+      "count": 24,
       "type": "VEC3",
       "max": [
-        0,
-        0,
+        1,
+        1,
         1
       ],
       "min": [
-        0,
-        0,
-        1
+        -1,
+        -1,
+        -1
       ]
     },
     {
       "bufferView": 3,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 100,
+      "count": 125,
       "type": "VEC3",
       "max": [
-        16,
-        16,
-        0
+        10,
+        10,
+        10
       ],
       "min": [
-        -2,
-        -2,
+        0,
+        0,
         0
       ]
     },
@@ -71,35 +71,35 @@
       "bufferView": 4,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 100,
+      "count": 125,
       "type": "VEC4",
       "max": [
-        0.926499,
-        0.926499,
-        0,
+        0.7071068,
+        0.7071068,
+        0.7071068,
         1
       ],
       "min": [
-        -0.11504344,
-        -0.11504344,
         0,
-        0.2760332
+        0,
+        0,
+        0.5
       ]
     },
     {
       "bufferView": 5,
       "byteOffset": 0,
       "componentType": 5126,
-      "count": 100,
+      "count": 125,
       "type": "VEC3",
       "max": [
-        1.8,
-        1.8,
-        1
+        2,
+        2,
+        2
       ],
       "min": [
-        0.9,
-        0.9,
+        1,
+        1,
         1
       ]
     }
@@ -111,7 +111,7 @@
   "buffers": [
     {
       "uri": "SimpleInstancing_data.bin",
-      "byteLength": 4108
+      "byteLength": 5720
     }
   ],
   "bufferViews": [
@@ -119,40 +119,40 @@
       "name": "indices",
       "buffer": 0,
       "byteOffset": 0,
-      "byteLength": 12,
+      "byteLength": 144,
       "target": 34963
     },
     {
       "name": "attribute",
       "buffer": 0,
-      "byteOffset": 12,
-      "byteLength": 48,
+      "byteOffset": 144,
+      "byteLength": 288,
       "target": 34962
     },
     {
       "name": "attribute",
       "buffer": 0,
-      "byteOffset": 60,
-      "byteLength": 48,
+      "byteOffset": 432,
+      "byteLength": 288,
       "target": 34962
     },
     {
       "name": "additional",
       "buffer": 0,
-      "byteOffset": 108,
-      "byteLength": 1200
+      "byteOffset": 720,
+      "byteLength": 1500
     },
     {
       "name": "additional",
       "buffer": 0,
-      "byteOffset": 1308,
-      "byteLength": 1600
+      "byteOffset": 2220,
+      "byteLength": 2000
     },
     {
       "name": "additional",
       "buffer": 0,
-      "byteOffset": 2908,
-      "byteLength": 1200
+      "byteOffset": 4220,
+      "byteLength": 1500
     }
   ],
   "meshes": [
