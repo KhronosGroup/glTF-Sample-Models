@@ -1,0 +1,233 @@
+{
+  "asset": {
+    "version": "2.0"
+  },
+
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
+
+  "nodes": [
+    {
+      "translation": [-0, 3, 0],
+      "mesh": 0
+    },
+    {
+      "translation": [-2, 0, 0],
+      "mesh": 1
+    },
+    {
+      "translation": [0, 0, 0],
+      "mesh": 2
+    },
+    {
+      "translation": [2, 0, 0],
+      "mesh": 3
+    },
+    {
+      "translation": [-2, -3, 0],
+      "mesh": 4
+    },
+    {
+      "translation": [0, -3, 0],
+      "mesh": 5
+    },
+    {
+      "translation": [2, -3, 0],
+      "mesh": 6
+    }
+  ],
+
+  "meshes": [
+    {
+      "name": "mesh with POINTS",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7
+          },
+          "indices": 0,
+          "mode": 0
+        }
+      ]
+    },
+    {
+      "name": "mesh with LINES",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7
+          },
+          "indices": 1,
+          "mode": 1
+        }
+      ]
+    },
+    {
+      "name": "mesh with LINE_LOOP",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7
+          },
+          "indices": 2,
+          "mode": 2
+        }
+      ]
+    },
+    {
+      "name": "mesh with LINE_STRIP",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7
+          },
+          "indices": 3,
+          "mode": 3
+        }
+      ]
+    },
+    {
+      "name": "mesh with TRIANGLES",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7
+          },
+          "indices": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "mesh with GL_TRIANGLE_STRIP",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7
+          },
+          "indices": 5,
+          "mode": 5
+        }
+      ]
+    },
+    {
+      "name": "mesh with GL_TRIANGLE_FAN",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7
+          },
+          "indices": 6,
+          "mode": 6
+        }
+      ]
+    }
+  ],
+
+  "buffers": [
+    {
+      "uri" : "data:application/gltf-buffer;base64,AAABAAIAAwAEAAUABgAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAEAAgADAAQABQAGAAAAAQACAAMABAAFAAYAAAABAAIAAAACAAMAAAADAAQAAAAEAAUAAAAFAAYAAAAGAAEAAgADAAEABAAGAAUAAAABAAIAAwAEAAUABgABAAAAAAAAAAAAAAAAAAAALbJdPwAAAL8AAAAALbJdPwAAAD8AAAAAAAAAAAAAgD8AAAAALbJdvwAAAD8AAAAALbJdvwAAAL8AAAAAAAAAAAAAgL8AAAAA",
+      "byteLength": 216
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 130,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 132,
+      "byteLength": 84,
+      "target": 34962
+    }
+  ],
+  "accessors": [
+    {
+      "name": "indices for POINTS",
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 7,
+      "type": "SCALAR",
+      "max": [6],
+      "min": [0]
+    },
+    {
+      "name": "indices for LINES",
+      "bufferView": 0,
+      "byteOffset": 14,
+      "componentType": 5123,
+      "count": 12,
+      "type": "SCALAR",
+      "max": [6],
+      "min": [0]
+    },
+    {
+      "name": "indices for LINE_LOOP",
+      "bufferView": 0,
+      "byteOffset": 38,
+      "componentType": 5123,
+      "count": 7,
+      "type": "SCALAR",
+      "max": [6],
+      "min": [0]
+    },
+    {
+      "name": "indices for LINE_STRIP",
+      "bufferView": 0,
+      "byteOffset": 52,
+      "componentType": 5123,
+      "count": 7,
+      "type": "SCALAR",
+      "max": [6],
+      "min": [0]
+    },
+    {
+      "name": "indices for TRIANGLES",
+      "bufferView": 0,
+      "byteOffset": 66,
+      "componentType": 5123,
+      "count": 18,
+      "type": "SCALAR",
+      "max": [6],
+      "min": [0]
+    },
+    {
+      "name": "indices for TRIANGLE_STRIP",
+      "bufferView": 0,
+      "byteOffset": 102,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR",
+      "max": [6],
+      "min": [1]
+    },
+    {
+      "name": "indices for TRIANGLE_FAN",
+      "bufferView": 0,
+      "byteOffset": 114,
+      "componentType": 5123,
+      "count": 8,
+      "type": "SCALAR",
+      "max": [6],
+      "min": [0]
+    },
+    {
+      "name": "positions",
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 7,
+      "type": "VEC3",
+      "max": [0.866, 1.0, 0.0],
+      "min": [-0.866, -1.0, 0.0]
+    }
+  ]
+}
