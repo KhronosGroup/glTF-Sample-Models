@@ -1,7 +1,8 @@
 {
     "asset": {
         "version": "2.0",
-        "generator": "babylon.js glTF exporter for 3dsmax 2020 v20200721.1, then hand-edited to add KHR_materials_clearcoat, KHR_materials_transmission, and KHR_materials_sheen."
+        "generator": "babylon.js glTF exporter for 3dsmax 2020 v20200721.1",
+        "copyright": "Public domain (CC0). Toy car model created by Guido Odendahl. Materials edited by Eric Chadwick."
     },
     "extensionsUsed": [
         "KHR_texture_transform",
@@ -481,21 +482,24 @@
         {
             "buffer": 0,
             "byteLength": 1186640,
-            "name": "bufferViewScalar"
+            "name": "bufferViewScalar",
+            "target": 34963
         },
         {
             "buffer": 0,
             "byteOffset": 1186640,
             "byteLength": 1858296,
             "byteStride": 12,
-            "name": "bufferViewFloatVec3"
+            "name": "bufferViewFloatVec3",
+            "target": 34962
         },
         {
             "buffer": 0,
             "byteOffset": 3044936,
             "byteLength": 619432,
             "byteStride": 8,
-            "name": "bufferViewFloatVec2"
+            "name": "bufferViewFloatVec2",
+            "target": 34962
         }
     ],
     "buffers": [
@@ -676,28 +680,28 @@
     ],
     "images": [
         {
-            "uri": "./ToyCar_normal.png"
+            "uri": "ToyCar_normal.png"
         },
         {
-            "uri": "./ToyCar_emissive.png"
+            "uri": "ToyCar_emissive.png"
         },
         {
-            "uri": "./ToyCar_basecolor.png"
+            "uri": "ToyCar_basecolor.png"
         },
         {
-            "uri": "./ToyCar_occlusion_roughness_metallic.png"
+            "uri": "ToyCar_occlusion_roughness_metallic.png"
         },
         {
-            "uri": "./Fabric_normal.png"
+            "uri": "Fabric_normal.png"
         },
         {
-            "uri": "./Fabric_occlusion.png"
+            "uri": "Fabric_occlusion.png"
         },
         {
-            "uri": "./Fabric_baseColor.png"
+            "uri": "Fabric_baseColor.png"
         },
         {
-            "uri": "./ToyCar_clearcoat.png"
+            "uri": "ToyCar_clearcoat.png"
         }
     ],
     "samplers": [
