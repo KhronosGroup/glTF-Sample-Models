@@ -1,0 +1,438 @@
+{
+    "buffers": [
+        {
+            "uri": "DragonAttenuation.bin",
+            "byteLength": 1137148
+        },
+        {
+            "byteLength": 3562564,
+            "extensions": {
+                "EXT_meshopt_compression": {
+                    "fallback": true
+                }
+            }
+        }
+    ],
+    "asset": {
+        "version": "2.0",
+        "generator": "gltfpack 0.18"
+    },
+    "extensionsUsed": [
+        "KHR_mesh_quantization",
+        "EXT_meshopt_compression",
+        "KHR_texture_transform",
+        "KHR_materials_transmission",
+        "KHR_materials_volume",
+        "KHR_materials_variants"
+    ],
+    "extensionsRequired": [
+        "KHR_mesh_quantization",
+        "EXT_meshopt_compression"
+    ],
+    "bufferViews": [
+        {
+            "buffer": 1,
+            "byteOffset": 0,
+            "byteLength": 1102648,
+            "byteStride": 8,
+            "target": 34962,
+            "extensions": {
+                "EXT_meshopt_compression": {
+                    "buffer": 0,
+                    "byteOffset": 0,
+                    "byteLength": 486747,
+                    "byteStride": 8,
+                    "mode": "ATTRIBUTES",
+                    "count": 137831
+                }
+            }
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 1102648,
+            "byteLength": 551324,
+            "byteStride": 4,
+            "target": 34962,
+            "extensions": {
+                "EXT_meshopt_compression": {
+                    "buffer": 0,
+                    "byteOffset": 486748,
+                    "byteLength": 176142,
+                    "byteStride": 4,
+                    "mode": "ATTRIBUTES",
+                    "filter": "OCTAHEDRAL",
+                    "count": 137831
+                }
+            }
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 1653972,
+            "byteLength": 551324,
+            "byteStride": 4,
+            "target": 34962,
+            "extensions": {
+                "EXT_meshopt_compression": {
+                    "buffer": 0,
+                    "byteOffset": 662892,
+                    "byteLength": 320388,
+                    "byteStride": 4,
+                    "mode": "ATTRIBUTES",
+                    "count": 137831
+                }
+            }
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 2205296,
+            "byteLength": 262674,
+            "target": 34963,
+            "extensions": {
+                "EXT_meshopt_compression": {
+                    "buffer": 0,
+                    "byteOffset": 983280,
+                    "byteLength": 50536,
+                    "byteStride": 2,
+                    "mode": "TRIANGLES",
+                    "count": 131337
+                }
+            }
+        },
+        {
+            "buffer": 1,
+            "byteOffset": 2467972,
+            "byteLength": 1094592,
+            "target": 34963,
+            "extensions": {
+                "EXT_meshopt_compression": {
+                    "buffer": 0,
+                    "byteOffset": 1033816,
+                    "byteLength": 103329,
+                    "byteStride": 4,
+                    "mode": "TRIANGLES",
+                    "count": 273648
+                }
+            }
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 61022,
+            "type": "VEC3",
+            "min": [
+                4455,
+                2568,
+                9049
+            ],
+            "max": [
+                11454,
+                6531,
+                16383
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5120,
+            "count": 61022,
+            "type": "VEC3",
+            "normalized": true
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 61022,
+            "type": "VEC2",
+            "normalized": true
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 131337,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 488176,
+            "componentType": 5123,
+            "count": 76809,
+            "type": "VEC3",
+            "min": [
+                0,
+                0,
+                0
+            ],
+            "max": [
+                15634,
+                6991,
+                11026
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 244088,
+            "componentType": 5120,
+            "count": 76809,
+            "type": "VEC3",
+            "normalized": true
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 244088,
+            "componentType": 5123,
+            "count": 76809,
+            "type": "VEC2",
+            "normalized": true
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 273648,
+            "type": "SCALAR"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "images": [
+        {
+            "uri": "checkerboard.jpg"
+        },
+        {
+            "uri": "Dragon_ThicknessMap.jpg"
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        }
+    ],
+    "materials": [
+        {
+            "name": "Cloth Backdrop",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "offset": [
+                                0,
+                                0
+                            ],
+                            "scale": [
+                                10.6039715,
+                                16.003664
+                            ]
+                        }
+                    }
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.493499994
+            }
+        },
+        {
+            "name": "Dragon with Attenuation",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0,
+                "roughnessFactor": 0
+            },
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "thicknessTexture": {
+                        "index": 1,
+                        "extensions": {
+                            "KHR_texture_transform": {
+                                "offset": [
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    16.003664,
+                                    16.003664
+                                ]
+                            }
+                        }
+                    },
+                    "thicknessFactor": 2518.09888,
+                    "attenuationColor": [
+                        0.921000004,
+                        0.639999986,
+                        0.064000003
+                    ],
+                    "attenuationDistance": 0.155000001
+                }
+            }
+        },
+        {
+            "name": "Dragon with Surface Coloring Only",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.921000004,
+                    0.639999986,
+                    0.064000003,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0
+            },
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1
+                },
+                "KHR_materials_volume": {
+                    "thicknessTexture": {
+                        "index": 1,
+                        "extensions": {
+                            "KHR_texture_transform": {
+                                "offset": [
+                                    0,
+                                    0
+                                ],
+                                "scale": [
+                                    16.003664,
+                                    16.003664
+                                ]
+                            }
+                        }
+                    },
+                    "thicknessFactor": 2518.09888
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1,
+                    "extensions": {
+                        "KHR_materials_variants": {
+                            "mappings": [
+                                {
+                                    "material": 1,
+                                    "variants": [
+                                        0
+                                    ]
+                                },
+                                {
+                                    "material": 2,
+                                    "variants": [
+                                        1
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "translation": [
+                -7.0467,
+                -3.15129995,
+                -9.9399004
+            ],
+            "scale": [
+                0.000901473686,
+                0.000901473686,
+                0.000901473686
+            ]
+        },
+        {
+            "mesh": 1,
+            "translation": [
+                -7.0467,
+                -3.15129995,
+                -9.9399004
+            ],
+            "scale": [
+                0.000901473686,
+                0.000901473686,
+                0.000901473686
+            ]
+        },
+        {
+            "name": "Dragon",
+            "translation": [
+                0,
+                -0.730647981,
+                0
+            ],
+            "rotation": [
+                0.707106829,
+                0,
+                0,
+                0.707106829
+            ],
+            "scale": [
+                0.25,
+                0.25,
+                0.25
+            ],
+            "children": [
+                1
+            ]
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Scene",
+            "nodes": [
+                0,
+                2
+            ]
+        }
+    ],
+    "scene": 0,
+    "extensions": {
+        "KHR_materials_variants": {
+            "variants": [
+                {
+                    "name": "Attenuation"
+                },
+                {
+                    "name": "Surface Color"
+                }
+            ]
+        }
+    }
+}

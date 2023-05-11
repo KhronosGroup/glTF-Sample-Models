@@ -1251,19 +1251,22 @@
             "buffer": 0,
             "byteOffset": 0,
             "byteLength": 20736,
-            "byteStride": 12
+            "byteStride": 12,
+            "target": 34962
         },
         {
             "buffer": 0,
             "byteOffset": 20736,
             "byteLength": 27648,
-            "byteStride": 8
+            "byteStride": 8,
+            "target": 34962
         },
         {
             "buffer": 0,
             "byteOffset": 48384,
             "byteLength": 27648,
-            "byteStride": 16
+            "byteStride": 16,
+            "target": 34962
         },
         {
             "buffer": 0,
@@ -1273,20 +1276,17 @@
         {
             "buffer": 0,
             "byteOffset": 77568,
-            "byteLength": 504,
-            "byteStride": 4
+            "byteLength": 504
         },
         {
             "buffer": 0,
             "byteOffset": 78072,
-            "byteLength": 40320,
-            "byteStride": 16
+            "byteLength": 40320
         },
         {
             "buffer": 0,
             "byteOffset": 118392,
-            "byteLength": 1512,
-            "byteStride": 12
+            "byteLength": 1512
         }
     ],
     "buffers": [
@@ -1332,7 +1332,6 @@
     "nodes": [
         {
             "children": [
-                1,
                 2
             ],
             "name": "root"
@@ -1732,7 +1731,8 @@
     "scenes": [
         {
             "nodes": [
-                0
+                0,
+                1
             ]
         }
     ],

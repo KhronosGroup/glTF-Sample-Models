@@ -1,0 +1,118 @@
+{
+  "scene" : 1,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    },
+    {
+      "nodes" : [ 1 ]
+    }
+  ],
+  
+  "nodes" : [
+    {
+      "mesh" : 0
+    },
+    {
+      "mesh" : 1
+    }
+  ],
+  
+  "meshes" : [
+    {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : 1
+        },
+        "indices" : 0
+      } ]
+    },
+    {
+      "primitives" : [ {
+        "attributes" : {
+          "POSITION" : 3
+        },
+        "indices" : 2
+      } ]
+    }
+  ],
+
+  "buffers" : [
+    {
+      "uri" : "simpleTriangle.bin",
+      "byteLength" : 44
+    },
+    {
+      "uri" : "simpleSquare.bin",
+      "byteLength" : 60
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 6,
+      "target" : 34963
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 8,
+      "byteLength" : 36,
+      "target" : 34962
+    },
+    {
+      "buffer" : 1,
+      "byteOffset" : 0,
+      "byteLength" : 12,
+      "target" : 34963
+    },
+    {
+      "buffer" : 1,
+      "byteOffset" : 12,
+      "byteLength" : 48,
+      "target" : 34962
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "byteOffset" : 0,
+      "componentType" : 5123,
+      "count" : 3,
+      "type" : "SCALAR",
+      "max" : [ 2 ],
+      "min" : [ 0 ]
+    },
+    {
+      "bufferView" : 1,
+      "byteOffset" : 0,
+      "componentType" : 5126,
+      "count" : 3,
+      "type" : "VEC3",
+      "max" : [ 1.0, 1.0, 0.0 ],
+      "min" : [ 0.0, 0.0, 0.0 ]
+    },
+    {
+      "bufferView" : 2,
+      "byteOffset" : 0,
+      "componentType" : 5123,
+      "count" : 6,
+      "type" : "SCALAR",
+      "max" : [ 3 ],
+      "min" : [ 0 ]
+    },
+    {
+      "bufferView" : 3,
+      "byteOffset" : 0,
+      "componentType" : 5126,
+      "count" : 4,
+      "type" : "VEC3",
+      "max" : [ 1.0, 1.0, 0.0 ],
+      "min" : [ 0.0, 0.0, 0.0 ]
+    }
+  ],
+  
+  "asset" : {
+    "version" : "2.0"
+  }
+}

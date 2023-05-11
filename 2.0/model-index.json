@@ -10,6 +10,13 @@
     }
   },
   {
+    "name": "ABeautifulGame",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "ABeautifulGame.gltf"
+    }
+  },
+  {
     "name": "AlphaBlendModeTest",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -170,7 +177,8 @@
       "glTF": "BrainStem.gltf",
       "glTF-Binary": "BrainStem.glb",
       "glTF-Draco": "BrainStem.gltf",
-      "glTF-Embedded": "BrainStem.gltf"
+      "glTF-Embedded": "BrainStem.gltf",
+      "glTF-Meshopt": "BrainStem.gltf"
     }
   },
   {
@@ -263,7 +271,8 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "DragonAttenuation.gltf",
-      "glTF-Binary": "DragonAttenuation.glb"
+      "glTF-Binary": "DragonAttenuation.glb",
+      "glTF-Meshopt": "DragonAttenuation.gltf"
     }
   },
   {
@@ -305,8 +314,7 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "Fox.gltf",
-      "glTF-Binary": "Fox.glb",
-      "glTF-Embedded": "Fox.gltf"
+      "glTF-Binary": "Fox.glb"
     }
   },
   {
@@ -343,6 +351,14 @@
     }
   },
   {
+    "name": "IridescenceLamp",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "IridescenceLamp.gltf",
+      "glTF-Binary": "IridescenceLamp.glb"
+    }
+  },
+  {
     "name": "IridescenceMetallicSpheres",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
@@ -373,6 +389,14 @@
       "glTF-Binary": "Lantern.glb",
       "glTF-Draco": "Lantern.gltf",
       "glTF-Quantized": "Lantern.gltf"
+    }
+  },
+  {
+    "name": "LightsPunctualLamp",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "LightsPunctualLamp.gltf",
+      "glTF-Binary": "LightsPunctualLamp.glb"
     }
   },
   {
@@ -432,6 +456,22 @@
       "glTF": "MultiUVTest.gltf",
       "glTF-Binary": "MultiUVTest.glb",
       "glTF-Embedded": "MultiUVTest.gltf"
+    }
+  },
+  {
+    "name": "MultipleScenes",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "MultipleScenes.gltf",
+      "glTF-Embedded": "MultipleScenes.gltf"
+    }
+  },
+  {
+    "name": "NegativeScaleTest",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "NegativeScaleTest.gltf",
+      "glTF-Binary": "NegativeScaleTest.glb"
     }
   },
   {
