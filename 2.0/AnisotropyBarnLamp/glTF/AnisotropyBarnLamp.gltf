@@ -251,13 +251,8 @@
             },
             "extensions": {
                 "KHR_materials_anisotropy": {
-                    "anisotropy": 0.75,
-                    "anisotropyDirection": [
-                        1,
-                        1,
-                        0
-                    ],
-                    "anisotropyDirectionTexture": {
+                    "anisotropyStrength": 0.75,
+                    "anisotropyTexture": {
                         "index": 3
                     }
                 },
