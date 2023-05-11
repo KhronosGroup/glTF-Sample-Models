@@ -1,7 +1,7 @@
-# Clearcoat Ring
+# Clearcoat Sphere
 ## Screenshot
 
-![screenshot](screenshot/screenshot.jpg)
+![screenshot](screenshot/screenshot.png)
 
 ## License Information
 CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/  

@@ -1,4 +1,4 @@
-# Clearcoat Ring
+# Sheen High Heels
 ## Screenshot
 
 ![screenshot](screenshot/screenshot.jpg)
