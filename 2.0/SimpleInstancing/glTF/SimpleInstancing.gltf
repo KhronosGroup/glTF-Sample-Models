@@ -1,0 +1,194 @@
+{
+  "extensionsUsed": [
+    "EXT_mesh_gpu_instancing"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [
+        23
+      ],
+      "min": [
+        0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 125,
+      "type": "VEC3",
+      "max": [
+        10,
+        10,
+        10
+      ],
+      "min": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 125,
+      "type": "VEC4",
+      "max": [
+        0.7071068,
+        0.7071068,
+        0.7071068,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        0,
+        0.5
+      ]
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 125,
+      "type": "VEC3",
+      "max": [
+        2,
+        2,
+        2
+      ],
+      "min": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "JglTF from https://github.com/javagl/JglTF",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "SimpleInstancing_data.bin",
+      "byteLength": 5720
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "indices",
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 144,
+      "target": 34963
+    },
+    {
+      "name": "attribute",
+      "buffer": 0,
+      "byteOffset": 144,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "name": "attribute",
+      "buffer": 0,
+      "byteOffset": 432,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "name": "additional",
+      "buffer": 0,
+      "byteOffset": 720,
+      "byteLength": 1500
+    },
+    {
+      "name": "additional",
+      "buffer": 0,
+      "byteOffset": 2220,
+      "byteLength": 2000
+    },
+    {
+      "name": "additional",
+      "buffer": 0,
+      "byteOffset": 4220,
+      "byteLength": 1500
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2
+          },
+          "indices": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "extensions": {
+        "EXT_mesh_gpu_instancing": {
+          "attributes": {
+            "TRANSLATION": 3,
+            "ROTATION": 4,
+            "SCALE": 5
+          }
+        }
+      },
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
