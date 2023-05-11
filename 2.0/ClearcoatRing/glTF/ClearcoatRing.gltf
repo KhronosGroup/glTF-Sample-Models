@@ -87,9 +87,9 @@
 	],
 	"asset": {
 		"extras": {
-			"created": "Thu Mar 17 14:39:00 2022"
+			"created": "Thu May 11 11:45:26 2023"
 		},
-		"generator": "Gestaltor 2022.1.0 Bavette Professional",
+		"generator": "Gestaltor 2022.5.0 Bucatini Professional",
 		"version": "2.0"
 	},
 	"bufferViews": [
@@ -204,7 +204,6 @@
 	],
 	"materials": [
 		{
-			"alphaMode": "BLEND",
 			"emissiveFactor": [
 				0.0,
 				0.0,
@@ -241,7 +240,6 @@
 			}
 		},
 		{
-			"alphaMode": "BLEND",
 			"emissiveFactor": [
 				0.0,
 				0.0,
