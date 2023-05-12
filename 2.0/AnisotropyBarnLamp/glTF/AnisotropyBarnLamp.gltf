@@ -2,13 +2,14 @@
     "asset": {
         "version": "2.0",
         "generator": "3ds Max, Max2Babylon, Visual Studio Code, glTF Tools",
-        "copyright": "(c) 2022 Wayfair LLC. CC BY 4.0 International https://creativecommons.org/licenses/by/4.0/"
+        "copyright": "(c) 2023 Wayfair, model and textures by Eric Chadwick, CC BY 4.0."
     },
     "extensionsUsed": [
-        "KHR_materials_transmission",
-        "KHR_materials_volume",
+        "KHR_materials_anisotropy",
         "KHR_materials_clearcoat",
-        "KHR_materials_anisotropy"
+        "KHR_materials_emissive_strength",
+        "KHR_materials_transmission",
+        "KHR_materials_volume"
     ],
     "scene": 0,
     "scenes": [
@@ -243,8 +244,7 @@
                 }
             },
             "normalTexture": {
-                "index": 0,
-                "scale": 2
+                "index": 0
             },
             "occlusionTexture": {
                 "index": 1
@@ -252,6 +252,9 @@
             "extensions": {
                 "KHR_materials_anisotropy": {
                     "anisotropyStrength": 0.75,
+                    "anisotropyRotation": [
+                        0.785398
+                    ],
                     "anisotropyTexture": {
                         "index": 3
                     }
@@ -260,8 +263,7 @@
                     "clearcoatFactor": 0.25,
                     "clearcoatRoughnessFactor": 0.15,
                     "clearcoatNormalTexture": {
-                        "index": 0,
-                        "scale": 2
+                        "index": 0
                     }
                 }
             }
@@ -273,22 +275,27 @@
                     0.09,
                     0.09,
                     0.09,
-                    1.0
+                    1
                 ],
-                "metallicFactor": 0.0,
-                "roughnessFactor": 1.0
+                "metallicFactor": 0,
+                "roughnessFactor": 0.7
             },
             "emissiveFactor": [
-                1.0,
+                1,
                 0.5,
                 0.25
-            ]
+            ],
+            "extensions": {
+                "KHR_materials_emissive_strength": {
+                    "emissiveStrength": 25
+                }
+            }
         },
         {
             "name": "lamp glass",
             "pbrMetallicRoughness": {
-                "metallicFactor": 0.0,
-                "roughnessFactor": 0.0
+                "metallicFactor": 0,
+                "roughnessFactor": 0
             },
             "extensions": {
                 "KHR_materials_transmission": {
