@@ -220,11 +220,27 @@
     }
   },
   {
+    "name": "ClearCoatCarPaint",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "ClearCoatCarPaint.gltf",
+      "glTF-Binary": "ClearCoatCarPaint.glb"
+    }
+  },
+  {
     "name": "ClearCoatTest",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "ClearCoatTest.gltf",
       "glTF-Binary": "ClearCoatTest.glb"
+    }
+  },
+  {
+    "name": "ClearcoatWicker",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "ClearcoatWicker.gltf",
+      "glTF-Binary": "ClearcoatWicker.glb"
     }
   },
   {
@@ -394,6 +410,14 @@
     }
   },
   {
+    "name": "MeshPrimitiveModes",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "MeshPrimitiveModes.gltf",
+      "glTF-Embedded": "MeshPrimitiveModes.gltf"
+    }
+  },
+  {
     "name": "MetalRoughSpheres",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -545,6 +569,14 @@
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "SheenCloth.gltf"
+    }
+  },
+  {
+    "name": "SimpleInstancing",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "SimpleInstancing.gltf",
+      "glTF-Binary": "SimpleInstancing.glb"
     }
   },
   {
