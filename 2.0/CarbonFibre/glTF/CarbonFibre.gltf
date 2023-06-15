@@ -1,13 +1,9 @@
 {
     "asset": {
         "version": "2.0",
-        "generator": "babylon.js glTF exporter for 3dsmax 2022 v20220210.4",
-        "copyright": "CC0, No Rights Reserved. Model and texture created by Eric Chadwick"
+        "generator": "3ds Max, Max2Babylon, Visual Studio Code, glTF Tools",
+        "copyright": "(C) 2023, Wayfair LLC. CC-BY 4.0 International https://creativecommons.org/licenses/by/4.0/. Model and textures created by Eric Chadwick."
     },
-    "extensionsUsed": [
-        "KHR_texture_transform",
-        "KHR_materials_clearcoat"
-    ],
     "scene": 0,
     "scenes": [
         {
@@ -24,7 +20,7 @@
                 0.5,
                 0.0
             ],
-            "name": "Sphere"
+            "name": "CarbonFibre"
         }
     ],
     "meshes": [
@@ -40,46 +36,46 @@
                     "material": 0
                 }
             ],
-            "name": "Sphere"
+            "name": "CarbonFibre"
         }
     ],
     "accessors": [
         {
             "bufferView": 0,
             "componentType": 5123,
-            "count": 9216,
+            "count": 11904,
             "type": "SCALAR",
             "name": "accessorIndices"
         },
         {
             "bufferView": 1,
             "componentType": 5126,
-            "count": 1728,
+            "count": 2129,
             "max": [
-                0.5000792,
-                0.4901544,
-                0.5000792
+                0.5,
+                0.5,
+                0.5
             ],
             "min": [
-                -0.5000792,
-                -0.490154475,
-                -0.5000792
+                -0.5,
+                -0.5,
+                -0.5
             ],
             "type": "VEC3",
             "name": "accessorPositions"
         },
         {
             "bufferView": 1,
-            "byteOffset": 20736,
+            "byteOffset": 25548,
             "componentType": 5126,
-            "count": 1728,
+            "count": 2129,
             "type": "VEC3",
             "name": "accessorNormals"
         },
         {
             "bufferView": 2,
             "componentType": 5126,
-            "count": 1728,
+            "count": 2129,
             "type": "VEC2",
             "name": "accessorUVs"
         }
@@ -87,22 +83,22 @@
     "bufferViews": [
         {
             "buffer": 0,
-            "byteLength": 18432,
+            "byteLength": 23808,
             "name": "bufferViewScalar",
             "target": 34963
         },
         {
             "buffer": 0,
-            "byteOffset": 18432,
-            "byteLength": 41472,
+            "byteOffset": 23808,
+            "byteLength": 51096,
             "byteStride": 12,
             "name": "bufferViewFloatVec3",
             "target": 34962
         },
         {
             "buffer": 0,
-            "byteOffset": 59904,
-            "byteLength": 13824,
+            "byteOffset": 74904,
+            "byteLength": 17032,
             "byteStride": 8,
             "name": "bufferViewFloatVec2",
             "target": 34962
@@ -110,53 +106,70 @@
     ],
     "buffers": [
         {
-            "uri": "ClearCoatCarbonFibre.bin",
-            "byteLength": 73728
+            "uri": "CarbonFibre.bin",
+            "byteLength": 91936
         }
     ],
-    "materials": [
+    "extensionsUsed": [
+        "KHR_materials_anisotropy"
+    ],
+    "images": [
         {
-            "pbrMetallicRoughness": {
-                "baseColorFactor": [
-                    0.05,
-                    0.05,
-                    0.05,
-                    1
-                ],
-                "metallicFactor": 0,
-                "roughnessFactor": 0.6
-            },
-            "normalTexture": {
-                "index": 0,
-                "extensions": {
-                    "KHR_texture_transform": {
-                        "scale": [
-                            4,
-                            4
-                        ]
-                    }
-                }
-            },
-            "extensions": {
-                "KHR_materials_clearcoat": {
-                    "clearcoatFactor": 0.75,
-                    "clearcoatRoughnessFactor": 0.05
-                }
-            },
-            "doubleSided": false,
-            "name": "carbon fibre"
+            "uri": "CarbonFibre_occlusion.png"
+        },
+        {
+            "uri": "CarbonFibre_normal.png"
+        },
+        {
+            "uri": "CarbonFibre_anisotropy.png"
         }
     ],
     "textures": [
         {
+            "name": "CarbonFibre_occlusion.png",
             "sampler": 0,
-            "source": 0,
-            "name": "ClearCoatCarbonFibre_Normal.png"
+            "source": 0
+        },
+        {
+            "name": "CarbonFibre_normal.png",
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "name": "CarbonFibre_anisotropy.png",
+            "sampler": 0,
+            "source": 2
         }
     ],
-    "images": [
+    "materials": [
         {
-            "uri": "ClearCoatCarbonFibre_Normal.png"
+            "name": "CarbonFibre",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.009,
+                    0.009,
+                    0.009,
+                    1.0
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.4
+            },
+            "normalTexture": {
+                "index": 1,
+                "scale": 2
+            },
+            "occlusionTexture": {
+                "index": 0
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropyStrength": 0.5,
+                    "anisotropyRotation": 0,
+                    "anisotropyTexture": {
+                        "index": 2
+                    }
+                }
+            }
         }
     ],
     "samplers": [
