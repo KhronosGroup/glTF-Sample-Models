@@ -308,7 +308,8 @@
     "name": "FlightHelmet",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "FlightHelmet.gltf"
+      "glTF": "FlightHelmet.gltf",
+      "glTF-KTX-BasisU": "FlightHelmet.gltf"
     }
   },
   {
@@ -509,6 +510,13 @@
       "glTF": "OrientationTest.gltf",
       "glTF-Binary": "OrientationTest.glb",
       "glTF-Embedded": "OrientationTest.gltf"
+    }
+  },
+  {
+    "name": "PrimitiveModeNormalsTest",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "PrimitiveModeNormalsTest.gltf"
     }
   },
   {
