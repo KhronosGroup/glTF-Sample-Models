@@ -1,0 +1,181 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "3ds Max, Max2Babylon, Visual Studio Code, glTF Tools",
+        "copyright": "(C) 2023, Wayfair LLC. CC-BY 4.0 International https://creativecommons.org/licenses/by/4.0/. Model and textures created by Eric Chadwick."
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "translation": [
+                0.0,
+                0.5,
+                0.0
+            ],
+            "name": "CarbonFibre"
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0,
+                    "material": 0
+                }
+            ],
+            "name": "CarbonFibre"
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5123,
+            "count": 11904,
+            "type": "SCALAR",
+            "name": "accessorIndices"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 2129,
+            "max": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "min": [
+                -0.5,
+                -0.5,
+                -0.5
+            ],
+            "type": "VEC3",
+            "name": "accessorPositions"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 25548,
+            "componentType": 5126,
+            "count": 2129,
+            "type": "VEC3",
+            "name": "accessorNormals"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 2129,
+            "type": "VEC2",
+            "name": "accessorUVs"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 23808,
+            "name": "bufferViewScalar",
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 23808,
+            "byteLength": 51096,
+            "byteStride": 12,
+            "name": "bufferViewFloatVec3",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 74904,
+            "byteLength": 17032,
+            "byteStride": 8,
+            "name": "bufferViewFloatVec2",
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "CarbonFibre.bin",
+            "byteLength": 91936
+        }
+    ],
+    "extensionsUsed": [
+        "KHR_materials_anisotropy"
+    ],
+    "images": [
+        {
+            "uri": "CarbonFibre_occlusion.png"
+        },
+        {
+            "uri": "CarbonFibre_normal.png"
+        },
+        {
+            "uri": "CarbonFibre_anisotropy.png"
+        }
+    ],
+    "textures": [
+        {
+            "name": "CarbonFibre_occlusion.png",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "CarbonFibre_normal.png",
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "name": "CarbonFibre_anisotropy.png",
+            "sampler": 0,
+            "source": 2
+        }
+    ],
+    "materials": [
+        {
+            "name": "CarbonFibre",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.009,
+                    0.009,
+                    0.009,
+                    1.0
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.4
+            },
+            "normalTexture": {
+                "index": 1,
+                "scale": 2
+            },
+            "occlusionTexture": {
+                "index": 0
+            },
+            "extensions": {
+                "KHR_materials_anisotropy": {
+                    "anisotropyStrength": 0.5,
+                    "anisotropyRotation": 0,
+                    "anisotropyTexture": {
+                        "index": 2
+                    }
+                }
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ]
+}
