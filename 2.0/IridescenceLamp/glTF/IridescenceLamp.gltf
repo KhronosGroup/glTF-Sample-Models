@@ -206,21 +206,24 @@
         {
             "buffer": 0,
             "byteLength": 113196,
-            "name": "bufferViewScalar"
+            "name": "bufferViewScalar",
+            "target": 34963
         },
         {
             "buffer": 0,
             "byteOffset": 113196,
             "byteLength": 256392,
             "byteStride": 12,
-            "name": "bufferViewFloatVec3"
+            "name": "bufferViewFloatVec3",
+            "target": 34962
         },
         {
             "buffer": 0,
             "byteOffset": 369588,
             "byteLength": 85464,
             "byteStride": 8,
-            "name": "bufferViewFloatVec2"
+            "name": "bufferViewFloatVec2",
+            "target": 34962
         }
     ],
     "buffers": [

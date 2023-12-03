@@ -6,7 +6,7 @@
     },
     "extensionsUsed": [
         "KHR_materials_ior",
-        "KHR_materials_specular",
+        "KHR_materials_iridescence",
         "KHR_materials_transmission",
         "KHR_materials_volume"
     ],
@@ -393,28 +393,32 @@
         {
             "buffer": 0,
             "byteLength": 146688,
-            "name": "bufferViewScalar"
+            "name": "bufferViewScalar",
+            "target": 34963
         },
         {
             "buffer": 0,
             "byteOffset": 146688,
             "byteLength": 356712,
             "byteStride": 12,
-            "name": "bufferViewFloatVec3"
+            "name": "bufferViewFloatVec3",
+            "target": 34962
         },
         {
             "buffer": 0,
             "byteOffset": 503400,
             "byteLength": 208096,
             "byteStride": 16,
-            "name": "bufferViewFloatVec4"
+            "name": "bufferViewFloatVec4",
+            "target": 34962
         },
         {
             "buffer": 0,
             "byteOffset": 711496,
             "byteLength": 118904,
             "byteStride": 8,
-            "name": "bufferViewFloatVec2"
+            "name": "bufferViewFloatVec2",
+            "target": 34962
         },
         {
             "buffer": 0,
@@ -455,14 +459,14 @@
                 "KHR_materials_transmission": {
                     "transmissionFactor": 1
                 },
-                "KHR_materials_specular": {
-                    "specularFactor": 1,
-                    "specularColorFactor": [
-                        2,
-                        2,
-                        2
-                    ],
-                    "specularColorTexture": {
+                "KHR_materials_iridescence": {
+                    "iridescenceFactor": 1,
+                    "iridescenceTexture": {
+                        "index": 0
+                    },
+                    "iridescenceThicknessMaximum": 550,
+                    "iridescenceThicknessMinimum": 500,
+                    "iridescenceThicknessTexture": {
                         "index": 0
                     }
                 },
@@ -510,14 +514,14 @@
                 "KHR_materials_ior": {
                     "ior": 1.5
                 },
-                "KHR_materials_specular": {
-                    "specularFactor": 1,
-                    "specularColorFactor": [
-                        3,
-                        3,
-                        3
-                    ],
-                    "specularColorTexture": {
+                "KHR_materials_iridescence": {
+                    "iridescenceFactor": 1,
+                    "iridescenceTexture": {
+                        "index": 6
+                    },
+                    "iridescenceThicknessMaximum": 550,
+                    "iridescenceThicknessMinimum": 500,
+                    "iridescenceThicknessTexture": {
                         "index": 6
                     }
                 },
@@ -556,7 +560,7 @@
         {
             "sampler": 0,
             "source": 0,
-            "name": "glassdish_spec.png"
+            "name": "glassdish_irid.png"
         },
         {
             "sampler": 0,
@@ -586,7 +590,7 @@
         {
             "sampler": 0,
             "source": 6,
-            "name": "glasscover_spec.png"
+            "name": "glasscover_irid.png"
         },
         {
             "sampler": 0,
@@ -611,7 +615,7 @@
     ],
     "images": [
         {
-            "uri": "glassdish_spec.png"
+            "uri": "glassdish_irid.png"
         },
         {
             "uri": "olives_nrm.png"
@@ -629,7 +633,7 @@
             "uri": "glasscover_thick.png"
         },
         {
-            "uri": "glasscover_spec.png"
+            "uri": "glasscover_irid.png"
         },
         {
             "uri": "goldleaf_nrm.png"

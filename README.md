@@ -4,6 +4,11 @@
 
 # glTF Sample Models
 
+## Deprecating
+
+**This repo is in the process of being ARCHIVED. All new Issues and Pull Requests should be filed in the new repo - [glTF-Sample-Assets](https://github.com/KhronosGroup/glTF-Sample-Assets).**
+If you have an existing PR or Issue, please consider opening it in glTF-Sample-Assets or getting the issue resolved or the PR merged.
+
 [![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Models/workflows/glTF%20Validation/badge.svg?branch=master)](https://github.com/KhronosGroup/glTF-Sample-Models/actions)
 
 - [glTF 1.0](1.0)
