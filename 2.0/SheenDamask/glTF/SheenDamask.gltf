@@ -1,0 +1,1583 @@
+{
+	"accessors": [
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 36288,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 6507,
+			"max": [
+				16.2415581,
+				15.1540375,
+				11.5567074
+			],
+			"min": [
+				-16.3000946,
+				9.033549,
+				-7.292062
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 6507,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 6507,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 6507,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 18048,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 6,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3285,
+			"max": [
+				13.7142649,
+				27.0148544,
+				-4.19745
+			],
+			"min": [
+				-13.714263,
+				17.5563774,
+				-10.8424511
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 7,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3285,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 8,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3285,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 9,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3285,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 10,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 9216,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 11,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1649,
+			"max": [
+				13.0943832,
+				25.2997475,
+				-7.67668
+			],
+			"min": [
+				-13.0943842,
+				18.223135,
+				-10.8946905
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 12,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1649,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 13,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1649,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 14,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1649,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 15,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 9216,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 16,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1649,
+			"max": [
+				15.49176,
+				11.58516,
+				10.5877724
+			],
+			"min": [
+				-15.5439644,
+				8.920232,
+				-6.01620865
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 17,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1649,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 18,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1649,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 19,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1649,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 20,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 4800,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 21,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1050,
+			"max": [
+				11.886342,
+				14.25683,
+				6.981325
+			],
+			"min": [
+				-11.9356337,
+				12.7480354,
+				-3.341768
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 22,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1050,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 23,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1050,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 24,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1050,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 25,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 960,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 26,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 210,
+			"max": [
+				5.978992,
+				22.9297142,
+				-5.711763
+			],
+			"min": [
+				-5.980612,
+				22.305,
+				-6.1019454
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 27,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 210,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 28,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 210,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 29,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 210,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 30,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 17280,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 31,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3252,
+			"max": [
+				13.5381851,
+				20.3561935,
+				8.850609
+			],
+			"min": [
+				-13.5381851,
+				0.202694923,
+				-9.276621
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 32,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3252,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 33,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3252,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 34,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 3252,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 35,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 11520,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 36,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 2520,
+			"max": [
+				13.3839054,
+				19.74336,
+				8.693817
+			],
+			"min": [
+				-13.3839054,
+				-0.00274715945,
+				-9.422621
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 37,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 2520,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 38,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 2520,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 39,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 2520,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 40,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 5376,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 41,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 961,
+			"max": [
+				15.3950958,
+				1.822297,
+				8.182747
+			],
+			"min": [
+				-15.3950958,
+				0.166030884,
+				-8.243052
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 42,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 961,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 43,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 961,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 44,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 961,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 45,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 6720,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 46,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1295,
+			"max": [
+				13.007328,
+				25.21592,
+				-7.76413965
+			],
+			"min": [
+				-13.007328,
+				18.3080616,
+				-10.8439074
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 47,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1295,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 48,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1295,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 49,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1295,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 50,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 384,
+			"name": "accessorIndices",
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 51,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 81,
+			"max": [
+				5.36149025,
+				0.395901442,
+				1.84144545
+			],
+			"min": [
+				-5.34982252,
+				0.228419363,
+				-4.35865641
+			],
+			"name": "accessorPositions",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 52,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 81,
+			"name": "accessorNormals",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 53,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 81,
+			"name": "accessorUVs",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 54,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 81,
+			"name": "accessorUV2s",
+			"type": "VEC2"
+		}
+	],
+	"asset": {
+		"extras": {
+			"created": "Fri Nov 20 11:40:38 2020"
+		},
+		"generator": "Gestaltor 2020.4.2 Kuerbiskuchen Development (internal) (dev-23f27e6)",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 72576,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 78084,
+			"byteOffset": 72576,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 78084,
+			"byteOffset": 150660,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 52056,
+			"byteOffset": 228744,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 52056,
+			"byteOffset": 280800,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 36096,
+			"byteOffset": 332856
+		},
+		{
+			"buffer": 0,
+			"byteLength": 39420,
+			"byteOffset": 368952,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 39420,
+			"byteOffset": 408372,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 26280,
+			"byteOffset": 447792,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 26280,
+			"byteOffset": 474072,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18432,
+			"byteOffset": 500352
+		},
+		{
+			"buffer": 0,
+			"byteLength": 19788,
+			"byteOffset": 518784,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 19788,
+			"byteOffset": 538572,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13192,
+			"byteOffset": 558360,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13192,
+			"byteOffset": 571552,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18432,
+			"byteOffset": 584744
+		},
+		{
+			"buffer": 0,
+			"byteLength": 19788,
+			"byteOffset": 603176,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 19788,
+			"byteOffset": 622964,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13192,
+			"byteOffset": 642752,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13192,
+			"byteOffset": 655944,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9600,
+			"byteOffset": 669136
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12600,
+			"byteOffset": 678736,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12600,
+			"byteOffset": 691336,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 8400,
+			"byteOffset": 703936,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 8400,
+			"byteOffset": 712336,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1920,
+			"byteOffset": 720736
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2520,
+			"byteOffset": 722656,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2520,
+			"byteOffset": 725176,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1680,
+			"byteOffset": 727696,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1680,
+			"byteOffset": 729376,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 34560,
+			"byteOffset": 731056
+		},
+		{
+			"buffer": 0,
+			"byteLength": 39024,
+			"byteOffset": 765616,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 39024,
+			"byteOffset": 804640,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 26016,
+			"byteOffset": 843664,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 26016,
+			"byteOffset": 869680,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 23040,
+			"byteOffset": 895696
+		},
+		{
+			"buffer": 0,
+			"byteLength": 30240,
+			"byteOffset": 918736,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 30240,
+			"byteOffset": 948976,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 20160,
+			"byteOffset": 979216,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 20160,
+			"byteOffset": 999376,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10752,
+			"byteOffset": 1019536
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11532,
+			"byteOffset": 1030288,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11532,
+			"byteOffset": 1041820,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7688,
+			"byteOffset": 1053352,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7688,
+			"byteOffset": 1061040,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13440,
+			"byteOffset": 1068728
+		},
+		{
+			"buffer": 0,
+			"byteLength": 15540,
+			"byteOffset": 1082168,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 15540,
+			"byteOffset": 1097708,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10360,
+			"byteOffset": 1113248,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10360,
+			"byteOffset": 1123608,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 768,
+			"byteOffset": 1133968
+		},
+		{
+			"buffer": 0,
+			"byteLength": 972,
+			"byteOffset": 1134736,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 972,
+			"byteOffset": 1135708,
+			"byteStride": 12
+		},
+		{
+			"buffer": 0,
+			"byteLength": 648,
+			"byteOffset": 1136680,
+			"byteStride": 8
+		},
+		{
+			"buffer": 0,
+			"byteLength": 648,
+			"byteOffset": 1137328,
+			"byteStride": 8
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 1137976,
+			"uri": "SheenDamask.bin"
+		}
+	],
+	"extensionsRequired": [
+		"KHR_materials_sheen",
+		"KHR_texture_transform"
+	],
+	"extensionsUsed": [
+		"KHR_materials_sheen",
+		"KHR_texture_transform"
+	],
+	"images": [
+		{
+			"mimeType": "image/jpeg",
+			"uri": "chair_damask_normal.jpg"
+		},
+		{
+			"mimeType": "image/jpeg",
+			"uri": "chair_occlusion.jpg"
+		},
+		{
+			"mimeType": "image/jpeg",
+			"uri": "chair_damask_albedo.jpg"
+		},
+		{
+			"mimeType": "image/jpeg",
+			"uri": "chair_wood_albedo.jpg"
+		},
+		{
+			"mimeType": "image/jpeg",
+			"uri": "chair_wood_roughness0.jpg"
+		},
+		{
+			"mimeType": "image/jpeg",
+			"uri": "chair_metal_roughness255.jpg"
+		},
+		{
+			"mimeType": "image/jpeg",
+			"uri": "chair_label.jpg"
+		}
+	],
+	"materials": [
+		{
+			"alphaMode": "OPAQUE",
+			"emissiveFactor": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"extensions": {
+				"KHR_materials_sheen": {
+					"sheenColorFactor": [
+						0.0,
+						0.0,
+						1.0
+					],
+					"sheenRoughnessFactor": 0.05
+				}
+			},
+			"name": "fabric",
+			"normalTexture": {
+				"extensions": {
+					"KHR_texture_transform": {
+						"offset": [
+							-1.0,
+							1.0
+						],
+						"scale": [
+							3.0,
+							3.0
+						],
+						"texCoord": 0
+					}
+				},
+				"index": 0,
+				"texCoord": 0
+			},
+			"occlusionTexture": {
+				"index": 1,
+				"texCoord": 1
+			},
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					0.1,
+					0.0,
+					0.2,
+					1.0
+				],
+				"baseColorTexture": {
+					"extensions": {
+						"KHR_texture_transform": {
+							"offset": [
+								-1.0,
+								1.0
+							],
+							"scale": [
+								3.0,
+								3.0
+							],
+							"texCoord": 0
+						}
+					},
+					"index": 2,
+					"texCoord": 0
+				},
+				"metallicFactor": 1.0,
+				"roughnessFactor": 0.6
+			}
+		},
+		{
+			"alphaMode": "OPAQUE",
+			"emissiveFactor": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"name": "wood",
+			"occlusionTexture": {
+				"index": 1,
+				"texCoord": 1
+			},
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					0.247058839,
+					0.10980393,
+					0.03529412,
+					1.0
+				],
+				"baseColorTexture": {
+					"extensions": {
+						"KHR_texture_transform": {
+							"offset": [
+								-0.8635584,
+								1.12502563
+							],
+							"rotation": 0.08726647,
+							"scale": [
+								3.0,
+								3.0
+							],
+							"texCoord": 0
+						}
+					},
+					"index": 3,
+					"texCoord": 0
+				},
+				"metallicFactor": 1.0,
+				"metallicRoughnessTexture": {
+					"extensions": {
+						"KHR_texture_transform": {
+							"offset": [
+								-1.0,
+								1.0
+							],
+							"scale": [
+								3.0,
+								3.0
+							],
+							"texCoord": 0
+						}
+					},
+					"index": 4,
+					"texCoord": 0
+				},
+				"roughnessFactor": 1.0
+			}
+		},
+		{
+			"alphaMode": "OPAQUE",
+			"emissiveFactor": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"name": "metal",
+			"occlusionTexture": {
+				"index": 1,
+				"texCoord": 1
+			},
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					0.2509804,
+					0.2509804,
+					0.2509804,
+					1.0
+				],
+				"metallicFactor": 1.0,
+				"metallicRoughnessTexture": {
+					"extensions": {
+						"KHR_texture_transform": {
+							"offset": [
+								-1.0,
+								1.0
+							],
+							"scale": [
+								3.0,
+								3.0
+							],
+							"texCoord": 0
+						}
+					},
+					"index": 5,
+					"texCoord": 0
+				},
+				"roughnessFactor": 1.0
+			}
+		},
+		{
+			"alphaMode": "OPAQUE",
+			"emissiveFactor": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"name": "label",
+			"occlusionTexture": {
+				"index": 1,
+				"texCoord": 1
+			},
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"baseColorTexture": {
+					"index": 6,
+					"texCoord": 0
+				},
+				"metallicFactor": 0.0,
+				"roughnessFactor": 1.0
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "oval-tufted-chair_seat-fabric",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 2,
+						"POSITION": 1,
+						"TEXCOORD_0": 3,
+						"TEXCOORD_1": 4
+					},
+					"indices": 0,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "oval-tufted-chair_back-fabric",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 7,
+						"POSITION": 6,
+						"TEXCOORD_0": 8,
+						"TEXCOORD_1": 9
+					},
+					"indices": 5,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "oval-tufted-chair_back-welt",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 12,
+						"POSITION": 11,
+						"TEXCOORD_0": 13,
+						"TEXCOORD_1": 14
+					},
+					"indices": 10,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "oval-tufted-chair_seat-welt",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 17,
+						"POSITION": 16,
+						"TEXCOORD_0": 18,
+						"TEXCOORD_1": 19
+					},
+					"indices": 15,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "oval-tufted-chair_seat-buttons",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 22,
+						"POSITION": 21,
+						"TEXCOORD_0": 23,
+						"TEXCOORD_1": 24
+					},
+					"indices": 20,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "oval-tufted-chair_back-buttons",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 27,
+						"POSITION": 26,
+						"TEXCOORD_0": 28,
+						"TEXCOORD_1": 29
+					},
+					"indices": 25,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "oval-tufted-chair_legs-frame",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 32,
+						"POSITION": 31,
+						"TEXCOORD_0": 33,
+						"TEXCOORD_1": 34
+					},
+					"indices": 30,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "oval-tufted-chair_legs-hardware",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 37,
+						"POSITION": 36,
+						"TEXCOORD_0": 38,
+						"TEXCOORD_1": 39
+					},
+					"indices": 35,
+					"material": 2,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "oval-tufted-chair_seat-panel",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 42,
+						"POSITION": 41,
+						"TEXCOORD_0": 43,
+						"TEXCOORD_1": 44
+					},
+					"indices": 40,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "oval-tufted-chair_back-panel",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 47,
+						"POSITION": 46,
+						"TEXCOORD_0": 48,
+						"TEXCOORD_1": 49
+					},
+					"indices": 45,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "oval-tufted-chair_seat-label",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 52,
+						"POSITION": 51,
+						"TEXCOORD_0": 53,
+						"TEXCOORD_1": 54
+					},
+					"indices": 50,
+					"material": 3,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0,
+			"name": "oval-tufted-chair_seat-fabric",
+			"rotation": [
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			],
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"translation": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		{
+			"mesh": 1,
+			"name": "oval-tufted-chair_back-fabric",
+			"rotation": [
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			],
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"translation": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		{
+			"mesh": 2,
+			"name": "oval-tufted-chair_back-welt",
+			"rotation": [
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			],
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"translation": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		{
+			"mesh": 3,
+			"name": "oval-tufted-chair_seat-welt",
+			"rotation": [
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			],
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"translation": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		{
+			"mesh": 4,
+			"name": "oval-tufted-chair_seat-buttons",
+			"rotation": [
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			],
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"translation": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		{
+			"mesh": 5,
+			"name": "oval-tufted-chair_back-buttons",
+			"rotation": [
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			],
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"translation": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		{
+			"mesh": 6,
+			"name": "oval-tufted-chair_legs-frame",
+			"rotation": [
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			],
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"translation": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		{
+			"mesh": 7,
+			"name": "oval-tufted-chair_legs-hardware",
+			"rotation": [
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			],
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"translation": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		{
+			"mesh": 8,
+			"name": "oval-tufted-chair_seat-panel",
+			"rotation": [
+				-0.04361938,
+				0.0,
+				0.0,
+				0.999048233
+			],
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"translation": [
+				-0.026102066,
+				9.41255951,
+				2.346486
+			]
+		},
+		{
+			"mesh": 9,
+			"name": "oval-tufted-chair_back-panel",
+			"rotation": [
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			],
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"translation": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		{
+			"mesh": 10,
+			"name": "oval-tufted-chair_seat-label",
+			"rotation": [
+				-0.0436193831,
+				0.0,
+				0.0,
+				0.999048233
+			],
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"translation": [
+				-0.026102066,
+				9.3,
+				2.346486
+			]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9987,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"nodes": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"textures": [
+		{
+			"name": "chair_damask_normal.jpg",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "chair_occlusion.jpg",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "chair_damask_albedo.jpg",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "chair_wood_albedo.jpg",
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"name": "chair_wood_roughness0.jpg",
+			"sampler": 0,
+			"source": 4
+		},
+		{
+			"name": "chair_metal_roughness255.jpg",
+			"sampler": 0,
+			"source": 5
+		},
+		{
+			"name": "chair_label.jpg",
+			"sampler": 0,
+			"source": 6
+		}
+	]
+}

@@ -236,6 +236,20 @@
     }
   },
   {
+    "name": "ClearcoatRing",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "ClearcoatRing.gltf"
+    }
+  },
+  {
+    "name": "ClearcoatSphere",
+    "screenshot": null,
+    "variants": {
+      "glTF": "ClearcoatSphere.gltf"
+    }
+  },
+  {
     "name": "ClearcoatWicker",
     "screenshot": "screenshot/screenshot.jpg",
     "variants": {
@@ -580,6 +594,20 @@
     }
   },
   {
+    "name": "SheenDamask",
+    "screenshot": null,
+    "variants": {
+      "glTF": "SheenDamask.gltf"
+    }
+  },
+  {
+    "name": "SheenHighHeel",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "SheenHighHeel.gltf"
+    }
+  },
+  {
     "name": "SimpleInstancing",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -721,6 +749,13 @@
     "variants": {
       "glTF": "TransmissionRoughnessTest.gltf",
       "glTF-Binary": "TransmissionRoughnessTest.glb"
+    }
+  },
+  {
+    "name": "TransmissionSuzanne",
+    "screenshot": null,
+    "variants": {
+      "glTF": "TransmissionSuzanne.gltf"
     }
   },
   {

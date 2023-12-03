@@ -1,0 +1,411 @@
+{
+	"accessors": [
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5125,
+			"count": 23760,
+			"name": "",
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4617,
+			"max": [
+				0.9956876039505,
+				0.306905686855316,
+				0.995075702667236
+			],
+			"min": [
+				-0.995687305927277,
+				-0.306905657052994,
+				-0.997510254383087
+			],
+			"name": "",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4617,
+			"name": "",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 4617,
+			"name": "",
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5125,
+			"count": 2160,
+			"name": "",
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 455,
+			"max": [
+				0.942354738712311,
+				0.204216063022614,
+				0.941710293292999
+			],
+			"min": [
+				-0.942354619503021,
+				-0.204216077923775,
+				-0.94414496421814
+			],
+			"name": "",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 455,
+			"name": "",
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 7,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 455,
+			"name": "",
+			"type": "VEC2"
+		}
+	],
+	"asset": {
+		"extras": {
+			"created": "Thu May 11 11:45:26 2023"
+		},
+		"generator": "Gestaltor 2022.5.0 Bucatini Professional",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 95040,
+			"byteOffset": 0,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 55404,
+			"byteOffset": 95040,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 55404,
+			"byteOffset": 150444,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 36936,
+			"byteOffset": 205848,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 8640,
+			"byteOffset": 242784,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5460,
+			"byteOffset": 251424,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5460,
+			"byteOffset": 256884,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3640,
+			"byteOffset": 262344,
+			"target": 34962
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 265984,
+			"uri": "ClearcoatRing.bin"
+		}
+	],
+	"extensions": {
+		"KHR_lights_punctual": {
+			"lights": [
+				{
+					"color": [
+						1.0,
+						1.0,
+						1.0
+					],
+					"intensity": 10.0,
+					"name": "FrontLight",
+					"range": 10.0,
+					"type": "point"
+				},
+				{
+					"color": [
+						1.0,
+						1.0,
+						1.0
+					],
+					"intensity": 10.0,
+					"name": "Backlight",
+					"range": 10.0,
+					"type": "point"
+				}
+			]
+		}
+	},
+	"extensionsUsed": [
+		"KHR_lights_punctual",
+		"KHR_materials_clearcoat"
+	],
+	"images": [
+		{
+			"mimeType": "image/png",
+			"name": "",
+			"uri": "Carbon_occlusionRoughnessMetallic.png"
+		},
+		{
+			"mimeType": "image/png",
+			"name": "",
+			"uri": "Carbon_normal.png"
+		},
+		{
+			"mimeType": "image/png",
+			"name": "",
+			"uri": "Titan_occlusionRoughnessMetallic.png"
+		},
+		{
+			"mimeType": "image/png",
+			"name": "",
+			"uri": "Titan_normal.png"
+		}
+	],
+	"materials": [
+		{
+			"emissiveFactor": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"extensions": {
+				"KHR_materials_clearcoat": {
+					"clearcoatFactor": 1.0,
+					"clearcoatRoughnessFactor": 0.03
+				}
+			},
+			"name": "Carbon",
+			"normalTexture": {
+				"index": 1,
+				"scale": 1.0,
+				"texCoord": 0
+			},
+			"occlusionTexture": {
+				"index": 0,
+				"strength": 1.0,
+				"texCoord": 0
+			},
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					0.07804989814758301,
+					0.07804989814758301,
+					0.07804989814758301,
+					1.0
+				],
+				"metallicRoughnessTexture": {
+					"index": 0,
+					"texCoord": 0
+				}
+			}
+		},
+		{
+			"emissiveFactor": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"name": "Titan",
+			"normalTexture": {
+				"index": 3,
+				"scale": 1.0,
+				"texCoord": 0
+			},
+			"occlusionTexture": {
+				"index": 2,
+				"strength": 1.0,
+				"texCoord": 0
+			},
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [
+					0.5418021082878113,
+					0.49950408935546875,
+					0.4478675425052643,
+					1.0
+				],
+				"metallicRoughnessTexture": {
+					"index": 2
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "Ring1",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 2,
+						"POSITION": 1,
+						"TEXCOORD_0": 3
+					},
+					"indices": 0,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "Ring1",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 6,
+						"POSITION": 5,
+						"TEXCOORD_0": 7
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"children": [
+				1,
+				3
+			],
+			"name": "root",
+			"scale": [
+				0.324,
+				0.324,
+				0.324
+			],
+			"translation": [
+				-0.00336194038391113,
+				-5.96046447753906e-08,
+				0.00332951545715332
+			]
+		},
+		{
+			"children": [
+				2
+			],
+			"name": "Ring1"
+		},
+		{
+			"mesh": 0,
+			"name": "Ring1"
+		},
+		{
+			"children": [
+				4
+			],
+			"name": "Ring1"
+		},
+		{
+			"mesh": 1,
+			"name": "Ring1"
+		},
+		{
+			"extensions": {
+				"KHR_lights_punctual": {
+					"light": 0
+				}
+			},
+			"name": "FrontLight",
+			"translation": [
+				0.0,
+				0.0,
+				5.0
+			]
+		},
+		{
+			"extensions": {
+				"KHR_lights_punctual": {
+					"light": 1
+				}
+			},
+			"name": "BackLight",
+			"translation": [
+				0.0,
+				0.0,
+				-5.0
+			]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"name": "",
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"name": "Scene",
+			"nodes": [
+				0,
+				5,
+				6
+			]
+		}
+	],
+	"textures": [
+		{
+			"name": "",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "",
+			"sampler": 0,
+			"source": 3
+		}
+	]
+}
