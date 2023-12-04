@@ -1,0 +1,229 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 1968,
+      "max": [
+        1.3671875,
+        0.984375,
+        0.8515625
+      ],
+      "min": [
+        -1.3671875,
+        -0.984375,
+        -0.8515625
+      ],
+      "normalized": false,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 1968,
+      "normalized": false,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 1968,
+      "normalized": false,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 2904,
+      "normalized": false,
+      "type": "SCALAR"
+    },
+    {
+      "componentType": 5126,
+      "count": 1968,
+      "max": [
+        0.0518799126,
+        0.1578337,
+        0.0258048773
+      ],
+      "min": [
+        -0.0518799126,
+        -0.188150242,
+        -0.0214793682
+      ],
+      "normalized": false,
+      "sparse": {
+        "count": 208,
+        "indices": {
+          "bufferView": 4,
+          "byteOffset": 0,
+          "componentType": 5125
+        },
+        "values": {
+          "bufferView": 5,
+          "byteOffset": 0
+        }
+      },
+      "type": "VEC3"
+    },
+    {
+      "componentType": 5126,
+      "count": 1968,
+      "normalized": false,
+      "sparse": {
+        "count": 208,
+        "indices": {
+          "bufferView": 4,
+          "byteOffset": 0,
+          "componentType": 5125
+        },
+        "values": {
+          "bufferView": 6,
+          "byteOffset": 0
+        }
+      },
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "UniGLTF-1.28",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "byteLength": 80424,
+      "uri": "SuzanneMorphSparse.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 23616,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23616,
+      "byteOffset": 23616,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 15744,
+      "byteOffset": 47232,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11616,
+      "byteOffset": 62976,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 832,
+      "byteOffset": 74592
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2496,
+      "byteOffset": 75432
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2496,
+      "byteOffset": 77928
+    }
+  ],
+  "extensions": {
+  },
+  "extensionsUsed": [
+    "KHR_materials_unlit",
+    "KHR_texture_transform"
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "material_00",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "extras": {
+        "targetNames": [
+          "Key 1"
+        ]
+      },
+      "name": "Basis",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "extras": {
+            "targetNames": [
+              "Key 1"
+            ]
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4,
+          "targets": [
+            {
+              "NORMAL": 5,
+              "POSITION": 4
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Suzanne.dup",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
