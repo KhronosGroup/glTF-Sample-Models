@@ -200,6 +200,14 @@
     }
   },
   {
+    "name": "CarbonFibre",
+    "screenshot": "screenshot/screenshot.jpg",
+    "variants": {
+      "glTF": "CarbonFibre.gltf",
+      "glTF-Binary": "CarbonFibre.glb"
+    }
+  },
+  {
     "name": "CesiumMan",
     "screenshot": "screenshot/screenshot.gif",
     "variants": {
@@ -244,7 +252,7 @@
   },
   {
     "name": "ClearcoatSphere",
-    "screenshot": null,
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
       "glTF": "ClearcoatSphere.gltf"
     }
@@ -280,6 +288,14 @@
       "glTF": "DamagedHelmet.gltf",
       "glTF-Binary": "DamagedHelmet.glb",
       "glTF-Embedded": "DamagedHelmet.gltf"
+    }
+  },
+  {
+    "name": "DirectionalLight",
+    "screenshot": "screenshot/screenshot.png",
+    "variants": {
+      "glTF": "DirectionalLight.gltf",
+      "glTF-Binary": "DirectionalLight.glb"
     }
   },
   {
@@ -687,6 +703,14 @@
     }
   },
   {
+    "name": "SuzanneMorphSparse",
+    "screenshot": "screenshot/screenshot.gif",
+    "variants": {
+      "glTF": "SuzanneMorphSparse.gltf",
+      "glTF-Binary": "SuzanneMorphSparse.glb"
+    }
+  },
+  {
     "name": "TextureCoordinateTest",
     "screenshot": "screenshot/screenshot.png",
     "variants": {
@@ -753,7 +777,7 @@
   },
   {
     "name": "TransmissionSuzanne",
-    "screenshot": null,
+    "screenshot": "screenshot/screenshot.png",
     "variants": {
       "glTF": "TransmissionSuzanne.gltf"
     }
@@ -831,6 +855,13 @@
       "glTF": "WaterBottle.gltf",
       "glTF-Binary": "WaterBottle.glb",
       "glTF-Draco": "WaterBottle.gltf"
+    }
+  },
+  {
+    "name": "XmpMetadataRoundedCube",
+    "screenshot": null,
+    "variants": {
+      "glTF": "xmp.gltf"
     }
   }
 ]
