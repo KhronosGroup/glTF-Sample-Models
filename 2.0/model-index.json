@@ -611,7 +611,7 @@
   },
   {
     "name": "SheenDamask",
-    "screenshot": null,
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
       "glTF": "SheenDamask.gltf"
     }
@@ -859,9 +859,10 @@
   },
   {
     "name": "XmpMetadataRoundedCube",
-    "screenshot": null,
+    "screenshot": "screenshot/screenshot.jpg",
     "variants": {
-      "glTF": "xmp.gltf"
+      "glTF": "xmp.gltf",
+      "glTF-Binary": "xmp.glb"
     }
   }
 ]
