@@ -8,9 +8,9 @@
 
 **This repo has been ARCHIVED. All new Issues and Pull Requests should be filed in the new repo - [glTF-Sample-Assets](https://github.com/KhronosGroup/glTF-Sample-Assets).**
 
-**All existing Issues have been addressed and closed. All existing PRs were either merged or closed. Closed PRs have an issue in the new repo. All questions or comments must be handled in the new repo.**
+**All existing Issues have been addressed and closed. All existing PRs were either merged or closed. Closed PRs have an issue in the new repo. All questions, comments, or requests must be handled in the new repo.**
 
-If you have an existing PR or Issue, please consider opening it in glTF-Sample-Assets or getting the issue resolved or the PR merged.
+## Original README
 
 [![glTF Validation](https://github.com/KhronosGroup/glTF-Sample-Models/workflows/glTF%20Validation/badge.svg?branch=master)](https://github.com/KhronosGroup/glTF-Sample-Models/actions)
 
